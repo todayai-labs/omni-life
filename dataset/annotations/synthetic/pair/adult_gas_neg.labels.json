@@ -1,0 +1,31 @@
+{
+  "id": "adult_gas_neg",
+  "form": "pair",
+  "side": "neg",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我看着厨房的燃气灶，如果我人走了但火没关，请及时提醒我。",
+      "text_en": "Please help me watch the gas stove in the kitchen, and alert me promptly if I walk away but the burner is still on."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "居家的人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "binary_pair",
+  "pair_id": "adult_gas"
+}

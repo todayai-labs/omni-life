@@ -1,0 +1,98 @@
+{
+  "id": "fall_s5",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "居家监控",
+  "target_people": "独居老人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看现场的人员，有情况告诉我。"
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 2.0,
+      "end": 9.0,
+      "action": "[warn]",
+      "text_zh": "有人摔倒了，趴在地上挣扎。",
+      "text_en": "Someone fell down and is struggling on the ground."
+    },
+    {
+      "start": 9.0,
+      "end": 11.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 11.0,
+      "end": 20.0,
+      "action": "[warn]",
+      "text_zh": "他又摔倒了，躺在地上起不来。",
+      "text_en": "He fell again and can't get up."
+    },
+    {
+      "start": 20.0,
+      "end": 22.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 22.0,
+      "end": 32.0,
+      "action": "[warn]",
+      "text_zh": "他又摔倒了，趴在地上。",
+      "text_en": "He fell again and is lying face down."
+    },
+    {
+      "start": 32.0,
+      "end": 35.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 35.0,
+      "end": 43.0,
+      "action": "[warn]",
+      "text_zh": "他又摔倒了，趴在地上。",
+      "text_en": "He fell again and is lying face down."
+    },
+    {
+      "start": 43.0,
+      "end": 46.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 46.0,
+      "end": 54.0,
+      "action": "[warn]",
+      "text_zh": "他又摔倒了，趴在地上。",
+      "text_en": "He fell again and is lying face down."
+    },
+    {
+      "start": 54.0,
+      "end": 74.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "独居老人",
+  "population_id": "elder",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

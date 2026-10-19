@@ -1,0 +1,44 @@
+{
+  "id": "out_duty_sun",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "交通",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意户外工作时的身体状态和环境，有不适或安全风险及时提醒我。",
+      "text_en": "Please help me keep an eye on my physical condition and the environment during outdoor work, and alert me in time if there is any discomfort or safety risk."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 4.0,
+      "end": 10.0,
+      "action": "[warn]",
+      "text_zh": "天气炎热，请注意防暑，多喝水避免中暑。",
+      "text_en": "It's really hot today, so stay cool and drink plenty of water to avoid heatstroke."
+    },
+    {
+      "start": 10.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "路上的行人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "路边监控",
+  "eval_group": "general"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "museum_wheel_stair",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "行动障碍",
+  "scene": "展厅",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我观察前方道路，告诉我轮椅是否能通行，遇到障碍时给出建议。",
+      "text_en": "Please observe the path ahead, tell me whether it is wheelchair-accessible, and suggest alternatives when there are obstacles."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 1.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 1.0,
+      "end": 5.0,
+      "action": "[inform]",
+      "text_zh": "前方是楼梯，轮椅无法通行，请寻找无障碍通道。",
+      "text_en": "There are stairs ahead and wheelchairs can't pass, please look for an accessible route."
+    },
+    {
+      "start": 5.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "行动障碍者",
+  "population_id": "wheel",
+  "assistant_role": "旅行陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "展厅监控",
+  "eval_group": "general"
+}

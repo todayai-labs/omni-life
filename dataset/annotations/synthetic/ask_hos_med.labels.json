@@ -1,0 +1,37 @@
+{
+  "id": "ask_hos_med",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "医院",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请陪我处理就医相关的事情，我向你提问时请结合现场信息回答。",
+      "text_en": "Please assist me with matters related to my medical visit and answer my questions using the scene information."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 12.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 12.5,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "请把药盒正面靠近镜头，我帮您确认。",
+      "text_en": "Hold the front of the medicine box closer to the camera so I can check it."
+    }
+  ],
+  "target_people_detail": "就医的人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "候诊监控",
+  "eval_group": "general"
+}

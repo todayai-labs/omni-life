@@ -1,0 +1,43 @@
+{
+  "id": "kid_window",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "学龄儿童",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看孩子，有情况告诉我。"
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 2.0,
+      "end": 7.0,
+      "action": "[warn]",
+      "text_zh": "不要爬到椅子上，小心摔下来。",
+      "text_en": "Don't climb on the chair, you might fall off."
+    },
+    {
+      "start": 7.0,
+      "end": 15.1,
+      "action": "[warn]",
+      "text_zh": "窗户开了，千万不要往外探头，快下来。",
+      "text_en": "The window is open, don't lean out, please step down."
+    }
+  ],
+  "target_people_detail": "学龄儿童",
+  "population_id": "kid",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

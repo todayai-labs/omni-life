@@ -1,0 +1,99 @@
+{
+  "id": "drive_ego",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "AI眼镜",
+  "target_people": "成人",
+  "scene": "交通",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我看着路况，有危险或需要注意的情况及时提醒我。",
+      "text_en": "Please watch the road conditions for me and alert me immediately if there is any danger or anything I need to pay attention to."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 15.0,
+      "end": 19.0,
+      "action": "[inform]",
+      "text_zh": "前方对向来车，请注意避让。",
+      "text_en": "There's oncoming traffic ahead, please watch out."
+    },
+    {
+      "start": 19.0,
+      "end": 38.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 38.0,
+      "end": 42.0,
+      "action": "[inform]",
+      "text_zh": "前方有行人横穿，请注意避让。",
+      "text_en": "Pedestrian crossing ahead, please watch out."
+    },
+    {
+      "start": 42.0,
+      "end": 44.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 44.0,
+      "end": 48.0,
+      "action": "[inform]",
+      "text_zh": "前方收费通道，请减速慢行。",
+      "text_en": "Toll lane ahead, please slow down."
+    },
+    {
+      "start": 48.0,
+      "end": 64.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 64.0,
+      "end": 68.0,
+      "action": "[warn]",
+      "text_zh": "注意左侧来车，减速避让。",
+      "text_en": "Watch for traffic on the left and slow down to yield."
+    },
+    {
+      "start": 68.0,
+      "end": 73.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 73.0,
+      "end": 77.0,
+      "action": "[inform]",
+      "text_zh": "前方有电动车，请注意避让。",
+      "text_en": "Scooter ahead, please watch out."
+    },
+    {
+      "start": 77.0,
+      "end": 86.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "开车的人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

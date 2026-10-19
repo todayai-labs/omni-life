@@ -1,0 +1,43 @@
+{
+  "id": "baggage_carousel",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "手持观察视角",
+  "target_people": "成人",
+  "scene": "交通",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意行李转盘，看到第一个带白色行李牌的黑色行李箱时告诉我。",
+      "text_en": "Please watch the baggage carousel and notify me when you see the first black suitcase with a white baggage tag."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 7.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 7.5,
+      "end": 10.5,
+      "action": "[inform]",
+      "text_zh": "第一个能明确看到白色行李牌的黑色行李箱来了。",
+      "text_en": "The first clearly identifiable black suitcase with a white baggage tag is coming around."
+    },
+    {
+      "start": 10.5,
+      "end": 56.93,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "成人",
+  "population_id": "adult",
+  "assistant_role": "行李查找助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

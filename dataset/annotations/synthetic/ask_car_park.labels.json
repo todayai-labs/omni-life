@@ -1,0 +1,37 @@
+{
+  "id": "ask_car_park",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "交通",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "出行助手，请在我询问路况或停车问题时，及时回答我。",
+      "text_en": "Travel Assistant, please answer me promptly when I ask about road conditions or parking issues."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 14.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 14.0,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "抱歉，我无法看到车外，无法帮您判断。",
+      "text_en": "Sorry, I can't see outside the car, so I can't help you judge."
+    }
+  ],
+  "target_people_detail": "开车的人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "车内监控",
+  "eval_group": "general"
+}

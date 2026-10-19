@@ -1,0 +1,50 @@
+{
+  "id": "fire_engine_response",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "手持第三人称视角",
+  "target_people": "成人",
+  "scene": "街面",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "我是街道巡查人员，请帮我留意路口，听到警报声或看到执行任务的应急车辆接近时及时告诉我，车辆驶过后也请通知我。",
+      "text_en": "I am inspecting the street. Please monitor the intersection, tell me when you hear a siren or see an emergency vehicle approaching on duty, and also notify me after it passes."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 3,
+      "action": "[inform]",
+      "text_zh": "有应急车辆鸣笛并闪灯接近路口。",
+      "text_en": "An emergency vehicle is approaching the intersection with a siren and flashing lights."
+    },
+    {
+      "start": 3,
+      "end": 15.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 15.5,
+      "end": 18.5,
+      "action": "[inform]",
+      "text_zh": "消防车已驶过，正在远去。",
+      "text_en": "The fire engine has passed and is moving away."
+    },
+    {
+      "start": 18.5,
+      "end": 22.17,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "成人",
+  "population_id": "adult",
+  "assistant_role": "街道巡查助理",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

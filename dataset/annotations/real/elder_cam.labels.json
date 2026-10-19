@@ -1,0 +1,64 @@
+{
+  "id": "elder_cam",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "路边监控",
+  "target_people": "独居老人",
+  "scene": "街面",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看老人，如果发生意外或有情况变化请及时通知我。",
+      "text_en": "Please help me look after the elderly person, and notify me in time if there is an accident or any change in the situation."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 9,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 9,
+      "end": 11.0,
+      "action": "[warn]",
+      "text_zh": "老人刚刚在门口摔倒了，快去看看！",
+      "text_en": "The older person has just fallen near the doorway. Please check immediately!"
+    },
+    {
+      "start": 11.0,
+      "end": 20.0,
+      "action": "[warn]",
+      "text_zh": "有邻居过去帮忙了，正在尝试扶起老人。",
+      "text_en": "A neighbor has approached and is trying to help the older person up."
+    },
+    {
+      "start": 20.0,
+      "end": 25.0,
+      "action": "[warn]",
+      "text_zh": "大家正在合力把老人扶起来。",
+      "text_en": "Several people are working together to help the older person up."
+    },
+    {
+      "start": 25.0,
+      "end": 31.0,
+      "action": "[inform]",
+      "text_zh": "老人已经被扶起来了，目前有人在旁边照顾。",
+      "text_en": "The older person has been helped up, with someone nearby providing support."
+    },
+    {
+      "start": 31.0,
+      "end": 41.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "独居老人",
+  "population_id": "elder",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

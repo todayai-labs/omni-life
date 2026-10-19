@@ -1,0 +1,43 @@
+{
+  "id": "robot_host_rest",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "机器人摄像头",
+  "target_people": "成人",
+  "scene": "店铺",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意进店的客人，有客人进入时向他们问好并告知可以入座。",
+      "text_en": "Please watch for guests entering the restaurant, greet them when they arrive, and tell them they may take a seat."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 6.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 6.0,
+      "end": 11.0,
+      "action": "[inform]",
+      "text_zh": "欢迎光临，请随意入座。",
+      "text_en": "Welcome, please feel free to take a seat."
+    },
+    {
+      "start": 11.0,
+      "end": 30.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "用餐的人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

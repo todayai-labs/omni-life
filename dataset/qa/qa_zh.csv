@@ -1,0 +1,2401 @@
+qa_id,case_id,question_type,video,lang,question,option_A,option_B,option_C,option_D,option_E,option_F,option_G,option_H,option_I,option_J,option_K,option_L,answer
+qa_c_syn_adult_bath,adult_bath,content,synthetic/adult_bath.mp4,zh,"用户任务：请帮我看着洗澡，有危险或异常及时叫我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]男子在浴缸里滑倒了，请立刻去浴室查看！,[inform]男子已经洗完澡并穿好衣服，正坐在沙发上休息。,[warn]浴缸里的水溢出来了，男子正在客厅拖地。,保持沉默。,,,,,,,,,D
+qa_t_syn_adult_bath,adult_bath,timing,synthetic/adult_bath.mp4,zh,"用户任务：请帮我看着洗澡，有危险或异常及时叫我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_syn_adult_candle_neg,adult_candle_neg,content,synthetic/pair/adult_candle_neg.mp4,zh,"用户任务：我要出门一趟，请帮我看着桌上的蜡烛，如果我忘了熄灭就走，请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[warn]请注意，你出门时忘记熄灭桌上的蜡烛了，这有消防隐患。,[inform]你已经把蜡烛吹灭了，但蜡烛倒在了茶几上，请回去扶正。,[feedback]我看到你直接走出了房间，并没有去吹灭桌上的蜡烛。,,,,,,,,,A
+qa_t_syn_adult_candle_neg,adult_candle_neg,timing,synthetic/pair/adult_candle_neg.mp4,zh,"用户任务：我要出门一趟，请帮我看着桌上的蜡烛，如果我忘了熄灭就走，请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_syn_adult_candle_pos,adult_candle_pos,content,synthetic/pair/adult_candle_pos.mp4,zh,"用户任务：我要出门一趟，请帮我看着桌上的蜡烛，如果我忘了熄灭就走，请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 3 秒。这一刻你应该说什么？",[warn]你已出门，家里的蜡烛未熄灭，请注意防火。,[warn]检测到您在出门前已经将桌上的蜡烛吹灭，请放心出行。,[warn]蜡烛还点着，出门前请先熄灭。,[warn]您已经将蜡烛带出了房间，室内目前没有遗留的火源。,,,,,,,,,C
+qa_t_syn_adult_candle_pos,adult_candle_pos,timing,synthetic/pair/adult_candle_pos.mp4,zh,"用户任务：我要出门一趟，请帮我看着桌上的蜡烛，如果我忘了熄灭就走，请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,11秒,3秒,15.1秒,,,,,,,,,B;C
+qa_c_syn_adult_chop,adult_chop,content,synthetic/adult_chop.mp4,zh,"用户任务：请看着我切菜，如果有危险动作请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[warn]请注意，你切黄瓜的速度太快了，容易切到手指，请放慢速度。,[warn]小心，你的左手手指没有弯曲呈猫爪状，指尖暴露在刀刃下非常危险。,[warn]请停下来，你使用的菜刀已经生锈，继续切菜可能会污染食材。,,,,,,,,,A
+qa_t_syn_adult_chop,adult_chop,timing,synthetic/adult_chop.mp4,zh,"用户任务：请看着我切菜，如果有危险动作请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,保持沉默。,7.5–15.1秒,,,,,,,,,C
+qa_c_syn_adult_cut_in,adult_cut_in,content,synthetic/adult_cut_in.mp4,zh,"用户任务：请看着我切菜，如果有危险动作请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]请小心，你切胡萝卜的速度太快了，刀刃已经碰到了你的手指！,保持沉默。,[warn]请注意，你切菜时没有按住胡萝卜，胡萝卜滚落到地上了。,[warn]危险！你正在用左手直接抓握刀刃，请立刻放手。,,,,,,,,,B
+qa_t_syn_adult_cut_in,adult_cut_in,timing,synthetic/adult_cut_in.mp4,zh,"用户任务：请看着我切菜，如果有危险动作请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_syn_adult_drowsy_neg,adult_drowsy_neg,content,synthetic/pair/adult_drowsy_neg.mp4,zh,"用户任务：请陪伴夜班值班员工作，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[inform]值班员在电脑上输入数据，并整理了桌上的文件。,[inform]值班员正躺在办公椅上睡觉，没有在工作。,[inform]值班员接听了办公桌上的电话，并开始记录通话内容。,,,,,,,,,A
+qa_t_syn_adult_drowsy_neg,adult_drowsy_neg,timing,synthetic/pair/adult_drowsy_neg.mp4,zh,"用户任务：请陪伴夜班值班员工作，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_syn_adult_drowsy_pos,adult_drowsy_pos,content,synthetic/pair/adult_drowsy_pos.mp4,zh,"用户任务：请陪伴夜班值班员工作，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]注意，值班员正在整理桌上的文件，并准备离开办公室。,[warn]值班员刚刚接听了电话，正在记录紧急通知。,[warn]醒一醒，值班期间请勿睡觉。,[warn]值班员正在电脑前输入数据，工作状态非常专注。,,,,,,,,,C
+qa_t_syn_adult_drowsy_pos,adult_drowsy_pos,timing,synthetic/pair/adult_drowsy_pos.mp4,zh,"用户任务：请陪伴夜班值班员工作，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",7.5–15.1秒,保持沉默。,0–7.5秒,0–15.1秒,,,,,,,,,A
+qa_c_syn_adult_gas_neg,adult_gas_neg,content,synthetic/pair/adult_gas_neg.mp4,zh,"用户任务：请帮我看着厨房的燃气灶，如果我人走了但火没关，请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]您离开后燃气灶的火依然在燃烧，请立即回厨房关闭！,保持沉默。,[inform]您已经关闭了燃气灶，但锅中食物有溢出风险，请注意。,[warn]检测到您离开后燃气灶发生漏气，请迅速开窗通风！,,,,,,,,,B
+qa_t_syn_adult_gas_neg,adult_gas_neg,timing,synthetic/pair/adult_gas_neg.mp4,zh,"用户任务：请帮我看着厨房的燃气灶，如果我人走了但火没关，请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,保持沉默。,7.5–15.1秒,,,,,,,,,C
+qa_c_syn_adult_gas_pos,adult_gas_pos,content,synthetic/pair/adult_gas_pos.mp4,zh,"用户任务：请帮我看着厨房的燃气灶，如果我人走了但火没关，请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 5 秒。这一刻你应该说什么？",[warn]燃气灶已经自动熄灭，无需担心。,[warn]您已经关闭了燃气灶，可以安心休息。,[warn]锅里的水已经烧干并开始冒烟，请立即处理。,[warn]燃气灶还开着火，请及时关闭。,,,,,,,,,D
+qa_t_syn_adult_gas_pos,adult_gas_pos,timing,synthetic/pair/adult_gas_pos.mp4,zh,"用户任务：请帮我看着厨房的燃气灶，如果我人走了但火没关，请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–5秒,0–15.1秒,5–15.1秒,,,,,,,,,D
+qa_c_syn_adult_heater,adult_heater,content,synthetic/adult_heater.mp4,zh,"用户任务：请帮我照看电暖器，如果有安全隐患请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[warn]电暖器在您离开房间后仍在继续工作，请及时关闭以防发生火灾。,[warn]窗帘在拉上时碰到了电暖器的发热部位，存在严重的安全隐患。,[inform]您在离开房间时忘记了关闭房门，电暖器的热量正在流失。,,,,,,,,,A
+qa_t_syn_adult_heater,adult_heater,timing,synthetic/adult_heater.mp4,zh,"用户任务：请帮我照看电暖器，如果有安全隐患请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,保持沉默。,7.5–15.1秒,,,,,,,,,C
+qa_c_syn_adult_iron_neg,adult_iron_neg,content,synthetic/pair/adult_iron_neg.mp4,zh,"用户任务：请帮我看着熨斗，如果我离开时还通着电，请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]您已经拔掉了电熨斗的电源插头，可以放心离开。,[warn]电熨斗已经自动断电，指示灯已熄灭。,保持沉默。,[warn]您在离开前已经关闭了熨烫板底座的总电源开关。,,,,,,,,,C
+qa_t_syn_adult_iron_neg,adult_iron_neg,timing,synthetic/pair/adult_iron_neg.mp4,zh,"用户任务：请帮我看着熨斗，如果我离开时还通着电，请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_syn_adult_iron_on_neg,adult_iron_on_neg,content,synthetic/pair/adult_iron_on_neg.mp4,zh,"用户任务：生活助手，请帮我看着熨斗并陪我整理衣物，如果我离开时有安全隐患请提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]您已经安全地将熨斗竖立放置，可以放心离开房间。,[warn]请注意，您在离开前已经关闭了熨斗的电源开关。,[warn]检测到您已将熨斗收纳进柜子里，衣物整理已安全结束。,保持沉默。,,,,,,,,,D
+qa_t_syn_adult_iron_on_neg,adult_iron_on_neg,timing,synthetic/pair/adult_iron_on_neg.mp4,zh,"用户任务：生活助手，请帮我看着熨斗并陪我整理衣物，如果我离开时有安全隐患请提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_syn_adult_iron_on_pos,adult_iron_on_pos,content,synthetic/pair/adult_iron_on_pos.mp4,zh,"用户任务：生活助手，请帮我看着熨斗并陪我整理衣物，如果我离开时有安全隐患请提醒我。
+
+题目：你是实时交互助手。视频放到第 8 秒。这一刻你应该说什么？",[warn]您已经成功关闭了熨斗，可以放心离开房间。,[warn]熨斗已经倾倒在熨衣板上，请立刻将其扶直以防起火。,[warn]熨斗还开着，请及时关闭，注意安全。,[warn]检测到您带走了熨斗，请确认是否已将其拔掉电源。,,,,,,,,,C
+qa_t_syn_adult_iron_on_pos,adult_iron_on_pos,timing,synthetic/pair/adult_iron_on_pos.mp4,zh,"用户任务：生活助手，请帮我看着熨斗并陪我整理衣物，如果我离开时有安全隐患请提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–8秒,0–15.1秒,8–15.1秒,,,,,,,,,D
+qa_c_syn_adult_iron_pos,adult_iron_pos,content,synthetic/pair/adult_iron_pos.mp4,zh,"用户任务：请帮我看着熨斗，如果我离开时还通着电，请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 6 秒。这一刻你应该说什么？",[warn]您已经成功关闭了熨斗的电源，可以放心离开。,[warn]熨斗已经自动断电，指示灯已经熄灭。,[warn]您在离开前已经将熨斗的电源线拔掉了。,[warn]熨斗还通着电，请及时关闭，注意安全。,,,,,,,,,D
+qa_t_syn_adult_iron_pos,adult_iron_pos,timing,synthetic/pair/adult_iron_pos.mp4,zh,"用户任务：请帮我看着熨斗，如果我离开时还通着电，请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,6–15.1秒,0–6秒,0–15.1秒,,,,,,,,,B
+qa_c_syn_adult_oven_neg,adult_oven_neg,content,synthetic/pair/adult_oven_neg.mp4,zh,"用户任务：请帮我看着烤箱，如果发生异常或着火请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[warn]烤箱内部已经起火，请立刻切断电源并使用灭火器！,[inform]烤箱门没有关好，有大量浓烟正从缝隙中冒出来。,[feedback]烤箱面板显示温度过高，系统已自动为您关闭了烤箱。,,,,,,,,,A
+qa_t_syn_adult_oven_neg,adult_oven_neg,timing,synthetic/pair/adult_oven_neg.mp4,zh,"用户任务：请帮我看着烤箱，如果发生异常或着火请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_syn_adult_oven_pos,adult_oven_pos,content,synthetic/pair/adult_oven_pos.mp4,zh,"用户任务：请帮我看着烤箱，如果发生异常或着火请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 4 秒。这一刻你应该说什么？",[warn]微波炉里有东西加热过度开始冒烟了，请快来切断电源！,[warn]洗碗机漏水了，厨房地板上全是积水，请尽快回来查看！,[warn]烤箱里着火了，快回来处理！,[warn]燃气灶上的汤锅溢出来了，火已经被浇灭了，请快来关掉燃气！,,,,,,,,,C
+qa_t_syn_adult_oven_pos,adult_oven_pos,timing,synthetic/pair/adult_oven_pos.mp4,zh,"用户任务：请帮我看着烤箱，如果发生异常或着火请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",4–15.1秒,保持沉默。,0–4秒,0–15.1秒,,,,,,,,,A
+qa_c_syn_adult_stove_neg,adult_stove_neg,content,synthetic/pair/adult_stove_neg.mp4,zh,"用户任务：请帮我看着灶台，如果我离开时没关火请提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]请注意，你离开时燃气灶的火还在燃烧，请立即返回关闭。,[inform]你已经成功关闭了燃气灶，但锅里的菜开始冒出大量浓烟，可能要烧焦了。,[warn]你离开时忘记关火了，锅中的油已经起火，请立即灭火。,保持沉默。,,,,,,,,,D
+qa_t_syn_adult_stove_neg,adult_stove_neg,timing,synthetic/pair/adult_stove_neg.mp4,zh,"用户任务：请帮我看着灶台，如果我离开时没关火请提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_syn_adult_stove_pos,adult_stove_pos,content,synthetic/pair/adult_stove_pos.mp4,zh,"用户任务：请帮我看着灶台，如果我离开时没关火请提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]锅里的食物已经烧焦冒烟了，请立刻回厨房处理。,[warn]灶台火还开着，人不要离开，请快回来关火。,[warn]您在离开前已经把灶台的火关掉了，可以放心。,[warn]灶台上的火已经自动熄灭了，请回厨房确认安全。,,,,,,,,,B
+qa_t_syn_adult_stove_pos,adult_stove_pos,timing,synthetic/pair/adult_stove_pos.mp4,zh,"用户任务：请帮我看着灶台，如果我离开时没关火请提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–7.5秒,0–15.1秒,7.5–15.1秒,,,,,,,,,D
+qa_c_syn_adult_tap_neg,adult_tap_neg,content,synthetic/pair/adult_tap_neg.mp4,zh,"用户任务：生活助手，请帮我留意家里的水电，如果有没关的情况请提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[inform]洗手池的水龙头没有关，水一直在流，请尽快回去关闭。,[inform]我注意到您洗完手后忘记关水龙头了，需要我帮您联系物业吗？,[warn]警告，洗手间的水龙头处于开启状态，可能会导致积水。,,,,,,,,,A
+qa_t_syn_adult_tap_neg,adult_tap_neg,timing,synthetic/pair/adult_tap_neg.mp4,zh,"用户任务：生活助手，请帮我留意家里的水电，如果有没关的情况请提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–15.1秒,0–7.5秒,7.5–15.1秒,,,,,,,,,A
+qa_c_syn_adult_tap_pos,adult_tap_pos,content,synthetic/pair/adult_tap_pos.mp4,zh,"用户任务：生活助手，请帮我留意家里的水电，如果有没关的情况请提醒我。
+
+题目：你是实时交互助手。视频放到第 5.5 秒。这一刻你应该说什么？",[inform]水龙头已经关好了，没有漏水的情况。,[inform]家里的灯还亮着，记得去卧室关一下灯。,[inform]水龙头已经关上了，但是厨房的燃气灶还开着。,[inform]水龙头还没关，记得关一下。,,,,,,,,,D
+qa_t_syn_adult_tap_pos,adult_tap_pos,timing,synthetic/pair/adult_tap_pos.mp4,zh,"用户任务：生活助手，请帮我留意家里的水电，如果有没关的情况请提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,5.5–9.5秒,0–5.5秒,9.5–15.1秒,,,,,,,,,B
+qa_c_syn_agr_cow_med,agr_cow_med,content,synthetic/agr_cow_med.mp4,zh,"用户任务：请帮我找到挂着白色药瓶的生病小牛，并且告诉我。
+
+题目：你是实时交互助手。视频放到第 9.5 秒。这一刻你应该说什么？",[inform]眼前这头棕白色小牛的围栏上挂着白色药瓶，它需要照顾。,[inform]在通道左侧的围栏里，有一头黑色小牛的脖子上挂着白色药瓶。,[inform]视频中没有发现任何挂着白色药瓶的小牛，所有小牛的围栏上都只有黄色耳标。,[inform]那头挂着白色药瓶的生病小牛正躺在通道尽头的草料堆上睡觉。,,,,,,,,,A
+qa_t_syn_agr_cow_med,agr_cow_med,timing,synthetic/agr_cow_med.mp4,zh,"用户任务：请帮我找到挂着白色药瓶的生病小牛，并且告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–9.5秒,0–15.1秒,9.5–15.1秒,,,,,,,,,D
+qa_c_syn_agr_pig_fed__v20261011,agr_pig_fed,content,synthetic/agr_pig_fed.mp4,zh,"用户任务：请帮我观察这些猪有没有在吃饲料，并告诉我看到的情况。
+
+题目：你是实时交互助手。视频放到第 1 秒。这一刻你应该说什么？",[inform]这些猪都在睡觉，没有在吃饲料。,[inform]猪舍里的饲料槽是空的，猪群正在焦急地等待喂食。,[inform]这些猪正在吃槽里的饲料。,[inform]这些猪正在水槽旁饮水，并没有在吃固体饲料。,,,,,,,,,C
+qa_t_syn_agr_pig_fed__v20261011,agr_pig_fed,timing,synthetic/agr_pig_fed.mp4,zh,"用户任务：请帮我观察这些猪有没有在吃饲料，并告诉我看到的情况。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,1–15.1秒,0–1秒,0–15.1秒,,,,,,,,,B
+qa_c_syn_alz_coat,alz_coat,content,synthetic/alz_coat.mp4,zh,"用户任务：请帮我看着老人穿衣服，穿好后告诉我，并提醒她注意安全。
+
+题目：你是实时交互助手。视频放到第 8 秒。这一刻你应该说什么？",[inform]外套穿好啦，慢点走，注意安全。,[inform]老人已经穿好了那件红色的毛衣，正准备出门散步。,[inform]老人穿好外套后，直接在沙发上躺下休息了。,[inform]老人穿好了浅色风衣，并推着轮椅向门口走去。,,,,,,,,,A
+qa_t_syn_alz_coat,alz_coat,timing,synthetic/alz_coat.mp4,zh,"用户任务：请帮我看着老人穿衣服，穿好后告诉我，并提醒她注意安全。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,8–12秒,0–8秒,12–15.1秒,,,,,,,,,B
+qa_c_syn_alz_door_stand,alz_door_stand,content,synthetic/alz_door_stand.mp4,zh,"用户任务：请帮我看着老人，如果有什么异常或危险情况请及时提醒。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]老人正在玄关处穿鞋，准备独自出门，请注意安全。,[warn]老人不小心在玄关处摔倒了，请尽快查看。,[inform]老人正在玄关处整理鞋柜里的鞋子。,保持沉默。,,,,,,,,,D
+qa_t_syn_alz_door_stand,alz_door_stand,timing,synthetic/alz_door_stand.mp4,zh,"用户任务：请帮我看着老人，如果有什么异常或危险情况请及时提醒。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–15.1秒,0–7.5秒,7.5–15.1秒,,,,,,,,,A
+qa_c_syn_alz_heater_neg,alz_heater_neg,content,synthetic/pair/alz_heater_neg.mp4,zh,"用户任务：请帮我照看暖器，如果有安全隐患请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]老奶奶把毛巾拿走后，电暖器上又被放了一件湿衣服，可能会引起火灾。,[warn]老奶奶在电暖器旁边倒水，水洒在了插座上，有触电危险。,[warn]年轻女子把一叠报纸放在了电暖器顶部的出风口上，需要立刻拿开。,保持沉默。,,,,,,,,,D
+qa_t_syn_alz_heater_neg,alz_heater_neg,timing,synthetic/pair/alz_heater_neg.mp4,zh,"用户任务：请帮我照看暖器，如果有安全隐患请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–15.1秒,0–7.5秒,7.5–15.1秒,,,,,,,,,A
+qa_c_syn_alz_heater_pos,alz_heater_pos,content,synthetic/pair/alz_heater_pos.mp4,zh,"用户任务：请帮我照看暖器，如果有安全隐患请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 3 秒。这一刻你应该说什么？",[inform]暖器一切正常，老人只是在用毛巾擦拭暖器表面的灰尘。,[inform]请不要在电暖器上覆盖毛巾，有火灾隐患。,[inform]老人已经将暖器的电源插头拔掉，现在没有任何安全隐患。,[inform]暖器上覆盖的毛巾已经被旁边的女子拿走并晾在了阳台上。,,,,,,,,,B
+qa_t_syn_alz_heater_pos,alz_heater_pos,timing,synthetic/pair/alz_heater_pos.mp4,zh,"用户任务：请帮我照看暖器，如果有安全隐患请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",3–7秒,保持沉默。,0–3秒,7–15.1秒,,,,,,,,,A
+qa_c_real_alz_home__v20261010,alz_home,content,real/alz_home.mp4,zh,"用户任务：请帮我照看奶奶，有需要关注的情绪或行为变化时告诉我，情况稳定时简要总结照看情况。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]奶奶在房间里找到了丢失的钱包，现在正开心地向护理员展示。,[inform]奶奶在房间里一直安静地睡觉，没有任何异常的情绪波动。,[inform]奶奶在房间里反复找东西，现在看起来有些焦虑。,[inform]奶奶通过帮忙洗菜转移了注意力，情绪已平稳。,,,,,,,,,C;D
+qa_t_real_alz_home__v20261010,alz_home,timing,real/alz_home.mp4,zh,"用户任务：请帮我照看奶奶，有需要关注的情绪或行为变化时告诉我，情况稳定时简要总结照看情况。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,45秒,11.5秒,41秒,,,,,,,,,C;D
+qa_c_syn_alz_stove_neg,alz_stove_neg,content,synthetic/pair/alz_stove_neg.mp4,zh,"用户任务：请帮我照看燃气灶，如果老人离开且火没关，请及时提醒。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]老人已经离开厨房，但燃气灶的火还没有关，请立刻回去关闭！,保持沉默。,[inform]老人回到了厨房，并自己动手把燃气灶的火关掉了。,[inform]老人一共往返了厨房三次，每次都确认了燃气灶已经关闭。,,,,,,,,,B
+qa_t_syn_alz_stove_neg,alz_stove_neg,timing,synthetic/pair/alz_stove_neg.mp4,zh,"用户任务：请帮我照看燃气灶，如果老人离开且火没关，请及时提醒。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,保持沉默。,7.5–15.1秒,,,,,,,,,C
+qa_c_syn_alz_stove_pos,alz_stove_pos,content,synthetic/pair/alz_stove_pos.mp4,zh,"用户任务：请帮我照看燃气灶，如果老人离开且火没关，请及时提醒。
+
+题目：你是实时交互助手。视频放到第 2 秒。这一刻你应该说什么？",[inform]老人已经把燃气灶的火关掉，并回到客厅沙发休息了。,[inform]老人正在厨房里清洗燃气灶，目前没有开火。,[inform]燃气灶的火已经自动熄灭，老人正在沙发上睡觉。,[inform]燃气灶还开着火，请记得关闭。,,,,,,,,,D
+qa_t_syn_alz_stove_pos,alz_stove_pos,timing,synthetic/pair/alz_stove_pos.mp4,zh,"用户任务：请帮我照看燃气灶，如果老人离开且火没关，请及时提醒。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,2–7秒,0–2秒,7–15.1秒,,,,,,,,,B
+qa_c_syn_ask_ball_rule,ask_ball_rule,content,synthetic/ask_ball_rule.mp4,zh,"用户任务：请帮我看着，如果我问你篮球规则，请回答我。
+
+题目：你是实时交互助手。视频放到第 11.5 秒。这一刻你应该说什么？",[answer]那个动作属于走步违例，因为你抱球后又向前迈了两步。,[answer]那个动作没有任何违例，你运球后双手抱球是完全合规的。,[answer]那下不算走步，但属于二次运球违例。,[answer]你刚才单手运球时球已经出界了，所以是出界违例。,,,,,,,,,C
+qa_t_syn_ask_ball_rule,ask_ball_rule,timing,synthetic/ask_ball_rule.mp4,zh,"用户任务：请帮我看着，如果我问你篮球规则，请回答我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",11.5–15.1秒,保持沉默。,0–11.5秒,0–15.1秒,,,,,,,,,A
+qa_c_syn_ask_cafe_menu,ask_cafe_menu,content,synthetic/ask_cafe_menu.mp4,zh,"用户任务：购物助手，请在我询问商品或菜单信息时及时为我解答。
+
+题目：你是实时交互助手。视频放到第 14 秒。这一刻你应该说什么？",[inform]左边那杯是不含咖啡因的燕麦拿铁。,[inform]两杯都是不含咖啡因的，您可以放心饮用。,[inform]我为您查阅菜单。,[inform]右边那杯是美式咖啡，不含咖啡因。,,,,,,,,,C
+qa_t_syn_ask_cafe_menu,ask_cafe_menu,timing,synthetic/ask_cafe_menu.mp4,zh,"用户任务：购物助手，请在我询问商品或菜单信息时及时为我解答。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–14秒,14–15.1秒,0–15.1秒,,,,,,,,,C
+qa_c_syn_ask_car_park__v20261011,ask_car_park,content,synthetic/ask_car_park.mp4,zh,"用户任务：出行助手，请在我询问路况或停车问题时，及时回答我。
+
+题目：你是实时交互助手。视频放到第 14 秒。这一刻你应该说什么？",[inform]这里是临时停车区，您可以免费停放15分钟。,[inform]抱歉，我无法看到车外，无法帮您判断。,[inform]前方路段正在施工，建议您在此处靠边停车。,[inform]前方有空余的地下车位，您可以直接开下去。,,,,,,,,,B
+qa_t_syn_ask_car_park__v20261011,ask_car_park,timing,synthetic/ask_car_park.mp4,zh,"用户任务：出行助手，请在我询问路况或停车问题时，及时回答我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–14秒,14–15.1秒,0–15.1秒,,,,,,,,,C
+qa_c_syn_ask_farm_feed,ask_farm_feed,content,synthetic/ask_farm_feed.mp4,zh,"用户任务：农业助手，请在有人询问农场物资或饲料信息时，及时提供解答。
+
+题目：你是实时交互助手。视频放到第 12.5 秒。这一刻你应该说什么？",[inform]请靠近拍摄饲料信息。,[answer]这是雏幼鸵鸟饲料，适合0到4月龄。,[answer]这是专门给蛋鸡产蛋期使用的混合饲料。,[answer]这是断奶仔猪使用的颗粒饲料，能促进消化。,,,,,,,,,A
+qa_t_syn_ask_farm_feed,ask_farm_feed,timing,synthetic/ask_farm_feed.mp4,zh,"用户任务：农业助手，请在有人询问农场物资或饲料信息时，及时提供解答。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",12.5–15.1秒,保持沉默。,0–12.5秒,0–15.1秒,,,,,,,,,A
+qa_c_syn_ask_home_coat,ask_home_coat,content,synthetic/ask_home_coat.mp4,zh,"用户任务：生活助手，请在我询问穿衣建议或天气相关问题时，及时为我解答。
+
+题目：你是实时交互助手。视频放到第 12.5 秒。这一刻你应该说什么？",[answer]外面阳光明媚，气温很高，建议您换一件短袖出门。,[answer]窗外正在下暴雪，只穿这件羽绒服可能不够，建议您再加一件毛衣。,[answer]外面下雨降温了，穿这件羽绒服刚好。,[answer]外面风沙很大，建议您戴上防风镜和口罩再出门。,,,,,,,,,C
+qa_t_syn_ask_home_coat,ask_home_coat,timing,synthetic/ask_home_coat.mp4,zh,"用户任务：生活助手，请在我询问穿衣建议或天气相关问题时，及时为我解答。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–12.5秒,12.5–15.1秒,0–15.1秒,,,,,,,,,C
+qa_c_synthetic_ask_home_mix__v20261010,ask_home_mix,content,synthetic/ask_home_mix.mp4,zh,"用户任务：请陪我处理生活中的事情，我向你提问时请结合现场信息回答。
+
+题目：你是实时交互助手。视频放到第 14 秒。这一刻你应该说什么？",[answer]不建议一起吃，红椒和花椰菜同食会产生毒素，导致食物中毒。,[answer]红椒和花椰菜不能一起吃，因为红椒中的酸性物质会完全破坏花椰菜的膳食纤维。,[answer]这两种蔬菜相克，一起食用会引起严重的肠胃胀气和消化不良。,[answer]可以一起吃，红椒和花椰菜搭配营养很丰富。,,,,,,,,,D
+qa_t_synthetic_ask_home_mix__v20261010,ask_home_mix,timing,synthetic/ask_home_mix.mp4,zh,"用户任务：请陪我处理生活中的事情，我向你提问时请结合现场信息回答。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–14秒,14–15.1秒,0–15.1秒,,,,,,,,,C
+qa_c_synthetic_ask_hos_med__v20261011,ask_hos_med,content,synthetic/ask_hos_med.mp4,zh,"用户任务：请陪我处理就医相关的事情，我向你提问时请结合现场信息回答。
+
+题目：你是实时交互助手。视频放到第 12.5 秒。这一刻你应该说什么？",[inform]药盒上写着该药必须在饭后半小时服用。,[inform]请把药盒正面靠近镜头，我帮您确认。,[inform]您应该在每天早餐前空腹服用这种药。,[inform]医生给您开的是感冒药，需要一日三次饭后服用。,,,,,,,,,B
+qa_t_synthetic_ask_hos_med__v20261011,ask_hos_med,timing,synthetic/ask_hos_med.mp4,zh,"用户任务：请陪我处理就医相关的事情，我向你提问时请结合现场信息回答。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–12.5秒,0–15.1秒,12.5–15.1秒,,,,,,,,,D
+qa_c_synthetic_ask_office_tool__v20261010,ask_office_tool,content,synthetic/ask_office_tool.mp4,zh,"用户任务：请陪我办公，我询问工具或设备的用法时请给出操作指导。
+
+题目：你是实时交互助手。视频放到第 12 秒。这一刻你应该说什么？",[answer]请将纸张整盒放在打印机顶部的扫描仪盖板上。,[answer]打印纸需要从打印机后方的手动送纸槽单张插入。,[answer]直接打开打印机侧面的墨盒舱门，将纸放进墨盒旁边即可。,[answer]拉开打印机下方的纸盘，就可以放纸了。,,,,,,,,,D
+qa_t_synthetic_ask_office_tool__v20261010,ask_office_tool,timing,synthetic/ask_office_tool.mp4,zh,"用户任务：请陪我办公，我询问工具或设备的用法时请给出操作指导。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,12–15.1秒,0–12秒,0–15.1秒,,,,,,,,,B
+qa_c_synthetic_ask_park_bird__v20261010,ask_park_bird,content,synthetic/ask_park_bird.mp4,zh,"用户任务：请陪我游览，我询问眼前的事物时请结合现场画面和声音回答。
+
+题目：你是实时交互助手。视频放到第 11 秒。这一刻你应该说什么？",[inform]看不到鸟，需要查阅。,[inform]那是一只黑冠鹭鸶，正在水边捕鱼。,[inform]画面中是一只绿头鸭，正准备起飞。,[inform]那是一只大白鹭，正站在木栈道上。,,,,,,,,,A
+qa_t_synthetic_ask_park_bird__v20261010,ask_park_bird,timing,synthetic/ask_park_bird.mp4,zh,"用户任务：请陪我游览，我询问眼前的事物时请结合现场画面和声音回答。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–11秒,0–15.1秒,11–15.1秒,,,,,,,,,D
+qa_c_syn_ask_park_plant,ask_park_plant,content,synthetic/ask_park_plant.mp4,zh,"用户任务：旅行助手，请陪我一起游览，如果我向你提问，请及时回答我。
+
+题目：你是实时交互助手。视频放到第 13.5 秒。这一刻你应该说什么？",[answer]这是木芙蓉，也叫芙蓉花。,[answer]这是郁金香，通常在春季开放。,[answer]这是绣球花，颜色会随着土壤酸碱度变化。,[answer]这是向日葵，花盘会朝着太阳的方向转动。,,,,,,,,,A
+qa_t_syn_ask_park_plant,ask_park_plant,timing,synthetic/ask_park_plant.mp4,zh,"用户任务：旅行助手，请陪我一起游览，如果我向你提问，请及时回答我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–13.5秒,0–15.1秒,13.5–15.1秒,,,,,,,,,D
+qa_c_syn_ask_pet_food,ask_pet_food,content,synthetic/ask_pet_food.mp4,zh,"用户任务：生活助手，请陪我一起照看宠物，如果我向你提问，请及时回答我。
+
+题目：你是实时交互助手。视频放到第 13 秒。这一刻你应该说什么？",[answer]如果是人吃的饼干，最好不要给狗狗吃哦。,[answer]狗狗可以放心食用你手里的巧克力夹心饼干，这非常健康。,[answer]画面中的狗狗是哈士奇，它现在正闭着眼睛睡觉，对饼干不感兴趣。,[answer]你已经把饼干喂给狗狗吃了，它吃完后立刻回到了沙发上躺着。,,,,,,,,,A
+qa_t_syn_ask_pet_food,ask_pet_food,timing,synthetic/ask_pet_food.mp4,zh,"用户任务：生活助手，请陪我一起照看宠物，如果我向你提问，请及时回答我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–13秒,0–15.1秒,13–15.1秒,,,,,,,,,D
+qa_c_syn_ask_run_pace,ask_run_pace,content,synthetic/ask_run_pace.mp4,zh,"用户任务：运动助手，请陪我一起锻炼，如果我向你提问，请及时回答我。
+
+题目：你是实时交互助手。视频放到第 14 秒。这一刻你应该说什么？",[inform]你的跑步速度非常快，已经达到了专业运动员的水平。,[inform]我需要查阅计时等信息。,[inform]从你的呼吸频率来看，你刚才的跑步速度比较慢，属于慢跑热身阶段。,[inform]你目前的配速大约是每公里四分钟，是一个非常优秀的成绩。,,,,,,,,,B
+qa_t_syn_ask_run_pace,ask_run_pace,timing,synthetic/ask_run_pace.mp4,zh,"用户任务：运动助手，请陪我一起锻炼，如果我向你提问，请及时回答我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,14–15.1秒,0–14秒,0–15.1秒,,,,,,,,,B
+qa_c_syn_ask_school_word,ask_school_word,content,synthetic/ask_school_word.mp4,zh,"用户任务：学习助手，请陪我一起学习，如果我向你提问，请及时回答我。
+
+题目：你是实时交互助手。视频放到第 12.5 秒。这一刻你应该说什么？",[answer]abandon 是放弃、抛弃的意思。,[answer]abandon 是坚持、继续的意思。,[answer]abandon 是一种在教室里使用的文具名称。,[answer]你刚才说的是单词 abundance，意思是充裕、丰富。,,,,,,,,,A
+qa_t_syn_ask_school_word,ask_school_word,timing,synthetic/ask_school_word.mp4,zh,"用户任务：学习助手，请陪我一起学习，如果我向你提问，请及时回答我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",12.5–15.1秒,保持沉默。,0–12.5秒,0–15.1秒,,,,,,,,,A
+qa_c_syn_ask_shop_fresh,ask_shop_fresh,content,synthetic/ask_shop_fresh.mp4,zh,"用户任务：购物助手，请陪我一起选购商品，在我询问商品新鲜度或挑选建议时给予解答。
+
+题目：你是实时交互助手。视频放到第 12 秒。这一刻你应该说什么？",[answer]这棵青菜的叶子已经大面积枯黄萎蔫，不建议购买。,[answer]这棵青菜的根部已经腐烂变黑，不新鲜了。,[answer]这棵青菜叶片挺绿的，看着还很新鲜。,[answer]这棵青菜上有很多明显的虫咬空洞，已经不新鲜了。,,,,,,,,,C
+qa_t_syn_ask_shop_fresh,ask_shop_fresh,timing,synthetic/ask_shop_fresh.mp4,zh,"用户任务：购物助手，请陪我一起选购商品，在我询问商品新鲜度或挑选建议时给予解答。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",12–15.1秒,保持沉默。,0–12秒,0–15.1秒,,,,,,,,,A
+qa_c_syn_ask_shop_price__v20261011,ask_shop_price,content,synthetic/ask_shop_price.mp4,zh,"用户任务：购物助手，请陪我一起选购商品，在我询问价格、优惠或对比时给予解答。
+
+题目：你是实时交互助手。视频放到第 14 秒。这一刻你应该说什么？",[inform]请提供更多信息，我为你查阅。,[inform]左手拿的那盒商品现在正在进行买一送一的促销活动，比右手那盒更划算。,[inform]右手拿的那盒商品单价为25元，左手那盒为30元，右手那盒更便宜。,[inform]这两盒商品的规格完全相同，但左边那盒目前有九折的限时优惠折扣。,,,,,,,,,A
+qa_t_syn_ask_shop_price__v20261011,ask_shop_price,timing,synthetic/ask_shop_price.mp4,zh,"用户任务：购物助手，请陪我一起选购商品，在我询问价格、优惠或对比时给予解答。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–14秒,14–15.1秒,0–15.1秒,,,,,,,,,C
+qa_c_syn_ask_street_dir,ask_street_dir,content,synthetic/ask_street_dir.mp4,zh,"用户任务：生活助手，请陪我一起散步，在我询问地名或方向时为我解答。
+
+题目：你是实时交互助手。视频放到第 14 秒。这一刻你应该说什么？",[answer]这里是东京的浅草寺雷门。,[answer]前方右侧有一家正在营业的日式拉面馆。,[answer]你现在正站在京都的清水寺入口处。,[answer]前方是一座寺庙。,,,,,,,,,D
+qa_t_syn_ask_street_dir,ask_street_dir,timing,synthetic/ask_street_dir.mp4,zh,"用户任务：生活助手，请陪我一起散步，在我询问地名或方向时为我解答。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,14–15.1秒,0–14秒,0–15.1秒,,,,,,,,,B
+qa_c_syn_ask_tour_build__v20261011,ask_tour_build,content,synthetic/ask_tour_build.mp4,zh,"用户任务：旅行助手，请陪我一起游览，在我询问景点历史或建筑信息时为我解答。
+
+题目：你是实时交互助手。视频放到第 12.5 秒。这一刻你应该说什么？",[inform]请提供更多细节，我再为你查阅并确认年代。,[inform]这座古塔是唐代贞观年间建造的，属于典型的砖石结构。,[inform]根据外观判断，这是建于北宋时期的舍利塔。,[inform]这是明代重修的八角七层楼阁式古塔。,,,,,,,,,A
+qa_t_syn_ask_tour_build__v20261011,ask_tour_build,timing,synthetic/ask_tour_build.mp4,zh,"用户任务：旅行助手，请陪我一起游览，在我询问景点历史或建筑信息时为我解答。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–12.5秒,0–15.1秒,12.5–15.1秒,,,,,,,,,D
+qa_c_syn_ask_tour_route__v20261011,ask_tour_route,content,synthetic/ask_tour_route.mp4,zh,"用户任务：旅行助手，请陪我一起游览，如果我向你询问路线或景点，请帮我解答。
+
+题目：你是实时交互助手。视频放到第 11 秒。这一刻你应该说什么？",[inform]走左边的石阶路更近，因为左侧道路坡度更缓。,[inform]目前信息有限，无法确认。,[inform]右边的石阶路是通往主景区的捷径，距离更短。,[inform]根据路口的景区指示牌，两条路最终会在山顶汇合，距离一样。,,,,,,,,,B
+qa_t_syn_ask_tour_route__v20261011,ask_tour_route,timing,synthetic/ask_tour_route.mp4,zh,"用户任务：旅行助手，请陪我一起游览，如果我向你询问路线或景点，请帮我解答。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,11–15.1秒,0–11秒,0–15.1秒,,,,,,,,,B
+qa_c_syn_ask_tv_f1__v20261011,ask_tv_f1,content,synthetic/ask_tv_f1.mp4,zh,"用户任务：生活助手，请陪我一起看电视，如果我有关于电视内容的问题请回答我。
+
+题目：你是实时交互助手。视频放到第 14 秒。这一刻你应该说什么？",[inform]请提供更多信息，我为你查阅。,[inform]今年的赛车总冠军是刘易斯·汉密尔顿。,[inform]电视里正在播放的比赛是世界拉力锦标赛，总冠军是塞巴斯蒂安·奥吉尔。,[inform]根据画面中的红牛赛车，今年的总冠军是马克斯·维斯塔潘。,,,,,,,,,A
+qa_t_syn_ask_tv_f1__v20261011,ask_tv_f1,timing,synthetic/ask_tv_f1.mp4,zh,"用户任务：生活助手，请陪我一起看电视，如果我有关于电视内容的问题请回答我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,14–15.1秒,0–14秒,0–15.1秒,,,,,,,,,B
+qa_c_syn_ask_tv_nolan__v20261011,ask_tv_nolan,content,synthetic/ask_tv_nolan.mp4,zh,"用户任务：生活助手，请陪我一起看电视，如果我有关于电视内容的问题请回答我。
+
+题目：你是实时交互助手。视频放到第 13 秒。这一刻你应该说什么？",[inform]无法查阅，需要更多信息。,[inform]这部电影的导演是克里斯托弗·诺兰。,[inform]电视上正在播放的电影是由史蒂文·斯皮尔伯格执导的。,[inform]根据画面内容，这部电影的导演是詹姆斯·卡梅隆。,,,,,,,,,A
+qa_t_syn_ask_tv_nolan__v20261011,ask_tv_nolan,timing,synthetic/ask_tv_nolan.mp4,zh,"用户任务：生活助手，请陪我一起看电视，如果我有关于电视内容的问题请回答我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,13–15.1秒,0–13秒,0–15.1秒,,,,,,,,,B
+qa_c_real_asm_boom_feedback_01,asm_boom_feedback_01,content,real/asm_boom_feedback_01.mp4,zh,"用户任务：请看着我组装玩具车，如果我装错了请及时纠正我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[feedback]你的螺丝刀尺寸选错了，无法拧紧车尾的螺丝。,[feedback]车轮的安装顺序不对，应该先安装前轮再安装后轮。,[feedback]挖掘臂装反了，应该朝车后方弯曲。,[feedback]你把黄色的挖掘臂装在车头了，这个零件应该装在车身侧面。,,,,,,,,,C
+qa_t_real_asm_boom_feedback_01,asm_boom_feedback_01,timing,real/asm_boom_feedback_01.mp4,zh,"用户任务：请看着我组装玩具车，如果我装错了请及时纠正我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–22秒,22–27秒,27–60秒,,,,,,,,,C
+qa_c_real_asm_chassis_feedback_01__v20261011,asm_chassis_feedback_01,content,real/asm_chassis_feedback_01.mp4,zh,"用户任务：请看着我组装这个玩具，有装错或不规范的地方请及时纠正我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[feedback]底盘方向装反了，需要调转方向再安装。,[feedback]绿色马达部件的卡扣没有完全扣紧，请用力按压马达两侧。,[feedback]您漏掉了最开始拿取的小销钉，需要先将销钉插入底盘的圆孔中。,[feedback]黄色车身的前后方向颠倒了，请将车身旋转180度后再与马达拼接。,,,,,,,,,A
+qa_t_real_asm_chassis_feedback_01__v20261011,asm_chassis_feedback_01,timing,real/asm_chassis_feedback_01.mp4,zh,"用户任务：请看着我组装这个玩具，有装错或不规范的地方请及时纠正我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–24秒,24–28秒,28–60秒,,,,,,,,,C
+qa_c_real_asm_dumpbed_feedback_01__v20261011,asm_dumpbed_feedback_01,content,real/asm_dumpbed_feedback_01.mp4,zh,"用户任务：请看着我组装车斗，有装错或不规范的地方请及时纠正我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[feedback]蓝色底座方向装反了，需要旋转180度。,[feedback]白色车斗的卡扣没有对准，请先用力按下白色车斗。,[feedback]蓝色底座的螺丝没有拧紧，请用螺丝刀重新加固螺丝。,[feedback]蓝色车身盖板没有安装到位，请先将盖板固定在底盘上。,,,,,,,,,A
+qa_t_real_asm_dumpbed_feedback_01__v20261011,asm_dumpbed_feedback_01,timing,real/asm_dumpbed_feedback_01.mp4,zh,"用户任务：请看着我组装车斗，有装错或不规范的地方请及时纠正我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–45秒,45–55秒,55–60秒,,,,,,,,,C
+qa_c_real_asm_dumpbed_feedback_02__v20261011,asm_dumpbed_feedback_02,content,real/asm_dumpbed_feedback_02.mp4,zh,"用户任务：请看着我组装车斗，有步骤不对或装错的地方请及时纠正我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[feedback]你需要先用螺丝刀将卡车底盘上的黑色零件拆卸下来。,[feedback]你应该先将蓝色底座用胶水粘在卡车底盘的后部。,[feedback]请先将白色的车斗直接固定在卡车底盘上，再安装蓝色底座。,[feedback]需要先将白色车斗与蓝色底座进行组装。,,,,,,,,,D
+qa_t_real_asm_dumpbed_feedback_02__v20261011,asm_dumpbed_feedback_02,timing,real/asm_dumpbed_feedback_02.mp4,zh,"用户任务：请看着我组装车斗，有步骤不对或装错的地方请及时纠正我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",9–13秒,保持沉默。,0–9秒,13–60秒,,,,,,,,,A
+qa_c_real_baby_care,baby_care,content,real/baby_care.mp4,zh,"用户任务：请帮我看着宝宝，如果有危险或者异常情况请及时通知我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",保持沉默。,[inform]宝宝在做抚触时手臂被拉伤了，需要立刻送医。,[warn]宝宝在涂抹百多邦软膏后出现了严重的皮肤过敏红肿。,[feedback]妈妈在给宝宝换尿不湿时，宝宝不小心从床上摔了下来。,,,,,,,,,A
+qa_t_real_baby_care,baby_care,timing,real/baby_care.mp4,zh,"用户任务：请帮我看着宝宝，如果有危险或者异常情况请及时通知我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–130.7秒,0–65.4秒,65.4–130.7秒,保持沉默。,,,,,,,,,D
+qa_c_syn_baby_cleaner_neg,baby_cleaner_neg,content,synthetic/pair/baby_cleaner_neg.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]孩子在客厅里玩耍，没有任何危险。,[inform]孩子正在厨房的地板上睡觉，女子在旁边看着。,保持沉默。,[inform]孩子试图爬上椅子，女子立刻过去扶住了他。,,,,,,,,,C
+qa_t_syn_baby_cleaner_neg,baby_cleaner_neg,timing,synthetic/pair/baby_cleaner_neg.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,保持沉默。,7.5–15.1秒,,,,,,,,,C
+qa_c_syn_baby_cleaner_pos,baby_cleaner_pos,content,synthetic/pair/baby_cleaner_pos.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 3 秒。这一刻你应该说什么？",[warn]宝宝在厨房地板上摔倒了，正在哭泣。,[warn]宝宝在拿橱柜里的洗涤剂，请注意安全。,[warn]宝宝把洗涤剂瓶子打开并喝了下去，请立刻阻止。,[warn]宝宝正在尝试爬进橱柜里，可能会被卡住。,,,,,,,,,B
+qa_t_syn_baby_cleaner_pos,baby_cleaner_pos,timing,synthetic/pair/baby_cleaner_pos.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",3–15.1秒,保持沉默。,0–3秒,0–15.1秒,,,,,,,,,A
+qa_c_syn_baby_cord_neg,baby_cord_neg,content,synthetic/pair/baby_cord_neg.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]宝宝在地上爬行时，不小心被地上的电线绊倒了。,保持沉默。,[inform]妈妈看到宝宝走向电线，大声呵斥并拍打宝宝的手。,[inform]妈妈把宝宝抱起来后，直接用剪刀将地上的电线剪断了。,,,,,,,,,B
+qa_t_syn_baby_cord_neg,baby_cord_neg,timing,synthetic/pair/baby_cord_neg.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_syn_baby_cord_pos,baby_cord_pos,content,synthetic/pair/baby_cord_pos.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 8 秒。这一刻你应该说什么？",[warn]宝宝已经爬到了沙发上，有跌落的危险。,[warn]宝宝把地上的小玩具放进嘴里了，小心窒息。,[warn]宝宝在玩电线，快去阻止他。,[warn]宝宝正在试图推倒旁边的木质置物架，快去抱走他。,,,,,,,,,C
+qa_t_syn_baby_cord_pos,baby_cord_pos,timing,synthetic/pair/baby_cord_pos.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,8–15.1秒,0–8秒,0–15.1秒,,,,,,,,,B
+qa_c_real_baby_danger,baby_danger,content,real/baby_danger.mp4,zh,"用户任务：请帮我看着孩子，如果发生危险请及时提醒，并持续帮我留意和汇报现场情况。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]异物已排出，宝宝哭出来了，危险已解除。,[warn]宝宝还没吐出来，奶奶正在给宝宝拍背，并呼喊拿防窒息仪。,[warn]爸爸拿着防窒息仪赶来并给宝宝急救。,[warn]宝宝被卡住了，妈妈正在进行海姆立克急救。,[warn]宝宝好像卡喉了，妈妈正在查看情况。,[warn]宝宝在围栏里玩耍时，不小心被围栏的铁丝划伤了手臂。,,,,,,,A;B;C;D;E
+qa_t_real_baby_danger,baby_danger,timing,real/baby_danger.mp4,zh,"用户任务：请帮我看着孩子，如果发生危险请及时提醒，并持续帮我留意和汇报现场情况。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",27秒,35秒,0秒,21秒,10秒,3秒,,,,,,,A;B;D;E;F
+qa_c_real_baby_danger_dup,baby_danger_dup,content,real/baby_danger_dup.mp4,zh,"用户任务：请帮我照看孩子，有危险及时通知我，情况有变化也请告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[warn]宝宝正在攀爬客厅的电视柜，有跌落的危险！,[warn]宝宝从垫子边缘摔下了，请尽快查看！,[inform]看护人已经赶来，正走向宝宝。,[inform]看护人正在俯身查看并照顾宝宝。,,,,,,,,,B;C;D
+qa_t_real_baby_danger_dup,baby_danger_dup,timing,real/baby_danger_dup.mp4,zh,"用户任务：请帮我照看孩子，有危险及时通知我，情况有变化也请告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",69秒,71秒,0秒,58秒,,,,,,,,,A;B;D
+qa_c_syn_baby_fall_cry_01__v20261011,baby_fall_cry_01,content,synthetic/baby_fall_cry_01.mp4,zh,"用户任务：请帮我照看孩子，有危险或需要帮助时及时通知我，并提醒我查看和安抚孩子。
+
+题目：你是实时交互助手。视频放到第 2 秒。这一刻你应该说什么？",[warn]宝宝开始哭了，请过去看看并安抚。,[warn]宝宝在毛毯上睡着了，请不要打扰他。,[warn]宝宝摔倒了，请及时查看并安抚。,[warn]宝宝自己站起来并继续向前走，目前很安全。,,,,,,,,,C
+qa_t_syn_baby_fall_cry_01__v20261011,baby_fall_cry_01,timing,synthetic/baby_fall_cry_01.mp4,zh,"用户任务：请帮我照看孩子，有危险或需要帮助时及时通知我，并提醒我查看和安抚孩子。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",2秒,10秒,0秒,15.1秒,,,,,,,,,A;B
+qa_c_syn_baby_fall_cry_02,baby_fall_cry_02,content,synthetic/baby_fall_cry_02.mp4,zh,"用户任务：请帮我照看孩子，有危险或需要帮助时及时通知我。
+
+题目：你是实时交互助手。视频放到第 10 秒。这一刻你应该说什么？",[warn]宝宝不小心摔倒了，身旁的大人已经立刻放下手机将宝宝抱起安抚。,[warn]宝宝正在哭，身边的大人还没有回应，请及时查看并安抚。,[inform]宝宝在地上玩耍时被玩具绊倒，目前已经自己站起来继续玩耍。,[feedback]画面中的大人正在耐心地教宝宝如何站立，宝宝因成功站立而开心地笑。,,,,,,,,,B
+qa_t_syn_baby_fall_cry_02,baby_fall_cry_02,timing,synthetic/baby_fall_cry_02.mp4,zh,"用户任务：请帮我照看孩子，有危险或需要帮助时及时通知我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–10秒,10–15.1秒,0–15.1秒,,,,,,,,,C
+qa_c_syn_baby_formula__v20261011,baby_formula,content,synthetic/baby_formula.mp4,zh,"用户任务：请看着我冲奶，发现不安全或可能影响宝宝的操作时请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 12 秒。这一刻你应该说什么？",[warn]冲奶粉时不能使用温水，必须用刚烧开的沸水直接冲泡以彻底杀菌。,[warn]不要上下摇晃奶瓶，容易产生气泡导致胀气,[warn]你加入的奶粉量太多了，两勺奶粉会让冲出来的奶液浓度过高。,[warn]奶瓶盖没有拧紧，摇晃时奶液已经大量溢出，请重新盖好。,,,,,,,,,B
+qa_t_syn_baby_formula__v20261011,baby_formula,timing,synthetic/baby_formula.mp4,zh,"用户任务：请看着我冲奶，发现不安全或可能影响宝宝的操作时请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,12–15.1秒,0–12秒,0–15.1秒,,,,,,,,,B
+qa_c_real_baby_home,baby_home,content,real/baby_home.mp4,zh,"用户任务：请帮我照看孩子，有危险及时通知我，情况有变化也请告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[warn]宝宝又爬到沙发边，正尝试扶着沙发站起来。,[inform]家长已过来抱起宝宝。,[warn]宝宝正试图扶着沙发站立，身体有些摇晃。,[warn]宝宝独自扶着沙发站立，身边无人看护。,[warn]宝宝不小心从沙发上摔了下来，头部着地。,,,,,,,,A;B;C;D
+qa_t_real_baby_home,baby_home,timing,real/baby_home.mp4,zh,"用户任务：请帮我照看孩子，有危险及时通知我，情况有变化也请告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",3秒,0秒,46秒,20秒,15秒,,,,,,,,A;C;D;E
+qa_c_syn_baby_hot_bowl_neg,baby_hot_bowl_neg,content,synthetic/pair/baby_hot_bowl_neg.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]孩子在地上爬行时，不小心碰倒了茶几上的热汤碗。,[warn]爸爸正在沙发上玩手机，没有注意到孩子已经爬到了厨房门口。,保持沉默。,[inform]爸爸把热汤碗端给孩子，孩子正准备用勺子喝汤。,,,,,,,,,C
+qa_t_syn_baby_hot_bowl_neg,baby_hot_bowl_neg,timing,synthetic/pair/baby_hot_bowl_neg.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_syn_baby_hot_bowl_pos,baby_hot_bowl_pos,content,synthetic/pair/baby_hot_bowl_pos.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 10 秒。这一刻你应该说什么？",[warn]宝宝在茶几旁摔倒了，快去扶一下。,[warn]宝宝正伸手够桌上的热碗，快去阻止。,[warn]宝宝把茶几上的花瓶推倒了，快去清理。,[warn]宝宝正试图往沙发上爬，注意别让他摔下来。,,,,,,,,,B
+qa_t_syn_baby_hot_bowl_pos,baby_hot_bowl_pos,timing,synthetic/pair/baby_hot_bowl_pos.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",10–15.1秒,保持沉默。,0–10秒,0–15.1秒,,,,,,,,,A
+qa_c_syn_baby_outlet_0918_neg,baby_outlet_0918_neg,content,synthetic/pair/baby_outlet_0918_neg.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[warn]宝宝已经用手指触碰到了插座孔，请立刻上前阻止！,[inform]宝宝在爬行过程中被地上的玩具绊倒，正在哭泣。,[feedback]妈妈走过来给电源插座安装了防触电保护盖。,,,,,,,,,A
+qa_t_syn_baby_outlet_0918_neg,baby_outlet_0918_neg,timing,synthetic/pair/baby_outlet_0918_neg.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–15.1秒,0–7.5秒,7.5–15.1秒,,,,,,,,,A
+qa_c_syn_baby_outlet_0918_pos,baby_outlet_0918_pos,content,synthetic/pair/baby_outlet_0918_pos.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 4.5 秒。这一刻你应该说什么？",[warn]宝宝，不要把玩具扔到地板上，会摔坏的！,[warn]宝宝，不要碰插座，有触电危险！,[warn]宝宝，不要去抓那只猫咪，它可能会抓伤你！,[warn]宝宝，不要爬上那个红色的高凳子，会摔下来的！,,,,,,,,,B
+qa_t_syn_baby_outlet_0918_pos,baby_outlet_0918_pos,timing,synthetic/pair/baby_outlet_0918_pos.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",4.5–15.1秒,保持沉默。,0–4.5秒,0–15.1秒,,,,,,,,,A
+qa_c_syn_baby_outlet_0920_neg,baby_outlet_0920_neg,content,synthetic/pair/baby_outlet_0920_neg.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]宝宝已经把手指伸进了插座孔里，请立刻阻止！,[inform]宝宝在木地板上爬行，并拿起了地上的玩具。,保持沉默。,[inform]妈妈把宝宝抱起来后，将他放到了婴儿床里。,,,,,,,,,C
+qa_t_syn_baby_outlet_0920_neg,baby_outlet_0920_neg,timing,synthetic/pair/baby_outlet_0920_neg.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–15.1秒,0–7.5秒,7.5–15.1秒,,,,,,,,,A
+qa_c_syn_baby_outlet_0920_pos,baby_outlet_0920_pos,content,synthetic/pair/baby_outlet_0920_pos.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 5 秒。这一刻你应该说什么？",[warn]孩子正在客厅里安静地玩积木，没有危险。,[warn]孩子爬到了电视柜旁，正在伸手拿柜子上的玩具。,[warn]危险，别碰插座，快把手拿开。,[warn]注意，孩子正在试图把地上的小玩具放进嘴里。,,,,,,,,,C
+qa_t_syn_baby_outlet_0920_pos,baby_outlet_0920_pos,timing,synthetic/pair/baby_outlet_0920_pos.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,5–15.1秒,0–5秒,0–15.1秒,,,,,,,,,B
+qa_c_syn_baby_slider_neg,baby_slider_neg,content,synthetic/pair/baby_slider_neg.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]孩子在阳台摔倒了，妈妈正在过去。,保持沉默。,[warn]孩子已经爬到阳台外面去了，请立刻过去。,[feedback]妈妈把孩子抱回了卧室，并关上了卧室门。,,,,,,,,,B
+qa_t_syn_baby_slider_neg,baby_slider_neg,timing,synthetic/pair/baby_slider_neg.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_syn_baby_slider_pos,baby_slider_pos,content,synthetic/pair/baby_slider_pos.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 0 秒。这一刻你应该说什么？",[warn]宝宝已经到阳台边缘了，请立刻抱回宝宝。,[warn]宝宝正在客厅里玩玩具，女子在旁边陪同。,[warn]宝宝正爬向开着的阳台门，请注意安全。,[warn]宝宝已经爬回了婴儿床，现在正准备睡觉。,,,,,,,,,C
+qa_t_syn_baby_slider_pos,baby_slider_pos,timing,synthetic/pair/baby_slider_pos.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",4秒,15.1秒,0秒,2秒,,,,,,,,,A;C
+qa_c_syn_baby_stair_neg,baby_stair_neg,content,synthetic/pair/baby_stair_neg.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[warn]宝宝已经爬上了楼梯，请立刻过去抱住他！,[inform]妈妈正在厨房做饭，宝宝一个人在客厅爬行。,[feedback]宝宝不小心在楼梯口摔倒了，正在大声哭闹。,,,,,,,,,A
+qa_t_syn_baby_stair_neg,baby_stair_neg,timing,synthetic/pair/baby_stair_neg.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_syn_baby_stair_pos,baby_stair_pos,content,synthetic/pair/baby_stair_pos.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 6 秒。这一刻你应该说什么？",[warn]宝宝爬到楼梯口了，快去看看。,[warn]宝宝在拍打电视柜，小心柜子倒塌。,[warn]宝宝把地上的玩具塞进嘴里了，快去阻止。,[warn]宝宝在厨房门口玩垃圾桶，请注意卫生。,,,,,,,,,A
+qa_t_syn_baby_stair_pos,baby_stair_pos,timing,synthetic/pair/baby_stair_pos.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–6秒,6–15.1秒,0–15.1秒,,,,,,,,,C
+qa_c_syn_baby_tub,baby_tub,content,synthetic/baby_tub.mp4,zh,"用户任务：请帮我照看宝宝洗澡，有危险及时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]宝宝在浴缸里玩水，水温看起来太高了，请立刻将宝宝抱出！,保持沉默。,[warn]宝宝在浴室里滑倒了，请赶紧进去扶起宝宝！,[inform]宝宝正在浴缸里洗澡，旁边有大人在用花洒给宝宝冲水。,,,,,,,,,B
+qa_t_syn_baby_tub,baby_tub,timing,synthetic/baby_tub.mp4,zh,"用户任务：请帮我照看宝宝洗澡，有危险及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,保持沉默。,7.5–15.1秒,,,,,,,,,C
+qa_c_real_baggage_carousel__v20261010,baggage_carousel,content,real/baggage_carousel.mp4,zh,"用户任务：请帮我留意行李转盘，看到第一个带白色行李牌的黑色行李箱时告诉我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]第一个能明确看到白色行李牌的黑色行李箱来了。,[inform]第一个带白色行李牌的黑色行李箱已经和那个带黄色束带的行李箱一起过去了。,[inform]传送带上刚刚过去了一个红色的行李箱，上面挂着你要找的白色行李牌。,[inform]目前传送带上只有旅行包，没有看到任何黑色的行李箱。,,,,,,,,,A
+qa_t_real_baggage_carousel__v20261010,baggage_carousel,timing,real/baggage_carousel.mp4,zh,"用户任务：请帮我留意行李转盘，看到第一个带白色行李牌的黑色行李箱时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–7.5秒,10.5–56.9秒,7.5–10.5秒,,,,,,,,,D
+qa_c_syn_ball_back_receive__v20261011,ball_back_receive,content,synthetic/ball_back_receive.mp4,zh,"用户任务：请帮我数回击次数，每完成一次回击就报告累计次数，练习结束后汇总。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]3,[inform]2,[inform]1,[inform]本次训练共成功击球3次。,[inform]4,,,,,,,,A;B;C;D
+qa_t_syn_ball_back_receive__v20261011,ball_back_receive,timing,synthetic/ball_back_receive.mp4,zh,"用户任务：请帮我数回击次数，每完成一次回击就报告累计次数，练习结束后汇总。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",5秒,14秒,22秒,0秒,28秒,,,,,,,,A;B;C;E
+qa_c_real_bear_surveillance__v20261010,bear_surveillance,content,real/bear_surveillance.mp4,zh,"用户任务：请帮我留意院子，有大型野生动物进入时及时告诉我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[warn]警告：有一只巨大的野生梅花鹿正在穿过您的车道，请注意避让。,[warn]警告：监控发现有一只美洲狮在您的车顶上停留，请锁好门窗。,[warn]警告：有一只棕熊正在试图破坏您停在车道上的白色轿车，请保持警惕。,[warn]警告：有一只黑熊正走入您的车道，请注意安全，避免外出。,,,,,,,,,D
+qa_t_real_bear_surveillance__v20261010,bear_surveillance,timing,real/bear_surveillance.mp4,zh,"用户任务：请帮我留意院子，有大型野生动物进入时及时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,5–9秒,0–5秒,9–33.9秒,,,,,,,,,B
+qa_c_real_bike_ego,bike_ego,content,real/bike_ego.mp4,zh,"用户任务：请帮我看着路况，有危险或需要注意的情况请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]前方红灯，请减速停车。,[inform]前方绿灯，可以直接加速通过路口。,[warn]注意右侧大卡车，保持安全距离。,[warn]注意左侧超车车辆。,,,,,,,,,A;C;D
+qa_t_real_bike_ego,bike_ego,timing,real/bike_ego.mp4,zh,"用户任务：请帮我看着路况，有危险或需要注意的情况请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,55秒,5.5秒,25.5秒,,,,,,,,,B;C;D
+qa_c_syn_bike_ego_park,bike_ego_park,content,synthetic/bike_ego_park.mp4,zh,"用户任务：请帮我留意前行路况，有障碍物或危险及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]前方盲道有共享单车阻挡，请注意避让。,[inform]前方人行道完全封闭，请掉头寻找其他路线。,[inform]前方有施工围栏和警示牌，请注意避让。,[inform]前方盲道上停放着一辆电动摩托车，请注意避让。,,,,,,,,,A
+qa_t_syn_bike_ego_park,bike_ego_park,timing,synthetic/bike_ego_park.mp4,zh,"用户任务：请帮我留意前行路况，有障碍物或危险及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,3–30.1秒,0–30.1秒,0–3秒,,,,,,,,,D
+qa_c_syn_blind_cane_crowd,blind_cane_crowd,content,synthetic/blind_cane_crowd.mp4,zh,"用户任务：请看着我用盲杖走路，如果前方有障碍物或危险请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 6 秒。这一刻你应该说什么？",[warn]注意，你右侧有一只没有牵绳的宠物狗正在靠近，请往左避让。,[warn]前方有一段向下的台阶，请注意脚下安全，慢速通过。,[warn]前方地面有大面积积水，请向右侧绕行以防滑倒。,[warn]注意，正前方有行人和行李箱，请减速。,,,,,,,,,D
+qa_t_syn_blind_cane_crowd,blind_cane_crowd,timing,synthetic/blind_cane_crowd.mp4,zh,"用户任务：请看着我用盲杖走路，如果前方有障碍物或危险请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–6秒,10–15.1秒,6–10秒,,,,,,,,,D
+qa_c_syn_blind_cane_curb,blind_cane_curb,content,synthetic/blind_cane_curb.mp4,zh,"用户任务：请帮我看着路，我用盲杖走路时如果前方有障碍物或危险，请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 5 秒。这一刻你应该说什么？",[inform]前方是一处正在施工的沙坑，请向左绕行。,[inform]前方是斑马线，绿灯正在闪烁，请快速通过。,[inform]前方是绿化带马路牙子，请注意,[inform]前方有一辆停放的共享单车挡住了去路，请往右避让。,,,,,,,,,C
+qa_t_syn_blind_cane_curb,blind_cane_curb,timing,synthetic/blind_cane_curb.mp4,zh,"用户任务：请帮我看着路，我用盲杖走路时如果前方有障碍物或危险，请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–5秒,5–8秒,8–15.1秒,,,,,,,,,C
+qa_c_real_blind_cane_demo,blind_cane_demo,content,real/blind_cane_demo.mp4,zh,"用户任务：请帮我看着路，有障碍物或危险时提醒我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[warn]请注意，你正前方有一张办公椅阻挡了去路，请向左绕行。,[inform]前方走廊尽头有一扇关闭的玻璃门，你需要推开它才能继续前进。,[warn]小心，你右侧的墙壁上挂着一个凸出的灭火器箱，请往左侧避让。,保持沉默。,,,,,,,,,D
+qa_t_real_blind_cane_demo,blind_cane_demo,timing,real/blind_cane_demo.mp4,zh,"用户任务：请帮我看着路，有障碍物或危险时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–48秒,0–24秒,24–48秒,,,,,,,,,A
+qa_c_real_blind_cane_ego,blind_cane_ego,content,real/blind_cane_ego.mp4,zh,"用户任务：请协助我安全行走和过街，提供路线引导，有障碍物或危险及时提醒，完成后帮我总结行程。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[warn]前方仍有车辆通过，请继续等待,[inform]前方是红绿灯柱，可以按下过街按钮,[warn]前方有车辆通过，请在安全岛等待,[inform]前方是自动感应式红绿灯，无需寻找按钮。,[warn]前方有车辆通过，请在路边等待,[inform]前方车辆已通过，可以安全过马路了,[inform]你已成功安全通过两次马路,,,,,,A;B;C;E;F;G
+qa_t_real_blind_cane_ego,blind_cane_ego,timing,real/blind_cane_ego.mp4,zh,"用户任务：请协助我安全行走和过街，提供路线引导，有障碍物或危险及时提醒，完成后帮我总结行程。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",70秒,0秒,5秒,26秒,108秒,53秒,93秒,,,,,,A;C;D;E;F;G
+qa_c_syn_blind_cane_hole,blind_cane_hole,content,synthetic/blind_cane_hole.mp4,zh,"用户任务：请帮我看着路，我用盲杖走路时如果前方有障碍物或危险，请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 0 秒。这一刻你应该说什么？",[warn]前方有一辆停放的自行车，请往左侧绕行。,[warn]前方有敞开的下水道口，请注意避让。,[warn]前方道路正在施工并设有黄色围栏，请停止前进。,[warn]前方地面有大面积积水，请注意防滑。,,,,,,,,,B
+qa_t_syn_blind_cane_hole,blind_cane_hole,timing,synthetic/blind_cane_hole.mp4,zh,"用户任务：请帮我看着路，我用盲杖走路时如果前方有障碍物或危险，请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–5秒,5–15.1秒,0–15.1秒,,,,,,,,,B
+qa_c_real_blind_cook_ego,blind_cook_ego,content,real/blind_cook_ego.mp4,zh,"用户任务：请协助我准备汉堡，留意操作是否安全、规范，有问题及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[warn]啤酒瓶倒了，酒洒在桌子上了。,[warn]啤酒瓶又倒了，倒在盘子里了。,[warn]烤箱内部很烫，请不要用裸手直接触碰。,[inform]啤酒瓶在电饼铛左侧，盘子上方。,[inform]肉饼没对准，掉在面包右侧的盘子里了。,[warn]电饼铛的电源线有破损，插电时有漏电风险。,,,,,,,A;B;C;D;E
+qa_t_real_blind_cook_ego,blind_cook_ego,timing,real/blind_cook_ego.mp4,zh,"用户任务：请协助我准备汉堡，留意操作是否安全、规范，有问题及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",18秒,71秒,102秒,0秒,47秒,23.5秒,,,,,,,A;B;C;E;F
+qa_c_real_blind_cross_help,blind_cross_help,content,real/blind_cross_help.mp4,zh,"用户任务：请帮我看着路，我准备过马路，有情况请随时告诉我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]有人来扶您过马路了，请放心跟着走。,[inform]现在绿灯亮了，您可以自己直接走过去，路上没有车。,[inform]一辆红色轿车停在您面前，司机示意您先过。,[inform]有交警正在朝您走来，准备带您去坐公交车。,,,,,,,,,A
+qa_t_real_blind_cross_help,blind_cross_help,timing,real/blind_cross_help.mp4,zh,"用户任务：请帮我看着路，我准备过马路，有情况请随时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,9秒,19秒,1.3秒,,,,,,,,,A;B
+qa_c_syn_blind_dog_ebike_neg,blind_dog_ebike_neg,content,synthetic/pair/blind_dog_ebike_neg.mp4,zh,"用户任务：请帮我看着路，我牵导盲犬走路时如果前方有障碍物或危险，请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[warn]请注意，前方有一辆小汽车正在倒车，请向后退一步。,[inform]现在可以安全通行，前方马路上没有任何车辆，请跟紧导盲犬直接穿过马路。,[warn]小心，前方人行道上停放着一辆共享单车，请绕行。,,,,,,,,,A
+qa_t_syn_blind_dog_ebike_neg,blind_dog_ebike_neg,timing,synthetic/pair/blind_dog_ebike_neg.mp4,zh,"用户任务：请帮我看着路，我牵导盲犬走路时如果前方有障碍物或危险，请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_syn_blind_dog_ebike_pos,blind_dog_ebike_pos,content,synthetic/pair/blind_dog_ebike_pos.mp4,zh,"用户任务：请帮我看着路，我牵导盲犬走路时如果前方有障碍物或危险，请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 8 秒。这一刻你应该说什么？",[inform]前方有一辆正在行驶的自行车，请注意避让。,[inform]前方人行道上有几个施工路障，导盲犬正带您绕行。,[inform]前方停有一辆电动车，导盲犬已带您停下。,[inform]前方有一处台阶，导盲犬已经带您安全走下台阶。,,,,,,,,,C
+qa_t_syn_blind_dog_ebike_pos,blind_dog_ebike_pos,timing,synthetic/pair/blind_dog_ebike_pos.mp4,zh,"用户任务：请帮我看着路，我牵导盲犬走路时如果前方有障碍物或危险，请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",8–11秒,保持沉默。,0–8秒,11–15.1秒,,,,,,,,,A
+qa_c_syn_blind_dog_glass,blind_dog_glass,content,synthetic/blind_dog_glass.mp4,zh,"用户任务：请看着我牵导盲犬走路，有障碍物或危险请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 2 秒。这一刻你应该说什么？",[inform]前方有一扇玻璃门。,[inform]前方有一扇打开的木门，你可以直接走过去。,[inform]前方是下行的楼梯，请注意脚下安全。,[inform]前方走廊有一位行人正在迎面走来，请靠右避让。,,,,,,,,,A
+qa_t_syn_blind_dog_glass,blind_dog_glass,timing,synthetic/blind_dog_glass.mp4,zh,"用户任务：请看着我牵导盲犬走路，有障碍物或危险请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",2–5秒,保持沉默。,0–2秒,5–15.1秒,,,,,,,,,A
+qa_c_syn_blind_puddle,blind_puddle,content,synthetic/blind_puddle.mp4,zh,"用户任务：请看着我用盲杖走路，有障碍物或危险请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 0 秒。这一刻你应该说什么？",[warn]前方有积水和地滑警示牌，请注意避让。,[warn]前方有一口敞开的下水道井盖，请立即停下并向右绕行。,[warn]前方有几级向下的台阶，请注意抬脚慢行。,[warn]前方有一辆共享单车横倒在盲道上，请向左侧避让。,,,,,,,,,A
+qa_t_syn_blind_puddle,blind_puddle,timing,synthetic/blind_puddle.mp4,zh,"用户任务：请看着我用盲杖走路，有障碍物或危险请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,3–15.1秒,0–15.1秒,0–3秒,,,,,,,,,D
+qa_c_syn_blind_stair_wide,blind_stair_wide,content,synthetic/blind_stair_wide.mp4,zh,"用户任务：请看着我下楼梯，有危险请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]请注意，楼梯上有一只宠物狗，请小心避让。,[warn]请停下，楼梯台阶上散落着玩具，容易滑倒。,[warn]前方楼梯的扶手已经断裂，请不要倚靠扶手。,保持沉默。,,,,,,,,,D
+qa_t_syn_blind_stair_wide,blind_stair_wide,timing,synthetic/blind_stair_wide.mp4,zh,"用户任务：请看着我下楼梯，有危险请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_real_blind_walk_ego,blind_walk_ego,content,real/blind_walk_ego.mp4,zh,"用户任务：请帮我留意行走路况，有障碍物或危险及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]前方停有一辆白色面包车。,[inform]前方盲道有车辆停放，请注意避让。,[inform]前方有花盆占用盲道。,[inform]前方盲道上有一只小狗在睡觉，请小心绕行。,,,,,,,,,A;B;C
+qa_t_real_blind_walk_ego,blind_walk_ego,timing,real/blind_walk_ego.mp4,zh,"用户任务：请帮我留意行走路况，有障碍物或危险及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,52秒,15秒,47秒,,,,,,,,,B;C;D
+qa_c_syn_cb_shop_pepper,cb_shop_pepper,content,synthetic/cb_shop_pepper.mp4,zh,"用户任务：请看着我买菜，如果我询问蔬菜颜色或有需要时请协助我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]您刚才拿取并放入购物车的是一个红色的甜椒。,保持沉默。,[inform]您已经往购物车里放了三个青椒。,[inform]货架上所有的青椒都已经售罄，请选择其他蔬菜。,,,,,,,,,B
+qa_t_syn_cb_shop_pepper,cb_shop_pepper,timing,synthetic/cb_shop_pepper.mp4,zh,"用户任务：请看着我买菜，如果我询问蔬菜颜色或有需要时请协助我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,保持沉默。,7.5–15.1秒,,,,,,,,,C
+qa_c_synthetic_cb_shop_pepper.try1__v20261010,cb_shop_pepper.try1,content,synthetic/cb_shop_pepper.try1.mp4,zh,"用户任务：请陪我买菜，我询问商品或请求帮助时请回答并给出建议。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]您已经挑选了四个红椒，建议再买一些西红柿来搭配。,保持沉默。,[inform]您刚刚放入购物车的是一个黄椒，加上之前的红椒，颜色非常丰富。,[inform]购物车里现在有三个青椒和一个红椒，建议您再去看看旁边的洋葱。,,,,,,,,,B
+qa_t_synthetic_cb_shop_pepper.try1__v20261010,cb_shop_pepper.try1,timing,synthetic/cb_shop_pepper.try1.mp4,zh,"用户任务：请陪我买菜，我询问商品或请求帮助时请回答并给出建议。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_syn_cblind_bottles,cblind_bottles,content,synthetic/cblind_bottles.mp4,zh,"用户任务：请告知我这两个瓶子怎么区分。
+
+题目：你是实时交互助手。视频放到第 6 秒。这一刻你应该说什么？",[inform]左边是绿色的瓶子，右边是红色的瓶子。,[inform]你拿起了红色的瓶子。,[inform]这两个瓶子上贴有盲文标签，你可以通过触摸标签来区分它们。,[inform]你现在手里拿着的是绿色的瓶子。,,,,,,,,,B
+qa_t_syn_cblind_bottles,cblind_bottles,timing,synthetic/cblind_bottles.mp4,zh,"用户任务：请告知我这两个瓶子怎么区分。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,6–9秒,0–6秒,9–15.1秒,,,,,,,,,B
+qa_c_syn_cblind_folder,cblind_folder,content,synthetic/cblind_folder.mp4,zh,"用户任务：请告知我手上这份是什么。
+
+题目：你是实时交互助手。视频放到第 5 秒。这一刻你应该说什么？",[inform]你手上拿的是一张盲文纸。,[inform]你拿起了黄色的文件夹。,[inform]你拿起了右侧的蓝色文件夹。,[inform]你手里正拿着一支盲文手写笔。,,,,,,,,,B
+qa_t_syn_cblind_folder,cblind_folder,timing,synthetic/cblind_folder.mp4,zh,"用户任务：请告知我手上这份是什么。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–5秒,9–15.1秒,5–9秒,,,,,,,,,D
+qa_c_syn_cblind_laundry__v20261011,cblind_laundry,content,synthetic/cblind_laundry.mp4,zh,"用户任务：请帮我留意洗衣服时的颜色分类，发现可能串色的混洗情况时提醒我。
+
+题目：你是实时交互助手。视频放到第 0 秒。这一刻你应该说什么？",[warn]白衣服已放进红衣盆中，请尽快拿出来。,[warn]红白衣服混洗容易串色，请分开浸泡。,[warn]白色衣服和黑色衣服混洗容易串色，请分开浸泡。,[inform]你正在将蓝色和红色衣服混洗，这可能会导致衣服染色。,,,,,,,,,B
+qa_t_syn_cblind_laundry__v20261011,cblind_laundry,timing,synthetic/cblind_laundry.mp4,zh,"用户任务：请帮我留意洗衣服时的颜色分类，发现可能串色的混洗情况时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",15.1秒,8秒,0秒,4秒,,,,,,,,,B;C
+qa_c_syn_cblind_sunscreen_01__v20261011,cblind_sunscreen_01,content,synthetic/cblind_sunscreen_01.mp4,zh,"用户任务：请帮我找到桌面上的防晒霜，并告诉我位置。
+
+题目：你是实时交互助手。视频放到第 2 秒。这一刻你应该说什么？",[inform]防晒霜是左侧这一盒。,[inform]桌面上没有防晒霜，只有两盒感冒药。,[inform]防晒霜是右侧这一盒。,[inform]防晒霜在蓝色盒子里面，需要您打开它。,,,,,,,,,C
+qa_t_syn_cblind_sunscreen_01__v20261011,cblind_sunscreen_01,timing,synthetic/cblind_sunscreen_01.mp4,zh,"用户任务：请帮我找到桌面上的防晒霜，并告诉我位置。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–2秒,2–5秒,5–15.1秒,,,,,,,,,C
+qa_c_syn_cblind_sunscreen_02__v20261011,cblind_sunscreen_02,content,synthetic/cblind_sunscreen_02.mp4,zh,"用户任务：请帮我检查拿到的是不是防晒霜，如果拿错了请及时纠正我。
+
+题目：你是实时交互助手。视频放到第 8 秒。这一刻你应该说什么？",[feedback]您拿的不是绿色防晒霜。,[feedback]您拿的是绿色防晒霜，可以放心使用。,[feedback]您拿到的是放在杯子旁边的防晒喷雾。,[feedback]您拿的是一盒晒后修护面膜，不是防晒霜。,,,,,,,,,A
+qa_t_syn_cblind_sunscreen_02__v20261011,cblind_sunscreen_02,timing,synthetic/cblind_sunscreen_02.mp4,zh,"用户任务：请帮我检查拿到的是不是防晒霜，如果拿错了请及时纠正我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–8秒,8–11秒,11–15.1秒,,,,,,,,,C
+qa_c_syn_cblind_wire_01,cblind_wire_01,content,synthetic/cblind_wire_01.mp4,zh,"用户任务：请帮我观察接线，告诉我画面中不同颜色的线正接向哪个位置。
+
+题目：你是实时交互助手。视频放到第 4.5 秒。这一刻你应该说什么？",[inform]你正将红线对准右侧的白色端子。,[inform]你正将蓝线对准左侧的黑色端子。,[inform]你正将红线对准插头中间的接地端子。,[inform]你正将蓝线对准右侧的白色端子。,,,,,,,,,A
+qa_t_syn_cblind_wire_01,cblind_wire_01,timing,synthetic/cblind_wire_01.mp4,zh,"用户任务：请帮我观察接线，告诉我画面中不同颜色的线正接向哪个位置。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–4.5秒,8.5–15.1秒,4.5–8.5秒,,,,,,,,,D
+qa_c_syn_cblind_wire_02,cblind_wire_02,content,synthetic/cblind_wire_02.mp4,zh,"用户任务：请帮我观察接线，告诉我画面中不同颜色的线正接向哪个位置。
+
+题目：你是实时交互助手。视频放到第 1 秒。这一刻你应该说什么？",[inform]你正在把红线插向画面中间的白色端子。,[inform]蓝线的一端接在画面左侧的白色端子上。,[inform]红线的一端接在画面最右侧的黑色端子上。,[inform]蓝线和红线都接在画面上方的电源开关上。,,,,,,,,,B
+qa_t_syn_cblind_wire_02,cblind_wire_02,timing,synthetic/cblind_wire_02.mp4,zh,"用户任务：请帮我观察接线，告诉我画面中不同颜色的线正接向哪个位置。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",6秒,12秒,0秒,1秒,,,,,,,,,A;B;D
+qa_c_syn_chronic_cough_neg,chronic_cough_neg,content,synthetic/pair/chronic_cough_neg.mp4,zh,"用户任务：请帮我留意患者的状态，持续不适且尚未得到及时处理时通知我；患者或照护者已及时处理、情况受控时，不必重复提醒。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]患者持续剧烈咳嗽且无人照料，请尽快协助其使用雾化器。,[inform]患者在沙发上剧烈咳嗽，身旁的女性并未采取任何处理措施。,[feedback]已为您记录，患者因无法操作雾化器而导致咳嗽持续加重。,保持沉默。,,,,,,,,,D
+qa_t_syn_chronic_cough_neg,chronic_cough_neg,timing,synthetic/pair/chronic_cough_neg.mp4,zh,"用户任务：请帮我留意患者的状态，持续不适且尚未得到及时处理时通知我；患者或照护者已及时处理、情况受控时，不必重复提醒。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_syn_chronic_cough_pos,chronic_cough_pos,content,synthetic/pair/chronic_cough_pos.mp4,zh,"用户任务：请帮我留意患者的状态，持续不适且尚未得到及时处理时通知我；患者或照护者已及时处理、情况受控时，不必重复提醒。
+
+题目：你是实时交互助手。视频放到第 7 秒。这一刻你应该说什么？",[warn]老人剧烈咳嗽时，身后的照护者已经为他递上了温水和止咳药，情况已得到控制。,[warn]老人咳嗽停止后，照护者已返回并协助他躺下吸氧，目前无需额外干预。,[warn]老人剧烈咳嗽，身后的照护者正在为他拍背顺气，情况已经得到及时处理。,[warn]老人仍在剧烈咳嗽，照护者已经离开，请及时查看并按既定照护安排提供帮助。,,,,,,,,,D
+qa_t_syn_chronic_cough_pos,chronic_cough_pos,timing,synthetic/pair/chronic_cough_pos.mp4,zh,"用户任务：请帮我留意患者的状态，持续不适且尚未得到及时处理时通知我；患者或照护者已及时处理、情况受控时，不必重复提醒。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",7–11秒,保持沉默。,0–7秒,11–15.1秒,,,,,,,,,A
+qa_c_syn_chronic_inhaler_neg,chronic_inhaler_neg,content,synthetic/pair/chronic_inhaler_neg.mp4,zh,"用户任务：请帮我留意患者的状态，持续不适且尚未得到及时处理时通知我；患者或照护者已及时处理、情况受控时，不必重复提醒。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]患者在咳嗽后出现了呼吸暂停的紧急情况，需要立刻进行心肺复苏。,保持沉默。,[inform]患者剧烈咳嗽后，在茶几上寻找药物无果，目前正处于无助状态。,[feedback]患者已经成功使用了吸入剂，但随后出现了剧烈的过敏性皮疹反应。,,,,,,,,,B
+qa_t_syn_chronic_inhaler_neg,chronic_inhaler_neg,timing,synthetic/pair/chronic_inhaler_neg.mp4,zh,"用户任务：请帮我留意患者的状态，持续不适且尚未得到及时处理时通知我；患者或照护者已及时处理、情况受控时，不必重复提醒。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_syn_chronic_inhaler_pos,chronic_inhaler_pos,content,synthetic/pair/chronic_inhaler_pos.mp4,zh,"用户任务：请帮我留意患者的状态，持续不适且尚未得到及时处理时通知我；患者或照护者已及时处理、情况受控时，不必重复提醒。
+
+题目：你是实时交互助手。视频放到第 6 秒。这一刻你应该说什么？",[warn]患者已自行使用吸入器，呼吸逐渐平稳，情况已得到控制。,[warn]照护者已递上温水并轻拍患者背部，患者咳嗽已停止，无需担心。,[warn]患者持续明显喘气，未见有效处理，请及时查看并提供帮助。,[warn]患者在咳嗽后已躺下休息，目前呼吸均匀，状态良好。,,,,,,,,,C
+qa_t_syn_chronic_inhaler_pos,chronic_inhaler_pos,timing,synthetic/pair/chronic_inhaler_pos.mp4,zh,"用户任务：请帮我留意患者的状态，持续不适且尚未得到及时处理时通知我；患者或照护者已及时处理、情况受控时，不必重复提醒。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",6–15.1秒,保持沉默。,0–6秒,0–15.1秒,,,,,,,,,A
+qa_c_syn_chronic_meal,chronic_meal,content,synthetic/chronic_meal.mp4,zh,"用户任务：请看着我吃药，有异常情况请提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]请注意，你刚才一次性服用了三颗药片，已经超出了安全剂量！,[inform]我看到你刚才不小心把药片掉在了地上，请重新拿一颗服用。,保持沉默。,[feedback]你刚才直接干吞了药片，没有喝水，这样很容易卡住喉咙。,,,,,,,,,C
+qa_t_syn_chronic_meal,chronic_meal,timing,synthetic/chronic_meal.mp4,zh,"用户任务：请看着我吃药，有异常情况请提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_syn_chronic_onset,chronic_onset,content,synthetic/chronic_onset.mp4,zh,"用户任务：请帮我照看老人，有异常或危险情况及时提醒我。
+
+题目：你是实时交互助手。视频放到第 0 秒。这一刻你应该说什么？",[warn]您身体在摇晃，请扶好，谨防摔倒。,[warn]老人已经安稳地坐回了沙发上，目前没有危险。,[warn]您手抖得厉害，请先坐下休息。,[warn]老人的水杯掉在地上摔碎了，请小心地上的碎片。,,,,,,,,,C
+qa_t_syn_chronic_onset,chronic_onset,timing,synthetic/chronic_onset.mp4,zh,"用户任务：请帮我照看老人，有异常或危险情况及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",15.1秒,0秒,3秒,7秒,,,,,,,,,B;C;D
+qa_c_syn_chronic_sugar_neg,chronic_sugar_neg,content,synthetic/pair/chronic_sugar_neg.mp4,zh,"用户任务：请帮我照看老人的服药过程，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]老人已经吃下了感冒药，并坐在椅子上休息。,保持沉默。,[inform]女子从药瓶里倒出两粒白色药片，并喂给老人吃下。,[inform]老人刚刚服用了降压药，目前身体状况稳定。,,,,,,,,,B
+qa_t_syn_chronic_sugar_neg,chronic_sugar_neg,timing,synthetic/pair/chronic_sugar_neg.mp4,zh,"用户任务：请帮我照看老人的服药过程，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,保持沉默。,7.5–15.1秒,,,,,,,,,C
+qa_c_syn_chronic_sugar_pos,chronic_sugar_pos,content,synthetic/pair/chronic_sugar_pos.mp4,zh,"用户任务：请帮我照看老人的服药过程，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 8 秒。这一刻你应该说什么？",[inform]老人已经打开了玻璃瓶，并吞服了一颗药丸。,[inform]老人将玻璃瓶里的药倒在手上，但药丸不小心掉在了地上。,[inform]老人拿起玻璃瓶仔细阅读了标签，随后将瓶子放回原处并离开了客厅。,[inform]老人伸手取药后又缩回了手，没有完成服药动作。,,,,,,,,,D
+qa_t_syn_chronic_sugar_pos,chronic_sugar_pos,timing,synthetic/pair/chronic_sugar_pos.mp4,zh,"用户任务：请帮我照看老人的服药过程，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,8–12秒,0–8秒,12–15.1秒,,,,,,,,,B
+qa_c_syn_cnt_baby_step_v2__v20261011,cnt_baby_step_v2,content,synthetic/cnt_baby_step_v2.mp4,zh,"用户任务：请帮我统计宝宝走路，每完成一步就报告累计次数，结束后汇总。
+
+题目：你是实时交互助手。视频放到第 2 秒。这一刻你应该说什么？",[inform]两步,[inform]一步,[inform]两步。,[inform]三步。,,,,,,,,,B
+qa_t_syn_cnt_baby_step_v2__v20261011,cnt_baby_step_v2,timing,synthetic/cnt_baby_step_v2.mp4,zh,"用户任务：请帮我统计宝宝走路，每完成一步就报告累计次数，结束后汇总。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",6.5秒,2秒,10秒,13.5秒,0秒,,,,,,,,A;B;C;D
+qa_c_syn_cnt_bad_serve__v20261011,cnt_bad_serve,content,synthetic/cnt_bad_serve.mp4,zh,"用户任务：请帮我统计发球，每完成一次发球就报告累计次数，结束后汇总。
+
+题目：你是实时交互助手。视频放到第 1.5 秒。这一刻你应该说什么？",[inform]1,[inform]2,[inform]3,,,,,,,,,,A
+qa_t_syn_cnt_bad_serve__v20261011,cnt_bad_serve,timing,synthetic/cnt_bad_serve.mp4,zh,"用户任务：请帮我统计发球，每完成一次发球就报告累计次数，结束后汇总。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",8.5秒,1.5秒,13秒,5.5秒,14.5秒,0秒,,,,,,,A;B;C;D;E
+qa_c_syn_cnt_ball_layup_miss__v20261011,cnt_ball_layup_miss,content,synthetic/cnt_ball_layup_miss.mp4,zh,"用户任务：请帮我统计投篮进球，每完成一个进球就报告累计次数，结束后汇总。
+
+题目：你是实时交互助手。视频放到第 2 秒。这一刻你应该说什么？",[inform]第一个，上篮打进。,[inform]第二个，篮下投进。,[inform]第一个，投篮未中，球弹框而出。,[inform]第一个，男子在三分线外投篮命中。,,,,,,,,,A
+qa_t_syn_cnt_ball_layup_miss__v20261011,cnt_ball_layup_miss,timing,synthetic/cnt_ball_layup_miss.mp4,zh,"用户任务：请帮我统计投篮进球，每完成一个进球就报告累计次数，结束后汇总。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",12.5秒,14秒,0秒,9.5秒,6秒,2秒,,,,,,,A;B;D;E;F
+qa_c_syn_cnt_cafe_cup__v20261011,cnt_cafe_cup,content,synthetic/cnt_cafe_cup.mp4,zh,"用户任务：请帮我数放上托盘的咖啡，每放好一杯就报告累计杯数，放完后汇总。
+
+题目：你是实时交互助手。视频放到第 5 秒。这一刻你应该说什么？",[inform]第二杯。,[inform]第一杯，第二杯，第三杯，一共三杯咖啡。,[inform]第一杯。,[inform]现在托盘里已经放好了两杯咖啡。,,,,,,,,,C
+qa_t_syn_cnt_cafe_cup__v20261011,cnt_cafe_cup,timing,synthetic/cnt_cafe_cup.mp4,zh,"用户任务：请帮我数放上托盘的咖啡，每放好一杯就报告累计杯数，放完后汇总。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,5秒,14秒,9秒,12.5秒,,,,,,,,B;C;D;E
+qa_c_syn_cnt_dance_turn_v2,cnt_dance_turn_v2,content,synthetic/cnt_dance_turn_v2.mp4,zh,"用户任务：请帮我统计旋转动作的次数，每次起跳、旋转后落地算一次动作，完成一次就报累计次数，结束后汇总。
+
+题目：你是实时交互助手。视频放到第 3 秒。这一刻你应该说什么？",[inform]完成第一次旋转动作,[inform]完成第二次旋转动作,[inform]完成第二次旋转动作。,[inform]完成第三次旋转动作。,,,,,,,,,A
+qa_t_syn_cnt_dance_turn_v2,cnt_dance_turn_v2,timing,synthetic/cnt_dance_turn_v2.mp4,zh,"用户任务：请帮我统计旋转动作的次数，每次起跳、旋转后落地算一次动作，完成一次就报累计次数，结束后汇总。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,13.5秒,6秒,3秒,9秒,12.5秒,,,,,,,B;C;D;E;F
+qa_c_syn_cnt_gym_rep__v20261011,cnt_gym_rep,content,synthetic/cnt_gym_rep.mp4,zh,"用户任务：请帮我统计推胸，每完成一次推胸就报告累计次数，结束后汇总。
+
+题目：你是实时交互助手。视频放到第 3 秒。这一刻你应该说什么？",[inform]2,[inform]您一共完成了5次推胸。,[inform]1,[inform]您完成了2次推胸。,,,,,,,,,C
+qa_t_syn_cnt_gym_rep__v20261011,cnt_gym_rep,timing,synthetic/cnt_gym_rep.mp4,zh,"用户任务：请帮我统计推胸，每完成一次推胸就报告累计次数，结束后汇总。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",6秒,10.5秒,0秒,3秒,13.5秒,,,,,,,,A;B;D;E
+qa_c_syn_cnt_home_toy__v20261011,cnt_home_toy,content,synthetic/cnt_home_toy.mp4,zh,"用户任务：请帮我数放进篮子的玩具，每放好一个就报告累计数量，没放进去或掉落时告诉我，收拾结束后汇总收好的数量和遗留情况。
+
+题目：你是实时交互助手。视频放到第 2.5 秒。这一刻你应该说什么？",[inform]第二个，收好啦。,[inform]第一个，收好啦。,[inform]已经放好两个玩具了，真棒。,[inform]第一个玩具没有放进去，掉在篮子外面了。,,,,,,,,,B
+qa_t_syn_cnt_home_toy__v20261011,cnt_home_toy,timing,synthetic/cnt_home_toy.mp4,zh,"用户任务：请帮我数放进篮子的玩具，每放好一个就报告累计数量，没放进去或掉落时告诉我，收拾结束后汇总收好的数量和遗留情况。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",13.5秒,5秒,2.5秒,11秒,8秒,0秒,,,,,,,A;B;C;D;E
+qa_c_syn_cnt_office_chair__v20261011,cnt_office_chair,content,synthetic/cnt_office_chair.mp4,zh,"用户任务：请帮我数分发的文件，每放好一份就报告累计份数，分发结束后汇总。
+
+题目：你是实时交互助手。视频放到第 1 秒。这一刻你应该说什么？",[inform]第二份。,[inform]已经分发了三份文件。,[inform]第一份。,[inform]这是第二份文件。,,,,,,,,,C
+qa_t_syn_cnt_office_chair__v20261011,cnt_office_chair,timing,synthetic/cnt_office_chair.mp4,zh,"用户任务：请帮我数分发的文件，每放好一份就报告累计份数，分发结束后汇总。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",1秒,0秒,13秒,8秒,11.5秒,4.5秒,,,,,,,A;C;D;E;F
+qa_c_syn_cnt_street_bus__v20261011,cnt_street_bus,content,synthetic/cnt_street_bus.mp4,zh,"用户任务：请帮我数驶过的公交车，每经过一辆就报告累计数量，这批车辆通过后汇总。
+
+题目：你是实时交互助手。视频放到第 0 秒。这一刻你应该说什么？",[inform]第二辆公交车。,[inform]第一辆公交车。,[inform]第一辆白色货车。,[inform]第一辆绿白相间的公交车。,,,,,,,,,B
+qa_t_syn_cnt_street_bus__v20261011,cnt_street_bus,timing,synthetic/cnt_street_bus.mp4,zh,"用户任务：请帮我数驶过的公交车，每经过一辆就报告累计数量，这批车辆通过后汇总。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",15.1秒,11秒,4.5秒,0秒,14秒,,,,,,,,B;C;D;E
+qa_c_real_coffee_ego,coffee_ego,content,real/coffee_ego.mp4,zh,"用户任务：请看着我做咖啡，做完后帮我总结一下步骤。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]首先将咖啡豆倒入磨豆机，磨粉并压实，然后直接将牛奶倒入浓缩咖啡中，最后清洗了手柄。,[inform]磨豆、压粉、萃取、打奶、拉花，咖啡做好了。,[inform]你先用咖啡胶囊制作了浓缩咖啡，接着用打奶器打发奶泡，最后完成了拉花。,[inform]你完成了磨豆、压粉和萃取，接着将未打发的冷牛奶直接倒入咖啡杯中，最后清理了咖啡机。,,,,,,,,,B
+qa_t_real_coffee_ego,coffee_ego,timing,real/coffee_ego.mp4,zh,"用户任务：请看着我做咖啡，做完后帮我总结一下步骤。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–138秒,138–145秒,0–145秒,,,,,,,,,C
+qa_c_real_coffee_p19,coffee_p19,content,real/coffee_p19.mp4,zh,"用户任务：请看着我做咖啡，做好了提醒我一声。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]你还没有倒入牛奶，需要加入牛奶后再搅拌。,[inform]你刚刚往杯子里加了糖，但还没有倒入热水。,[inform]咖啡已经冲好了。,[inform]咖啡已经做好了，你已经把勺子从杯子里拿出来并洗干净了。,,,,,,,,,C
+qa_t_real_coffee_p19,coffee_p19,timing,real/coffee_p19.mp4,zh,"用户任务：请看着我做咖啡，做好了提醒我一声。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",61–64.1秒,保持沉默。,0–61秒,0–64.1秒,,,,,,,,,A
+qa_c_real_coffee_p23,coffee_p23,content,real/coffee_p23.mp4,zh,"用户任务：请看着我做咖啡，如果有安全隐患请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[warn]请注意，你使用的法压壶玻璃外壁有明显裂纹，继续倒入热水可能会导致瓶身破裂并烫伤你。,[warn]请立即停止，你刚才倒入碗中的牛奶已经过期，继续饮用可能会导致食物中毒。,[warn]小心，你身后的电磁炉正处于开启状态且上面放有空锅，请及时关闭以防发生火灾。,保持沉默。,,,,,,,,,D
+qa_t_real_coffee_p23,coffee_p23,timing,real/coffee_p23.mp4,zh,"用户任务：请看着我做咖啡，如果有安全隐患请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–53.7秒,0–26.9秒,26.9–53.7秒,保持沉默。,,,,,,,,,D
+qa_c_real_coffee_p27,coffee_p27,content,real/coffee_p27.mp4,zh,"用户任务：请看着我做咖啡，如果有安全隐患请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[warn]请注意，你刚才在往杯子里倒热水时，水壶的电线碰到了灶台的火苗，有烧焦的危险。,[warn]请小心，你刚才直接用手去拿刚烧开的金属水壶壶身，这样很容易烫伤皮肤。,[warn]注意，你刚才把牛奶盒放在了正在燃烧的灶台旁边，这可能会导致包装盒起火。,保持沉默。,,,,,,,,,D
+qa_t_real_coffee_p27,coffee_p27,timing,real/coffee_p27.mp4,zh,"用户任务：请看着我做咖啡，如果有安全隐患请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–60.2秒,0–30.1秒,30.1–60.2秒,,,,,,,,,A
+qa_c_real_coffee_p37,coffee_p37,content,real/coffee_p37.mp4,zh,"用户任务：请看着我做咖啡，如果有安全隐患请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",保持沉默。,[warn]请注意，你刚才将金属勺子遗留在法压壶内就直接按压了压杆，这会导致玻璃壶身碎裂，请立刻取出勺子。,[warn]请小心，你刚才倒入杯中的牛奶已经过期，请不要饮用这杯咖啡。,[warn]请注意，法压壶的盖子没有盖紧，按压压杆时热水可能会喷溅出来烫伤你。,,,,,,,,,A
+qa_t_real_coffee_p37,coffee_p37,timing,real/coffee_p37.mp4,zh,"用户任务：请看着我做咖啡，如果有安全隐患请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–68.3秒,0–34.2秒,34.2–68.3秒,,,,,,,,,A
+qa_c_real_coffee_p38,coffee_p38,content,real/coffee_p38.mp4,zh,"用户任务：请看着我做咖啡，如果有安全隐患请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",保持沉默。,[warn]请注意，你刚才在压下法压壶压杆时用力过猛，咖啡液已经溢出，小心烫伤。,[warn]请立即停止，你往咖啡中倒入的是过期的酸奶，而不是新鲜牛奶。,[warn]小心，你刚才放回牛奶盒时碰倒了旁边的法压壶，热水正在流出。,,,,,,,,,A
+qa_t_real_coffee_p38,coffee_p38,timing,real/coffee_p38.mp4,zh,"用户任务：请看着我做咖啡，如果有安全隐患请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–50.9秒,保持沉默。,0–25.5秒,25.5–50.9秒,,,,,,,,,B
+qa_c_real_coffee_p42,coffee_p42,content,real/coffee_p42.mp4,zh,"用户任务：请帮我留意做咖啡过程中的安全，有明显危险或异常时及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",保持沉默。,[warn]请注意，水壶在往马克杯倒咖啡时有液体溢出，可能会烫伤手部。,[warn]小心，你刚才往咖啡中倒入牛奶时，牛奶盒的边缘碰到了杯口，可能存在卫生隐患。,[warn]请注意，你刚才用勺子搅拌咖啡时动作幅度过大，咖啡已经溅出到台面上了。,,,,,,,,,A
+qa_t_real_coffee_p42,coffee_p42,timing,real/coffee_p42.mp4,zh,"用户任务：请帮我留意做咖啡过程中的安全，有明显危险或异常时及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–62秒,0–31秒,31–62秒,保持沉默。,,,,,,,,,D
+qa_c_real_cook_bake_end__v20261011,cook_bake_end,content,real/cook_bake_end.mp4,zh,"用户任务：请看着我操作，在我查看下一步时，汇总一下刚才完成的步骤。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]你刚才洗干净了量勺，并把调料瓶里的调料倒进了杯子里。,[inform]你刚才用量勺舀起调料放进杯子，然后把杯子放进了微波炉加热。,[inform]你已洗净量勺，并从微波炉里取出了杯子。,[inform]你刚才清洗了微波炉里的杯子，并把量勺放回了调料瓶旁边。,,,,,,,,,C
+qa_t_real_cook_bake_end__v20261011,cook_bake_end,timing,real/cook_bake_end.mp4,zh,"用户任务：请看着我操作，在我查看下一步时，汇总一下刚才完成的步骤。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",55–60秒,保持沉默。,0–55秒,0–60秒,,,,,,,,,A
+qa_c_real_cook_bake_feedback__v20261011,cook_bake_feedback,content,real/cook_bake_feedback.mp4,zh,"用户任务：请看着我按菜谱烘焙，这次面粉只取一勺，如果我再取，请提醒我纠正。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[feedback]您刚刚取的是泡打粉，现在可以开始取第一勺面粉了。,[feedback]您已经取了三勺面粉，请立刻停止添加。,[feedback]您的面粉袋还没有打开，请先撕开封口再用量勺舀取。,[feedback]您已经取过一勺面粉了，请先不要再取第二勺。,,,,,,,,,D
+qa_t_real_cook_bake_feedback__v20261011,cook_bake_feedback,timing,real/cook_bake_feedback.mp4,zh,"用户任务：请看着我按菜谱烘焙，这次面粉只取一勺，如果我再取，请提醒我纠正。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–56秒,59–60秒,56–59秒,,,,,,,,,D
+qa_c_real_cook_bread_feedback,cook_bread_feedback,content,real/cook_bread_feedback.mp4,zh,"用户任务：请帮我留意准备面包过程中的安全风险，必要时提醒我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[warn]请小心，您刚才把没有套上刀套的紫色刀具直接放进了抽屉里，这可能会划伤您的手。,[warn]请注意，您在切面包时将手指放得离刀刃太近了，请保持安全距离。,保持沉默。,[warn]请注意，洗碗机里刚拿出来的杯子非常烫，请不要立刻用手去拿，以免烫伤。,,,,,,,,,C
+qa_t_real_cook_bread_feedback,cook_bread_feedback,timing,real/cook_bread_feedback.mp4,zh,"用户任务：请帮我留意准备面包过程中的安全风险，必要时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–60秒,0–30秒,30–60秒,,,,,,,,,A
+qa_c_real_cook_corn_feedback__v20261010,cook_corn_feedback,content,real/cook_corn_feedback.mp4,zh,"用户任务：请帮我留意做菜的操作，有明显不当或不安全的地方时提醒我纠正。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",保持沉默。,[feedback]请注意，你不应该在洗碗机刚运行完时立刻用冷水冲洗金属盆，这会导致金属骤冷变形。,[feedback]请注意，冷冻玉米粒在清洗前必须先放入微波炉解冻，直接用冷水清洗会导致营养严重流失。,[feedback]请注意，你刚才将塑料包装袋直接扔进了厨余垃圾桶，请将其取出并放入可回收垃圾桶。,,,,,,,,,A
+qa_t_real_cook_corn_feedback__v20261010,cook_corn_feedback,timing,real/cook_corn_feedback.mp4,zh,"用户任务：请帮我留意做菜的操作，有明显不当或不安全的地方时提醒我纠正。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–60秒,0–30秒,30–60秒,保持沉默。,,,,,,,,,D
+qa_c_real_cook_milk_feedback,cook_milk_feedback,content,real/cook_milk_feedback.mp4,zh,"用户任务：请帮我留意做菜的操作，有倒偏等明显不当操作时提醒我纠正。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[feedback]您在关洗碗机门时用力过猛，导致洗碗机剧烈晃动。,[feedback]牛奶倒偏了，没有倒进杯子里。,[feedback]您在将杯子放入微波炉时，牛奶不小心泼洒在了微波炉内部。,[feedback]您在拧开牛奶瓶盖时用力过大，导致牛奶直接从瓶口喷溅了出来。,,,,,,,,,B
+qa_t_real_cook_milk_feedback,cook_milk_feedback,timing,real/cook_milk_feedback.mp4,zh,"用户任务：请帮我留意做菜的操作，有倒偏等明显不当操作时提醒我纠正。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–20秒,24–60秒,20–24秒,,,,,,,,,D
+qa_c_real_cook_pepper_end__v20261011,cook_pepper_end,content,real/cook_pepper_end.mp4,zh,"用户任务：请看着我做菜，阶段完成后帮我总结已经完成的步骤。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]蛋液已搅拌均匀，餐具也已清洗整理完毕。,[inform]您已经完成了红椒的切碎工作，并将它们放入锅中进行翻炒。,[inform]您已经把洗净的红椒和鸡蛋放入烤箱，并设置好了烘烤时间。,[inform]您已经完成了蛋液的煎制，并正在清洗用来盛放蛋饼的盘子。,,,,,,,,,A
+qa_t_real_cook_pepper_end__v20261011,cook_pepper_end,timing,real/cook_pepper_end.mp4,zh,"用户任务：请看着我做菜，阶段完成后帮我总结已经完成的步骤。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–56秒,0–60秒,56–60秒,,,,,,,,,D
+qa_c_real_cook_pepper_feedback__v20261011,cook_pepper_feedback,content,real/cook_pepper_feedback.mp4,zh,"用户任务：请看着我做菜，有不卫生或不规范的操作时提醒我纠正。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[feedback]请用勺子搅拌，直接用手不卫生。,[feedback]请不要用手直接抓取砧板上的红椒碎，应该用刀背或刮板转移。,[feedback]微波炉加热前请先盖上微波炉专用的盖子，防止食材溅出。,[feedback]请用勺子转移蛋黄，避免用手接触。,,,,,,,,,A;D
+qa_t_real_cook_pepper_feedback__v20261011,cook_pepper_feedback,timing,real/cook_pepper_feedback.mp4,zh,"用户任务：请看着我做菜，有不卫生或不规范的操作时提醒我纠正。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,26秒,37秒,60秒,,,,,,,,,B;C
+qa_c_real_cook_pinwheel_end__v20261011,cook_pinwheel_end,content,real/cook_pinwheel_end.mp4,zh,"用户任务：请看着我做菜，阶段完成后帮我总结已经完成的步骤。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]你已经用刀将卷饼切成了薄片，并把它们整齐地码放在了盘子里。,[inform]你已成功将卷饼切段并装杯，完成了这个步骤。,[inform]你已经把卷饼放进微波炉加热，然后倒入杯中搅拌均匀。,[inform]你已经将卷饼切段，并把它们放入洗碗机中进行清洗。,,,,,,,,,B
+qa_t_real_cook_pinwheel_end__v20261011,cook_pinwheel_end,timing,real/cook_pinwheel_end.mp4,zh,"用户任务：请看着我做菜，阶段完成后帮我总结已经完成的步骤。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–55秒,0–60秒,55–60秒,,,,,,,,,D
+qa_c_real_cook_pinwheel_feedback__v20261011,cook_pinwheel_feedback,content,real/cook_pinwheel_feedback.mp4,zh,"用户任务：请看着我涂抹果酱，有涂抹不均匀等不规范的操作时提醒我纠正。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[feedback]你涂抹得非常均匀，现在可以开始卷饼了。,[feedback]果酱涂得太多了，请用勺子刮掉边缘溢出的部分。,[feedback]你把果酱涂在纸巾上了，请重新涂在玉米饼上。,[feedback]果酱要均匀涂抹在整个饼上，多加一点吧。,,,,,,,,,D
+qa_t_real_cook_pinwheel_feedback__v20261011,cook_pinwheel_feedback,timing,real/cook_pinwheel_feedback.mp4,zh,"用户任务：请看着我涂抹果酱，有涂抹不均匀等不规范的操作时提醒我纠正。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",41–46秒,保持沉默。,0–41秒,46–60秒,,,,,,,,,A
+qa_c_real_cook_platter_end__v20261011,cook_platter_end,content,real/cook_platter_end.mp4,zh,"用户任务：请看着我做这道菜，完成当前步骤时帮我总结已经完成的操作。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]你已经切好了砧板上的食材，并把它们全部放入了玻璃碗中。,[inform]你已成功加入苹果醋，可以开始下一步了。,[inform]你已经完成了平板电脑上食谱的全部阅读，并关闭了屏幕。,[inform]你已经往玻璃碗中加入了食盐和橄榄油，可以开始搅拌了。,,,,,,,,,B
+qa_t_real_cook_platter_end__v20261011,cook_platter_end,timing,real/cook_platter_end.mp4,zh,"用户任务：请看着我做这道菜，完成当前步骤时帮我总结已经完成的操作。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",55–60秒,保持沉默。,0–55秒,0–60秒,,,,,,,,,A
+qa_c_real_cook_platter_feedback__v20261011,cook_platter_feedback,content,real/cook_platter_feedback.mp4,zh,"用户任务：请看着我做这道菜，有做错或不卫生的行为请及时纠正我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[feedback]你在往量勺里倒调料时，调料瓶的瓶口直接接触到了量勺里的液体，这样容易造成交叉污染。,[feedback]打完喷嚏后请先洗手，不要用手接触调料。,[feedback]你把调料瓶放在平板电脑旁时，瓶底粘上的油污弄脏了屏幕，建议将平板电脑移开。,[feedback]你从冰箱里拿出的食材已经过期了，请不要继续使用它来做菜。,,,,,,,,,B
+qa_t_real_cook_platter_feedback__v20261011,cook_platter_feedback,timing,real/cook_platter_feedback.mp4,zh,"用户任务：请看着我做这道菜，有做错或不卫生的行为请及时纠正我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–33秒,33–38秒,38–60秒,,,,,,,,,C
+qa_c_real_cook_tomato_1min__v20261011,cook_tomato_1min,content,real/cook_tomato_1min.mp4,zh,"用户任务：请看着我做菜，有明显不卫生或不规范的操作时提醒我纠正。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",保持沉默。,[warn]你把葱直接放在没有清洗的案板上切，请先清洁案板。,[warn]你切葱之前没有洗手，请先去洗手再继续做菜。,[warn]你拿完生肉之后没有洗手就直接拿了葱，这会造成交叉污染。,,,,,,,,,A
+qa_t_real_cook_tomato_1min__v20261011,cook_tomato_1min,timing,real/cook_tomato_1min.mp4,zh,"用户任务：请看着我做菜，有明显不卫生或不规范的操作时提醒我纠正。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–56秒,保持沉默。,0–28秒,28–56秒,,,,,,,,,B
+qa_c_real_cook_tomato_end__v20261011,cook_tomato_end,content,real/cook_tomato_end.mp4,zh,"用户任务：请看着我做这道菜，完成时帮我总结已经完成的步骤。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]您刚刚完成了番茄的切块，接下来需要将它们放入锅中和鸡蛋一起翻炒。,[inform]您已经完成了蛋液的搅拌，目前正在等待锅中的水烧开以准备蒸蛋。,[inform]您刚刚将番茄炒蛋装盘，现在正在将整盘菜放入微波炉中加热。,[inform]鸡蛋已炒好出锅，番茄炒蛋制作完成。,,,,,,,,,D
+qa_t_real_cook_tomato_end__v20261011,cook_tomato_end,timing,real/cook_tomato_end.mp4,zh,"用户任务：请看着我做这道菜，完成时帮我总结已经完成的步骤。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,54–60秒,0–54秒,0–60秒,,,,,,,,,B
+qa_c_real_cook_tomato_feedback,cook_tomato_feedback,content,real/cook_tomato_feedback.mp4,zh,"用户任务：烹饪助手，请按这份菜谱帮我检查操作顺序，有遗漏或顺序不对时提醒我。菜谱顺序：热油、放入番茄、撒盐和胡椒调味、翻面。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",保持沉默。,[feedback]你已经完成了撒盐和胡椒调味，现在应该将番茄翻面了。,[feedback]你遗漏了热油的步骤，直接将番茄放入了冷锅中。,[feedback]检测到你已经完成了番茄翻面，下一步请关火出锅。,,,,,,,,,A
+qa_t_real_cook_tomato_feedback,cook_tomato_feedback,timing,real/cook_tomato_feedback.mp4,zh,"用户任务：烹饪助手，请按这份菜谱帮我检查操作顺序，有遗漏或顺序不对时提醒我。菜谱顺序：热油、放入番茄、撒盐和胡椒调味、翻面。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–60秒,0–30秒,30–60秒,保持沉默。,,,,,,,,,D
+qa_c_real_cook_tortilla_1min,cook_tortilla_1min,content,real/cook_tortilla_1min.mp4,zh,"用户任务：请看着我做这道菜，如果有不卫生或不规范的操作请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[feedback]用擦过洗碗机的纸巾擦杯子不卫生，请换一张。,[feedback]你在打鸡蛋前没有清洗鸡蛋，这样很容易将蛋壳表面的细菌带入杯中，请先清洗鸡蛋。,[feedback]你把蛋壳直接放在了砧板上，这会污染准备用来切菜的区域，请将蛋壳放进垃圾桶。,[feedback]你从冰箱拿完鸡蛋后没有洗手就直接去拿杯子，这不符合卫生规范，请先洗手。,,,,,,,,,A
+qa_t_real_cook_tortilla_1min,cook_tortilla_1min,timing,real/cook_tortilla_1min.mp4,zh,"用户任务：请看着我做这道菜，如果有不卫生或不规范的操作请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",27–32秒,保持沉默。,0–27秒,32–60秒,,,,,,,,,A
+qa_c_real_cook_tortilla_feedback,cook_tortilla_feedback,content,real/cook_tortilla_feedback.mp4,zh,"用户任务：请看着我做这道菜，如果有不规范或有安全隐患的操作请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[feedback]你不应该用纸巾擦拭勺子，这会把纸屑残留在勺子表面，应该直接用抹布擦干。,[feedback]你把生蛋壳扔进垃圾桶前没有用塑料袋密封，这会散发难闻的气味并滋生细菌。,[feedback]微波炉加热蛋液两分钟太久，容易变硬炸开。,[feedback]你用微波炉加热蛋液时没有盖上盖子，这会导致蛋液全部溅出来弄脏微波炉内部。,,,,,,,,,C
+qa_t_real_cook_tortilla_feedback,cook_tortilla_feedback,timing,real/cook_tortilla_feedback.mp4,zh,"用户任务：请看着我做这道菜，如果有不规范或有安全隐患的操作请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,16.5–21.5秒,0–16.5秒,21.5–60秒,,,,,,,,,B
+qa_c_real_count_bench__v20261011,count_bench,content,real/count_bench.mp4,zh,"用户任务：请帮我记录卧推训练，每完成一组就告诉我累计组数，训练结束后汇总。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]完成了第七组。,[inform]完成了第六组。,[inform]完成了第五组。,[inform]完成了第三组。,[inform]你一共完成了六组卧推训练。,[inform]完成了第二组。,[inform]完成了第一组。,,,,,,B;C;D;E;F;G
+qa_t_real_count_bench__v20261011,count_bench,timing,real/count_bench.mp4,zh,"用户任务：请帮我记录卧推训练，每完成一组就告诉我累计组数，训练结束后汇总。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",6秒,49.5秒,63.5秒,0秒,65秒,26秒,18秒,,,,,,A;B;C;E;F;G
+qa_c_real_dance_back_line,dance_back_line,content,real/dance_back_line.mp4,zh,"用户任务：请看着我们跳舞，如果有动作不规范请帮我纠正。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[feedback]在向右侧滑步时，中间女子的双手没有在胸前交叉，动作不规范。,[feedback]在向左转身时，左边女子的右手没有叉腰，而是自然下垂了。,保持沉默。,[feedback]在双脚交替向后点地时，右边女子的双手没有向上举起，动作慢了半拍。,,,,,,,,,C
+qa_t_real_dance_back_line,dance_back_line,timing,real/dance_back_line.mp4,zh,"用户任务：请看着我们跳舞，如果有动作不规范请帮我纠正。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–154.1秒,0–77.1秒,保持沉默。,77.1–154.1秒,,,,,,,,,C
+qa_c_real_dance_back_pair,dance_back_pair,content,real/dance_back_pair.mp4,zh,"用户任务：请帮我们检查舞蹈动作，有不规范的地方及时纠正，练习结束后简要总结动作表现。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[feedback]右手向上指，身体向上延伸，姿态要舒展。,[inform]整体节奏跟得很好，注意下蹲和延伸的幅度。,[feedback]男生在旋转时手臂要完全贴紧身体，不要向两侧展开。,[feedback]这里要深蹲下去，上身前倾，保持平衡。,[feedback]右手向上完全伸直，身体向左侧弯。,[feedback]下蹲时膝盖再弯曲一点，身体自然前倾。,,,,,,,A;B;D;E;F
+qa_t_real_dance_back_pair,dance_back_pair,timing,real/dance_back_pair.mp4,zh,"用户任务：请帮我们检查舞蹈动作，有不规范的地方及时纠正，练习结束后简要总结动作表现。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",68秒,7秒,88.5秒,16.5秒,91.5秒,0秒,,,,,,,A;B;C;D;E
+qa_c_syn_deaf_alarm_neg,deaf_alarm_neg,content,synthetic/pair/deaf_alarm_neg.mp4,zh,"用户任务：我是听障人士，请帮我留意厨房的情况，如果烟雾报警器响了或者有其他异常请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]烟雾报警器没有响，但是锅里的水已经烧开了。,[inform]厨房里一切正常，没有任何烟雾或异常情况。,保持沉默。,[inform]女子跑进厨房并关掉了火，随后烟雾报警器就停止了报警。,,,,,,,,,C
+qa_t_syn_deaf_alarm_neg,deaf_alarm_neg,timing,synthetic/pair/deaf_alarm_neg.mp4,zh,"用户任务：我是听障人士，请帮我留意厨房的情况，如果烟雾报警器响了或者有其他异常请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,保持沉默。,7.5–15.1秒,,,,,,,,,C
+qa_c_syn_deaf_alarm_pos,deaf_alarm_pos,content,synthetic/pair/deaf_alarm_pos.mp4,zh,"用户任务：我是听障人士，请帮我留意厨房的情况，如果烟雾报警器响了或者有其他异常请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 3 秒。这一刻你应该说什么？",[warn]厨房的锅已经烧开了，水溢了出来，请及时关火。,[warn]检测到有人进入了厨房，请确认是否是您的家人。,[warn]厨房冒烟了，警报器已响，请立即查看！,[warn]厨房的燃气管道发生泄漏，请立刻开窗通风并撤离。,,,,,,,,,C
+qa_t_syn_deaf_alarm_pos,deaf_alarm_pos,timing,synthetic/pair/deaf_alarm_pos.mp4,zh,"用户任务：我是听障人士，请帮我留意厨房的情况，如果烟雾报警器响了或者有其他异常请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–3秒,0–15.1秒,3–15.1秒,,,,,,,,,D
+qa_c_syn_deaf_behind,deaf_behind,content,synthetic/deaf_behind.mp4,zh,"用户任务：我是听障人士，请帮我留意家里的动静，如果有人按门铃或者有其他声音请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 2.5 秒。这一刻你应该说什么？",[inform]门铃响了，有人在门外。,[inform]有人在敲门，但门铃没有响。,[inform]门铃没有响，但是门缝下有宠物的影子在移动。,[inform]门铃接收器亮起了红色的警报灯，可能有人在强行推门。,,,,,,,,,A
+qa_t_syn_deaf_behind,deaf_behind,timing,synthetic/deaf_behind.mp4,zh,"用户任务：我是听障人士，请帮我留意家里的动静，如果有人按门铃或者有其他声音请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",2.5–5.5秒,保持沉默。,0–2.5秒,5.5–15.1秒,,,,,,,,,A
+qa_c_real_deaf_cafe_sign,deaf_cafe_sign,content,real/deaf_cafe_sign.mp4,zh,"用户任务：请帮我观察咖啡店里店员和顾客的互动，关键进展发生时告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]顾客正在使用语音翻译软件向店员点单。,[inform]店员正在杯子上写字。,[inform]顾客正在用手势与店员交流。,[inform]顾客正在进行付款。,[inform]另一位顾客走到柜台前了。,,,,,,,,B;C;D;E
+qa_t_real_deaf_cafe_sign,deaf_cafe_sign,timing,real/deaf_cafe_sign.mp4,zh,"用户任务：请帮我观察咖啡店里店员和顾客的互动，关键进展发生时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,32秒,9秒,18秒,27秒,,,,,,,,B;C;D;E
+qa_c_real_deaf_dog_wake,deaf_dog_wake,content,real/deaf_dog_wake.mp4,zh,"用户任务：我是听障人士，请帮我留意家里的动静和狗狗的状况，有情况及时通知我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]闹钟响了，狗狗正在叫醒你。,[inform]有陌生人正在敲门，狗狗在门口警惕地吠叫。,[inform]狗狗把桌上的水杯碰倒了，水洒了一地。,[inform]狗狗在客厅里咬坏了你的拖鞋，正在玩耍。,,,,,,,,,A
+qa_t_real_deaf_dog_wake,deaf_dog_wake,timing,real/deaf_dog_wake.mp4,zh,"用户任务：我是听障人士，请帮我留意家里的动静和狗狗的状况，有情况及时通知我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–3秒,3–6秒,6–15.2秒,,,,,,,,,C
+qa_c_syn_deaf_door,deaf_door,content,synthetic/deaf_door.mp4,zh,"用户任务：生活助手，我听不见声音，请帮我留意门口有没有人敲门，有情况请提醒我。
+
+题目：你是实时交互助手。视频放到第 3 秒。这一刻你应该说什么？",[inform]有一只宠物狗在门口抓门。,[inform]门外的人已经自己推门进来了。,[inform]门外有人在按门铃，铃声响了很久。,[inform]有人在敲门。,,,,,,,,,D
+qa_t_syn_deaf_door,deaf_door,timing,synthetic/deaf_door.mp4,zh,"用户任务：生活助手，我听不见声音，请帮我留意门口有没有人敲门，有情况请提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–3秒,3–6秒,6–15.1秒,,,,,,,,,C
+qa_c_syn_deaf_microwave,deaf_microwave,content,synthetic/deaf_microwave.mp4,zh,"用户任务：生活助手，我听不见声音，请帮我留意微波炉什么时候加热好，好了请提醒我。
+
+题目：你是实时交互助手。视频放到第 11.5 秒。这一刻你应该说什么？",[inform]微波炉还在继续加热，请您再耐心等待一会儿。,[inform]微波炉因为故障已经自动断电，加热没有完成。,[inform]微波炉已经加热好了。,[inform]微波炉里什么都没有，您需要先放入食物再启动。,,,,,,,,,C
+qa_t_syn_deaf_microwave,deaf_microwave,timing,synthetic/deaf_microwave.mp4,zh,"用户任务：生活助手，我听不见声音，请帮我留意微波炉什么时候加热好，好了请提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–11.5秒,11.5–15.1秒,0–15.1秒,,,,,,,,,C
+qa_c_syn_deaf_pot_neg,deaf_pot_neg,content,synthetic/pair/deaf_pot_neg.mp4,zh,"用户任务：生活助手，我听不见声音，请帮我看着火上的锅，如果水烧开了我没发现就提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[inform]水已经烧开了，锅里正在冒出大量蒸汽，请尽快去关火。,[inform]你身后的女子已经帮你把燃气灶关掉了，水没有溢出来。,[warn]水烧开后溢出并浇灭了炉火，现在有燃气泄漏的危险，请立即离开厨房。,,,,,,,,,A
+qa_t_syn_deaf_pot_neg,deaf_pot_neg,timing,synthetic/pair/deaf_pot_neg.mp4,zh,"用户任务：生活助手，我听不见声音，请帮我看着火上的锅，如果水烧开了我没发现就提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_syn_deaf_pot_pos,deaf_pot_pos,content,synthetic/pair/deaf_pot_pos.mp4,zh,"用户任务：生活助手，我听不见声音，请帮我看着火上的锅，如果水烧开了我没发现就提醒我。
+
+题目：你是实时交互助手。视频放到第 8 秒。这一刻你应该说什么？",[warn]锅里的水已经烧干了，请立刻关火。,[warn]锅里的水已经烧开了，快去看看吧。,[warn]锅里的水溢出来了，火已经被浇灭了。,[warn]锅里的水还没有烧开，请继续耐心等待。,,,,,,,,,B
+qa_t_syn_deaf_pot_pos,deaf_pot_pos,timing,synthetic/pair/deaf_pot_pos.mp4,zh,"用户任务：生活助手，我听不见声音，请帮我看着火上的锅，如果水烧开了我没发现就提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–8秒,0–15.1秒,8–15.1秒,,,,,,,,,D
+qa_c_real_deaf_sign_home,deaf_sign_home,content,real/deaf_sign_home.mp4,zh,"用户任务：我是听障人士，请帮我留意家里的声音和门铃，有情况及时通知我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]后门有人在敲门，但门铃没有响。,[inform]前门有人按门铃。,[inform]有快递员正在前门送包裹，请您开门。,[inform]家里的宠物狗在后门不停地叫，似乎想出去。,,,,,,,,,B
+qa_t_real_deaf_sign_home,deaf_sign_home,timing,real/deaf_sign_home.mp4,zh,"用户任务：我是听障人士，请帮我留意家里的声音和门铃，有情况及时通知我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",5–16秒,保持沉默。,0–5秒,16–27秒,,,,,,,,,A
+qa_c_syn_deaf_timer,deaf_timer,content,synthetic/deaf_timer.mp4,zh,"用户任务：我是听障人士，请帮我盯着烤箱定时器，到时间了提醒我。
+
+题目：你是实时交互助手。视频放到第 0 秒。这一刻你应该说什么？",[inform]烤箱定时器上显示还剩10分钟，请耐心等待。,[inform]烤箱已经自动关闭并开始降温，您不需要过去查看。,[inform]烤箱定时器目前显示为1小时，尚未开始倒计时。,[inform]烤箱定时已到，请注意查看。,,,,,,,,,D
+qa_t_syn_deaf_timer,deaf_timer,timing,synthetic/deaf_timer.mp4,zh,"用户任务：我是听障人士，请帮我盯着烤箱定时器，到时间了提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,4–15.1秒,0–15.1秒,0–4秒,,,,,,,,,D
+qa_c_real_deaf_wake,deaf_wake,content,real/deaf_wake.mp4,zh,"用户任务：我是听障人士，请帮我留意闹钟是否响了，有情况及时通知我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]闹钟已经响了，但闪光灯和震动功能都没有触发。,[inform]检测到手机底座上的手机正在震动，但闹钟没有反应。,[inform]黑色接收设备发出了警报声，但闹钟的闪光灯已经熄灭了。,[inform]闹钟闪光并震动了，该起床了。,,,,,,,,,D
+qa_t_real_deaf_wake,deaf_wake,timing,real/deaf_wake.mp4,zh,"用户任务：我是听障人士，请帮我留意闹钟是否响了，有情况及时通知我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–8秒,8–14秒,14–36秒,,,,,,,,,C
+qa_c_real_dining_help,dining_help,content,real/dining_help.mp4,zh,"用户任务：请帮我照看餐厅里的人，有异常或危险情况请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]女子已被扶到椅子上坐下休息。,[warn]有人摔倒了，快去看看！,[warn]女子在拿取冰箱顶部的物品时，不慎被掉落的重物砸伤头部。,[warn]家属正在扶她，她看起来有些痛苦。,,,,,,,,,A;B;D
+qa_t_real_dining_help,dining_help,timing,real/dining_help.mp4,zh,"用户任务：请帮我照看餐厅里的人，有异常或危险情况请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,13秒,18秒,35秒,,,,,,,,,B;C;D
+qa_c_real_dog_canal_rescue__v20261010,dog_canal_rescue,content,real/dog_canal_rescue.mp4,zh,"用户任务：请帮我留意小狗的救助情况，有人在救助时告诉我，小狗成功获救后也请通知我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]小狗在水中挣扎，岸上的人无法靠近它。,[inform]救援人员使用专业网兜将小狗捞起。,[inform]小狗已成功上岸获救。,[inform]有人正在水边救助小狗。,,,,,,,,,C;D
+qa_t_real_dog_canal_rescue__v20261010,dog_canal_rescue,timing,real/dog_canal_rescue.mp4,zh,"用户任务：请帮我留意小狗的救助情况，有人在救助时告诉我，小狗成功获救后也请通知我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,3秒,25秒,12.5秒,,,,,,,,,B;D
+qa_c_syn_dog_table_heavy,dog_table_heavy,content,synthetic/dog_table_heavy.mp4,zh,"用户任务：请帮我照看狗，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[warn]狗狗在撕咬桌上的塑料袋，可能会吞下塑料碎片，请注意。,[warn]狗狗把桌上的水杯碰倒了，水洒了一地，快去清理。,[warn]狗狗正在啃咬桌角，它在磨牙破坏家具，快去制止它。,[warn]狗狗在啃咬巧克力，这有毒，快去阻止它。,,,,,,,,,D
+qa_t_syn_dog_table_heavy,dog_table_heavy,timing,synthetic/dog_table_heavy.mp4,zh,"用户任务：请帮我照看狗，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–15秒,0–30.1秒,15–30.1秒,,,,,,,,,D
+qa_c_syn_dog_table_light,dog_table_light,content,synthetic/dog_table_light.mp4,zh,"用户任务：请帮我照看狗，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[warn]狗狗已经把桌上的巧克力吃掉了，请立刻带它看医生。,[warn]狗狗在桌子旁睡着了，目前没有任何异常举动。,[warn]狗狗咬坏了桌子上的台灯，请注意用电安全。,[warn]狗狗正试图靠近巧克力，请注意防止误食。,,,,,,,,,D
+qa_t_syn_dog_table_light,dog_table_light,timing,synthetic/dog_table_light.mp4,zh,"用户任务：请帮我照看狗，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–10秒,15–30.1秒,10–15秒,,,,,,,,,D
+qa_c_real_drive_ego,drive_ego,content,real/drive_ego.mp4,zh,"用户任务：请帮我看着路况，有危险或需要注意的情况及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]前方对向来车，请注意避让。,[inform]前方有行人横穿，请注意避让。,[inform]前方收费通道，请减速慢行。,[warn]注意左侧来车，减速避让。,[inform]前方有电动车，请注意避让。,[inform]前方路口有交警正在指挥交通，请听从指挥。,,,,,,,A;B;C;D;E
+qa_t_real_drive_ego,drive_ego,timing,real/drive_ego.mp4,zh,"用户任务：请帮我看着路况，有危险或需要注意的情况及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",73秒,64秒,44秒,38秒,15秒,0秒,,,,,,,A;B;C;D;E
+qa_c_real_drum_play,drum_play,content,real/drum_play.mp4,zh,"用户任务：请帮我记录打鼓练习，结束时提醒我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",保持沉默。,[inform]您在本次练习中一共敲击了军鼓120次，嗵嗵鼓80次。,[inform]您已经完成了30分钟的打鼓练习，现在为您播放休息音乐。,[inform]检测到您已经停止了打鼓，本次练习总时长为15分钟。,,,,,,,,,A
+qa_t_real_drum_play,drum_play,timing,real/drum_play.mp4,zh,"用户任务：请帮我记录打鼓练习，结束时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–128.5秒,0–64.3秒,64.3–128.5秒,,,,,,,,,A
+qa_c_real_drum_teach,drum_teach,content,real/drum_teach.mp4,zh,"用户任务：请帮我记录打鼓练习，结束时提醒我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]您已经完成了本次打鼓练习，用时共计十五分钟。,[warn]请注意，您刚才的击鼓节奏出现了明显偏差，请重新练习该段落。,保持沉默。,[inform]您在刚才的练习中一共击打军鼓四十八次。,,,,,,,,,C
+qa_t_real_drum_teach,drum_teach,timing,real/drum_teach.mp4,zh,"用户任务：请帮我记录打鼓练习，结束时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–60秒,0–30秒,保持沉默。,30–60秒,,,,,,,,,C
+qa_c_synthetic_ego_coffee_machine__v20261010,ego_coffee_machine,content,synthetic/ego_coffee_machine.mp4,zh,"用户任务：请看着我做咖啡，完成时帮我简要总结制作结果。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]浓缩咖啡已制作完成，请享用。,[inform]您已成功制作了一杯热牛奶，请享用。,[inform]咖啡豆研磨失败，未能成功萃取咖啡。,[inform]您刚刚完成了手冲咖啡的制作，请享用。,,,,,,,,,A
+qa_t_synthetic_ego_coffee_machine__v20261010,ego_coffee_machine,timing,synthetic/ego_coffee_machine.mp4,zh,"用户任务：请看着我做咖啡，完成时帮我简要总结制作结果。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",28–30.1秒,保持沉默。,0–28秒,0–30.1秒,,,,,,,,,A
+qa_c_syn_ego_drum_teach,ego_drum_teach,content,synthetic/ego_drum_teach.mp4,zh,"用户任务：请看着我练习打鼓，如果有什么问题随时提醒我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[warn]你在敲击军鼓时，左手的握棒姿势有些偏低，这会影响你的发力。,[feedback]你刚才连续敲击了三次落地嗵鼓，节奏有些偏快，需要放慢速度。,保持沉默。,[inform]你在环顾四周时，右手不小心碰到了吊镲并发出了轻微的声响。,,,,,,,,,C
+qa_t_syn_ego_drum_teach,ego_drum_teach,timing,synthetic/ego_drum_teach.mp4,zh,"用户任务：请看着我练习打鼓，如果有什么问题随时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–30.1秒,0–15.1秒,15.1–30.1秒,,,,,,,,,A
+qa_c_syn_ego_gallery_pause,ego_gallery_pause,content,synthetic/ego_gallery_pause.mp4,zh,"用户任务：请陪我一起看画展，如果有什么需要注意的随时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]请注意，前方左侧的风景画框似乎有些松动，请不要靠得太近。,[inform]我们刚刚经过的那幅画是莫奈的《日出·印象》真迹。,[inform]这个展厅的走廊两侧一共挂着十二幅肖像画。,保持沉默。,,,,,,,,,D
+qa_t_syn_ego_gallery_pause,ego_gallery_pause,timing,synthetic/ego_gallery_pause.mp4,zh,"用户任务：请陪我一起看画展，如果有什么需要注意的随时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–15.1秒,0–7.5秒,7.5–15.1秒,,,,,,,,,A
+qa_c_syn_ego_greet_lobby,ego_greet_lobby,content,synthetic/ego_greet_lobby.mp4,zh,"用户任务：请看着我在大堂和人打招呼，如果有什么需要注意的随时提醒我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[warn]请注意，前台工作人员示意您前往右侧的会议室，而不是电梯方向。,保持沉默。,[inform]前台工作人员告诉您审计部门在三楼，请直接乘电梯上去。,[warn]请注意，前台工作人员正在向您索要身份证件以办理登记手续。,,,,,,,,,B
+qa_t_syn_ego_greet_lobby,ego_greet_lobby,timing,synthetic/ego_greet_lobby.mp4,zh,"用户任务：请看着我在大堂和人打招呼，如果有什么需要注意的随时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–30.1秒,0–15.1秒,15.1–30.1秒,,,,,,,,,A
+qa_c_syn_elder_boil,elder_boil,content,synthetic/elder_boil.mp4,zh,"用户任务：请帮我看着厨房里烧着的锅，如果我走开了或者有危险请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 6.5 秒。这一刻你应该说什么？",[warn]锅里的水已经烧干了，正在冒烟，请立刻去关火。,[warn]您已经把灶台的火关掉了，可以放心在客厅休息。,[warn]锅里的汤汁已经溢出来了，火已经被浇灭了。,[warn]锅还烧着呢，别忘了关火。,,,,,,,,,D
+qa_t_syn_elder_boil,elder_boil,timing,synthetic/elder_boil.mp4,zh,"用户任务：请帮我看着厨房里烧着的锅，如果我走开了或者有危险请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",6.5–11.5秒,保持沉默。,0–6.5秒,11.5–15.1秒,,,,,,,,,A
+qa_c_syn_elder_box_m_neg,elder_box_m_neg,content,synthetic/pair/elder_box_m_neg.mp4,zh,"用户任务：请帮我照看老人搬东西，如果视线受阻有碰撞危险或发生意外摔倒，请及时提醒。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]请注意，老人抱着纸箱转身时撞到了旁边的茶几，纸箱掉在地上。,[warn]警告，老人弯腰放纸箱时失去平衡，不小心向前摔倒了。,[inform]老人已经把纸箱搬进了卧室，并放在了衣柜旁边的空地上。,保持沉默。,,,,,,,,,D
+qa_t_syn_elder_box_m_neg,elder_box_m_neg,timing,synthetic/pair/elder_box_m_neg.mp4,zh,"用户任务：请帮我照看老人搬东西，如果视线受阻有碰撞危险或发生意外摔倒，请及时提醒。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,保持沉默。,7.5–15.1秒,,,,,,,,,C
+qa_c_syn_elder_box_m_pos__v20261011,elder_box_m_pos,content,synthetic/pair/elder_box_m_pos.mp4,zh,"用户任务：请帮我照看老人搬东西，如果视线受阻有碰撞危险或发生意外摔倒，请及时提醒。
+
+题目：你是实时交互助手。视频放到第 0 秒。这一刻你应该说什么？",[warn]您摔倒了，请先别乱动，请附近的人查看并帮忙联系家人。,[warn]前方有茶几，请注意脚下安全。,[warn]老人已经安全绕过茶几，把纸箱放到了桌子上。,[warn]老人不小心撞到了电视柜，但没有摔倒。,,,,,,,,,B
+qa_t_syn_elder_box_m_pos,elder_box_m_pos,timing,synthetic/pair/elder_box_m_pos.mp4,zh,"用户任务：请帮我照看老人搬东西，如果视线受阻有碰撞危险或发生意外摔倒，请及时提醒。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,15.1秒,4.5秒,2.3秒,,,,,,,,,A;C
+qa_c_real_elder_cam,elder_cam,content,real/elder_cam.mp4,zh,"用户任务：请帮我照看老人，如果发生意外或有情况变化请及时通知我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[warn]有邻居过去帮忙了，正在尝试扶起老人。,[warn]老人刚刚在门口摔倒了，快去看看！,[warn]大家正在合力把老人扶起来。,[inform]老人已经被扶起来了，目前有人在旁边照顾。,[warn]老人被门口的宠物狗绊倒了，现在无法站立。,,,,,,,,A;B;C;D
+qa_t_real_elder_cam,elder_cam,timing,real/elder_cam.mp4,zh,"用户任务：请帮我照看老人，如果发生意外或有情况变化请及时通知我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,9秒,11秒,25秒,20秒,,,,,,,,B;C;D;E
+qa_c_real_elder_crossing__v20261010,elder_crossing,content,real/elder_crossing.mp4,zh,"用户任务：请帮我留意人行过街信号，信号允许通行时告诉我，停止通行时提醒我等待。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]当前人行信号灯为红灯，请在路边等待，不要通行。,[warn]现在红灯已亮起，请在路边安全等待。,[warn]绿灯倒计时已结束，现在是黄灯闪烁，请加快脚步通过。,[inform]当前人行信号灯为绿灯，可以通行，请注意安全。,,,,,,,,,B;D
+qa_t_real_elder_crossing__v20261010,elder_crossing,timing,real/elder_crossing.mp4,zh,"用户任务：请帮我留意人行过街信号，信号允许通行时告诉我，停止通行时提醒我等待。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,18.5秒,22.2秒,1.5秒,,,,,,,,,A;B
+qa_c_real_elder_fall2_cam,elder_fall2_cam,content,real/elder_fall2_cam.mp4,zh,"用户任务：请帮我照看老人，有危险或异常情况及时通知我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[warn]老人不小心把鞋架撞倒了，正在整理鞋子。,[warn]老人摔倒了，请尽快过去查看！,[warn]老人还没起，要报警,[warn]老人正坐在地上换鞋，准备出门散步。,,,,,,,,,B;C
+qa_t_real_elder_fall2_cam,elder_fall2_cam,timing,real/elder_fall2_cam.mp4,zh,"用户任务：请帮我照看老人，有危险或异常情况及时通知我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",2.5秒,8秒,0秒,15.3秒,,,,,,,,,A;B
+qa_c_syn_elder_glow_neg,elder_glow_neg,content,synthetic/pair/elder_glow_neg.mp4,zh,"用户任务：请帮我照看独自烤火的老人，如果离电暖器太近有安全隐患且无人照看，请及时提醒。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[warn]老人离电暖器太近了，有烫伤的危险，请立刻拉开老人并关闭电暖器。,[inform]画面中老人独自在房间里烤火，身边没有任何人照看。,[feedback]已为您检测到安全隐患，中年女性正在大声斥责老人触摸电暖器的行为。,,,,,,,,,A
+qa_t_syn_elder_glow_neg,elder_glow_neg,timing,synthetic/pair/elder_glow_neg.mp4,zh,"用户任务：请帮我照看独自烤火的老人，如果离电暖器太近有安全隐患且无人照看，请及时提醒。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_syn_elder_glow_pos,elder_glow_pos,content,synthetic/pair/elder_glow_pos.mp4,zh,"用户任务：请帮我照看独自烤火的老人，如果离电暖器太近有安全隐患且无人照看，请及时提醒。
+
+题目：你是实时交互助手。视频放到第 3 秒。这一刻你应该说什么？",[inform]老人离火太近了。,[inform]老人已经安全离开电暖器，目前客厅内空无一人。,[inform]有一位家属走过来，帮老人把电暖器移到了安全距离。,[inform]老人觉得太热，已经主动关闭了电暖器的电源开关。,,,,,,,,,A
+qa_t_syn_elder_glow_pos,elder_glow_pos,timing,synthetic/pair/elder_glow_pos.mp4,zh,"用户任务：请帮我照看独自烤火的老人，如果离电暖器太近有安全隐患且无人照看，请及时提醒。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,3–8秒,0–3秒,8–15.1秒,,,,,,,,,B
+qa_c_real_elder_mobility,elder_mobility,content,real/elder_mobility.mp4,zh,"用户任务：请帮我照看老人，有危险或需要帮助时及时通知我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[warn]老人正在台阶边弯腰拿凳子，容易摔倒，快去帮一下。,[warn]老人不小心把水泼在台阶上了，容易滑倒，请及时清理。,[warn]老人的拐杖突然断裂，现在正扶着墙无法移动，请过去扶一下。,[warn]老人已经坐在台阶上的凳子上了，但凳子腿有些摇晃，请去确认安全。,,,,,,,,,A
+qa_t_real_elder_mobility,elder_mobility,timing,real/elder_mobility.mp4,zh,"用户任务：请帮我照看老人，有危险或需要帮助时及时通知我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–8秒,8–95秒,0–95秒,,,,,,,,,B
+qa_c_syn_elder_rug_f,elder_rug_f,content,synthetic/elder_rug_f.mp4,zh,"用户任务：请帮我看着老人走路，有危险及时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]请注意，老人刚才在经过客厅时被卷起的地毯边缘绊了一下，险些摔倒。,保持沉默。,[inform]老人目前正独自走向阳台，由于地面湿滑，随时有滑倒的危险。,[warn]老人刚才试图弯腰自己去捡地上的地毯，这个动作非常危险，容易导致重心不稳。,,,,,,,,,B
+qa_t_syn_elder_rug_f,elder_rug_f,timing,synthetic/elder_rug_f.mp4,zh,"用户任务：请帮我看着老人走路，有危险及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_syn_elder_shirt_out,elder_shirt_out,content,synthetic/elder_shirt_out.mp4,zh,"用户任务：请帮我看着老人，有危险及时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[warn]老人正在试图打开窗户翻越出去，请立即阻止！,[inform]老人不小心把深色外套掉到了窗户外面。,[feedback]老人正在用手拍打窗户玻璃，似乎在向外面的人呼喊。,,,,,,,,,A
+qa_t_syn_elder_shirt_out,elder_shirt_out,timing,synthetic/elder_shirt_out.mp4,zh,"用户任务：请帮我看着老人，有危险及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_syn_elder_stand_f_neg,elder_stand_f_neg,content,synthetic/pair/elder_stand_f_neg.mp4,zh,"用户任务：请帮我看下老人起身，有危险及时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]老人起身时助行器发生侧翻，老人已经摔倒在沙发旁，请立刻前往协助！,保持沉默。,[warn]老人起身后没有扶稳助行器，身体向后倾斜即将摔倒，请注意安全！,[inform]老人尝试站立时手臂力量不足，重新坐回了沙发上，未能成功起身。,,,,,,,,,B
+qa_t_syn_elder_stand_f_neg,elder_stand_f_neg,timing,synthetic/pair/elder_stand_f_neg.mp4,zh,"用户任务：请帮我看下老人起身，有危险及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,保持沉默。,7.5–15.1秒,,,,,,,,,C
+qa_c_syn_elder_stand_f_pos,elder_stand_f_pos,content,synthetic/pair/elder_stand_f_pos.mp4,zh,"用户任务：请帮我看下老人起身，有危险及时提醒我。
+
+题目：你是实时交互助手。视频放到第 2 秒。这一刻你应该说什么？",[warn]您站立不稳，请扶好身边的拐杖。,[warn]小心！您正在跌倒，请保护好头部。,[warn]老人已经成功站起并平稳地走向了厨房。,[warn]老人不小心被地上的拐杖绊倒，需要立刻扶起。,,,,,,,,,A
+qa_t_syn_elder_stand_f_pos,elder_stand_f_pos,timing,synthetic/pair/elder_stand_f_pos.mp4,zh,"用户任务：请帮我看下老人起身，有危险及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",8秒,5秒,2秒,0秒,,,,,,,,,A;B;C
+qa_c_syn_elder_stool_f_neg,elder_stool_f_neg,content,synthetic/pair/elder_stool_f_neg.mp4,zh,"用户任务：请帮我照看独自在家的老人，如果发生危险或摔倒请及时提醒或呼救。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]老人不慎从木凳上摔落，请立即拨打急救电话！,[inform]蓝衣女子在扶老人上凳子时，木凳突然断裂导致两人摔倒。,保持沉默。,[feedback]老人已经成功拿到柜顶的纸箱并走回客厅，目前安全。,,,,,,,,,C
+qa_t_syn_elder_stool_f_neg,elder_stool_f_neg,timing,synthetic/pair/elder_stool_f_neg.mp4,zh,"用户任务：请帮我照看独自在家的老人，如果发生危险或摔倒请及时提醒或呼救。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_syn_elder_stool_f_pos__v20261011,elder_stool_f_pos,content,synthetic/pair/elder_stool_f_pos.mp4,zh,"用户任务：请帮我照看独自在家的老人，如果发生危险或摔倒请及时提醒或呼救。
+
+题目：你是实时交互助手。视频放到第 8.5 秒。这一刻你应该说什么？",[warn]老人成功拿到了柜子顶部的纸箱，目前正安全地站在木凳上整理物品。,[warn]老人不小心碰倒了高柜上的花瓶，但身体保持了平衡，并未摔倒。,[warn]木凳非常稳固，老人已经安全地从凳子上走下来，正坐在沙发上休息。,[warn]您摔倒了，请先别乱动，请附近的人查看并协助联系救援。,,,,,,,,,D
+qa_t_syn_elder_stool_f_pos,elder_stool_f_pos,timing,synthetic/pair/elder_stool_f_pos.mp4,zh,"用户任务：请帮我照看独自在家的老人，如果发生危险或摔倒请及时提醒或呼救。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,8.5–15.1秒,0–8.5秒,0–15.1秒,,,,,,,,,B
+qa_c_syn_elder_washer,elder_washer,content,synthetic/elder_washer.mp4,zh,"用户任务：请帮我照看家里的老人，如果她往洗衣机里放不该洗的东西，请及时提醒。
+
+题目：你是实时交互助手。视频放到第 3 秒。这一刻你应该说什么？",[warn]钱包不能水洗，请快点拿出来吧。,[warn]您把钱包放进洗衣机了，请拿出来。,[warn]您把黑色的衣服放进洗衣机了，请注意深浅色分类。,[warn]您把垃圾扔进洗衣机了，请扔到垃圾桶里。,,,,,,,,,B
+qa_t_syn_elder_washer,elder_washer,timing,synthetic/elder_washer.mp4,zh,"用户任务：请帮我照看家里的老人，如果她往洗衣机里放不该洗的东西，请及时提醒。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",3秒,8.5秒,0秒,15.1秒,,,,,,,,,A;B
+qa_c_real_elevator_arrival__v20261010,elevator_arrival,content,real/elevator_arrival.mp4,zh,"用户任务：请帮我留意电梯，电梯开门时提醒我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]电梯门正在打开。,[inform]电梯已经到达负一楼停车场。,[inform]电梯门因故障卡住，无法正常打开。,[inform]电梯正在向下运行，请耐心等待。,,,,,,,,,A
+qa_t_real_elevator_arrival__v20261010,elevator_arrival,timing,real/elevator_arrival.mp4,zh,"用户任务：请帮我留意电梯，电梯开门时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–18.8秒,21.8–27.8秒,18.8–21.8秒,,,,,,,,,D
+qa_c_real_escalator_maintenance__v20261010,escalator_maintenance,content,real/escalator_maintenance.mp4,zh,"用户任务：我是设备维护人员，请帮我观察扶梯测试，扶梯开始运行或停止运行时告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]扶梯传动轮已停止旋转。,[inform]扶梯传动轮由于卡阻冒出浓烟，请立即按下急停按钮。,[inform]扶梯传动轮的旋转速度正在异常加快，已超出安全测试范围。,[inform]扶梯传动轮开始旋转。,,,,,,,,,A;D
+qa_t_real_escalator_maintenance__v20261010,escalator_maintenance,timing,real/escalator_maintenance.mp4,zh,"用户任务：我是设备维护人员，请帮我观察扶梯测试，扶梯开始运行或停止运行时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",4秒,8秒,0秒,29秒,1.5秒,10.4秒,30秒,,,,,,A;B;D;E;F;G
+qa_c_real_fall_s1,fall_s1,content,real/fall_s1.mp4,zh,"用户任务：请帮我照看房间里的人，有危险及时通知我，情况变化也请告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[warn]椅子翻了，她又摔倒了。,[warn]她又摔倒了。,[warn]她又摔倒了，请尽快查看。,[warn]她又摔倒在地上。,[warn]有人摔倒了，请注意。,[warn]她跪倒在地上，请注意。,[warn]她不小心把桌上的电脑碰倒了，请注意。,,,,,,A;B;C;D;E;F
+qa_t_real_fall_s1,fall_s1,timing,real/fall_s1.mp4,zh,"用户任务：请帮我照看房间里的人，有危险及时通知我，情况变化也请告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",11.5秒,0秒,5.5秒,29.5秒,22秒,17.5秒,58.5秒,,,,,,A;C;D;E;F;G
+qa_c_real_fall_s3,fall_s3,content,real/fall_s3.mp4,zh,"用户任务：请帮我照看房间里的人，有危险及时通知我，情况变化也请告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[warn]她又从椅子上摔下来了，躺在地上没动,[warn]她不小心把桌子上的水杯碰倒了，水洒了一地。,[inform]她坐到椅子上了,[inform]她又站起来了,[inform]她已经自己站起来了,[warn]有人摔倒了，请注意,[warn]她再次摔倒了,,,,,,A;C;D;E;F;G
+qa_t_real_fall_s3,fall_s3,timing,real/fall_s3.mp4,zh,"用户任务：请帮我照看房间里的人，有危险及时通知我，情况变化也请告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,27.5秒,11秒,3.5秒,16.5秒,24.5秒,39秒,,,,,,B;C;D;E;F;G
+qa_c_real_fall_s5,fall_s5,content,real/fall_s5.mp4,zh,"用户任务：请帮我照看现场的人员，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[warn]他又摔倒了，躺在地上起不来。,[warn]男子在房间里练习瑜伽，躺在地上拉伸身体。,[warn]有人摔倒了，趴在地上挣扎。,[warn]他又摔倒了，趴在地上。,,,,,,,,,A;C;D
+qa_t_real_fall_s5,fall_s5,timing,real/fall_s5.mp4,zh,"用户任务：请帮我照看现场的人员，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,35秒,2秒,11秒,22秒,46秒,,,,,,,B;C;D;E;F
+qa_c_syn_fb_ball_elbow,fb_ball_elbow,content,synthetic/fb_ball_elbow.mp4,zh,"用户任务：请帮我看着我投篮，如果我的动作不标准，请帮我纠正。
+
+题目：你是实时交互助手。视频放到第 9 秒。这一刻你应该说什么？",[feedback]投篮时手肘有些外展，注意往内收一点。,[feedback]你的投篮动作非常完美，手肘已经完全垂直于地面，不需要任何调整。,[feedback]你的主要问题是起跳时双脚没有并拢，这导致了你投篮时身体失去平衡。,[feedback]你的手肘往内收得太紧了，压迫到了胸部，需要向外彻底打开呈九十度角。,,,,,,,,,A
+qa_t_syn_fb_ball_elbow,fb_ball_elbow,timing,synthetic/fb_ball_elbow.mp4,zh,"用户任务：请帮我看着我投篮，如果我的动作不标准，请帮我纠正。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–9秒,12.5–15.1秒,9–12.5秒,,,,,,,,,D
+qa_c_syn_fb_ball_foot,fb_ball_foot,content,synthetic/fb_ball_foot.mp4,zh,"用户任务：请帮我记录投篮结果，练习结束后汇总命中情况。
+
+题目：你是实时交互助手。视频放到第 11.5 秒。这一刻你应该说什么？",[inform]刚才三次投篮中，只有第二次投篮命中了，其余两次均未投中。,[inform]刚才三次投篮都命中了。,[inform]刚才一共进行了四次投篮，其中三次命中，一次未中。,[inform]刚才的三次投篮全部偏出，未能命中篮筐。,,,,,,,,,B
+qa_t_syn_fb_ball_foot,fb_ball_foot,timing,synthetic/fb_ball_foot.mp4,zh,"用户任务：请帮我记录投篮结果，练习结束后汇总命中情况。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–11.5秒,11.5–15.1秒,0–15.1秒,,,,,,,,,C
+qa_c_syn_fb_bike_seat__v20261011,fb_bike_seat,content,synthetic/fb_bike_seat.mp4,zh,"用户任务：请看着我骑动感单车，骑行姿势或设备设置有不规范的地方时，请提醒我纠正。
+
+题目：你是实时交互助手。视频放到第 3 秒。这一刻你应该说什么？",[feedback]您的骑行姿势非常标准，车座高度和踏板位置都处于完美状态，请继续保持。,[feedback]车座高度偏高，导致您在骑行时双腿几乎完全伸直，建议将车座调低一些。,[feedback]您的身体重心过于靠后，且双手没有握住车把，请调整坐姿并将双手扶好。,[feedback]车座高度偏低，建议将车座调高一些。,,,,,,,,,D
+qa_t_syn_fb_bike_seat__v20261011,fb_bike_seat,timing,synthetic/fb_bike_seat.mp4,zh,"用户任务：请看着我骑动感单车，骑行姿势或设备设置有不规范的地方时，请提醒我纠正。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–3秒,3–13秒,13–15.1秒,,,,,,,,,C
+qa_c_synthetic_fb_farm_shovel__v20261010,fb_farm_shovel,content,synthetic/fb_farm_shovel.mp4,zh,"用户任务：请帮我留意铲饲料时的工作状态，出现需要休息的迹象时提醒我。
+
+题目：你是实时交互助手。视频放到第 13 秒。这一刻你应该说什么？",[inform]干活辛苦了，累了就停下歇会儿吧,[inform]您目前铲饲料的动作非常轻快，呼吸平稳，没有任何疲劳迹象。,[inform]检测到您已经连续铲了十多锹饲料，建议您立刻停止工作。,[inform]传送槽已经装满了饲料，您可以停下手中的铁锹了。,,,,,,,,,A
+qa_t_synthetic_fb_farm_shovel__v20261010,fb_farm_shovel,timing,synthetic/fb_farm_shovel.mp4,zh,"用户任务：请帮我留意铲饲料时的工作状态，出现需要休息的迹象时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–13秒,0–15.1秒,13–15.1秒,,,,,,,,,D
+qa_c_synthetic_fb_home_plant__v20261010,fb_home_plant,content,synthetic/fb_home_plant.mp4,zh,"用户任务：请帮我留意浇花的操作，有明显不当的地方时提醒我纠正。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[warn]请注意，你刚才浇水时把水洒在了盆栽外面的地板上，需要及时清理。,[warn]你刚才浇水的时间太长了，花盆底部的托盘已经有积水溢出，请立即停止。,[warn]请注意，你刚才直接把水浇在了植物的花瓣和叶片上，这样容易导致腐烂，应该浇在根部。,,,,,,,,,A
+qa_t_synthetic_fb_home_plant__v20261010,fb_home_plant,timing,synthetic/fb_home_plant.mp4,zh,"用户任务：请帮我留意浇花的操作，有明显不当的地方时提醒我纠正。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–15.1秒,0–7.5秒,7.5–15.1秒,,,,,,,,,A
+qa_c_syn_fb_kitchen_board__v20261011,fb_kitchen_board,content,synthetic/fb_kitchen_board.mp4,zh,"用户任务：请看着我切菜，有不卫生或不规范的操作时请及时纠正我。
+
+题目：你是实时交互助手。视频放到第 3 秒。这一刻你应该说什么？",[feedback]您的切菜姿势不正确，请将左手手指弯曲呈猫爪状按压苹果，避免切到手指。,[feedback]案板上的生牛肉放置时间过长已经变质，请立即将其丢弃，不要再继续切苹果。,[feedback]您切苹果的片状厚度太薄了，容易导致苹果片破碎，建议切成较厚的块状。,[feedback]刀上有生肉血迹，请清洗后再切苹果。,,,,,,,,,D
+qa_t_syn_fb_kitchen_board__v20261011,fb_kitchen_board,timing,synthetic/fb_kitchen_board.mp4,zh,"用户任务：请看着我切菜，有不卫生或不规范的操作时请及时纠正我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–3秒,3–6秒,6–15.1秒,,,,,,,,,C
+qa_c_syn_fb_latin_step__v20261011,fb_latin_step,content,synthetic/fb_latin_step.mp4,zh,"用户任务：请看着我跳这段拉丁舞，有不规范的动作请帮我纠正并给出改进建议。
+
+题目：你是实时交互助手。视频放到第 11.5 秒。这一刻你应该说什么？",[feedback]你的重心太靠后了，在做后退步时身体失去了平衡，建议多练习单脚站立。,[feedback]动作很熟练，并步时胯部摆动可以再大一些。,[feedback]向左侧移动时你的膝盖没有弯曲，动作显得过于僵硬，请保持膝盖微屈。,[feedback]手臂动作幅度过大，导致肩膀耸起，建议在做拉丁舞步时放松双肩并沉肩。,,,,,,,,,B
+qa_t_syn_fb_latin_step__v20261011,fb_latin_step,timing,synthetic/fb_latin_step.mp4,zh,"用户任务：请看着我跳这段拉丁舞，有不规范的动作请帮我纠正并给出改进建议。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–11.5秒,0–15.1秒,11.5–15.1秒,,,,,,,,,D
+qa_c_syn_fb_office_mouse,fb_office_mouse,content,synthetic/fb_office_mouse.mp4,zh,"用户任务：请看着我用电脑，如果坐姿或操作有问题请帮我纠正。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[warn]请注意，您的显示器高度过低，建议调高以避免颈椎疲劳。,[warn]请注意，您在站立操作时手腕悬空，建议使用腕垫以防关节受损。,[warn]请注意，您的座椅高度不合适，导致双脚无法平放于地面。,,,,,,,,,A
+qa_t_syn_fb_office_mouse,fb_office_mouse,timing,synthetic/fb_office_mouse.mp4,zh,"用户任务：请看着我用电脑，如果坐姿或操作有问题请帮我纠正。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_syn_fb_office_sit,fb_office_sit,content,synthetic/fb_office_sit.mp4,zh,"用户任务：请看着我坐着办公，如果坐姿或操作有问题请帮我纠正。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]请注意，您的打字姿势不对，手腕悬空过高，容易导致手腕酸痛。,[warn]您的办公椅高度过低，导致双腿无法自然垂直呈九十度，请调高座椅。,[warn]您的视线距离显示器太近了，请将身体往后靠，保持健康的用眼距离。,保持沉默。,,,,,,,,,D
+qa_t_syn_fb_office_sit,fb_office_sit,timing,synthetic/fb_office_sit.mp4,zh,"用户任务：请看着我坐着办公，如果坐姿或操作有问题请帮我纠正。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_synthetic_fb_pet_bowl__v20261010,fb_pet_bowl,content,synthetic/fb_pet_bowl.mp4,zh,"用户任务：请帮我留意喂狗的操作，有明显不当的地方时提醒我纠正。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[warn]请注意，狗狗吃得太快了，建议您立刻夺走食盆以防它噎住。,[warn]狗狗在进食过程中出现了频繁的干呕，请立刻停止喂食并检查食物是否有异物。,[warn]您在狗狗进食时拍打它的头部，这可能会引发它的护食攻击行为，请立即停止。,,,,,,,,,A
+qa_t_synthetic_fb_pet_bowl__v20261010,fb_pet_bowl,timing,synthetic/fb_pet_bowl.mp4,zh,"用户任务：请帮我留意喂狗的操作，有明显不当的地方时提醒我纠正。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,保持沉默。,7.5–15.1秒,,,,,,,,,C
+qa_c_syn_fb_pet_leash,fb_pet_leash,content,synthetic/fb_pet_leash.mp4,zh,"用户任务：请看着我遛狗，如果有不规范的行为请提醒我。
+
+题目：你是实时交互助手。视频放到第 1 秒。这一刻你应该说什么？",[inform]带狗狗在户外活动，请记得系好牵引绳。,[inform]狗狗在草地上排便了，请及时清理粪便。,[inform]请不要让狗狗啃咬树皮，这会伤害树木。,[inform]狗狗正在试图挣脱项圈，请立刻拉紧牵引绳。,,,,,,,,,A
+qa_t_syn_fb_pet_leash,fb_pet_leash,timing,synthetic/fb_pet_leash.mp4,zh,"用户任务：请看着我遛狗，如果有不规范的行为请提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–1秒,1–5秒,5–15.1秒,,,,,,,,,C
+qa_c_syn_fb_plank_hip__v20261011,fb_plank_hip,content,synthetic/fb_plank_hip.mp4,zh,"用户任务：请看着我做这组俯卧撑，做完后帮我简要总结完成情况。
+
+题目：你是实时交互助手。视频放到第 12.5 秒。这一刻你应该说什么？",[inform]您在运动过程中完成了15个标准的俯卧撑动作，整体节奏控制得非常好。,[inform]您在做俯卧撑时手臂力量不足，没有完成任何一次完整的起伏动作。,[inform]您在整个过程中一直保持着平板支撑姿势，没有进行任何俯卧撑的下压动作。,[inform]这组俯卧撑已经完成，可以先休息一下。,,,,,,,,,D
+qa_t_syn_fb_plank_hip__v20261011,fb_plank_hip,timing,synthetic/fb_plank_hip.mp4,zh,"用户任务：请看着我做这组俯卧撑，做完后帮我简要总结完成情况。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,12.5–15.1秒,0–12.5秒,0–15.1秒,,,,,,,,,B
+qa_c_syn_fb_run_heel,fb_run_heel,content,synthetic/fb_run_heel.mp4,zh,"用户任务：请看着我跑步训练，结束后帮我总结动作表现。
+
+题目：你是实时交互助手。视频放到第 11.5 秒。这一刻你应该说什么？",[inform]折返跑训练完成，你全程都保持了脚后跟着地，动作非常标准。,[inform]折返跑训练完成，你在向前跑和倒退跑时都采用了侧向交叉步，表现不错。,[inform]折返跑训练完成，倒退时前脚掌着地，做得很好。,[inform]折返跑训练完成，你在倒退跑时完全没有减速，且每次转身都单手触地了。,,,,,,,,,C
+qa_t_syn_fb_run_heel,fb_run_heel,timing,synthetic/fb_run_heel.mp4,zh,"用户任务：请看着我跑步训练，结束后帮我总结动作表现。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,11.5–15.1秒,0–11.5秒,0–15.1秒,,,,,,,,,B
+qa_c_syn_fb_school_pen,fb_school_pen,content,synthetic/fb_school_pen.mp4,zh,"用户任务：学习助手，请帮我留意孩子的书写和学习习惯，有不规范的地方提醒他纠正。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[inform]孩子在写字时坐姿不端正，头离桌面太近，需要提醒他坐直。,[inform]孩子握笔姿势不正确，手指捏得太紧且遮挡了视线。,[inform]孩子在用左手写字，建议引导他换成右手书写。,,,,,,,,,A
+qa_t_syn_fb_school_pen,fb_school_pen,timing,synthetic/fb_school_pen.mp4,zh,"用户任务：学习助手，请帮我留意孩子的书写和学习习惯，有不规范的地方提醒他纠正。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–15.1秒,0–7.5秒,7.5–15.1秒,,,,,,,,,A
+qa_c_syn_fb_school_sit,fb_school_sit,content,synthetic/fb_school_sit.mp4,zh,"用户任务：学习助手，请帮我留意孩子的学习状态和坐姿，有不规范的地方提醒他纠正。
+
+题目：你是实时交互助手。视频放到第 0 秒。这一刻你应该说什么？",[feedback]你的坐姿非常端正，请继续保持。,[feedback]请注意不要一边看书一边用左手写字。,[feedback]请不要在看书时用双手捂住眼睛。,[feedback]请端正坐姿，不要趴在桌上睡觉。,,,,,,,,,D
+qa_t_syn_fb_school_sit,fb_school_sit,timing,synthetic/fb_school_sit.mp4,zh,"用户任务：学习助手，请帮我留意孩子的学习状态和坐姿，有不规范的地方提醒他纠正。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,4–15.1秒,0–4秒,0–15.1秒,,,,,,,,,C
+qa_c_syn_fb_shop_carry,fb_shop_carry,content,synthetic/fb_shop_carry.mp4,zh,"用户任务：请帮我留意携带购物物品的情况，有异常或需要帮助时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[warn]女士的白色购物袋底部破裂，物品掉落在了人行道上，需要立刻处理。,[inform]女士在人行道上行走时，不小心将随身携带的钱包遗落在了地上。,[feedback]女士在原地休息时，有一位路人主动上前帮她提走了沉重的购物袋。,,,,,,,,,A
+qa_t_syn_fb_shop_carry,fb_shop_carry,timing,synthetic/fb_shop_carry.mp4,zh,"用户任务：请帮我留意携带购物物品的情况，有异常或需要帮助时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_syn_fb_street_phone,fb_street_phone,content,synthetic/fb_street_phone.mp4,zh,"用户任务：出行助手，请陪我一起走路，有状况提醒我。
+
+题目：你是实时交互助手。视频放到第 0 秒。这一刻你应该说什么？",[warn]请注意，前方道路正在进行施工，请绕行旁边的临时通道。,[warn]请注意，前方有一辆自行车正在逆行向您驶来，请靠右避让。,[warn]请注意安全，走路时请勿一直低头看手机，留意周围路况。,[warn]请注意，您前方的人行道地砖有破损和积水，请小心迈过去。,,,,,,,,,C
+qa_t_syn_fb_street_phone,fb_street_phone,timing,synthetic/fb_street_phone.mp4,zh,"用户任务：出行助手，请陪我一起走路，有状况提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,A
+qa_c_syn_fb_stretch_bounce,fb_stretch_bounce,content,synthetic/fb_stretch_bounce.mp4,zh,"用户任务：请看着我拉伸，如果动作不规范请提醒我。
+
+题目：你是实时交互助手。视频放到第 4 秒。这一刻你应该说什么？",[feedback]拉伸时请保持静态，不要弹抖，避免拉伤。,[feedback]你的拉伸动作非常标准，请继续保持这个弹抖的节奏。,[feedback]拉伸时你的双腿应该保持弯曲，不要把腿完全伸直。,[feedback]请加快弹抖的频率，这样可以更有效地拉伸大腿后侧韧带。,,,,,,,,,A
+qa_t_syn_fb_stretch_bounce,fb_stretch_bounce,timing,synthetic/fb_stretch_bounce.mp4,zh,"用户任务：请看着我拉伸，如果动作不规范请提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,4–8秒,0–4秒,8–15.1秒,,,,,,,,,B
+qa_c_syn_fb_yoga_mirror,fb_yoga_mirror,content,synthetic/fb_yoga_mirror.mp4,zh,"用户任务：请看着我做瑜伽，结束后帮我总结一下我的表现。
+
+题目：你是实时交互助手。视频放到第 13.5 秒。这一刻你应该说什么？",[inform]你一共完成了五次高弓步蹲动作，最后一次下蹲时身体有些摇晃，需要加强核心力量。,[inform]动作非常标准，身体控制得很好，继续保持。,[inform]你在做侧弓步蹲时膝盖超出了脚尖，建议下次减小下蹲幅度以保护关节。,[inform]你在第三次下蹲后失去平衡摔倒了，建议在旁边放一把椅子作为支撑。,,,,,,,,,B
+qa_t_syn_fb_yoga_mirror,fb_yoga_mirror,timing,synthetic/fb_yoga_mirror.mp4,zh,"用户任务：请看着我做瑜伽，结束后帮我总结一下我的表现。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–13.5秒,0–15.1秒,13.5–15.1秒,,,,,,,,,D
+qa_c_real_feed_pig,feed_pig,content,real/feed_pig.mp4,zh,"用户任务：请看着我喂猪，有重要进度提醒我，并在结束时帮我汇总过程。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]饲料袋不小心掉在地上，饲料洒出来了。,[inform]粉碎饲料、运进猪舍、倒进食槽，喂完了。,[inform]粉碎机突然卡住停止运转，需要进行维修。,[inform]饲料已经装满袋子了。,,,,,,,,,B;D
+qa_t_real_feed_pig,feed_pig,timing,real/feed_pig.mp4,zh,"用户任务：请看着我喂猪，有重要进度提醒我，并在结束时帮我汇总过程。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,124秒,23秒,128.9秒,,,,,,,,,B;C
+qa_c_real_fire_engine_response__v20261010,fire_engine_response,content,real/fire_engine_response.mp4,zh,"用户任务：我是街道巡查人员，请帮我留意路口，听到警报声或看到执行任务的应急车辆接近时及时告诉我，车辆驶过后也请通知我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]消防车已驶过，正在远去。,[inform]一辆救护车正在路口逆行，未开启警报。,[inform]有应急车辆鸣笛并闪灯接近路口。,[inform]消防车在路口中心停下，消防员正在下车。,,,,,,,,,A;C
+qa_t_real_fire_engine_response__v20261010,fire_engine_response,timing,real/fire_engine_response.mp4,zh,"用户任务：我是街道巡查人员，请帮我留意路口，听到警报声或看到执行任务的应急车辆接近时及时告诉我，车辆驶过后也请通知我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",22.2秒,1.5秒,0秒,15.5秒,,,,,,,,,C;D
+qa_c_real_game_cards,game_cards,content,real/game_cards.mp4,zh,"用户任务：请观察这场牌局，告诉我最后一次出牌的是谁。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[answer]最后一次出牌的是中间戴眼镜的男生。,[answer]最后一次出牌的是右侧穿黑色短裤的男生。,[answer]画面中最后一次出牌的是左侧穿蓝色长裤的男生。,[answer]最后一次出牌的是镜头外伸出一只手的人。,,,,,,,,,C
+qa_t_real_game_cards,game_cards,timing,real/game_cards.mp4,zh,"用户任务：请观察这场牌局，告诉我最后一次出牌的是谁。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–195秒,195–205秒,205–208.3秒,,,,,,,,,C
+qa_c_real_game_mahjong_a,game_mahjong_a,content,real/game_mahjong_a.mp4,zh,"用户任务：请陪我们打麻将，留意画面下方玩家的摸牌、出牌和摆牌进展，有重要变化时告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]下方玩家又摆出了一组牌。,[inform]下方玩家把一组牌摆到了手牌前方。,[inform]下方玩家将手牌全部推倒，宣布胡牌。,[inform]下方玩家不小心碰倒了右侧玩家的牌堆。,,,,,,,,,A;B
+qa_t_real_game_mahjong_a,game_mahjong_a,timing,real/game_mahjong_a.mp4,zh,"用户任务：请陪我们打麻将，留意画面下方玩家的摸牌、出牌和摆牌进展，有重要变化时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,13秒,55.9秒,23秒,,,,,,,,,B;D
+qa_c_real_game_mahjong_b,game_mahjong_b,content,real/game_mahjong_b.mp4,zh,"用户任务：请陪我们打麻将，留意牌局进展，有重要变化时告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]右侧玩家已经胡牌，本局游戏结束。,[inform]下方玩家摊开手牌了。,[inform]牌局开始出牌了。,[inform]有玩家碰牌了，牌桌中心的牌被收走了一组。,,,,,,,,,B;C
+qa_t_real_game_mahjong_b,game_mahjong_b,timing,real/game_mahjong_b.mp4,zh,"用户任务：请陪我们打麻将，留意牌局进展，有重要变化时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,25秒,184.5秒,187.4秒,,,,,,,,,B;C
+qa_c_syn_grade_case_neg,grade_case_neg,content,synthetic/graded/grade_case_neg.mp4,zh,"用户任务：请陪孩子一起看展，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]小女孩试图伸手去触摸展柜内的陶罐，被女士及时制止了。,保持沉默。,[inform]展柜上方的射灯突然熄灭，女士正在抬头寻找工作人员。,[inform]小女孩在展柜前奔跑嬉戏，不小心撞到了旁边的玻璃展柜。,,,,,,,,,B
+qa_t_syn_grade_case_neg,grade_case_neg,timing,synthetic/graded/grade_case_neg.mp4,zh,"用户任务：请陪孩子一起看展，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–15.1秒,0–7.5秒,7.5–15.1秒,,,,,,,,,A
+qa_c_syn_grade_case_pos,grade_case_pos,content,synthetic/graded/grade_case_pos.mp4,zh,"用户任务：请陪孩子一起看展，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 4 秒。这一刻你应该说什么？",[inform]孩子在展柜前奔跑，需要注意安全。,[inform]孩子不小心把展柜里的水晶碰倒了。,[inform]孩子正在用手机给展柜里的水晶拍照。,[inform]请不要触摸展柜玻璃。,,,,,,,,,D
+qa_t_syn_grade_case_pos,grade_case_pos,timing,synthetic/graded/grade_case_pos.mp4,zh,"用户任务：请陪孩子一起看展，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",4–8秒,保持沉默。,0–4秒,8–15.1秒,,,,,,,,,A
+qa_c_syn_grade_chair_01,grade_chair_01,content,synthetic/grade_chair_01.mp4,zh,"用户任务：请帮我照看孩子，留意活动是否安全，有危险及时通知我。
+
+题目：你是实时交互助手。视频放到第 3 秒。这一刻你应该说什么？",[warn]孩子正在把玩具塞进嘴里，有窒息的危险。,[warn]孩子正试图爬上高处的窗台，请立刻制止他。,[warn]孩子在房间里奔跑时撞到了桌角，正在哭泣。,[warn]不要翘椅子，这样很容易往后摔倒。,,,,,,,,,D
+qa_t_syn_grade_chair_01,grade_chair_01,timing,synthetic/grade_chair_01.mp4,zh,"用户任务：请帮我照看孩子，留意活动是否安全，有危险及时通知我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",3–15.1秒,保持沉默。,0–3秒,0–15.1秒,,,,,,,,,A
+qa_c_syn_grade_door_width_01,grade_door_width_01,content,synthetic/grade_door_width_01.mp4,zh,"用户任务：请帮我留意轮椅使用者的通行情况，遇到困难或危险时提醒并提供建议。
+
+题目：你是实时交互助手。视频放到第 5 秒。这一刻你应该说什么？",[inform]门太窄无法通过，建议呼叫家人帮忙。,[warn]轮椅卡在门口了，请勿用力硬挤，以免受伤。,[warn]轮椅已经顺利通过了房门，请放心继续前行。,[warn]男子已经从轮椅上站起来，正准备自己走过去。,,,,,,,,,B
+qa_t_syn_grade_door_width_01,grade_door_width_01,timing,synthetic/grade_door_width_01.mp4,zh,"用户任务：请帮我留意轮椅使用者的通行情况，遇到困难或危险时提醒并提供建议。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,15.1秒,5秒,9秒,,,,,,,,,C;D
+qa_c_syn_grade_hunch_neg,grade_hunch_neg,content,synthetic/graded/grade_hunch_neg.mp4,zh,"用户任务：学习助手，请陪我们一起学习，留意坐姿是否规范，有问题提醒我们纠正。
+
+题目：你是实时交互助手。视频放到第 8 秒。这一刻你应该说什么？",[inform]你现在闭着眼睛，请睁开眼睛认真看书。,[inform]你有些驼背了，把背挺直吧。,[inform]你已经连续学习两个小时了，该站起来活动一下了。,[inform]你的坐姿非常标准，请继续保持这个好习惯。,,,,,,,,,B
+qa_t_syn_grade_hunch_neg,grade_hunch_neg,timing,synthetic/graded/grade_hunch_neg.mp4,zh,"用户任务：学习助手，请陪我们一起学习，留意坐姿是否规范，有问题提醒我们纠正。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",8–15.1秒,保持沉默。,0–8秒,0–15.1秒,,,,,,,,,A
+qa_c_syn_grade_hunch_pos,grade_hunch_pos,content,synthetic/graded/grade_hunch_pos.mp4,zh,"用户任务：学习助手，请陪我们一起学习，留意坐姿是否规范，有问题提醒我们纠正。
+
+题目：你是实时交互助手。视频放到第 1.5 秒。这一刻你应该说什么？",[inform]目前坐姿非常标准，脊柱呈自然的生理弯曲，请继续保持。,[inform]检测到您长时间没有翻页，请专注于眼前的书籍，不要发呆。,[inform]请调整您的坐姿，您的双脚目前正悬空，需要踩在地面上以减轻腰部压力。,[inform]请注意坐姿，挺直腰背，避免过度低头。,,,,,,,,,D
+qa_t_syn_grade_hunch_pos,grade_hunch_pos,timing,synthetic/graded/grade_hunch_pos.mp4,zh,"用户任务：学习助手，请陪我们一起学习，留意坐姿是否规范，有问题提醒我们纠正。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",1.5–5.5秒,保持沉默。,0–1.5秒,5.5–15.1秒,,,,,,,,,A
+qa_c_syn_grade_plate_01,grade_plate_01,content,synthetic/grade_plate_01.mp4,zh,"用户任务：请帮我看着她吃饭，有什么情况随时告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[inform]女子在吃饭过程中不小心将汤汁洒在了衣服上。,[inform]女子吃完饭后，将盘子里的剩菜倒进了垃圾桶。,[inform]女子在夹菜时筷子不小心掉在了地上。,,,,,,,,,A
+qa_t_syn_grade_plate_01,grade_plate_01,timing,synthetic/grade_plate_01.mp4,zh,"用户任务：请帮我看着她吃饭，有什么情况随时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_syn_grade_pot_neg,grade_pot_neg,content,synthetic/graded/grade_pot_neg.mp4,zh,"用户任务：请帮我留意厨房里的人和器具，有安全风险及时通知我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]燃气灶上的锅已经溢出，请立即关火！,保持沉默。,[warn]妈妈切菜时刀具滑落，请注意安全！,[warn]女孩靠燃气灶太近，衣服已被火苗点燃！,,,,,,,,,B
+qa_t_syn_grade_pot_neg,grade_pot_neg,timing,synthetic/graded/grade_pot_neg.mp4,zh,"用户任务：请帮我留意厨房里的人和器具，有安全风险及时通知我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–15.1秒,0–7.5秒,7.5–15.1秒,,,,,,,,,A
+qa_c_syn_grade_pot_pos,grade_pot_pos,content,synthetic/graded/grade_pot_pos.mp4,zh,"用户任务：请帮我留意厨房里的人和器具，有安全风险及时通知我。
+
+题目：你是实时交互助手。视频放到第 1.5 秒。这一刻你应该说什么？",[warn]锅里的汤汁已经溢出并浇灭了灶火，请立刻关闭燃气阀门。,[warn]女孩正试图用手去端起滚烫的锅，请立刻阻止她。,[warn]灶台上的锅已经烧干并开始冒出黑烟，有起火的危险。,[warn]蒸汽很烫，手不要靠得太近，小心烫伤。,,,,,,,,,D
+qa_t_syn_grade_pot_pos,grade_pot_pos,timing,synthetic/graded/grade_pot_pos.mp4,zh,"用户任务：请帮我留意厨房里的人和器具，有安全风险及时通知我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",1.5–15.1秒,保持沉默。,0–1.5秒,0–15.1秒,,,,,,,,,A
+qa_c_syn_grade_rail_neg,grade_rail_neg,content,synthetic/graded/grade_rail_neg.mp4,zh,"用户任务：请陪我一起观景，有状况提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]桥下的水流非常湍急，请您立刻离开栏杆，以免发生落水危险。,[inform]远处的山顶上有一座红色的凉亭，您可以往那个方向看去。,[warn]您扶着的木质栏杆已经出现严重裂缝，请不要将身体重心压在上面。,保持沉默。,,,,,,,,,D
+qa_t_syn_grade_rail_neg,grade_rail_neg,timing,synthetic/graded/grade_rail_neg.mp4,zh,"用户任务：请陪我一起观景，有状况提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_syn_grade_rail_pos,grade_rail_pos,content,synthetic/graded/grade_rail_pos.mp4,zh,"用户任务：请陪我一起观景，有状况提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[warn]请注意，你身后的金属护栏已经出现严重松动，请立刻离开！,[inform]你右侧有一只松鼠正在树枝上看着你。,[warn]前方山谷中正在起大雾，视线即将受阻，建议尽快下山。,,,,,,,,,A
+qa_t_syn_grade_rail_pos,grade_rail_pos,timing,synthetic/graded/grade_rail_pos.mp4,zh,"用户任务：请陪我一起观景，有状况提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_synthetic_grade_slip_bath_neg__v20261010,grade_slip_bath_neg,content,synthetic/graded/grade_slip_bath_neg.mp4,zh,"用户任务：请帮我留意浴室活动的安全，有危险或意外时提醒我，并告知现场情况和协助建议。
+
+题目：你是实时交互助手。视频放到第 1.5 秒。这一刻你应该说什么？",[warn]您摔倒了，请确认是否受伤，尝试慢慢站起。,[inform]您已站起，请注意地面湿滑，小心慢行。,[warn]您在浴缸中滑入水中，请立刻抓住扶手避免溺水。,[warn]您在洗澡时突然晕倒，请保持平躺，我已为您开启浴室排气扇。,,,,,,,,,A
+qa_t_synthetic_grade_slip_bath_neg__v20261010,grade_slip_bath_neg,timing,synthetic/graded/grade_slip_bath_neg.mp4,zh,"用户任务：请帮我留意浴室活动的安全，有危险或意外时提醒我，并告知现场情况和协助建议。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,1.5秒,15.1秒,11秒,,,,,,,,,B;D
+qa_c_synthetic_grade_slip_bath_pos__v20261011,grade_slip_bath_pos,content,synthetic/graded/grade_slip_bath_pos.mp4,zh,"用户任务：请帮我留意浴室活动的安全，有危险或意外时提醒我，并告知现场情况和协助建议。
+
+题目：你是实时交互助手。视频放到第 3.5 秒。这一刻你应该说什么？",[warn]您在浴室滑倒了，但您已经成功扶着浴缸站了起来，请走到客厅沙发上休息。,[warn]您在浴缸里泡澡时水温过高，请立刻伸手关闭热水阀门并打开排气扇。,[warn]您在浴室洗手台前洗脸时，不小心将隐形眼镜掉进了洗手盆的下水道里。,[warn]您摔倒了，请先别乱动，请附近的人查看并协助联系救援。,,,,,,,,,D
+qa_t_synthetic_grade_slip_bath_pos__v20261010,grade_slip_bath_pos,timing,synthetic/graded/grade_slip_bath_pos.mp4,zh,"用户任务：请帮我留意浴室活动的安全，有危险或意外时提醒我，并告知现场情况和协助建议。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,3.5–15.1秒,0–3.5秒,0–15.1秒,,,,,,,,,B
+qa_c_syn_grade_walk_home_neg,grade_walk_home_neg,content,synthetic/graded/grade_walk_home_neg.mp4,zh,"用户任务：请照顾这个盲人，有情况报告。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]女士在走廊里捡起了地上的纸袋并递给了盲人男士。,保持沉默。,[inform]盲人男士在女士的搀扶下，一起走出了走廊。,[inform]女士在走廊里被地上的纸袋绊倒了，男士正在指路。,,,,,,,,,B
+qa_t_syn_grade_walk_home_neg,grade_walk_home_neg,timing,synthetic/graded/grade_walk_home_neg.mp4,zh,"用户任务：请照顾这个盲人，有情况报告。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–15.1秒,0–7.5秒,7.5–15.1秒,,,,,,,,,A
+qa_c_syn_grade_walk_home_pos,grade_walk_home_pos,content,synthetic/graded/grade_walk_home_pos.mp4,zh,"用户任务：请照顾这个盲人，有情况报告。
+
+题目：你是实时交互助手。视频放到第 1.5 秒。这一刻你应该说什么？",[inform]盲人男子在走廊里不小心撞到了一个垃圾桶。,[inform]一名女子正走过去主动搀扶盲人男子向前走。,[inform]前方走廊的地面上有一大滩积水，可能会滑倒。,[inform]前方两米处的走廊中间放着一个纸袋。,,,,,,,,,D
+qa_t_syn_grade_walk_home_pos,grade_walk_home_pos,timing,synthetic/graded/grade_walk_home_pos.mp4,zh,"用户任务：请照顾这个盲人，有情况报告。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",1.5–5秒,保持沉默。,0–1.5秒,5–15.1秒,,,,,,,,,A
+qa_c_syn_grocery_milk,grocery_milk,content,synthetic/grocery_milk.mp4,zh,"用户任务：请帮我留意我把东西收纳到哪里了，如果我找不到问你，请告诉我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]牛奶放在右侧的柜子里了。,[inform]你把它和水果一起放在桌子上的果盘里了。,[inform]牛奶在冰箱里。,[inform]你还没有把牛奶收起来，它还在桌子上。,,,,,,,,,C
+qa_t_syn_grocery_milk,grocery_milk,timing,synthetic/grocery_milk.mp4,zh,"用户任务：请帮我留意我把东西收纳到哪里了，如果我找不到问你，请告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,25.5–30.1秒,0–25.5秒,0–30.1秒,,,,,,,,,B
+qa_c_synthetic_group_ball__v20261010,group_ball,content,synthetic/group_ball.mp4,zh,"用户任务：请帮我们留意传球的安全，有危险或意外时及时提醒。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]请注意，男生在捡球时撞到了旁边的茶几，请小心防范磕碰危险。,[warn]女生在抛球时用力过猛，球砸中了上方的吊灯，请注意高空坠物。,保持沉默。,[warn]球掉在地上时滚向了旁边的宠物狗，请注意避免砸伤宠物。,,,,,,,,,C
+qa_t_synthetic_group_ball__v20261010,group_ball,timing,synthetic/group_ball.mp4,zh,"用户任务：请帮我们留意传球的安全，有危险或意外时及时提醒。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_real_group_bank_queue,group_bank_queue,content,real/group_bank_queue.mp4,zh,"用户任务：请帮我注意银行叫号，并告诉我每个号码对应的是哪位顾客。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]37号是那位穿蓝色西装的男士。,[inform]39号是那位穿紫色衣服的男士。,[inform]38号是那位穿红色衣服的男士。,[inform]37号是那位穿黑色衣服的女士。,,,,,,,,,B;C;D
+qa_t_real_group_bank_queue,group_bank_queue,timing,real/group_bank_queue.mp4,zh,"用户任务：请帮我注意银行叫号，并告诉我每个号码对应的是哪位顾客。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",76.4秒,30秒,147.2秒,92.8秒,0秒,46.4秒,122.8秒,,,,,,A;B;D;E;F;G
+qa_c_real_group_ceremony_close__v20261011,group_ceremony_close,content,real/group_ceremony_close.mp4,zh,"用户任务：请帮我留意台上孩子们，出现人物特写时告诉我画面中的人物特征，点名结束时告知出席人数，活动环节变化时也告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]画面特写的是一位扎着双辫子的小女孩。,[inform]画面特写的是一位戴着红帽子、穿着蓝色外套的小男孩。,[inform]孩子们已在台上排好队，准备开始致辞。,[inform]点名已结束，共有二十五名小朋友出席。,,,,,,,,,A;C;D
+qa_t_real_group_ceremony_close__v20261011,group_ceremony_close,timing,real/group_ceremony_close.mp4,zh,"用户任务：请帮我留意台上孩子们，出现人物特写时告诉我画面中的人物特征，点名结束时告知出席人数，活动环节变化时也告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,49秒,8秒,54秒,,,,,,,,,B;C;D
+qa_c_real_group_ceremony_mic,group_ceremony_mic,content,real/group_ceremony_mic.mp4,zh,"用户任务：请帮我留意台上孩子们参与活动的情况，有需要帮助或异常情况及时告诉我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]真田启吾没听到，旁边的女同学在提醒他。,[inform]池田麻衣在点名时一直在哭泣，无法站起来回答。,[inform]真田启吾在听到第一次点名后就立刻站起来大声回答了。,[inform]那须宗义因为上台拿麦克风时摔倒了，需要老师过去搀扶。,,,,,,,,,A
+qa_t_real_group_ceremony_mic,group_ceremony_mic,timing,real/group_ceremony_mic.mp4,zh,"用户任务：请帮我留意台上孩子们参与活动的情况，有需要帮助或异常情况及时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",55–61秒,保持沉默。,0–55秒,61–109.5秒,,,,,,,,,A
+qa_c_real_group_class_question__v20261011,group_class_question,content,real/group_class_question.mp4,zh,"用户任务：请帮我留意课堂发言，每有人开始回答时告诉我是谁，这轮问答结束后汇总发言的学生。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]奥斯汀正在发言。,[inform]朱丽叶正在发言。,[inform]基根正在发言。,[inform]奥斯汀、基根、麦迪、泰勒、朱丽叶、莉莉都发言了。,[inform]麦迪正在发言。,[inform]莉莉正在发言。,[inform]老师正在回答关于第一个引言的问题。,,,,,,A;B;C;D;E;F
+qa_t_real_group_class_question__v20261011,group_class_question,timing,real/group_class_question.mp4,zh,"用户任务：请帮我留意课堂发言，每有人开始回答时告诉我是谁，这轮问答结束后汇总发言的学生。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",128秒,43秒,95秒,3秒,20秒,112秒,0秒,,,,,,A;B;C;D;E;F
+qa_c_syn_group_door,group_door,content,synthetic/group_door.mp4,zh,"用户任务：请帮我留意大门是否关好，如果有未关好的情况请提醒我。
+
+题目：你是实时交互助手。视频放到第 6 秒。这一刻你应该说什么？",[inform]大门已经关好了，请放心。,[inform]男子在出门时把大门锁上了。,[inform]女子已经起身去把大门关上了。,[inform]大门没有关，请留意一下。,,,,,,,,,D
+qa_t_syn_group_door,group_door,timing,synthetic/group_door.mp4,zh,"用户任务：请帮我留意大门是否关好，如果有未关好的情况请提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–6秒,10–15.1秒,6–10秒,,,,,,,,,D
+qa_c_real_group_first_rollcall,group_first_rollcall,content,real/group_first_rollcall.mp4,zh,"用户任务：请帮我留意孩子们点名时的应答情况，有需要关注的表现及时告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]左边的小男孩有些害羞地小声回答了。,[inform]老师要开始给男孩子们点名了。,[inform]中间的小男孩第一个举手大声回答了到。,[inform]右侧的小男孩在点名时一直在哭泣，没有做出任何回答。,,,,,,,,,A;B;C
+qa_t_real_group_first_rollcall,group_first_rollcall,timing,real/group_first_rollcall.mp4,zh,"用户任务：请帮我留意孩子们点名时的应答情况，有需要关注的表现及时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",10秒,14秒,38秒,0秒,,,,,,,,,A;B;C
+qa_c_real_group_kg_circle__v20261010,group_kg_circle,content,real/group_kg_circle.mp4,zh,"用户任务：请帮我观察孩子们的活动，活动环节变化或有人完成当前活动时告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]红衣男孩数完9个人后，在椅子上坐下了。,[inform]红衣男孩开始绕圈，挨个拍小朋友的头数数。,[inform]穿红衣的男孩和穿花衣的女孩交换了位置，由男孩开始看着纸张念名字。,[inform]红衣男孩在绕圈时，不小心把一个坐着的小朋友推倒了。,,,,,,,,,A;B
+qa_t_real_group_kg_circle__v20261010,group_kg_circle,timing,real/group_kg_circle.mp4,zh,"用户任务：请帮我观察孩子们的活动，活动环节变化或有人完成当前活动时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",25秒,0秒,54.3秒,48秒,,,,,,,,,A;D
+qa_c_real_group_kg_outdoor,group_kg_outdoor,content,real/group_kg_outdoor.mp4,zh,"用户任务：请帮我留意排队的孩子，听到班级名称并能判断对应队伍时告诉我，确认各队所属班级后汇总一下。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]幼儿园有两队，一队苹果班，一队葡萄班。,[inform]左边这一队是苹果班。,[inform]左边这一队是香蕉班。,[inform]右边这一队是葡萄班。,,,,,,,,,A;B;D
+qa_t_real_group_kg_outdoor,group_kg_outdoor,timing,real/group_kg_outdoor.mp4,zh,"用户任务：请帮我留意排队的孩子，听到班级名称并能判断对应队伍时告诉我，确认各队所属班级后汇总一下。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",53秒,0秒,76秒,71秒,,,,,,,,,A;C;D
+qa_c_real_group_morning_line,group_morning_line,content,real/group_morning_line.mp4,zh,"用户任务：请帮我留意孩子们的集体活动和站队情况，有不规范或需要帮助的情况及时告诉我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]所有孩子都整齐地排成一排，认真地跟着节奏鞠躬和唱歌。,[inform]最左边的小朋友趴在地上，没有跟着站队。,[inform]最左边的小朋友不小心摔倒了，旁边的老师正走过去扶他起来。,[inform]最左边的小朋友因为没有位置，被挤出了队伍并站在一旁哭泣。,,,,,,,,,B
+qa_t_real_group_morning_line,group_morning_line,timing,real/group_morning_line.mp4,zh,"用户任务：请帮我留意孩子们的集体活动和站队情况，有不规范或需要帮助的情况及时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",11.5–16.5秒,保持沉默。,0–11.5秒,16.5–60.6秒,,,,,,,,,A
+qa_c_syn_group_multigen,group_multigen,content,synthetic/group_multigen.mp4,zh,"用户任务：请帮我照看家里的孩子，有危险及时通知我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]宝宝在阳台攀爬护栏，有坠落危险！,[warn]厨房的锅里起火了，请立刻灭火！,[warn]宝宝在客厅吞食了积木，有窒息危险！,保持沉默。,,,,,,,,,D
+qa_t_syn_group_multigen,group_multigen,timing,synthetic/group_multigen.mp4,zh,"用户任务：请帮我照看家里的孩子，有危险及时通知我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_real_group_raise_hand,group_raise_hand,content,real/group_raise_hand.mp4,zh,"用户任务：请帮我看着孩子们，如果有谁举手了请告诉我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]只有一个坐在中间的小男孩举手了。,[inform]左边和右边的两个小女孩举手了。,[inform]所有的孩子都把双手举起来了。,[inform]没有任何孩子举手，他们都在安静地看着老师。,,,,,,,,,B
+qa_t_real_group_raise_hand,group_raise_hand,timing,real/group_raise_hand.mp4,zh,"用户任务：请帮我看着孩子们，如果有谁举手了请告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",3–8秒,保持沉默。,0–3秒,8–30.1秒,,,,,,,,,A
+qa_c_syn_group_speaker,group_speaker,content,synthetic/group_speaker.mp4,zh,"用户任务：请帮我看着会议室，有异常情况请提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]灰色衣服的男子在会议室里偷拿了桌上的笔记本电脑。,[warn]白色衣服的女子在会议中突然晕倒，需要紧急医疗协助。,保持沉默。,[feedback]黑色衣服的男子在点头后，愤怒地摔门离开了会议室。,,,,,,,,,C
+qa_t_syn_group_speaker,group_speaker,timing,synthetic/group_speaker.mp4,zh,"用户任务：请帮我看着会议室，有异常情况请提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_real_group_toddler_rollcall__v20261011,group_toddler_rollcall,content,real/group_toddler_rollcall.mp4,zh,"用户任务：请帮我统计点名中答到的孩子，每有一个孩子答到就报告累计人数，点名结束后汇总。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]第5个，右侧第二个男孩答到了。,[inform]第2个，右侧第四个男孩答到了。,[inform]点名结束，一共有6个孩子成功答到。,[inform]第4个，中间偏右往前倾的男孩答到了。,[inform]第6个，中间张大嘴的女孩答到了。,[inform]第1个，中间偏左捂嘴的女孩答到了。,[inform]第3个，左侧第二个男孩答到了。,,,,,,A;B;C;E;F;G
+qa_t_real_group_toddler_rollcall__v20261011,group_toddler_rollcall,timing,real/group_toddler_rollcall.mp4,zh,"用户任务：请帮我统计点名中答到的孩子，每有一个孩子答到就报告累计人数，点名结束后汇总。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",18.5秒,5.5秒,14秒,34秒,39.5秒,0秒,41.5秒,,,,,,A;B;C;D;E;G
+qa_c_real_hail_weather__v20261010,hail_weather,content,real/hail_weather.mp4,zh,"用户任务：请帮我留意室外天气，出现冰雹或明显影响出行的天气变化时提醒我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[warn]现在可以看到室外有密集降水，请暂缓外出。,[warn]室外开始下起冰雹，请立刻远离窗户并寻找避难所。,[warn]检测到室外狂风大作，花园里的树木已被吹倒，请勿外出。,[warn]玻璃屋顶有持续密集的敲击声，请留意天气，注意出行安全。,,,,,,,,,A;D
+qa_t_real_hail_weather__v20261010,hail_weather,timing,real/hail_weather.mp4,zh,"用户任务：请帮我留意室外天气，出现冰雹或明显影响出行的天气变化时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",1秒,7.5秒,0秒,19.6秒,,,,,,,,,A;B
+qa_c_syn_handler_already_there,handler_already_there,content,synthetic/handler_already_there.mp4,zh,"用户任务：请帮我照看家里，有安全隐患请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[warn]客厅里有两名男子正在争吵，可能存在安全隐患。,[warn]宝宝独自在门边玩耍，有摔倒的危险，请及时照看。,[warn]厨房的锅正在冒烟，请尽快去查看。,[warn]客厅的电视机电源插座正在冒火花，请立即切断电源。,,,,,,,,,C
+qa_t_syn_handler_already_there,handler_already_there,timing,synthetic/handler_already_there.mp4,zh,"用户任务：请帮我照看家里，有安全隐患请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,4–30.1秒,0–30.1秒,0–4秒,,,,,,,,,D
+qa_c_syn_home_chaos_balcony,home_chaos_balcony,content,synthetic/home_chaos_balcony.mp4,zh,"用户任务：请帮我照看家里的孩子，有危险及时通知我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[warn]宝宝在客厅摔倒了，请立刻过去查看。,[warn]宝宝把阳台上的花盆推倒了，请注意安全。,[warn]宝宝正试图攀爬客厅的电视柜，请及时制止。,[warn]宝宝靠近阳台门了，请注意看护。,,,,,,,,,D
+qa_t_syn_home_chaos_balcony,home_chaos_balcony,timing,synthetic/home_chaos_balcony.mp4,zh,"用户任务：请帮我照看家里的孩子，有危险及时通知我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–5秒,5–13秒,13–30.1秒,,,,,,,,,C
+qa_c_real_hostel_check,hostel_check,content,real/hostel_check.mp4,zh,"用户任务：请听视频中老师对学生单词的抽查，并告诉我他们的回答是否正确。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]第一位被抽查的男生三个单词全部回答正确。,[inform]前两题答对了，第三题没答对。,[inform]第二位男生在回答“explore”的名词形式时回答错误。,[inform]刚才两题都答对了。,,,,,,,,,B;D
+qa_t_real_hostel_check,hostel_check,timing,real/hostel_check.mp4,zh,"用户任务：请听视频中老师对学生单词的抽查，并告诉我他们的回答是否正确。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",36秒,0秒,10秒,54.1秒,,,,,,,,,A;C
+qa_c_real_house_fire_brisbane__v20261010,house_fire_brisbane,content,real/house_fire_brisbane.mp4,zh,"用户任务：请帮我留意住宅周围的安全，发现火情或明显危险时立即提醒我远离危险区域。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[warn]住宅周围一切正常，未发现任何火情或危险。,[warn]邻居正在后院进行安全的烧烤活动，无需担心。,[warn]住宅窗户处有明火，请远离起火区域。,[warn]住宅窗户处仅有少量水蒸气冒出，并非火灾。,,,,,,,,,C
+qa_t_real_house_fire_brisbane__v20261010,house_fire_brisbane,timing,real/house_fire_brisbane.mp4,zh,"用户任务：请帮我留意住宅周围的安全，发现火情或明显危险时立即提醒我远离危险区域。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,4–80秒,0–4秒,0–80秒,,,,,,,,,C
+qa_c_synthetic_in_alz_coat__v20261010,in_alz_coat,content,synthetic/in_alz_coat.mp4,zh,"用户任务：请帮我留意老人穿衣的情况，遇到困难或还没穿好时告诉我，并提示下一步怎么做。
+
+题目：你是实时交互助手。视频放到第 5 秒。这一刻你应该说什么？",[inform]老爷爷已经把外套穿好了，正在扣扣子。,[inform]外套掉在地上啦，需要先把它捡起来。,[inform]老爷爷正在把外套挂在玄关的衣架上。,[inform]外套搭在肩膀上了，需要把手伸进袖子里哦。,,,,,,,,,D
+qa_t_synthetic_in_alz_coat__v20261010,in_alz_coat,timing,synthetic/in_alz_coat.mp4,zh,"用户任务：请帮我留意老人穿衣的情况，遇到困难或还没穿好时告诉我，并提示下一步怎么做。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",5–15.1秒,保持沉默。,0–5秒,0–15.1秒,,,,,,,,,A
+qa_c_syn_in_alz_drawer__v20261011,in_alz_drawer,content,synthetic/in_alz_drawer.mp4,zh,"用户任务：请帮我留意老人找东西的情况，把他的寻找动作和遇到的困难告诉我。
+
+题目：你是实时交互助手。视频放到第 9 秒。这一刻你应该说什么？",[inform]老人从抽屉里拿出了一个红色的药瓶，但打不开瓶盖，显得很着急。,[inform]老人试图拉开最底层的抽屉，但抽屉卡住了，他正在用力拉扯。,[inform]老人找到了他的老花镜并戴了上去，随后开始整理抽屉里的信件。,[inform]老人刚刚打开抽屉看了一下，随后又关上了，现在站在原地，似乎忘记了要拿什么。,,,,,,,,,D
+qa_t_syn_in_alz_drawer__v20261011,in_alz_drawer,timing,synthetic/in_alz_drawer.mp4,zh,"用户任务：请帮我留意老人找东西的情况，把他的寻找动作和遇到的困难告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–9秒,9–15.1秒,0–15.1秒,,,,,,,,,C
+qa_c_synthetic_in_alz_shoes__v20261010,in_alz_shoes,content,synthetic/in_alz_shoes.mp4,zh,"用户任务：请帮我留意老人出门的安全，有风险或不安全的行为时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]您没穿鞋，请不要直接走到室外。,[warn]老人穿着皮鞋出门了，请注意防滑。,[warn]老人在玄关摔倒了，请立刻去扶一下。,[warn]老人把黑色皮鞋踢到了门外，请帮他捡回来。,,,,,,,,,A
+qa_t_synthetic_in_alz_shoes__v20261010,in_alz_shoes,timing,synthetic/in_alz_shoes.mp4,zh,"用户任务：请帮我留意老人出门的安全，有风险或不安全的行为时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,7.5–12秒,0–7.5秒,12–15.1秒,,,,,,,,,B
+qa_c_syn_in_cblind_bins,in_cblind_bins,content,synthetic/in_cblind_bins.mp4,zh,"用户任务：我分不清这些垃圾桶的颜色，请告诉我各个颜色对应的位置。
+
+题目：你是实时交互助手。视频放到第 1 秒。这一刻你应该说什么？",[inform]左边是红色垃圾桶，右边是绿色垃圾桶。,[inform]左边是绿色垃圾桶，右边是红色垃圾桶。,[inform]两个垃圾桶都是红色的，左边是深红色，右边是浅红色。,[inform]左边是蓝色垃圾桶，右边是黄色垃圾桶。,,,,,,,,,A
+qa_t_syn_in_cblind_bins,in_cblind_bins,timing,synthetic/in_cblind_bins.mp4,zh,"用户任务：我分不清这些垃圾桶的颜色，请告诉我各个颜色对应的位置。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",1–5秒,保持沉默。,0–1秒,5–15.1秒,,,,,,,,,A
+qa_c_syn_in_cblind_laundry,in_cblind_laundry,content,synthetic/in_cblind_laundry.mp4,zh,"用户任务：请告知我这些衣服该怎么分。
+
+题目：你是实时交互助手。视频放到第 11 秒。这一刻你应该说什么？",[inform]左边是深色衣服，右边是浅色衣服。,[inform]左边是需要干洗的衣服，右边是需要手洗的衣服。,[inform]左边是纯棉材质的衣服，右边是化纤材质的衣服。,[inform]左边是已经洗干净的衣服，右边是需要清洗的脏衣服。,,,,,,,,,A
+qa_t_syn_in_cblind_laundry,in_cblind_laundry,timing,synthetic/in_cblind_laundry.mp4,zh,"用户任务：请告知我这些衣服该怎么分。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–11秒,0–15.1秒,11–15.1秒,,,,,,,,,D
+qa_c_syn_in_chronic_med__v20261011,in_chronic_med,content,synthetic/in_chronic_med.mp4,zh,"用户任务：请帮我留意老人服药的准备情况，他看过药和水后仍没有开始服药时，请告诉我。
+
+题目：你是实时交互助手。视频放到第 8 秒。这一刻你应该说什么？",[inform]老人已经将药瓶打开，并倒出了药片准备服用。,[inform]老人端起了茶几上的水杯，已经顺利完成了服药。,[inform]老人看过茶几上的药和水后，还没有开始服药，请确认是否需要提醒。,[inform]老人将茶几上的药瓶和水杯收进了抽屉里，不打算服药。,,,,,,,,,C
+qa_t_syn_in_chronic_med__v20261011,in_chronic_med,timing,synthetic/in_chronic_med.mp4,zh,"用户任务：请帮我留意老人服药的准备情况，他看过药和水后仍没有开始服药时，请告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,8–12秒,0–8秒,12–15.1秒,,,,,,,,,B
+qa_c_synthetic_in_chronic_plate__v20261010,in_chronic_plate,content,synthetic/in_chronic_plate.mp4,zh,"用户任务：请帮我照看老人吃饭，有危险或需要处理的异常情况时告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]老人不小心将水杯碰倒，水洒在了桌面上。,保持沉默。,[warn]老人吃完饭后，在起步离开餐桌时险些滑倒。,[warn]老人吃东西时被食物噎住，正在剧烈咳嗽。,,,,,,,,,B
+qa_t_synthetic_in_chronic_plate__v20261010,in_chronic_plate,timing,synthetic/in_chronic_plate.mp4,zh,"用户任务：请帮我照看老人吃饭，有危险或需要处理的异常情况时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_synthetic_in_chronic_sit__v20261010,in_chronic_sit,content,synthetic/in_chronic_sit.mp4,zh,"用户任务：请帮我照看老人，有危险或需要关注的异常情况时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]老人突然剧烈咳嗽，并打翻了茶几上的水杯。,[warn]老人试图从沙发上站起来，但身体失去平衡摔倒了。,[feedback]老人正对着窗外大声呼喊，似乎在向路人求助。,保持沉默。,,,,,,,,,D
+qa_t_synthetic_in_chronic_sit__v20261010,in_chronic_sit,timing,synthetic/in_chronic_sit.mp4,zh,"用户任务：请帮我照看老人，有危险或需要关注的异常情况时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_syn_in_deaf_doorbell,in_deaf_doorbell,content,synthetic/in_deaf_doorbell.mp4,zh,"用户任务：我是听障人士，请帮我留意家里的门铃声，响了请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 1 秒。这一刻你应该说什么？",[inform]门铃又响了。,[inform]有人按门铃了。,[inform]有人在敲你的窗户。,[inform]你的手机收到了新消息提醒音。,,,,,,,,,B
+qa_t_syn_in_deaf_doorbell,in_deaf_doorbell,timing,synthetic/in_deaf_doorbell.mp4,zh,"用户任务：我是听障人士，请帮我留意家里的门铃声，响了请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",8秒,0秒,13.5秒,1秒,11秒,,,,,,,,A;C;D;E
+qa_c_syn_in_elder_cane,in_elder_cane,content,synthetic/in_elder_cane.mp4,zh,"用户任务：请帮我照看家里的老人，如果他起身走动时忘了拿拐杖，请及时提醒他。
+
+题目：你是实时交互助手。视频放到第 1.5 秒。这一刻你应该说什么？",[warn]您忘记拿拐杖了，请拿上拐杖，注意安全。,[warn]您走得太快了，请慢一点，小心摔倒。,[warn]您已经顺利拿到拐杖了，请继续往前走。,[warn]前方地板上有积水，请避开积水区域。,,,,,,,,,A
+qa_t_syn_in_elder_cane,in_elder_cane,timing,synthetic/in_elder_cane.mp4,zh,"用户任务：请帮我照看家里的老人，如果他起身走动时忘了拿拐杖，请及时提醒他。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–1.5秒,1.5–6秒,6–15.1秒,,,,,,,,,C
+qa_c_syn_in_keys_table,in_keys_table,content,synthetic/in_keys_table.mp4,zh,"用户任务：生活助手，我准备出门了，请帮我留意有没有遗漏钥匙或手机等随身物品，有的话提醒我。
+
+题目：你是实时交互助手。视频放到第 10 秒。这一刻你应该说什么？",[inform]你已经把钥匙和手机放进裤兜里了，可以直接出门。,[inform]手机在玄关鞋柜上，钥匙在客厅沙发上，记得拿一下。,[inform]钥匙和手机还在餐桌上，记得带上。,[inform]你手上正拿着钥匙，手机已经塞进背包里了。,,,,,,,,,C
+qa_t_syn_in_keys_table,in_keys_table,timing,synthetic/in_keys_table.mp4,zh,"用户任务：生活助手，我准备出门了，请帮我留意有没有遗漏钥匙或手机等随身物品，有的话提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,10–15.1秒,0–10秒,0–15.1秒,,,,,,,,,B
+qa_c_syn_in_kid_game__v20261011,in_kid_game,content,synthetic/in_kid_game.mp4,zh,"用户任务：请帮我照看孩子玩手机的情况，发现姿势或光线带来的健康风险时提醒他。
+
+题目：你是实时交互助手。视频放到第 2 秒。这一刻你应该说什么？",[warn]请注意，孩子现在正坐在书桌前，距离屏幕太近了。,[warn]孩子玩手机的姿势很端正，但房间内的光线太刺眼了。,[warn]别在黑暗中趴着玩手机了，对眼睛不好。,[warn]孩子正躺在沙发上玩手机，请提醒他起来活动一下。,,,,,,,,,C
+qa_t_syn_in_kid_game__v20261011,in_kid_game,timing,synthetic/in_kid_game.mp4,zh,"用户任务：请帮我照看孩子玩手机的情况，发现姿势或光线带来的健康风险时提醒他。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",2–7秒,保持沉默。,0–2秒,7–15.1秒,,,,,,,,,A
+qa_c_syn_in_kid_hw,in_kid_hw,content,synthetic/in_kid_hw.mp4,zh,"用户任务：请帮我照看孩子写作业，如果他没在写或者分心了，请提醒他。
+
+题目：你是实时交互助手。视频放到第 1 秒。这一刻你应该说什么？",[inform]孩子正在认真地写数学作业，没有分心。,[inform]孩子已经写完了作业，现在正在用手机查阅学习资料。,[inform]孩子把手机放在一旁，正拿着笔在作业本上写字。,[inform]该写作业了，先把手机收起来吧。,,,,,,,,,D
+qa_t_syn_in_kid_hw,in_kid_hw,timing,synthetic/in_kid_hw.mp4,zh,"用户任务：请帮我照看孩子写作业，如果他没在写或者分心了，请提醒他。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,1–5秒,0–1秒,5–15.1秒,,,,,,,,,B
+qa_c_syn_in_pet_bowl,in_pet_bowl,content,synthetic/in_pet_bowl.mp4,zh,"用户任务：请帮我留意狗有没有去吃碗里的饭，如果它开始吃了就告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]狗已经开始吃碗里的饭了。,[inform]狗把碗里的饭吃完了。,[inform]狗正低着头大口吃着碗里的狗粮。,保持沉默。,,,,,,,,,D
+qa_t_syn_in_pet_bowl,in_pet_bowl,timing,synthetic/in_pet_bowl.mp4,zh,"用户任务：请帮我留意狗有没有去吃碗里的饭，如果它开始吃了就告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_syn_in_pet_mail,in_pet_mail,content,synthetic/in_pet_mail.mp4,zh,"用户任务：请帮我照看家里的狗，如果它有破坏物品或危险行为，请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 0 秒。这一刻你应该说什么？",[warn]狗狗正在啃咬桌腿，可能会损坏家具。,[warn]狗狗把水盆打翻了，水洒了一地。,[warn]狗狗正在撕扯沙发垫，棉絮已经漏出来了。,[warn]狗狗正在撕咬快递盒，快去阻止它。,,,,,,,,,D
+qa_t_syn_in_pet_mail,in_pet_mail,timing,synthetic/in_pet_mail.mp4,zh,"用户任务：请帮我照看家里的狗，如果它有破坏物品或危险行为，请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,4–15.1秒,0–4秒,0–15.1秒,,,,,,,,,C
+qa_c_real_jump_rope,jump_rope,content,real/jump_rope.mp4,zh,"用户任务：请帮我看着我跳绳，做完一组时提醒我休息。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]您已经跳了五十个，请继续坚持，不要停下。,[inform]第一组完成，休息十秒。,[inform]您的跳绳绳子断了，请更换一条新的跳绳。,[inform]您刚才不小心摔倒了，请确认是否受伤并立即休息。,,,,,,,,,B
+qa_t_real_jump_rope,jump_rope,timing,real/jump_rope.mp4,zh,"用户任务：请帮我看着我跳绳，做完一组时提醒我休息。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–40秒,40–42.7秒,0–42.7秒,,,,,,,,,C
+qa_c_syn_kid_book,kid_book,content,synthetic/kid_book.mp4,zh,"用户任务：请帮我看着孩子写字，如果他坐姿不端正，请帮我纠正。
+
+题目：你是实时交互助手。视频放到第 2 秒。这一刻你应该说什么？",[feedback]请端正坐姿，不要趴在桌上写字。,[feedback]你的坐姿非常端正，请继续保持这个良好的书写习惯。,[feedback]请注意，你写字时握笔的姿势不对，应该用大拇指和食指捏住铅笔。,[feedback]你已经写完了整页字，现在可以把笔记本合上并去休息了。,,,,,,,,,A
+qa_t_syn_kid_book,kid_book,timing,synthetic/kid_book.mp4,zh,"用户任务：请帮我看着孩子写字，如果他坐姿不端正，请帮我纠正。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,2–6秒,0–2秒,6–15.1秒,,,,,,,,,B
+qa_c_real_kid_cam,kid_cam,content,real/kid_cam.mp4,zh,"用户任务：请帮我照看孩子，有危险或异常情况及时通知我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[warn]孩子在爬电视柜抓电视，容易砸伤，快去看看,[warn]孩子在客厅里摔倒了，正在地上哭泣，快去看看。,[inform]电视屏幕黑了，可能被孩子戳坏了,[warn]孩子在用扫把戳电视屏幕，快去阻止他们,,,,,,,,,A;C;D
+qa_t_real_kid_cam,kid_cam,timing,real/kid_cam.mp4,zh,"用户任务：请帮我照看孩子，有危险或异常情况及时通知我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",47.8秒,36秒,0秒,10秒,,,,,,,,,B;C;D
+qa_c_syn_kid_climb,kid_climb,content,synthetic/kid_climb.mp4,zh,"用户任务：请帮我照看爬架子的孩子，有危险及时提醒。
+
+题目：你是实时交互助手。视频放到第 3 秒。这一刻你应该说什么？",[warn]孩子已经从攀爬架上滑下来了，请放心。,[warn]孩子正在攀爬架下方的沙坑里玩耍，没有危险。,[warn]请抓好身旁的栏杆，注意安全。,[warn]身后的男子已经收起手机并扶住了孩子，现在很安全。,,,,,,,,,C
+qa_t_syn_kid_climb,kid_climb,timing,synthetic/kid_climb.mp4,zh,"用户任务：请帮我照看爬架子的孩子，有危险及时提醒。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",3–15.1秒,保持沉默。,0–3秒,0–15.1秒,,,,,,,,,A
+qa_c_real_kid_cry_cam,kid_cry_cam,content,real/kid_cry_cam.mp4,zh,"用户任务：请帮我照看孩子，有危险或异常情况及时通知我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[warn]宝宝在床上哭闹，快去看看吧。,[warn]宝宝在围栏床里试图翻越围栏，有跌落的危险。,[inform]宝宝手里拿着的黄色玩具被卡在喉咙里，正在咳嗽。,[inform]家长已进入房间安抚宝宝。,,,,,,,,,A;D
+qa_t_real_kid_cry_cam,kid_cry_cam,timing,real/kid_cry_cam.mp4,zh,"用户任务：请帮我照看孩子，有危险或异常情况及时通知我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,31.1秒,11秒,25秒,,,,,,,,,C;D
+qa_c_real_kid_danger,kid_danger,content,real/kid_danger.mp4,zh,"用户任务：请帮我照看孩子，有危险或异常情况及时通知我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[warn]学步车侧翻，宝宝摔倒了，快去看看！,[inform]姐姐已经抱起宝宝，宝宝正在大哭。,[inform]姐姐抱着宝宝回屋了，宝宝还在哭。,[warn]孩子在院子里玩耍时，玩具车撞到了墙壁，孩子被撞伤了。,,,,,,,,,A;B;C
+qa_t_real_kid_danger,kid_danger,timing,real/kid_danger.mp4,zh,"用户任务：请帮我照看孩子，有危险或异常情况及时通知我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,6秒,3秒,14秒,,,,,,,,,B;C;D
+qa_c_syn_kid_game_late,kid_game_late,content,synthetic/kid_game_late.mp4,zh,"用户任务：请帮我看着孩子用电脑，有异常情况提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]孩子已经离开电脑椅，走到房间外面去了。,[warn]孩子在电脑前睡着了，头趴在桌子上。,[warn]孩子正在电脑上观看暴力游戏画面，需要干预。,保持沉默。,,,,,,,,,D
+qa_t_syn_kid_game_late,kid_game_late,timing,synthetic/kid_game_late.mp4,zh,"用户任务：请帮我看着孩子用电脑，有异常情况提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_syn_kid_hw_phone,kid_hw_phone,content,synthetic/kid_hw_phone.mp4,zh,"用户任务：学习助手，请陪孩子写作业，留意学习状态，持续分心时提醒他回到作业。
+
+题目：你是实时交互助手。视频放到第 0 秒。这一刻你应该说什么？",[inform]孩子正在认真地用手机查阅作业相关的学习资料。,[inform]孩子已经写完作业了，现在正躺在床上休息。,[inform]孩子正在书桌前认真写字，没有分心。,[inform]把手机收起来写作业吧。,,,,,,,,,D
+qa_t_syn_kid_hw_phone,kid_hw_phone,timing,synthetic/kid_hw_phone.mp4,zh,"用户任务：学习助手，请陪孩子写作业，留意学习状态，持续分心时提醒他回到作业。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,4–15.1秒,0–4秒,0–15.1秒,,,,,,,,,C
+qa_c_syn_kid_knife,kid_knife,content,synthetic/kid_knife.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 2 秒。这一刻你应该说什么？",[inform]孩子已被抱离危险区域。,[warn]孩子在厨房不小心摔倒了，正在地上哭泣。,[warn]孩子拿到了流理台上的刀具，正在玩耍，请立刻制止。,[warn]孩子爬凳子靠近刀具，很危险，快去阻止。,,,,,,,,,D
+qa_t_syn_kid_knife,kid_knife,timing,synthetic/kid_knife.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",13秒,2秒,0秒,15.1秒,,,,,,,,,A;B
+qa_c_syn_kid_oven_neg,kid_oven_neg,content,synthetic/pair/kid_oven_neg.mp4,zh,"用户任务：请帮我照看厨房里的孩子，有危险及时提醒。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]小女孩正在把玩具放进微波炉里，可能会引起火灾！,[warn]孩子正在试图爬上厨房的灶台，请立刻阻止她！,保持沉默。,[warn]小女孩拿起了台面上的水果刀，这非常危险！,,,,,,,,,C
+qa_t_syn_kid_oven_neg,kid_oven_neg,timing,synthetic/pair/kid_oven_neg.mp4,zh,"用户任务：请帮我照看厨房里的孩子，有危险及时提醒。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,保持沉默。,7.5–15.1秒,,,,,,,,,C
+qa_c_syn_kid_oven_pos,kid_oven_pos,content,synthetic/pair/kid_oven_pos.mp4,zh,"用户任务：请帮我照看厨房里的孩子，有危险及时提醒。
+
+题目：你是实时交互助手。视频放到第 0 秒。这一刻你应该说什么？",[warn]烤箱温度高，别把脸凑得太近，小心烫伤。,[warn]孩子正在用手触摸烤箱内的加热管，请立刻阻止她。,[warn]孩子把塑料玩具放进了烤箱里，可能会融化产生毒气。,[warn]烤箱门突然自动关闭夹到了孩子的手，请快去帮她。,,,,,,,,,A
+qa_t_syn_kid_oven_pos,kid_oven_pos,timing,synthetic/pair/kid_oven_pos.mp4,zh,"用户任务：请帮我照看厨房里的孩子，有危险及时提醒。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–4秒,4–15.1秒,0–15.1秒,,,,,,,,,B
+qa_c_syn_kid_phone_neg__v20261011,kid_phone_neg,content,synthetic/pair/kid_phone_neg.mp4,zh,"用户任务：学习助手，请帮我留意孩子写作业的专注情况，持续分心时提醒他纠正；短暂查看信息后继续学习则不用打断。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]孩子，你已经看手机超过十分钟了，请立刻把手机收起来，专心写作业。,[inform]孩子在写作业期间一直非常专注，没有出现任何分心或看手机的行为。,保持沉默。,[feedback]孩子刚刚把手机拿出来放在了书桌上，并一直在边看手机边写作业。,,,,,,,,,C
+qa_t_syn_kid_phone_neg__v20261011,kid_phone_neg,timing,synthetic/pair/kid_phone_neg.mp4,zh,"用户任务：学习助手，请帮我留意孩子写作业的专注情况，持续分心时提醒他纠正；短暂查看信息后继续学习则不用打断。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_syn_kid_phone_pos__v20261011,kid_phone_pos,content,synthetic/pair/kid_phone_pos.mp4,zh,"用户任务：学习助手，请帮我留意孩子写作业的专注情况，持续分心时提醒他纠正；短暂查看信息后继续学习则不用打断。
+
+题目：你是实时交互助手。视频放到第 13.1 秒。这一刻你应该说什么？",[feedback]孩子已经写完作业，正在收拾书包准备休息。,[feedback]请放下手机，专心写作业。,[feedback]孩子只是短暂查看了一下手机上的时间，现在已经继续写作业了。,[feedback]孩子正在用手机查阅作业相关的资料，没有分心。,,,,,,,,,B
+qa_t_syn_kid_phone_pos__v20261011,kid_phone_pos,timing,synthetic/pair/kid_phone_pos.mp4,zh,"用户任务：学习助手，请帮我留意孩子写作业的专注情况，持续分心时提醒他纠正；短暂查看信息后继续学习则不用打断。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–13.1秒,0–15.1秒,13.1–15.1秒,,,,,,,,,D
+qa_c_syn_kid_railing_13,kid_railing_13,content,synthetic/kid_railing_13.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 4 秒。这一刻你应该说什么？",[warn]孩子在客厅沙发上玩手机，请注意用眼卫生。,[warn]孩子正在爬阳台栏杆，快去阻止！,[warn]孩子不小心把玩具掉到阳台外面了，请帮她捡一下。,[warn]孩子在阳台上给花浇水，水洒了一地，容易滑倒。,,,,,,,,,B
+qa_t_syn_kid_railing_13,kid_railing_13,timing,synthetic/kid_railing_13.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–4秒,7–15.1秒,4–7秒,,,,,,,,,D
+qa_c_syn_kid_stove_neg,kid_stove_neg,content,synthetic/pair/kid_stove_neg.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]孩子已经碰到了滚烫的锅，手部被烫伤，请立刻处理。,保持沉默。,[inform]孩子在厨房里玩火，点燃了旁边的纸巾，火势正在蔓延。,[inform]孩子把锅里的汤盛到了碗里，现在正坐在餐桌旁喝汤。,,,,,,,,,B
+qa_t_syn_kid_stove_neg,kid_stove_neg,timing,synthetic/pair/kid_stove_neg.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–15.1秒,0–7.5秒,7.5–15.1秒,,,,,,,,,A
+qa_c_syn_kid_stove_pos,kid_stove_pos,content,synthetic/pair/kid_stove_pos.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 1.5 秒。这一刻你应该说什么？",[warn]手烫到了吗？快去用冷水冲洗一下。,[warn]锅盖很烫，不要直接用手拿，小心烫伤。,[warn]孩子已经把火关掉了，现在很安全。,[warn]孩子用抹布隔热，安全地把锅盖拿了下来。,,,,,,,,,B
+qa_t_syn_kid_stove_pos,kid_stove_pos,timing,synthetic/pair/kid_stove_pos.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",11秒,1.5秒,0秒,15.1秒,,,,,,,,,A;B
+qa_c_syn_kid_window,kid_window,content,synthetic/kid_window.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 2 秒。这一刻你应该说什么？",[warn]窗户开了，千万不要往外探头，快下来。,[warn]不要爬到椅子上，小心摔下来。,[warn]孩子正在客厅的沙发上安静地看书，没有危险。,[warn]孩子把木椅推到了门后，正试图把门锁上。,,,,,,,,,B
+qa_t_syn_kid_window,kid_window,timing,synthetic/kid_window.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,15.1秒,7秒,2秒,,,,,,,,,C;D
+qa_c_syn_life_ac_elder_shorts,life_ac_elder_shorts,content,synthetic/life_ac_elder_shorts.mp4,zh,"用户任务：请帮我照看老人，如果发生危险或异常情况请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]老人从沙发上站起来时险些摔倒，请注意。,[warn]老人感到呼吸困难并开始剧烈咳嗽，请注意。,保持沉默。,[warn]老人不小心将茶几上的水杯碰倒了，请注意。,,,,,,,,,C
+qa_t_syn_life_ac_elder_shorts,life_ac_elder_shorts,timing,synthetic/life_ac_elder_shorts.mp4,zh,"用户任务：请帮我照看老人，如果发生危险或异常情况请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_syn_life_ac_skirt,life_ac_skirt,content,synthetic/life_ac_skirt.mp4,zh,"用户任务：请看着我选衣服，如果我问你意见请回答。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]我建议你选择那条米色短裙，它看起来更适合今天的居家氛围。,[inform]那条深灰色的长裤质感很好，我推荐你穿长裤。,保持沉默。,[inform]你手里拿的是一条黑色长裙和一条白色短裤，我建议选择白色短裤。,,,,,,,,,C
+qa_t_syn_life_ac_skirt,life_ac_skirt,timing,synthetic/life_ac_skirt.mp4,zh,"用户任务：请看着我选衣服，如果我问你意见请回答。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–15.1秒,0–7.5秒,7.5–15.1秒,,,,,,,,,A
+qa_c_syn_life_dinner_top,life_dinner_top,content,synthetic/life_dinner_top.mp4,zh,"用户任务：请看着我们吃饭，如果我提问请回答我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[answer]是左侧穿米色毛衣的那位最先夹了鱼肉。,[answer]是您自己先夹的鱼。,[answer]是右侧穿灰色卫衣的那位最先夹了鱼肉。,[answer]你们三个人是同时用筷子夹起鱼肉的。,,,,,,,,,B
+qa_t_syn_life_dinner_top,life_dinner_top,timing,synthetic/life_dinner_top.mp4,zh,"用户任务：请看着我们吃饭，如果我提问请回答我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–28秒,28–30.1秒,0–30.1秒,,,,,,,,,C
+qa_c_synthetic_life_food_fried__v20261010,life_food_fried,content,synthetic/life_food_fried.mp4,zh,"用户任务：请陪我吃饭，我叫你帮忙或向你提问时请回应。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]你正在吃的是炸薯条，搭配的是橙汁。,[inform]你在吃炸鸡块，但你刚才不小心把可乐洒在桌子上了。,[inform]你已经把盘子里的炸鸡块全部吃完了。,保持沉默。,,,,,,,,,D
+qa_t_synthetic_life_food_fried__v20261010,life_food_fried,timing,synthetic/life_food_fried.mp4,zh,"用户任务：请陪我吃饭，我叫你帮忙或向你提问时请回应。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_syn_life_food_veg_left,life_food_veg_left,content,synthetic/life_food_veg_left.mp4,zh,"用户任务：请看着我吃饭，如果有剩菜或者饮食不均衡提醒我一下。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]你剩了太多的绿叶蔬菜，请注意饮食均衡，多吃蔬菜。,[inform]你已经把盘子里的胡萝卜和西兰花全部吃完了。,保持沉默。,[warn]你只喝了水，没有吃任何主食，这会导致营养不均衡。,,,,,,,,,C
+qa_t_syn_life_food_veg_left,life_food_veg_left,timing,synthetic/life_food_veg_left.mp4,zh,"用户任务：请看着我吃饭，如果有剩菜或者饮食不均衡提醒我一下。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–15.1秒,0–7.5秒,7.5–15.1秒,,,,,,,,,A
+qa_c_syn_life_hunch_desk,life_hunch_desk,content,synthetic/life_hunch_desk.mp4,zh,"用户任务：请看着孩子写字，如果坐姿不端正请帮我纠正。
+
+题目：你是实时交互助手。视频放到第 1.5 秒。这一刻你应该说什么？",[feedback]写字姿势很端正，请继续保持这个好习惯。,[feedback]你的头抬得太高了，眼睛离书本太远，请稍微低一点头。,[feedback]请挺直腰背，头抬高一点，注意保护眼睛。,[feedback]请注意握笔姿势，你的手指捏得太紧了，需要放松手部。,,,,,,,,,C
+qa_t_syn_life_hunch_desk,life_hunch_desk,timing,synthetic/life_hunch_desk.mp4,zh,"用户任务：请看着孩子写字，如果坐姿不端正请帮我纠正。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,1.5–5.5秒,0–1.5秒,5.5–15.1秒,,,,,,,,,B
+qa_c_syn_life_poker_turns,life_poker_turns,content,synthetic/life_poker_turns.mp4,zh,"用户任务：请帮我们检查摸牌是否遵守规则，发现违规时提醒纠正。本局规则：每人每轮摸一张牌，按开局前三次摸牌的人员顺序循环。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[feedback]蓝衣男子没有按轮次摸牌，请按约定的顺序摸牌。,[feedback]红衣女子没有按轮次摸牌，请按约定的顺序摸牌。,[feedback]黄衣男子没有按轮次摸牌，请按约定的顺序摸牌。,[feedback]本局摸牌完全符合规则，大家都在按正确的顺序依次摸牌。,,,,,,,,,C
+qa_t_syn_life_poker_turns,life_poker_turns,timing,synthetic/life_poker_turns.mp4,zh,"用户任务：请帮我们检查摸牌是否遵守规则，发现违规时提醒纠正。本局规则：每人每轮摸一张牌，按开局前三次摸牌的人员顺序循环。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",18.5–22.5秒,保持沉默。,0–18.5秒,22.5–30.1秒,,,,,,,,,A
+qa_c_real_loading_dock__v20261010,loading_dock,content,real/loading_dock.mp4,zh,"用户任务：请帮我留意装卸平台，门完全打开或平台停止调整时告诉我当前状态。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]装卸平台已停止调整，目前已处于静止就绪状态。,[inform]门在开启到一半时卡住了，装卸平台已经停止工作。,[inform]门已完全打开，但装卸平台由于故障无法启动调整。,[inform]门已完全打开，装卸平台正在开始调整。,,,,,,,,,A;D
+qa_t_real_loading_dock__v20261010,loading_dock,timing,real/loading_dock.mp4,zh,"用户任务：请帮我留意装卸平台，门完全打开或平台停止调整时告诉我当前状态。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",18秒,0秒,47秒,48.3秒,,,,,,,,,A;C
+qa_c_real_low_vision_ego__v20261010,low_vision_ego,content,real/low_vision_ego.mp4,zh,"用户任务：请协助我安全行走，发现障碍或危险时提醒我，绕过障碍或危险解除时告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[warn]前方路牌和电动车挡在盲道上。,[inform]已经绕到旁边了。,[warn]摩托车挡在盲道上。,[warn]右侧电动车贴过来了。,[warn]前方有正在施工的深坑，请立刻停下。,[inform]车过去了，这边能走。,,,,,,,A;B;C;D;F
+qa_t_real_low_vision_ego__v20261010,low_vision_ego,timing,real/low_vision_ego.mp4,zh,"用户任务：请协助我安全行走，发现障碍或危险时提醒我，绕过障碍或危险解除时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",4.5秒,31秒,70秒,66.5秒,0秒,24.5秒,,,,,,,A;B;D;E;F
+qa_c_syn_metro_edge_heavy,metro_edge_heavy,content,synthetic/metro_edge_heavy.mp4,zh,"用户任务：请帮我看下站台边上的人，有危险或状态变化时提醒我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[warn]红衣女子已经不小心跌落轨道，请立即呼救。,[inform]车门已经打开，请注意安全上车。,[warn]列车正在进站，请立即退到安全线以内。,[inform]红衣女子已经收起手机，并安全走进了车厢。,,,,,,,,,B;C
+qa_t_syn_metro_edge_heavy,metro_edge_heavy,timing,synthetic/metro_edge_heavy.mp4,zh,"用户任务：请帮我看下站台边上的人，有危险或状态变化时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,25秒,8秒,30.1秒,,,,,,,,,B;C
+qa_c_synthetic_metro_edge_light__v20261010,metro_edge_light,content,synthetic/metro_edge_light.mp4,zh,"用户任务：请帮我留意站台上人员的安全，有危险或不安全的行为时及时警告。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[warn]请注意，有乘客在站台上奔跑追逐，请立即停止。,[warn]列车正在进站，请退到黄色安全线以内。,[warn]有乘客跨越了安全线并试图跳下轨道，请立刻退回。,[warn]请注意，站台边缘有婴儿车无人看管，请家属立刻推走。,,,,,,,,,B
+qa_t_synthetic_metro_edge_light__v20261010,metro_edge_light,timing,synthetic/metro_edge_light.mp4,zh,"用户任务：请帮我留意站台上人员的安全，有危险或不安全的行为时及时警告。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,7–15秒,0–7秒,15–30.1秒,,,,,,,,,B
+qa_c_real_mind_gap__v20261010,mind_gap,content,real/mind_gap.mp4,zh,"用户任务：请帮我留意站台广播，听到与登车有关的注意事项时及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]广播提醒注意站台与列车之间的间隙。,[inform]广播再次提醒注意站台间隙。,[inform]广播又提醒注意站台间隙。,[inform]广播提醒乘客在登车时准备好车票和身份证件。,,,,,,,,,A;B;C
+qa_t_real_mind_gap__v20261010,mind_gap,timing,real/mind_gap.mp4,zh,"用户任务：请帮我留意站台广播，听到与登车有关的注意事项时及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",11秒,1秒,6秒,0秒,,,,,,,,,A;B;C
+qa_c_syn_mon_alz_find_item,mon_alz_find_item,content,synthetic/mon_alz_find_item.mp4,zh,"用户任务：请帮我记住物品放在哪里，当我找东西遇到困难时提醒我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]您刚才把红色盒子放进衣柜里的衣服下面了。,[inform]您刚才把红色盒子放进床头柜抽屉里了。,[inform]您把红色盒子放在床尾的纸箱里面了。,[inform]您刚才把红色盒子藏在床上的枕头下面了。,,,,,,,,,B
+qa_t_syn_mon_alz_find_item,mon_alz_find_item,timing,synthetic/mon_alz_find_item.mp4,zh,"用户任务：请帮我记住物品放在哪里，当我找东西遇到困难时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–21秒,25–30.1秒,21–25秒,,,,,,,,,D
+qa_c_synthetic_mon_baby_fall__v20261010,mon_baby_fall,content,synthetic/mon_baby_fall.mp4,zh,"用户任务：请帮我照看宝宝，有危险或意外时及时提醒我，并告诉我需要处理的情况。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[warn]宝宝摔倒哭了，快去抱抱他。,[warn]地毯有褶皱，小心宝宝绊倒。,[warn]宝宝把桌上的水杯碰倒了，小心热水烫伤。,[warn]宝宝试图攀爬电视柜，柜子有倾倒的危险。,,,,,,,,,A;B
+qa_t_synthetic_mon_baby_fall__v20261010,mon_baby_fall,timing,synthetic/mon_baby_fall.mp4,zh,"用户任务：请帮我照看宝宝，有危险或意外时及时提醒我，并告诉我需要处理的情况。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,14秒,3.5秒,30.1秒,,,,,,,,,B;C
+qa_c_syn_mon_elder_fall_getup,mon_elder_fall_getup,content,synthetic/mon_elder_fall_getup.mp4,zh,"用户任务：请照看我在家里的活动，有危险或意外时及时提醒并提供帮助，重要情况变化也请告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[warn]您在整理碗筷时把碗摔碎了，请小心地上的碎片。,[warn]您摔倒了，请注意安全，先别着急乱动。,[warn]您在尝试站起来，请慢一点，扶稳凳子。,[inform]您已经站起来了，身体有哪里不舒服吗？,,,,,,,,,B;C;D
+qa_t_syn_mon_elder_fall_getup,mon_elder_fall_getup,timing,synthetic/mon_elder_fall_getup.mp4,zh,"用户任务：请照看我在家里的活动，有危险或意外时及时提醒并提供帮助，重要情况变化也请告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,10秒,14秒,27秒,,,,,,,,,B;C;D
+qa_c_syn_mon_elder_fall_stay__v20261011,mon_elder_fall_stay,content,synthetic/mon_elder_fall_stay.mp4,zh,"用户任务：请帮我照看家里的老人，如果发生摔倒等意外或危险请及时提醒并呼救。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[warn]老人已经自己扶着桌子站起来了，目前身体无大碍。,[warn]老人不小心将桌子上的水杯碰倒，正在清理地上的积水。,[warn]老人只是在地上做拉伸运动，并没有发生摔倒或受伤。,[warn]老人摔倒后还没有起身，请尽快查看，并协助联系救援。,,,,,,,,,D
+qa_t_syn_mon_elder_fall_stay,mon_elder_fall_stay,timing,synthetic/mon_elder_fall_stay.mp4,zh,"用户任务：请帮我照看家里的老人，如果发生摔倒等意外或危险请及时提醒并呼救。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",11–30.1秒,保持沉默。,0–11秒,0–30.1秒,,,,,,,,,A
+qa_c_syn_mon_home_baby_fall_self,mon_home_baby_fall_self,content,synthetic/mon_home_baby_fall_self.mp4,zh,"用户任务：请帮我照看宝宝，如果他摔倒或有危险请及时提醒，并随时告诉我他的最新情况。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[warn]宝宝在爬行时不小心撞到了绿色的电视柜，正在大哭。,[inform]宝宝真棒，自己扶着抱枕站起来了。,[warn]宝宝摔倒了，不哭不哭，慢慢扶着站起来。,[warn]宝宝别怕，慢慢坐好，等妈妈过来。,,,,,,,,,B;C;D
+qa_t_syn_mon_home_baby_fall_self,mon_home_baby_fall_self,timing,synthetic/mon_home_baby_fall_self.mp4,zh,"用户任务：请帮我照看宝宝，如果他摔倒或有危险请及时提醒，并随时告诉我他的最新情况。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",21秒,0秒,16秒,24秒,,,,,,,,,A;C;D
+qa_c_syn_museum_armor,museum_armor,content,synthetic/museum_armor.mp4,zh,"用户任务：请陪我一起看展，如果我有触摸展品等不当行为或需要注意的事项请提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]请不要用手触摸铠甲的金属面，这会加速其氧化。,保持沉默。,[warn]请退到警戒线外，您靠得太近触发了展位的红外警报。,[warn]请不要使用闪光灯拍照，强光会损坏展柜内的历史文物。,,,,,,,,,B
+qa_t_syn_museum_armor,museum_armor,timing,synthetic/museum_armor.mp4,zh,"用户任务：请陪我一起看展，如果我有触摸展品等不当行为或需要注意的事项请提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_syn_museum_dino,museum_dino,content,synthetic/museum_dino.mp4,zh,"用户任务：请帮我照看孩子参观展览，留意安全和参观规范，有问题及时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]请注意，孩子正试图翻越围栏去触摸恐龙骨架，这非常危险！,保持沉默。,[warn]孩子正在大声喧哗并拍打展柜，请及时制止他的不文明行为。,[inform]孩子已经离开恐龙展厅，正独自跑向旁边的纪念品商店。,,,,,,,,,B
+qa_t_syn_museum_dino,museum_dino,timing,synthetic/museum_dino.mp4,zh,"用户任务：请帮我照看孩子参观展览，留意安全和参观规范，有问题及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–15.1秒,0–7.5秒,7.5–15.1秒,,,,,,,,,A
+qa_c_syn_museum_elder_bench,museum_elder_bench,content,synthetic/museum_elder_bench.mp4,zh,"用户任务：请帮我照看老人，如果她有危险或需要帮助请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[warn]老人正试图站起来，但身体摇晃，可能需要搀扶。,[inform]老人向路过的游客招手，似乎在寻求帮助。,[warn]老人不小心将随身物品掉在了地上，正准备弯腰去捡。,,,,,,,,,A
+qa_t_syn_museum_elder_bench,museum_elder_bench,timing,synthetic/museum_elder_bench.mp4,zh,"用户任务：请帮我照看老人，如果她有危险或需要帮助请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–15.1秒,0–7.5秒,7.5–15.1秒,,,,,,,,,A
+qa_c_syn_museum_kid_armor,museum_kid_armor,content,synthetic/museum_kid_armor.mp4,zh,"用户任务：请帮我照看孩子参观展览，留意安全和参观规范，有问题及时提醒我。
+
+题目：你是实时交互助手。视频放到第 1.5 秒。这一刻你应该说什么？",[inform]孩子正在攀爬盔甲旁边的防护栏杆。,[inform]请不要触摸展品。,[inform]孩子不小心撞倒了盔甲展品，需要立刻扶起来。,[inform]孩子正在用手机给盔甲拍照，闪光灯太亮了。,,,,,,,,,B
+qa_t_syn_museum_kid_armor,museum_kid_armor,timing,synthetic/museum_kid_armor.mp4,zh,"用户任务：请帮我照看孩子参观展览，留意安全和参观规范，有问题及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",1.5–4.5秒,保持沉默。,0–1.5秒,4.5–15.1秒,,,,,,,,,A
+qa_c_syn_museum_rope_hall,museum_rope_hall,content,synthetic/museum_rope_hall.mp4,zh,"用户任务：请陪我参观展览，留意安全和参观规范，有问题及时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[warn]请注意，你已经跨越了红色的安全隔离带，请立刻退回安全区域。,[inform]展厅内禁止闭眼冥想，请睁开眼睛继续参观。,[feedback]你已经到达了出口，请按照指示牌指引离开展厅。,,,,,,,,,A
+qa_t_syn_museum_rope_hall,museum_rope_hall,timing,synthetic/museum_rope_hall.mp4,zh,"用户任务：请陪我参观展览，留意安全和参观规范，有问题及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–15.1秒,0–7.5秒,7.5–15.1秒,,,,,,,,,A
+qa_c_syn_museum_vase,museum_vase,content,synthetic/museum_vase.mp4,zh,"用户任务：请陪我参观展览，留意安全和参观规范，有问题及时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[warn]请不要触摸展柜，这可能会损坏青花瓷瓶。,[warn]请注意，您距离展品太近了，请退到警戒线外。,[feedback]展厅内禁止拍照，请您收起手机。,,,,,,,,,A
+qa_t_syn_museum_vase,museum_vase,timing,synthetic/museum_vase.mp4,zh,"用户任务：请陪我参观展览，留意安全和参观规范，有问题及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,保持沉默。,7.5–15.1秒,,,,,,,,,C
+qa_c_syn_museum_wheel_stair__v20261011,museum_wheel_stair,content,synthetic/museum_wheel_stair.mp4,zh,"用户任务：请帮我观察前方道路，告诉我轮椅是否能通行，遇到障碍时给出建议。
+
+题目：你是实时交互助手。视频放到第 1 秒。这一刻你应该说什么？",[inform]前方是楼梯，轮椅无法通行，请寻找无障碍通道。,[inform]前方道路平坦无障碍，轮椅可以正常通行。,[inform]前方是自动扶梯，您可以直接推轮椅上去。,[inform]前方设有专用的轮椅升降平台，您可以直接按下按钮使用。,,,,,,,,,A
+qa_t_syn_museum_wheel_stair__v20261011,museum_wheel_stair,timing,synthetic/museum_wheel_stair.mp4,zh,"用户任务：请帮我观察前方道路，告诉我轮椅是否能通行，遇到障碍时给出建议。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",1–5秒,保持沉默。,0–1秒,5–15.1秒,,,,,,,,,A
+qa_c_real_orbit_ball_12,orbit_ball_12,content,real/orbit_ball_12.mp4,zh,"用户任务：请告知我这是什么。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]你手里拿的是一个蓝色的凹凸玩具球。,[inform]这是一个蓝色的塑料魔方。,[inform]你手里拿的是一个蓝色的发光指尖陀螺。,[inform]这是一个蓝色的橡胶握力圈。,,,,,,,,,A
+qa_t_real_orbit_ball_12,orbit_ball_12,timing,real/orbit_ball_12.mp4,zh,"用户任务：请告知我这是什么。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–2秒,2–6秒,6–20秒,,,,,,,,,C
+qa_c_real_orbit_bumbag_05,orbit_bumbag_05,content,real/orbit_bumbag_05.mp4,zh,"用户任务：请告知我这是什么。
+
+题目：你是实时交互助手。视频放到第 0 秒。这一刻你应该说什么？",[inform]这是一个黑色的皮革钱包。,[inform]你手里的是一个黑色的保温杯。,[inform]你手里的是一个黑色的腰包。,[inform]这是一个黑色的双肩背包。,,,,,,,,,C
+qa_t_real_orbit_bumbag_05,orbit_bumbag_05,timing,real/orbit_bumbag_05.mp4,zh,"用户任务：请告知我这是什么。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,3–14.1秒,0–14.1秒,0–3秒,,,,,,,,,D
+qa_c_real_orbit_cane_03,orbit_cane_03,content,real/orbit_cane_03.mp4,zh,"用户任务：请告知我这是什么。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]你面前放着一把黑色的折叠雨伞。,[inform]桌上是一根黑色的金属自拍杆。,[inform]你面前是一根折叠好的盲杖，带有白色滚轮杖尖。,[inform]你面前摆放着一根红色的伸缩登山杖。,,,,,,,,,C
+qa_t_real_orbit_cane_03,orbit_cane_03,timing,real/orbit_cane_03.mp4,zh,"用户任务：请告知我这是什么。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–1.5秒,5.5–16.2秒,1.5–5.5秒,,,,,,,,,D
+qa_c_real_orbit_cane_07,orbit_cane_07,content,real/orbit_cane_07.mp4,zh,"用户任务：请告知我这是什么。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]你盲杖碰到的是一个方形的木质餐垫。,[inform]你盲杖碰到的是一个圆形的金属隔热架。,[inform]你盲杖碰到的是一把金属剪刀。,[inform]你盲杖碰到的是一个白色的塑料垃圾桶。,,,,,,,,,B
+qa_t_real_orbit_cane_07,orbit_cane_07,timing,real/orbit_cane_07.mp4,zh,"用户任务：请告知我这是什么。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–3秒,6–19.8秒,3–6秒,,,,,,,,,D
+qa_c_real_orbit_condom_08,orbit_condom_08,content,real/orbit_condom_08.mp4,zh,"用户任务：请告知我这是什么。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]你面前有一盒杜蕾斯避孕套和一盆假花。,[inform]你面前放着一盒感冒药和一瓶洗手液。,[inform]你面前有一盒杜蕾斯避孕套和一盆新鲜的红玫瑰。,[inform]你面前摆放着一盒电动牙刷和一瓶卸妆水。,,,,,,,,,A
+qa_t_real_orbit_condom_08,orbit_condom_08,timing,real/orbit_condom_08.mp4,zh,"用户任务：请告知我这是什么。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0.5–3.5秒,0–0.5秒,3.5–17.7秒,,,,,,,,,B
+qa_c_real_orbit_glasses_16,orbit_glasses_16,content,real/orbit_glasses_16.mp4,zh,"用户任务：请告诉我这是什么。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]您面前有一副红框、蓝色镜片的近视眼镜，后面放着一件纯白色的T恤。,[inform]画面中是一副黑框、黄色镜片的太阳镜，旁边放着一个蓝色花纹的陶瓷花瓶。,[inform]您面前有一副黑框、黄色镜片的太阳镜，后面放着一件黑白花纹的衣物。,[inform]您面前有一副金属细框、黑色镜片的太阳镜，后面放着一件红绿条纹的针织衫。,,,,,,,,,C
+qa_t_real_orbit_glasses_16,orbit_glasses_16,timing,real/orbit_glasses_16.mp4,zh,"用户任务：请告诉我这是什么。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–3秒,8–20秒,3–8秒,,,,,,,,,D
+qa_c_real_orbit_headphones_18,orbit_headphones_18,content,real/orbit_headphones_18.mp4,zh,"用户任务：请告知我这是什么。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]桌上放着一个白色的VR头显。,[inform]你面前的桌上放着一个黑色的头戴式耳机。,[inform]你面前的桌上放着一个黑色的便携式蓝牙音箱。,[inform]你面前的桌上放着一个黑色的机械键盘。,,,,,,,,,B
+qa_t_real_orbit_headphones_18,orbit_headphones_18,timing,real/orbit_headphones_18.mp4,zh,"用户任务：请告知我这是什么。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",3–7秒,保持沉默。,0–3秒,7–16.1秒,,,,,,,,,A
+qa_c_real_orbit_leash_11__v20261011,orbit_leash_11,content,real/orbit_leash_11.mp4,zh,"用户任务：请帮我识别正在触摸或展示的物品，并告诉我是什么。
+
+题目：你是实时交互助手。视频放到第 0 秒。这一刻你应该说什么？",[inform]你面前展示的是一条导盲犬牵引绳。,[inform]旁边是一个粉白相间的自行车头盔。,[inform]你正在触摸和展示的是一个粉白相间的自行车头盔。,[inform]你正在触摸和展示的是一件灰色的户外夹克。,,,,,,,,,A
+qa_t_real_orbit_leash_11__v20261011,orbit_leash_11,timing,real/orbit_leash_11.mp4,zh,"用户任务：请帮我识别正在触摸或展示的物品，并告诉我是什么。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",3秒,6秒,10.9秒,0秒,,,,,,,,,A;B;D
+qa_c_real_orbit_mug_06__v20261011,orbit_mug_06,content,real/orbit_mug_06.mp4,zh,"用户任务：请帮我识别手里拿的物品，并告诉我是什么。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]你手里拿的是一个塑料运动水杯。,[inform]你手里拿的是一个不锈钢保温杯。,[inform]你手里拿的是一个陶瓷咖啡马克杯。,[inform]你手里拿的是一个玻璃红酒杯。,,,,,,,,,B
+qa_t_real_orbit_mug_06__v20261011,orbit_mug_06,timing,real/orbit_mug_06.mp4,zh,"用户任务：请帮我识别手里拿的物品，并告诉我是什么。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",1.5–5.5秒,保持沉默。,0–1.5秒,5.5–19.7秒,,,,,,,,,A
+qa_c_real_orbit_pepper_04__v20261011,orbit_pepper_04,content,real/orbit_pepper_04.mp4,zh,"用户任务：请帮我识别面前旋转的物品，并告诉我是什么。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]你面前是一个正在旋转的蓝色咖啡杯。,[inform]你面前有一个正在旋转的红色苹果。,[inform]你面前是一个黄色胡椒瓶。,[inform]你面前是一个正在旋转的白色盐罐。,,,,,,,,,C
+qa_t_real_orbit_pepper_04__v20261011,orbit_pepper_04,timing,real/orbit_pepper_04.mp4,zh,"用户任务：请帮我识别面前旋转的物品，并告诉我是什么。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–2秒,2–6秒,6–16.6秒,,,,,,,,,C
+qa_c_real_orbit_phone_17__v20261011,orbit_phone_17,content,real/orbit_phone_17.mp4,zh,"用户任务：请帮我查看桌上和周围的物品，把看到的情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]桌上有手表、手机、键盘、显示器和耳机。,[inform]桌子下方地面上有许多杂乱的电线。,[inform]桌上放着一本书、一瓶矿泉水和一包纸巾。,[inform]桌子下方有一个垃圾桶，里面装满了废纸。,,,,,,,,,A;B
+qa_t_real_orbit_phone_17__v20261011,orbit_phone_17,timing,real/orbit_phone_17.mp4,zh,"用户任务：请帮我查看桌上和周围的物品，把看到的情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,6秒,19.9秒,13秒,,,,,,,,,B;D
+qa_c_syn_out_duty_sun,out_duty_sun,content,synthetic/out_duty_sun.mp4,zh,"用户任务：请帮我留意户外工作时的身体状态和环境，有不适或安全风险及时提醒我。
+
+题目：你是实时交互助手。视频放到第 4 秒。这一刻你应该说什么？",[warn]您现在处于严重的低血糖状态，请立即食用随身携带的糖果。,[warn]天气炎热，请注意防暑，多喝水避免中暑。,[warn]检测到您刚才摔倒了，请确认身体是否有擦伤或骨折。,[warn]路面有积水和结冰，请注意防滑，避免滑倒受伤。,,,,,,,,,B
+qa_t_syn_out_duty_sun,out_duty_sun,timing,synthetic/out_duty_sun.mp4,zh,"用户任务：请帮我留意户外工作时的身体状态和环境，有不适或安全风险及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",4–10秒,保持沉默。,0–4秒,10–15.1秒,,,,,,,,,A
+qa_c_syn_outfit_rain__v20261011,outfit_rain,content,synthetic/outfit_rain.mp4,zh,"用户任务：请帮我看看出门衣服是否适合现场可见的天气，有不合适的地方请告诉我并给出建议。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]下雨天穿白鞋容易弄脏，建议换一双。,[inform]外面阳光明媚，建议选择米白色裤子，看起来更清爽。,[inform]下雨天穿高跟鞋出行更安全，建议选择黑色高跟鞋。,[inform]外面在下雨，建议选择深色裤子，不易弄脏。,,,,,,,,,A;D
+qa_t_syn_outfit_rain__v20261011,outfit_rain,timing,synthetic/outfit_rain.mp4,zh,"用户任务：请帮我看看出门衣服是否适合现场可见的天气，有不合适的地方请告诉我并给出建议。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,21秒,30.1秒,1.5秒,,,,,,,,,B;D
+qa_c_synthetic_p4_cafe_wait__v20261010,p4_cafe_wait,content,synthetic/p4_cafe_wait.mp4,zh,"用户任务：请帮我关注等候咖啡的进展，有需要处理的情况或咖啡准备好时告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]咖啡已经制作完成，店员正递给您。,保持沉默。,[warn]店员告知咖啡机发生故障，需要您退款或更换饮品。,[inform]店员表示由于排队人数过多，您的订单被取消了。,,,,,,,,,B
+qa_t_synthetic_p4_cafe_wait__v20261010,p4_cafe_wait,timing,synthetic/p4_cafe_wait.mp4,zh,"用户任务：请帮我关注等候咖啡的进展，有需要处理的情况或咖啡准备好时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_syn_p4_car_fuel__v20261011,p4_car_fuel,content,synthetic/p4_car_fuel.mp4,zh,"用户任务：请陪我开车，听到我提出行程中的需求时，告诉我可以采取的措施。
+
+题目：你是实时交互助手。视频放到第 12.5 秒。这一刻你应该说什么？",[inform]仪表盘显示油量充足，您还可以行驶大约300公里，请放心继续驾驶。,[inform]系统已检测到车辆彻底没油，已自动为您熄火并锁死方向盘。,[inform]您提到油量可能不足，请先确认剩余油量，并用导航查找可到达的加油站。,[inform]已为您在前方50米处找到一家正在营业的自助洗车店，请靠右停车。,,,,,,,,,C
+qa_t_syn_p4_car_fuel__v20261011,p4_car_fuel,timing,synthetic/p4_car_fuel.mp4,zh,"用户任务：请陪我开车，听到我提出行程中的需求时，告诉我可以采取的措施。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",12.5–15.1秒,保持沉默。,0–12.5秒,0–15.1秒,,,,,,,,,A
+qa_c_syn_p4_hos_wait__v20261011,p4_hos_wait,content,synthetic/p4_hos_wait.mp4,zh,"用户任务：请陪我在医院候诊，我表达疑问或需要帮助时，请告诉我可以采取的措施。
+
+题目：你是实时交互助手。视频放到第 11.5 秒。这一刻你应该说什么？",[inform]医生已经叫到您的号了，请立刻进入诊室就诊。,[inform]您可以直接进入诊室打断医生，要求先为您看诊。,[inform]大屏幕上显示您前面还有二十位患者，需要等待两小时。,[inform]您可以去服务台咨询，或在手机上查看进度。,,,,,,,,,D
+qa_t_syn_p4_hos_wait__v20261011,p4_hos_wait,timing,synthetic/p4_hos_wait.mp4,zh,"用户任务：请陪我在医院候诊，我表达疑问或需要帮助时，请告诉我可以采取的措施。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",11.5–15.1秒,保持沉默。,0–11.5秒,0–15.1秒,,,,,,,,,A
+qa_c_synthetic_p4_neg_phone__v20261010,p4_neg_phone,content,synthetic/p4_neg_phone.mp4,zh,"用户任务：请陪我打电话，我向你提问或请求帮助时请回应。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]你接听了电话，并向对方询问了关于明天会议的具体安排。,[inform]你在电话中向对方抱怨工作压力太大，并表示想要请假休息。,[inform]你挂断电话后，立刻在电脑上开始撰写刚才通话中提到的工作报告。,保持沉默。,,,,,,,,,D
+qa_t_synthetic_p4_neg_phone__v20261010,p4_neg_phone,timing,synthetic/p4_neg_phone.mp4,zh,"用户任务：请陪我打电话，我向你提问或请求帮助时请回应。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_synthetic_p4_neg_read__v20261010,p4_neg_read,content,synthetic/p4_neg_read.mp4,zh,"用户任务：请陪我读书，我向你提问或请求帮助时请回应。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]女孩在用手指着书本朗读课文时，读错了一个单词，需要我立刻纠正。,[inform]女孩在翻开书的下一页后，向我询问了关于课文背景的问题。,保持沉默。,[inform]女孩现在已经停止了朗读，并抬头向我寻求关于书中难懂词汇的帮助。,,,,,,,,,C
+qa_t_synthetic_p4_neg_read__v20261010,p4_neg_read,timing,synthetic/p4_neg_read.mp4,zh,"用户任务：请陪我读书，我向你提问或请求帮助时请回应。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_synthetic_p4_neg_sing__v20261010,p4_neg_sing,content,synthetic/p4_neg_sing.mp4,zh,"用户任务：请陪我唱歌，我向你提问或请求指导时请回应。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[inform]你唱歌的声音非常好听，音调很准，节奏感也很强。,[inform]你唱的是一首关于旅行的英文歌曲，歌词非常优美。,[inform]你刚才在唱歌时，手指在方向盘上敲击了十次来打节拍。,,,,,,,,,A
+qa_t_synthetic_p4_neg_sing__v20261010,p4_neg_sing,timing,synthetic/p4_neg_sing.mp4,zh,"用户任务：请陪我唱歌，我向你提问或请求指导时请回应。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–15.1秒,0–7.5秒,7.5–15.1秒,,,,,,,,,A
+qa_c_synthetic_p4_neg_tired__v20261010,p4_neg_tired,content,synthetic/p4_neg_tired.mp4,zh,"用户任务：请帮我留意休息时的状态，有危险或明显异常时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]您在翻身时碰倒了茶几上的水杯，水洒在了地板上。,[warn]检测到您在拿水杯时身体失去平衡，从沙发上摔了下来。,保持沉默。,[warn]您在闭眼休息时出现了剧烈的咳嗽和呼吸困难，请注意身体状况。,,,,,,,,,C
+qa_t_synthetic_p4_neg_tired__v20261010,p4_neg_tired,timing,synthetic/p4_neg_tired.mp4,zh,"用户任务：请帮我留意休息时的状态，有危险或明显异常时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_syn_p4_office_late,p4_office_late,content,synthetic/p4_office_late.mp4,zh,"用户任务：请看着我加班，如果时间太晚了请提醒我。
+
+题目：你是实时交互助手。视频放到第 11 秒。这一刻你应该说什么？",[inform]现在是下午两点，你才刚开始上班呢。,[inform]现在时间还早，你可以继续在办公室加班。,[inform]电脑屏幕上显示现在是早上八点，该准备开会了。,[inform]已经深夜了，辛苦了，早点下班休息吧。,,,,,,,,,D
+qa_t_syn_p4_office_late,p4_office_late,timing,synthetic/p4_office_late.mp4,zh,"用户任务：请看着我加班，如果时间太晚了请提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–11秒,11–15.1秒,0–15.1秒,,,,,,,,,C
+qa_c_syn_p4_pet_scratch,p4_pet_scratch,content,synthetic/p4_pet_scratch.mp4,zh,"用户任务：请帮我照看这只狗，如果发现它有什么不舒服或异常行为请提醒我。
+
+题目：你是实时交互助手。视频放到第 11 秒。这一刻你应该说什么？",[inform]它刚才一直在咬自己的尾巴，可能是有寄生虫。,[inform]频繁挠耳朵可能是耳朵痒，建议检查一下耳道。,[inform]它一直试图站起来但后腿无力，建议检查一下关节。,[inform]它刚才在地毯上不停地蹭屁股，可能是肛门腺堵塞了。,,,,,,,,,B
+qa_t_syn_p4_pet_scratch,p4_pet_scratch,timing,synthetic/p4_pet_scratch.mp4,zh,"用户任务：请帮我照看这只狗，如果发现它有什么不舒服或异常行为请提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–11秒,0–15.1秒,11–15.1秒,,,,,,,,,D
+qa_c_syn_p4_run_side,p4_run_side,content,synthetic/p4_run_side.mp4,zh,"用户任务：请看着我跑步，如果我身体不舒服或者有异常情况请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 1 秒。这一刻你应该说什么？",[warn]你好像突发不适，请停下休息，深呼吸。,[warn]你的跑步姿势非常标准，请继续保持这个配速。,[warn]你刚才不小心摔倒了，请检查膝盖是否擦伤。,[warn]你已经顺利完成了本次跑步目标，可以开始进行跑后拉伸了。,,,,,,,,,A
+qa_t_syn_p4_run_side,p4_run_side,timing,synthetic/p4_run_side.mp4,zh,"用户任务：请看着我跑步，如果我身体不舒服或者有异常情况请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–1秒,4–15.1秒,1–4秒,,,,,,,,,D
+qa_c_syn_p4_run_side_graded,p4_run_side_graded,content,synthetic/p4_run_side_graded.mp4,zh,"用户任务：请看着我跑步，如果我身体不舒服或者有异常情况请及时提醒我。
+
+题目：你是实时交互助手。视频放到第 1.5 秒。这一刻你应该说什么？",[inform]感觉好些了吗？先慢走一会儿恢复一下。,[warn]你好像扭伤了脚踝，请立刻坐在地上不要乱动，等待冰敷。,[warn]你好像岔气了，先停下深呼吸，慢走调整。,[warn]你刚才在跑步时突然摔倒了，请检查膝盖是否有擦伤。,,,,,,,,,C
+qa_t_syn_p4_run_side_graded,p4_run_side_graded,timing,synthetic/p4_run_side_graded.mp4,zh,"用户任务：请看着我跑步，如果我身体不舒服或者有异常情况请及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,15.1秒,1.5秒,11秒,,,,,,,,,C;D
+qa_c_syn_p4_street_rain,p4_street_rain,content,synthetic/p4_street_rain.mp4,zh,"用户任务：请看着我在外面散步，如果天气有变或者快下雨了请提醒我。
+
+题目：你是实时交互助手。视频放到第 3 秒。这一刻你应该说什么？",[inform]天空已经完全放晴，阳光很刺眼，建议您做好防晒。,[inform]目前没有风，天空中万里无云，您可以继续安心散步。,[inform]天气阴沉风大，可能要下雨，建议尽快避雨。,[inform]天空中开始飘落大雪，气温骤降，请您注意防寒保暖。,,,,,,,,,C
+qa_t_syn_p4_street_rain,p4_street_rain,timing,synthetic/p4_street_rain.mp4,zh,"用户任务：请看着我在外面散步，如果天气有变或者快下雨了请提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–3秒,3–8秒,8–15.1秒,,,,,,,,,C
+qa_c_synthetic_p4_tour_view__v20261010,p4_tour_view,content,synthetic/p4_tour_view.mp4,zh,"用户任务：请陪我欣赏风景，我向你提问或请求帮助时请回应。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]远处的群山中有一座红色的宝塔，那是景区著名的观景地标。,保持沉默。,[inform]你现在正站在一座木质吊桥上，周围有许多游客在拍照。,[inform]山谷中正有缆车缓缓升起，你可以乘坐它到达对面的山顶。,,,,,,,,,B
+qa_t_synthetic_p4_tour_view__v20261010,p4_tour_view,timing,synthetic/p4_tour_view.mp4,zh,"用户任务：请陪我欣赏风景，我向你提问或请求帮助时请回应。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_synthetic_patrol_cone_jaywalk__v20261010,patrol_cone_jaywalk,content,synthetic/patrol_cone_jaywalk.mp4,zh,"用户任务：请帮我留意行进路线，出现需要避让或注意的情况时告诉我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]前方有一名红衣男子正在横穿马路，请注意避让。,[inform]前方人行道上有交通锥，请注意避让。,[inform]前方人行道上有一辆停放的自行车，请注意绕行。,[inform]前方路面有大面积积水，请注意减速慢行。,,,,,,,,,B
+qa_t_synthetic_patrol_cone_jaywalk__v20261010,patrol_cone_jaywalk,timing,synthetic/patrol_cone_jaywalk.mp4,zh,"用户任务：请帮我留意行进路线，出现需要避让或注意的情况时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–1秒,4–30.1秒,1–4秒,,,,,,,,,D
+qa_c_real_pet_bowl_ego__v20261010,pet_bowl_ego,content,real/pet_bowl_ego.mp4,zh,"用户任务：请帮我照看狗狗，有需要关注的表现或需求时告诉我，照看结束时简要总结它的情况。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]狗狗一直在空碗旁哼唧要吃的，有人在安抚它。,[inform]狗狗在空碗旁一直哼唧，好像是饿了。,[inform]狗狗在空碗旁睡着了，看起来很安静。,[inform]狗狗已经吃完了碗里的狗粮，正在开心地摇尾巴。,,,,,,,,,A;B
+qa_t_real_pet_bowl_ego__v20261010,pet_bowl_ego,timing,real/pet_bowl_ego.mp4,zh,"用户任务：请帮我照看狗狗，有需要关注的表现或需求时告诉我，照看结束时简要总结它的情况。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,32.5秒,28秒,5秒,,,,,,,,,C;D
+qa_c_real_pet_cat_bowl__v20261011,pet_cat_bowl,content,real/pet_cat_bowl.mp4,zh,"用户任务：请帮我留意猫咪在食碗旁的表现，有进食需求的迹象时告诉我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]猫咪正守着空碗喵喵叫，可能饿了。,[inform]猫咪已经吃完了碗里的猫粮，正趴在地上休息。,[inform]猫咪正在大口吃着黄色花纹碗里的猫粮。,[inform]猫咪把食碗撞翻了，猫粮洒了一地。,,,,,,,,,A
+qa_t_real_pet_cat_bowl__v20261011,pet_cat_bowl,timing,real/pet_cat_bowl.mp4,zh,"用户任务：请帮我留意猫咪在食碗旁的表现，有进食需求的迹象时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",15–20秒,保持沉默。,0–15秒,20–33.3秒,,,,,,,,,A
+qa_c_real_pet_cat_door__v20261011,pet_cat_door,content,real/pet_cat_door.mp4,zh,"用户任务：请帮我留意猫咪在门边的表现，有想出门的迹象时告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]猫咪在门前安静地睡着了，没有任何想出门的举动。,[inform]猫咪正叼着玩具在门前玩耍，并没有试图去掏门缝。,[inform]猫咪在门前一直喵喵叫，好像想出去。,[inform]它现在趴在地上，正用爪子不停地掏门缝。,,,,,,,,,C;D
+qa_t_real_pet_cat_door__v20261011,pet_cat_door,timing,real/pet_cat_door.mp4,zh,"用户任务：请帮我留意猫咪在门边的表现，有想出门的迹象时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,45.5秒,3秒,15秒,,,,,,,,,C;D
+qa_c_syn_pet_danger_neg,pet_danger_neg,content,synthetic/pair/pet_danger_neg.mp4,zh,"用户任务：请帮我照看狗，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]狗在茶几上偷吃了一块巧克力，现在正躺在地上休息。,[inform]狗把茶几上的锡纸包装食物叼到了地上，并开始撕咬包装。,[inform]狗在您离开后跳上了沙发，并把茶几上的水杯碰倒了。,保持沉默。,,,,,,,,,D
+qa_t_syn_pet_danger_neg,pet_danger_neg,timing,synthetic/pair/pet_danger_neg.mp4,zh,"用户任务：请帮我照看狗，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_syn_pet_danger_pos,pet_danger_pos,content,synthetic/pair/pet_danger_pos.mp4,zh,"用户任务：请帮我照看狗，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 11 秒。这一刻你应该说什么？",[warn]狗狗正在咬取桌上的巧克力，快去阻止它！,[warn]狗狗正在撕咬沙发上的纸巾，请尽快制止。,[warn]狗狗正在靠近桌上的巧克力，快去阻止它。,[warn]狗狗把桌上的水杯碰倒了，水洒了一地。,,,,,,,,,C
+qa_t_syn_pet_danger_pos,pet_danger_pos,timing,synthetic/pair/pet_danger_pos.mp4,zh,"用户任务：请帮我照看狗，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",13.1秒,0秒,11秒,15.1秒,,,,,,,,,A;C
+qa_c_real_pet_dog_bowl__v20261010,pet_dog_bowl,content,real/pet_dog_bowl.mp4,zh,"用户任务：请帮我照看狗狗，每次它主动引起注意或表现出照顾需求时告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]狗狗叫了一声。您看看狗狗怎么了。,[inform]狗狗把碗叼起来了。您看看狗狗怎么了。,[inform]狗狗正在咬它的毛绒玩具，并把它叼回了窝里。,[inform]狗狗又叼起了碗。您看看狗狗怎么了。,[inform]狗狗正在用爪子拨弄碗。您看看狗狗怎么了。,[inform]狗狗又叫了一声。您看看狗狗怎么了。,,,,,,,A;B;D;E;F
+qa_t_real_pet_dog_bowl__v20261010,pet_dog_bowl,timing,real/pet_dog_bowl.mp4,zh,"用户任务：请帮我照看狗狗，每次它主动引起注意或表现出照顾需求时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",27.5秒,78秒,0秒,47秒,51秒,16秒,44秒,,,,,,A;B;D;E;F;G
+qa_c_real_pet_dog_door,pet_dog_door,content,real/pet_dog_door.mp4,zh,"用户任务：请帮我照看门口的狗狗，有需要帮助或异常的情况及时通知我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]狗狗在门廊上叼起了一份快递。,[inform]有陌生人正在靠近门口，狗狗开始大声吠叫。,[inform]狗狗又按了一次门铃。,[inform]狗狗在按门铃，它想进屋了。,,,,,,,,,C;D
+qa_t_real_pet_dog_door,pet_dog_door,timing,real/pet_dog_door.mp4,zh,"用户任务：请帮我照看门口的狗狗，有需要帮助或异常的情况及时通知我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,13秒,16.4秒,2秒,,,,,,,,,B;D
+qa_c_real_pet_frenchie_bowl__v20261010,pet_frenchie_bowl,content,real/pet_frenchie_bowl.mp4,zh,"用户任务：请帮我照看狗狗，每次出现需要关注的表现时告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]狗狗在食碗旁发出哼唧声。您看看狗狗怎么了。,[inform]狗狗开始大声嚎叫。您看看狗狗怎么了。,[inform]狗狗又开始嚎叫了。您看看狗狗怎么了。,[inform]狗狗在食碗旁开心地摇尾巴，似乎已经吃饱了。,,,,,,,,,A;B;C
+qa_t_real_pet_frenchie_bowl__v20261010,pet_frenchie_bowl,timing,real/pet_frenchie_bowl.mp4,zh,"用户任务：请帮我照看狗狗，每次出现需要关注的表现时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",24.5秒,0秒,47.5秒,60.1秒,,,,,,,,,A;B;C
+qa_c_real_pet_home__v20261010,pet_home,content,real/pet_home.mp4,zh,"用户任务：请帮我照看狗狗，有危险或需要关注的情况时及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]狗狗在茶几上趴下了，目前情绪有所稳定。,[warn]狗狗在茶几上撕咬纸巾盒，请及时制止它。,[warn]狗狗不小心从茶几上摔了下来，看起来有些受伤。,[warn]狗狗跳上茶几开始嚎叫了，注意跌落风险。,,,,,,,,,A;D
+qa_t_real_pet_home__v20261010,pet_home,timing,real/pet_home.mp4,zh,"用户任务：请帮我照看狗狗，有危险或需要关注的情况时及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",3秒,49秒,0秒,55秒,,,,,,,,,A;B
+qa_c_syn_pet_plant_neg,pet_plant_neg,content,synthetic/pair/pet_plant_neg.mp4,zh,"用户任务：请帮我照看猫，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]猫咪只是在茶几旁睡觉，没有靠近那盆植物。,[inform]猫咪把茶几上的虎尾兰盆栽撞倒在地，花盆摔碎了。,[inform]女生走过来给虎尾兰浇水，并给猫咪喂了零食。,保持沉默。,,,,,,,,,D
+qa_t_syn_pet_plant_neg,pet_plant_neg,timing,synthetic/pair/pet_plant_neg.mp4,zh,"用户任务：请帮我照看猫，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,保持沉默。,7.5–15.1秒,,,,,,,,,C
+qa_c_syn_pet_plant_pos,pet_plant_pos,content,synthetic/pair/pet_plant_pos.mp4,zh,"用户任务：请帮我照看猫，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 6 秒。这一刻你应该说什么？",[warn]猫咪在啃咬茶几上的多肉植物，可能会被刺伤，请注意。,[warn]猫咪在咬虎尾兰，这有毒，快去阻止它。,[inform]猫咪只是在闻茶几上的百合花，并没有去咬它。,[feedback]猫咪在客厅里愉快地玩耍，没有靠近任何盆栽。,,,,,,,,,B
+qa_t_syn_pet_plant_pos,pet_plant_pos,timing,synthetic/pair/pet_plant_pos.mp4,zh,"用户任务：请帮我照看猫，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,6–15.1秒,0–6秒,0–15.1秒,,,,,,,,,B
+qa_c_real_pet_puppy_leash__v20261010,pet_puppy_leash,content,real/pet_puppy_leash.mp4,zh,"用户任务：请帮我照看小狗，有需要关注的表现或需求时告诉我，照看结束时简要总结它的情况。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]小狗叼着牵引绳在门口等，它想进屋了。,[inform]小狗一直叼着牵引绳在门口等，想进屋呢。,[inform]小狗把牵引绳咬断了，需要你重新买一条。,[inform]小狗在草地上把球弄丢了，现在正在草丛里到处寻找它的玩具。,,,,,,,,,A;B
+qa_t_real_pet_puppy_leash__v20261010,pet_puppy_leash,timing,real/pet_puppy_leash.mp4,zh,"用户任务：请帮我照看小狗，有需要关注的表现或需求时告诉我，照看结束时简要总结它的情况。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,90.1秒,85秒,12.5秒,,,,,,,,,C;D
+qa_c_syn_pet_screen,pet_screen,content,synthetic/pet_screen.mp4,zh,"用户任务：请帮我照看猫，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 0 秒。这一刻你应该说什么？",[warn]猫咪在客厅的猫爬架上玩耍，请放心。,[warn]猫咪在开着的窗台上，小心坠落危险。,[warn]猫咪正在厨房里翻找垃圾桶，请及时阻止。,[warn]猫咪在卧室的床底下睡觉，没有任何异常。,,,,,,,,,B
+qa_t_syn_pet_screen,pet_screen,timing,synthetic/pet_screen.mp4,zh,"用户任务：请帮我照看猫，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,5–15.1秒,0–15.1秒,0–5秒,,,,,,,,,D
+qa_c_syn_pet_shoe,pet_shoe,content,synthetic/pet_shoe.mp4,zh,"用户任务：请帮我照看狗，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 0 秒。这一刻你应该说什么？",[warn]狗狗正在客厅里撕咬沙发垫，请尽快处理。,[warn]狗狗把猫咪的玩具咬坏了，需要过去看一下吗？,[warn]狗狗正在啃咬桌子腿，可能会损坏家具。,[warn]狗狗正在咬你的鞋子，快去阻止它。,,,,,,,,,D
+qa_t_syn_pet_shoe,pet_shoe,timing,synthetic/pet_shoe.mp4,zh,"用户任务：请帮我照看狗，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–4秒,保持沉默。,4–15.1秒,0–15.1秒,,,,,,,,,A
+qa_c_syn_pet_slider_01,pet_slider_01,content,synthetic/pet_slider_01.mp4,zh,"用户任务：请帮我照看狗，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]金毛犬用爪子拉上了玻璃移门，将自己关在门外。,[warn]金毛犬在试图啃咬门轨上的电线，可能会有触电危险。,[inform]金毛犬在门口绊倒了走过来的成人，成人摔倒在客厅地上。,保持沉默。,,,,,,,,,D
+qa_t_syn_pet_slider_01,pet_slider_01,timing,synthetic/pet_slider_01.mp4,zh,"用户任务：请帮我照看狗，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–15.1秒,0–7.5秒,7.5–15.1秒,,,,,,,,,A
+qa_c_syn_pet_slider_02,pet_slider_02,content,synthetic/pet_slider_02.mp4,zh,"用户任务：请帮我照看狗，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]金毛犬不小心把阳台的纱窗门抓破了。,保持沉默。,[inform]一名女子正在给金毛犬喂食，它看起来非常开心。,[inform]金毛犬跑到了阳台外面，女子正在呼唤它回来。,,,,,,,,,B
+qa_t_syn_pet_slider_02,pet_slider_02,timing,synthetic/pet_slider_02.mp4,zh,"用户任务：请帮我照看狗，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,保持沉默。,7.5–15.1秒,,,,,,,,,C
+qa_c_syn_pet_stove_neg,pet_stove_neg,content,synthetic/pair/pet_stove_neg.mp4,zh,"用户任务：请帮我照看猫，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",保持沉默。,[warn]猫咪在燃气灶上踩到了开关，火已经点燃了，请立刻去厨房灭火！,[inform]猫咪把燃气灶上的锅碰倒了，锅里的汤汁洒了一地。,[inform]一名男子走进厨房，给站在燃气灶上的猫咪喂了一些零食。,,,,,,,,,A
+qa_t_syn_pet_stove_neg,pet_stove_neg,timing,synthetic/pair/pet_stove_neg.mp4,zh,"用户任务：请帮我照看猫，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_syn_pet_stove_pos,pet_stove_pos,content,synthetic/pair/pet_stove_pos.mp4,zh,"用户任务：请帮我照看猫，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 4 秒。这一刻你应该说什么？",[warn]猫咪把灶台上的锅碰倒了，汤汁洒了一地。,[warn]猫咪跳上灶台了，快把它抱下来。,[warn]猫咪不小心踩到了燃气灶开关，灶台起火了。,[warn]猫咪从灶台上摔了下来，好像受伤了。,,,,,,,,,B
+qa_t_syn_pet_stove_pos,pet_stove_pos,timing,synthetic/pair/pet_stove_pos.mp4,zh,"用户任务：请帮我照看猫，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,4–15.1秒,0–4秒,0–15.1秒,,,,,,,,,B
+qa_c_syn_pet_toilet,pet_toilet,content,synthetic/pet_toilet.mp4,zh,"用户任务：请帮我照看狗，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 2.5 秒。这一刻你应该说什么？",[warn]狗狗在洗手间滑倒了，请过去看看。,[warn]狗狗正在喝马桶水，请及时制止。,[warn]狗狗把洗手间的垃圾桶撞翻了，垃圾洒了一地。,[warn]狗狗正在撕咬洗手间里的卷纸，请及时制止。,,,,,,,,,B
+qa_t_syn_pet_toilet,pet_toilet,timing,synthetic/pet_toilet.mp4,zh,"用户任务：请帮我照看狗，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,2.5–15.1秒,0–2.5秒,0–15.1秒,,,,,,,,,B
+qa_c_syn_pet_trash,pet_trash,content,synthetic/pet_trash.mp4,zh,"用户任务：请帮我照看狗，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 0 秒。这一刻你应该说什么？",[warn]狗狗正在翻垃圾桶，快去制止它。,[warn]狗狗把垃圾桶撞倒了，垃圾撒了一地。,[warn]狗狗在厨房里偷吃桌子上的面包，快去管管它。,[warn]狗狗把垃圾桶里的塑料袋吞下去了，需要立刻去看医生。,,,,,,,,,A
+qa_t_syn_pet_trash,pet_trash,timing,synthetic/pet_trash.mp4,zh,"用户任务：请帮我照看狗，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–2.5秒,保持沉默。,2.5–15.1秒,0–15.1秒,,,,,,,,,A
+qa_c_real_pill_sort__v20261011,pill_sort,content,real/pill_sort.mp4,zh,"用户任务：请看着我分药，分完后汇总分好的药片数量及散落情况。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]分好十粒整药和四瓣半药，没有任何药片掉落。,[inform]分好三粒整药，有三粒半药掉在切药器旁边了。,[inform]分好五粒整药和两瓣半药，一粒掉在桌上了。,[inform]分好八粒整药，有两粒整药掉在药盒里面了。,,,,,,,,,C
+qa_t_real_pill_sort__v20261011,pill_sort,timing,real/pill_sort.mp4,zh,"用户任务：请看着我分药，分完后汇总分好的药片数量及散落情况。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,103.5–106秒,0–103.5秒,0–106秒,,,,,,,,,B
+qa_c_real_poker_group,poker_group,content,real/poker_group.mp4,zh,"用户任务：这段视频以画面下方的玩家为拍摄视角，规定右侧是女子、左侧是男子。请告诉我谁出牌次数最多。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[answer]在画面可见的出牌中，右侧女子出牌次数最多。,[answer]在画面可见的出牌中，左侧男子出牌次数最多。,[answer]在画面可见的出牌中，下方玩家出牌次数最多。,[answer]在画面可见的出牌中，三名玩家的出牌次数完全相同。,,,,,,,,,C
+qa_t_real_poker_group,poker_group,timing,real/poker_group.mp4,zh,"用户任务：这段视频以画面下方的玩家为拍摄视角，规定右侧是女子、左侧是男子。请告诉我谁出牌次数最多。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",161.5–163.3秒,保持沉默。,0–161.5秒,0–163.3秒,,,,,,,,,A
+qa_c_real_posture_correct,posture_correct,content,real/posture_correct.mp4,zh,"用户任务：请帮我看着我做这套动作，每当我完成一个动作时，请告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]你完成了三次连续的后空翻动作。,[inform]反方向阿拉贝斯克做完了。,[inform]右侧阿拉贝斯克做完了。,[inform]这套练习做完了。,[inform]划手转身做完了。,[inform]右脚点地做完了。,[inform]左脚点地做完了。,,,,,,B;C;D;E;F;G
+qa_t_real_posture_correct,posture_correct,timing,real/posture_correct.mp4,zh,"用户任务：请帮我看着我做这套动作，每当我完成一个动作时，请告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",37秒,0秒,29秒,17.5秒,12秒,24.5秒,3秒,,,,,,A;C;D;E;F;G
+qa_c_synthetic_probe_word_boy__v20261010,probe_word_boy,content,synthetic/probe_word_boy.mp4,zh,"用户任务：请陪我读书，我向你提问或请求帮助时请回应。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]你刚才读的三个单词分别是 Apple、Banana 和 Cherry。,[inform]你在读到 Orange 这个单词时发音不准确，需要重新练习。,保持沉默。,[inform]你已经合上了书本，接下来我们要开始做数学练习题了。,,,,,,,,,C
+qa_t_synthetic_probe_word_boy__v20261010,probe_word_boy,timing,synthetic/probe_word_boy.mp4,zh,"用户任务：请陪我读书，我向你提问或请求帮助时请回应。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B
+qa_c_real_queue_blood_board__v20261010,queue_blood_board,content,real/queue_blood_board.mp4,zh,"用户任务：请帮我关注抽血叫号，屏幕或广播出现新的叫号时告诉我号码和对应柜台。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]70号请到4号柜台。,[inform]68号请到1号柜台。,[inform]71号请到5号柜台。,[inform]69号请到3号柜台。,[inform]72号请到3号柜台。,[inform]66号请到2号柜台。,[inform]6006号请到11号柜台。,,,,,,B;C;D;E;F;G
+qa_t_real_queue_blood_board__v20261010,queue_blood_board,timing,real/queue_blood_board.mp4,zh,"用户任务：请帮我关注抽血叫号，屏幕或广播出现新的叫号时告诉我号码和对应柜台。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",64.5秒,5.5秒,78.5秒,0秒,20.5秒,48.5秒,90.1秒,,,,,,A;B;C;D;E;F
+qa_c_real_queue_dental_ad,queue_dental_ad,content,real/queue_dental_ad.mp4,zh,"用户任务：请帮我记录牙科的新叫号，每次更新时告诉我诊室和患者称呼，并报累计叫号次数。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]第二个，八诊王先生。,[inform]第三个，二十八诊尤先生。,[inform]第一个，八诊王先生。,[inform]第一个，十诊许先生。,,,,,,,,,A;B;D
+qa_t_real_queue_dental_ad,queue_dental_ad,timing,real/queue_dental_ad.mp4,zh,"用户任务：请帮我记录牙科的新叫号，每次更新时告诉我诊室和患者称呼，并报累计叫号次数。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",17.5秒,5.5秒,2.5秒,0秒,,,,,,,,,A;B;C
+qa_c_real_queue_ntuh_vlog,queue_ntuh_vlog,content,real/queue_ntuh_vlog.mp4,zh,"用户任务：请帮我照看孩子，有危险或异常情况及时通知我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",保持沉默。,[warn]孩子在医院走廊上独自奔跑，可能会撞到其他病人和医疗设备。,[inform]孩子正在用手抓取医院长椅上的垃圾，并试图放进嘴里。,[warn]孩子试图爬上医院大厅的导医台，有跌落的危险。,,,,,,,,,A
+qa_t_real_queue_ntuh_vlog,queue_ntuh_vlog,timing,real/queue_ntuh_vlog.mp4,zh,"用户任务：请帮我照看孩子，有危险或异常情况及时通知我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–160.4秒,0–80.2秒,80.2–160.4秒,,,,,,,,,A
+qa_c_syn_rc_gym_set__v20261011,rc_gym_set,content,synthetic/rc_gym_set.mp4,zh,"用户任务：请帮我数完成的器械推举次数，等我问你的时候告诉我。
+
+题目：你是实时交互助手。视频放到第 14.5 秒。这一刻你应该说什么？",[answer]你刚刚做了一个。,[answer]你刚刚完成了三次推举。,[answer]你刚刚完成了五次推举。,[answer]你刚才一次推举都没有完成。,,,,,,,,,A
+qa_t_syn_rc_gym_set__v20261011,rc_gym_set,timing,synthetic/rc_gym_set.mp4,zh,"用户任务：请帮我数完成的器械推举次数，等我问你的时候告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",14.5–15.1秒,保持沉默。,0–14.5秒,0–15.1秒,,,,,,,,,A
+qa_c_syn_rc_run_lap,rc_run_lap,content,synthetic/rc_run_lap.mp4,zh,"用户任务：请帮我数一下我做了多少个高抬腿跳跃，等我问你的时候告诉我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[answer]您一共完成了30次高抬腿跳跃，每组各15次。,[answer]在刚才的运动中，您一共完成了55次高抬腿跳跃。,[answer]两组运动累计下来，您一共完成了62次高抬腿跳跃。,[answer]两组加起来，您一共做了44次高抬腿跳跃。,,,,,,,,,D
+qa_t_syn_rc_run_lap,rc_run_lap,timing,synthetic/rc_run_lap.mp4,zh,"用户任务：请帮我数一下我做了多少个高抬腿跳跃，等我问你的时候告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",25.7–29.5秒,保持沉默。,0–25.7秒,29.5–30.1秒,,,,,,,,,A
+qa_c_syn_rc_shop_aisle,rc_shop_aisle,content,synthetic/rc_shop_aisle.mp4,zh,"用户任务：请看着我买东西，如果我找不到商品开口问你，请告诉我位置。
+
+题目：你是实时交互助手。视频放到第 11.5 秒。这一刻你应该说什么？",[answer]牛奶就在你右手边货架的第二层，和面包放在一起。,[answer]这里是零食和干货区，牛奶通常在冷藏区。,[answer]你已经把牛奶放进购物车里了，不需要再寻找。,[answer]请往后退几步，牛奶在左侧货架的最底层。,,,,,,,,,B
+qa_t_syn_rc_shop_aisle,rc_shop_aisle,timing,synthetic/rc_shop_aisle.mp4,zh,"用户任务：请看着我买东西，如果我找不到商品开口问你，请告诉我位置。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–11.5秒,0–15.1秒,11.5–15.1秒,,,,,,,,,D
+qa_c_syn_rc_street_turn,rc_street_turn,content,synthetic/rc_street_turn.mp4,zh,"用户任务：请看着我走路，如果我迷路问你，请帮我指路。
+
+题目：你是实时交互助手。视频放到第 14 秒。这一刻你应该说什么？",[inform]您现在应该在前面的路口右转，那里是商业街。,[inform]请告知您目的地，我为您查阅。,[inform]请继续直行，您已经到达了您要找的地铁站。,[inform]您迷路了，请在原地等待，我正在为您导航去最近的公园。,,,,,,,,,B
+qa_t_syn_rc_street_turn,rc_street_turn,timing,synthetic/rc_street_turn.mp4,zh,"用户任务：请看着我走路，如果我迷路问你，请帮我指路。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,14–15.1秒,0–14秒,0–15.1秒,,,,,,,,,B
+qa_c_syn_rc_tour_pass__v20261011,rc_tour_pass,content,synthetic/rc_tour_pass.mp4,zh,"用户任务：请陪我逛逛景区，如果我对路过的景点提问，请帮我解答。
+
+题目：你是实时交互助手。视频放到第 13 秒。这一刻你应该说什么？",[inform]虽然无法确认这座凉亭的具体历史，但它是一座典型的中式传统凉亭，主要供游客歇息和观景。,[inform]这座凉亭建于清代乾隆年间，是当时皇帝下江南时专门修建的避暑驿站。,[inform]这座凉亭是该景区著名的“听雨轩”，始建于上世纪八十年代，由著名园林大师设计。,[inform]这是一座仿古的现代建筑，亭内石碑上详细记载了该景区的开发历史和建设过程。,,,,,,,,,A
+qa_t_syn_rc_tour_pass__v20261011,rc_tour_pass,timing,synthetic/rc_tour_pass.mp4,zh,"用户任务：请陪我逛逛景区，如果我对路过的景点提问，请帮我解答。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–13秒,0–15.1秒,13–15.1秒,,,,,,,,,D
+qa_c_real_road_barrier__v20261010,road_barrier,content,real/road_barrier.mp4,zh,"用户任务：我是道路维护人员，请帮我观察中央隔离设施的调整，设施开始移动或改变车道分隔位置时告诉我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]中央隔离设施已被完全拆除，车道已合并为单向通行。,[inform]一辆黄色卡车在隔离带旁发生故障停下，并未对隔离设施进行任何调整。,[inform]中央隔离设施正在被转移，车道分隔位置正在改变。,[inform]隔离设施正在由人工手动搬运，车辆仅在后方进行安全警示。,,,,,,,,,C
+qa_t_real_road_barrier__v20261010,road_barrier,timing,real/road_barrier.mp4,zh,"用户任务：我是道路维护人员，请帮我观察中央隔离设施的调整，设施开始移动或改变车道分隔位置时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",10–14秒,保持沉默。,0–10秒,14–40.1秒,,,,,,,,,A
+qa_c_syn_robot_feed_cats,robot_feed_cats,content,synthetic/robot_feed_cats.mp4,zh,"用户任务：请帮我看着给猫咪喂食，喂好了或者有情况请告诉我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]白猫和橘猫在吃猫粮，但黑猫的碗里还是空的，它还在等待。,[inform]三只猫咪都分到食物，开始吃啦。,[inform]机械臂只给其中一个碗里倒了猫粮，另外两只猫因为抢食物打起来了。,[inform]猫咪们对机械臂倒的猫粮不感兴趣，都转身走开了，没有吃。,,,,,,,,,B
+qa_t_syn_robot_feed_cats,robot_feed_cats,timing,synthetic/robot_feed_cats.mp4,zh,"用户任务：请帮我看着给猫咪喂食，喂好了或者有情况请告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",23–27秒,保持沉默。,0–23秒,27–30.1秒,,,,,,,,,A
+qa_c_syn_robot_host_metro,robot_host_metro,content,synthetic/robot_host_metro.mp4,zh,"用户任务：请在地铁站内值守，如果有人需要帮助，请提供协助。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]该男子向您询问了去往机场的地铁线路，您已告知他需要在下一站换乘。,保持沉默。,[inform]该男子因为行李箱轮子损坏无法行走，您已协助他联系了地铁站务人员。,[inform]该男子向您出示了车票并询问进站口方向，您已指引他前往右侧的自动扶梯。,,,,,,,,,B
+qa_t_syn_robot_host_metro,robot_host_metro,timing,synthetic/robot_host_metro.mp4,zh,"用户任务：请在地铁站内值守，如果有人需要帮助，请提供协助。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–30.1秒,保持沉默。,0–15.1秒,15.1–30.1秒,,,,,,,,,B
+qa_c_syn_robot_host_rest__v20261011,robot_host_rest,content,synthetic/robot_host_rest.mp4,zh,"用户任务：请帮我留意进店的客人，有客人进入时向他们问好并告知可以入座。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]欢迎光临，目前店内已满座，请您在门口稍等。,[inform]欢迎光临，请问您有预订吗？我带您去左侧的包间。,[inform]欢迎光临，请随意入座。,[inform]欢迎光临，请问是两位吗？请跟紧我，我带您去吧台入座。,,,,,,,,,C
+qa_t_syn_robot_host_rest__v20261011,robot_host_rest,timing,synthetic/robot_host_rest.mp4,zh,"用户任务：请帮我留意进店的客人，有客人进入时向他们问好并告知可以入座。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–6秒,6–11秒,11–30.1秒,,,,,,,,,C
+qa_c_real_roof_leak__v20261010,roof_leak,content,real/roof_leak.mp4,zh,"用户任务：请帮我留意室内情况，发现漏水或持续滴水时及时告诉我位置和情况。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]厨房吊柜内部正在漏水，导致柜子里的餐具被浸湿。,[inform]地面上放着多个接水容器和布，正在接住漏下的水。,[inform]厨房天花板灯具附近正在漏水。,[inform]厨房灶台上的水龙头没有关紧，水正源源不断地流入水槽。,,,,,,,,,B;C
+qa_t_real_roof_leak__v20261010,roof_leak,timing,real/roof_leak.mp4,zh,"用户任务：请帮我留意室内情况，发现漏水或持续滴水时及时告诉我位置和情况。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",22秒,0秒,2秒,72.4秒,,,,,,,,,A;C
+qa_c_syn_slip_wet_neg,slip_wet_neg,content,synthetic/graded/slip_wet_neg.mp4,zh,"用户任务：生活助手，请陪我在室内走动，注意我的安全，有危险或意外时请及时提醒和协助。
+
+题目：你是实时交互助手。视频放到第 0 秒。这一刻你应该说什么？",[warn]小心，前方地板上有积水，注意防滑。,[warn]你摔倒了，请确认是否受伤。,[warn]小心，前方地板上有散落的玻璃碎片，请绕道行走。,[warn]请注意，前方地板上有漏出的食用油，非常容易滑倒。,,,,,,,,,A
+qa_t_syn_slip_wet_neg,slip_wet_neg,timing,synthetic/graded/slip_wet_neg.mp4,zh,"用户任务：生活助手，请陪我在室内走动，注意我的安全，有危险或意外时请及时提醒和协助。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",15.1秒,7.5秒,1.5秒,0秒,,,,,,,,,B;C;D
+qa_c_syn_slip_wet_pos,slip_wet_pos,content,synthetic/graded/slip_wet_pos.mp4,zh,"用户任务：生活助手，请陪我在室内走动，注意我的安全，有危险或意外时请及时提醒和协助。
+
+题目：你是实时交互助手。视频放到第 0 秒。这一刻你应该说什么？",[warn]地板上有积水，请注意防滑。,[warn]您摔倒了，请先别动，检查是否受伤。,[warn]微波炉里有东西烧焦了，请立刻关掉电源。,[warn]燃气灶上的汤汁溢出来了，请小心烫伤。,,,,,,,,,A
+qa_t_syn_slip_wet_pos,slip_wet_pos,timing,synthetic/graded/slip_wet_pos.mp4,zh,"用户任务：生活助手，请陪我在室内走动，注意我的安全，有危险或意外时请及时提醒和协助。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",15.1秒,3.5秒,1秒,0秒,,,,,,,,,B;C;D
+qa_c_syn_sm_ball_round,sm_ball_round,content,synthetic/sm_ball_round.mp4,zh,"用户任务：请看着我投篮，这一组结束时帮我汇总一下。
+
+题目：你是实时交互助手。视频放到第 12.5 秒。这一刻你应该说什么？",[inform]刚才两次投篮都命中了。,[inform]刚才你一共进行了三次投篮，其中两次命中，一次投丢了。,[inform]刚才的两次投篮中，你只投中了第一球，第二球弹框而出了。,[inform]刚才的两次投篮都没有投中，球都砸在篮板上弹开了。,,,,,,,,,A
+qa_t_syn_sm_ball_round,sm_ball_round,timing,synthetic/sm_ball_round.mp4,zh,"用户任务：请看着我投篮，这一组结束时帮我汇总一下。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–12.5秒,12.5–15.1秒,0–15.1秒,,,,,,,,,C
+qa_c_syn_sm_farm_round__v20261011,sm_farm_round,content,synthetic/sm_farm_round.mp4,zh,"用户任务：请看着我巡猪舍，巡视结束后简要总结完成情况。
+
+题目：你是实时交互助手。视频放到第 13.5 秒。这一刻你应该说什么？",[inform]你已经完成了对整栋猪舍所有猪只的疫苗接种工作。,[inform]你已完成对该排猪栏的例行巡视。,[inform]你已经完成了对右侧猪栏内自动喂料器的故障排查。,[inform]你已经完成了对猪舍通道的彻底冲洗与消毒工作。,,,,,,,,,B
+qa_t_syn_sm_farm_round__v20261011,sm_farm_round,timing,synthetic/sm_farm_round.mp4,zh,"用户任务：请看着我巡猪舍，巡视结束后简要总结完成情况。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,13.5–15.1秒,0–13.5秒,0–15.1秒,,,,,,,,,B
+qa_c_syn_sm_gym_set__v20261011,sm_gym_set,content,synthetic/sm_gym_set.mp4,zh,"用户任务：请看着我练器械，这一组结束后简要总结完成情况和动作表现。
+
+题目：你是实时交互助手。视频放到第 11.5 秒。这一刻你应该说什么？",[inform]你刚刚完成了一组哑铃弯举，手臂发力很充分。,[inform]你完成了一次推肩训练，动作标准。,[inform]你完成了一组杠铃深蹲，下肢力量表现非常出色。,[inform]你刚才进行了跑步机有氧热身，心率保持得很好。,,,,,,,,,B
+qa_t_syn_sm_gym_set__v20261011,sm_gym_set,timing,synthetic/sm_gym_set.mp4,zh,"用户任务：请看着我练器械，这一组结束后简要总结完成情况和动作表现。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–11.5秒,0–15.1秒,11.5–15.1秒,,,,,,,,,D
+qa_c_syn_sm_office_day,sm_office_day,content,synthetic/sm_office_day.mp4,zh,"用户任务：请陪同我一起上班，有问题随时交流。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]您在电脑上打字时，不小心把咖啡杯碰倒了。,保持沉默。,[inform]您刚才站起身，是因为打印机里没有纸了。,[inform]您正在整理的纸张文件是一份需要签字的合同。,,,,,,,,,B
+qa_t_syn_sm_office_day,sm_office_day,timing,synthetic/sm_office_day.mp4,zh,"用户任务：请陪同我一起上班，有问题随时交流。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_syn_sm_run_done,sm_run_done,content,synthetic/sm_run_done.mp4,zh,"用户任务：请看着我跑步，结束后帮我总结一下。
+
+题目：你是实时交互助手。视频放到第 11 秒。这一刻你应该说什么？",[inform]你完成了一次长达五公里的慢跑，平均配速非常稳定。,[inform]你刚才进行了三次往返跑，并在最后一次摔倒了，请检查是否受伤。,[inform]你完成了两组冲刺，辛苦了，注意调整呼吸。,[inform]你完成了一组跳远训练和一组短跑，表现得非常棒。,,,,,,,,,C
+qa_t_syn_sm_run_done,sm_run_done,timing,synthetic/sm_run_done.mp4,zh,"用户任务：请看着我跑步，结束后帮我总结一下。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–11秒,11–15.1秒,0–15.1秒,,,,,,,,,C
+qa_c_syn_sm_school_class,sm_school_class,content,synthetic/sm_school_class.mp4,zh,"用户任务：请看着我上课，下课了告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]老师已经讲完了白板上的所有内容，现在已经下课了。,[inform]老师正准备离开教室，下课铃声已经响了。,保持沉默。,[inform]老师合上了讲台上的书本，示意大家可以下课了。,,,,,,,,,C
+qa_t_syn_sm_school_class,sm_school_class,timing,synthetic/sm_school_class.mp4,zh,"用户任务：请看着我上课，下课了告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_syn_sm_yoga_flow,sm_yoga_flow,content,synthetic/sm_yoga_flow.mp4,zh,"用户任务：请看着我做瑜伽，结束后帮我总结一下。
+
+题目：你是实时交互助手。视频放到第 13 秒。这一刻你应该说什么？",[inform]你完成了下犬式和战士一式的练习。,[inform]你完成了猫牛式和婴儿式的练习。,[inform]你完成了平板支撑和侧板式的练习。,[inform]你完成了前屈式和树式的练习。,,,,,,,,,D
+qa_t_syn_sm_yoga_flow,sm_yoga_flow,timing,synthetic/sm_yoga_flow.mp4,zh,"用户任务：请看着我做瑜伽，结束后帮我总结一下。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,13–15.1秒,0–13秒,0–15.1秒,,,,,,,,,B
+qa_c_real_sport_park_bball,sport_park_bball,content,real/sport_park_bball.mp4,zh,"用户任务：请帮我关注这场篮球赛，有进球时告诉我，并在结束时帮我总结一下。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]粉色衣服男子在三分线外起跳投篮命中。,[inform]黑色T恤男子突破防守，完成了一次精彩的扣篮。,[inform]这群人在公园里进行了一场篮球半场对抗赛。,[inform]深色背心男子在右侧中距离接球投篮命中。,,,,,,,,,C;D
+qa_t_real_sport_park_bball,sport_park_bball,timing,real/sport_park_bball.mp4,zh,"用户任务：请帮我关注这场篮球赛，有进球时告诉我，并在结束时帮我总结一下。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",94秒,40秒,0秒,97.5秒,,,,,,,,,A;B
+qa_c_real_sport_run_form__v20261011,sport_run_form,content,real/sport_run_form.mp4,zh,"用户任务：请看着我跑步，有不规范的跑姿请帮我纠正，姿势改善时也请告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]现在的姿势很好，身体自然前倾，核心很稳定。,[feedback]缩短步幅，尽量用脚掌中部着地，减少冲击。,[feedback]跑步时收紧核心，骨盆保持中立，避免前倾。,[feedback]跑步时请将双臂高举过头顶，这样可以增加肺活量并保持身体平衡。,,,,,,,,,A;B;C
+qa_t_real_sport_run_form__v20261011,sport_run_form,timing,real/sport_run_form.mp4,zh,"用户任务：请看着我跑步，有不规范的跑姿请帮我纠正，姿势改善时也请告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",36.9秒,25秒,15秒,0秒,,,,,,,,,B;C;D
+qa_c_real_stretch_workout,stretch_workout,content,real/stretch_workout.mp4,zh,"用户任务：请看着我拉伸，每完成一组就计数并告诉我，练习结束后简要总结做过的拉伸动作。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]第五组。,[inform]第一组。,[inform]第四组。,[inform]第二组。,[inform]第三组。,[inform]今天通过侧颈、抱头、含胸、拉肘做了拉伸。,,,,,,,B;C;D;E;F
+qa_t_real_stretch_workout,stretch_workout,timing,real/stretch_workout.mp4,zh,"用户任务：请看着我拉伸，每完成一组就计数并告诉我，练习结束后简要总结做过的拉伸动作。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",67秒,7秒,79秒,37秒,81秒,0秒,,,,,,,A;B;C;D;E
+qa_c_real_subway_wheelchair__v20261010,subway_wheelchair,content,real/subway_wheelchair.mp4,zh,"用户任务：请帮我留意轮椅上下地铁的安全，有危险或需要帮助的困难时提醒我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",保持沉默。,[warn]轮椅使用者在无人看管的情况下独自操作升降平台，存在跌落危险。,[inform]轮椅在下行过程中撞到了旁边走下楼梯的乘客，需要立即处理。,[warn]升降平台的安全护栏突然断裂，轮椅使用者正在向下滑落，请立即提供帮助。,,,,,,,,,A
+qa_t_real_subway_wheelchair__v20261010,subway_wheelchair,timing,real/subway_wheelchair.mp4,zh,"用户任务：请帮我留意轮椅上下地铁的安全，有危险或需要帮助的困难时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–87.3秒,0–43.7秒,43.7–87.3秒,保持沉默。,,,,,,,,,D
+qa_c_real_tennis_ego,tennis_ego,content,real/tennis_ego.mp4,zh,"用户任务：请帮我数我完成的回击次数，每完成一次回击报累计次数，练习结束后汇总。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]第十四次。,[inform]本次练习共回击16次。,[inform]第四次。,[inform]第一次。,[inform]第七次。,[inform]第二十次。,[inform]第十一次。,,,,,,A;B;C;D;E;G
+qa_t_real_tennis_ego,tennis_ego,timing,real/tennis_ego.mp4,zh,"用户任务：请帮我数我完成的回击次数，每完成一次回击报累计次数，练习结束后汇总。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",37.5秒,29秒,9秒,3秒,15秒,0秒,23秒,,,,,,A;B;C;D;E;G
+qa_c_real_test_kit,test_kit,content,real/test_kit.mp4,zh,"用户任务：请看着我做这个检测，出结果时告诉我。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]检测卡仅在C区显示一条红线，结果呈阴性。,[inform]检测卡上没有出现任何红线，这是一个无效检测。,[inform]检测卡显示两道杠，结果呈阳性。,[inform]检测卡在T区显示了一条红线，而C区没有显色。,,,,,,,,,C
+qa_t_real_test_kit,test_kit,timing,real/test_kit.mp4,zh,"用户任务：请看着我做这个检测，出结果时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",120–126秒,保持沉默。,0–120秒,126–145.5秒,,,,,,,,,A
+qa_c_syn_thief_bag_reach_neg,thief_bag_reach_neg,content,synthetic/thief_bag_reach_neg.mp4,zh,"用户任务：巡逻机器人，请留意现场人员和物品安全，有异常及时警告，情况变化也请告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[warn]他又在碰你的包了，请提高警惕。,[inform]那个人已经走远了，请检查一下包包。,[warn]注意，旁边有人在偷拿你的手机，请立刻收好手机。,[warn]注意，旁边有人在摸你的包，小心小偷。,,,,,,,,,A;B;D
+qa_t_syn_thief_bag_reach_neg,thief_bag_reach_neg,timing,synthetic/thief_bag_reach_neg.mp4,zh,"用户任务：巡逻机器人，请留意现场人员和物品安全，有异常及时警告，情况变化也请告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",10.5秒,0秒,1.5秒,22秒,,,,,,,,,A;C;D
+qa_c_syn_thief_bag_reach_pos,thief_bag_reach_pos,content,synthetic/thief_bag_reach_pos.mp4,zh,"用户任务：巡逻机器人，请留意现场人员和物品安全，有异常及时警告，情况变化也请告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[warn]有人不小心撞到了你的包，请注意站稳。,[inform]你旁边的乘客不小心把水洒在了你的黑色包包上。,[warn]有人在拉你的包，请注意防盗。,[inform]包的拉链被拉开了，请检查随身物品。,,,,,,,,,C;D
+qa_t_syn_thief_bag_reach_pos,thief_bag_reach_pos,timing,synthetic/thief_bag_reach_pos.mp4,zh,"用户任务：巡逻机器人，请留意现场人员和物品安全，有异常及时警告，情况变化也请告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",23秒,2秒,0秒,30.1秒,,,,,,,,,A;B
+qa_c_syn_tour_cone,tour_cone,content,synthetic/tour_cone.mp4,zh,"用户任务：旅行助手，和我一起逛街吧，有状况提醒我。
+
+题目：你是实时交互助手。视频放到第 2 秒。这一刻你应该说什么？",[inform]前方有一只流浪猫正在交通锥旁睡觉，请不要惊扰它。,[inform]前面有一位清洁工正在清理交通锥，请注意避让。,[inform]前面有一排橙色交通锥挡住了去路，请注意绕行。,[inform]前方路面刚刚泼洒了油漆，交通锥内侧的地面还没干，请勿踩踏。,,,,,,,,,C
+qa_t_syn_tour_cone,tour_cone,timing,synthetic/tour_cone.mp4,zh,"用户任务：旅行助手，和我一起逛街吧，有状况提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–2秒,5–15.1秒,2–5秒,,,,,,,,,D
+qa_c_synthetic_tour_elder_steps__v20261010,tour_elder_steps,content,synthetic/tour_elder_steps.mp4,zh,"用户任务：请帮我留意老人下台阶的安全，有危险或需要帮助的困难时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]老人下台阶时踩空摔倒了，请立即上前扶起。,[inform]老人停下脚步是因为前方台阶有积水，无法通行。,[feedback]老人正在向右上方招手，似乎在呼唤同伴过来帮忙。,保持沉默。,,,,,,,,,D
+qa_t_synthetic_tour_elder_steps__v20261010,tour_elder_steps,timing,synthetic/tour_elder_steps.mp4,zh,"用户任务：请帮我留意老人下台阶的安全，有危险或需要帮助的困难时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,保持沉默。,7.5–15.1秒,,,,,,,,,C
+qa_c_syn_tour_kid_rail,tour_kid_rail,content,synthetic/tour_kid_rail.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。视频放到第 1.5 秒。这一刻你应该说什么？",[inform]请勿翻越防护栏，请退回安全区域。,[inform]孩子正在人行道上安全地奔跑，没有靠近栏杆。,[inform]孩子在栏杆内侧捡起了一个掉落的玩具。,[inform]孩子正坐在人行道的长椅上休息，非常安全。,,,,,,,,,A
+qa_t_syn_tour_kid_rail,tour_kid_rail,timing,synthetic/tour_kid_rail.mp4,zh,"用户任务：请帮我照看孩子，有情况告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,1.5–5秒,0–1.5秒,5–15.1秒,,,,,,,,,B
+qa_c_syn_tutor_hold__v20261011,tutor_hold,content,synthetic/tutor_hold.mp4,zh,"用户任务：学习助手，请和我们一起学习，如果孩子向你提问，请及时解答。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]这道题应该选择 A，因为图中的几何图形是等边三角形。,[inform]看不清题目，把书拿近一点我帮你看看吧。,[inform]你妈妈刚刚说这道题选第二个选项，你直接勾选即可。,[inform]这是一道关于加减法的算术题，正确答案是十。,,,,,,,,,B
+qa_t_syn_tutor_hold__v20261011,tutor_hold,timing,synthetic/tutor_hold.mp4,zh,"用户任务：学习助手，请和我们一起学习，如果孩子向你提问，请及时解答。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–27秒,27–30.1秒,0–30.1秒,,,,,,,,,C
+qa_c_real_tutor_homework__v20261010,tutor_homework,content,real/tutor_homework.mp4,zh,"用户任务：请听我们讲解这道题，我们向你提问时请回答。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]爸爸和孩子最终算出了三种方案，并决定全部用14座的车最省钱。,[inform]孩子在草稿纸上写下了50除以14的算式，并回答了爸爸的问题。,保持沉默。,[inform]爸爸在讲解过程中向孩子提问，孩子回答说剩下的8人需要用一辆6座车和一辆14座车。,,,,,,,,,C
+qa_t_real_tutor_homework__v20261010,tutor_homework,timing,real/tutor_homework.mp4,zh,"用户任务：请听我们讲解这道题，我们向你提问时请回答。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–112.2秒,0–56.1秒,保持沉默。,56.1–112.2秒,,,,,,,,,C
+qa_c_real_videocon_washing_machine_fault__v20261010,videocon_washing_machine_fault,content,real/videocon_washing_machine_fault.mp4,zh,"用户任务：请帮我留意洗衣机运行，出现明显异常晃动或异常声响时及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[warn]洗衣机运行平稳，没有发生任何位移。,[warn]洗衣机已自动关机并完成了脱水程序。,[warn]洗衣机出现异常声响，请留意运行情况。,[warn]洗衣机正在明显移位，请停止使用并检查。,,,,,,,,,C;D
+qa_t_real_videocon_washing_machine_fault__v20261010,videocon_washing_machine_fault,timing,real/videocon_washing_machine_fault.mp4,zh,"用户任务：请帮我留意洗衣机运行，出现明显异常晃动或异常声响时及时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",19秒,14秒,0秒,50秒,,,,,,,,,A;B
+qa_c_syn_wheel_door,wheel_door,content,synthetic/wheel_door.mp4,zh,"用户任务：请帮我留意轮椅使用者过门的情况，有困难时提醒并提供建议。
+
+题目：你是实时交互助手。视频放到第 5.5 秒。这一刻你应该说什么？",[inform]穿黄色衣服的女子已经帮您把门推开了，您可以直接通过。,[inform]前方是感应式自动玻璃门，您只需靠近它就会自动打开。,[inform]前方是手推门，需要帮您呼叫工作人员吗？,[inform]门上贴有蓝色标识，提示该门目前处于锁死状态，请您绕行旁边的通道。,,,,,,,,,C
+qa_t_syn_wheel_door,wheel_door,timing,synthetic/wheel_door.mp4,zh,"用户任务：请帮我留意轮椅使用者过门的情况，有困难时提醒并提供建议。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,5.5–10秒,0–5.5秒,10–15.1秒,,,,,,,,,B
+qa_c_syn_wheel_gap,wheel_gap,content,synthetic/wheel_gap.mp4,zh,"用户任务：请帮我留意轮椅使用者的通行情况，有困难或危险及时提醒。
+
+题目：你是实时交互助手。视频放到第 5.5 秒。这一刻你应该说什么？",[warn]轮椅前方的纸箱太重导致轮椅翻倒了，请注意安全。,[warn]轮椅的后轮爆胎了，请立刻停止前进并更换轮胎。,[warn]轮椅前轮卡在缝隙里了，请尝试向后退。,[warn]轮椅已经顺利推着纸箱通过了前方的减速带，目前通行顺畅。,,,,,,,,,C
+qa_t_syn_wheel_gap,wheel_gap,timing,synthetic/wheel_gap.mp4,zh,"用户任务：请帮我留意轮椅使用者的通行情况，有困难或危险及时提醒。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–5.5秒,5.5–9秒,9–15.1秒,,,,,,,,,C
+qa_c_syn_wheel_path,wheel_path,content,synthetic/wheel_path.mp4,zh,"用户任务：请帮我留意轮椅使用者前行的路况，有障碍物或危险及时提醒。
+
+题目：你是实时交互助手。视频放到第 4 秒。这一刻你应该说什么？",[inform]前方走廊有散落的医疗垃圾和碎玻璃，请立即停车。,[inform]前方有患者正在推着输液架横穿走廊，请注意避让。,[inform]前方有清洁车，请注意减速绕行。,[inform]前方走廊地面有大片积水，并放置了黄色防滑警示牌。,,,,,,,,,C
+qa_t_syn_wheel_path,wheel_path,timing,synthetic/wheel_path.mp4,zh,"用户任务：请帮我留意轮椅使用者前行的路况，有障碍物或危险及时提醒。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–4秒,4–8秒,8–15.1秒,,,,,,,,,C
+qa_c_real_wheel_stairs,wheel_stairs,content,real/wheel_stairs.mp4,zh,"用户任务：请帮我看着他们抬轮椅，结束后总结一下情况。
+
+题目：你是实时交互助手。看完整个视频，你应该说过的是下面哪一句？",[inform]两人在抬轮椅上台阶时，由于重心不稳导致轮椅在台阶中部侧翻，女士受轻伤。,[inform]两人配合，轮椅抬上又安全抬下。,[inform]两人合力将轮椅抬上台阶后，由绿衣男子独自一人将轮椅推下台阶，黑衣男子在顶部观看。,[inform]由于台阶过高，两人尝试后发现无法抬起轮椅，最终选择推着轮椅绕行旁边的无障碍坡道。,,,,,,,,,B
+qa_t_real_wheel_stairs,wheel_stairs,timing,real/wheel_stairs.mp4,zh,"用户任务：请帮我看着他们抬轮椅，结束后总结一下情况。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–63秒,63–68.8秒,0–68.8秒,,,,,,,,,C
+qa_c_real_wheel_stairs_paralyzed,wheel_stairs_paralyzed,content,real/wheel_stairs_paralyzed.mp4,zh,"用户任务：请看着她在室内楼梯上移动，有重要进展或情况变化时告诉我。
+
+题目：你是实时交互助手。看完整个视频，下面哪些话是你应该说过的？（多选）",[inform]她正在离开轮椅，转移到楼梯上。,[inform]她正在用手臂支撑身体，沿楼梯向上挪动。,[inform]她正在沿楼梯向下挪动。,[inform]她已移动到楼梯上方，正在扶着栏杆。,[inform]她已经成功站立起来，并扶着栏杆走下了楼梯。,,,,,,,,A;B;C;D
+qa_t_real_wheel_stairs_paralyzed,wheel_stairs_paralyzed,timing,real/wheel_stairs_paralyzed.mp4,zh,"用户任务：请看着她在室内楼梯上移动，有重要进展或情况变化时告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开始开口的起点。窗口内已开始之后的时刻不算新的开口。（多选）",0秒,5秒,12秒,44秒,40秒,,,,,,,,B;C;D;E
+qa_c_syn_wt_ball_shoot,wt_ball_shoot,content,synthetic/wt_ball_shoot.mp4,zh,"用户任务：请帮我记录投篮进球数，如果投进了请告诉我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]您在视频中成功投进了一个球。,[inform]您一共投篮两次，并且两次都空心入网。,保持沉默。,[inform]我记录到您在第二次投篮时球进了。,,,,,,,,,C
+qa_t_syn_wt_ball_shoot,wt_ball_shoot,timing,synthetic/wt_ball_shoot.mp4,zh,"用户任务：请帮我记录投篮进球数，如果投进了请告诉我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,保持沉默。,7.5–15.1秒,,,,,,,,,C
+qa_c_syn_wt_cafe_sit,wt_cafe_sit,content,synthetic/wt_cafe_sit.mp4,zh,"用户任务：请陪我一起喝咖啡，如果有什么异常情况再提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]注意，你身后的服务员不小心把咖啡洒在了一位顾客身上。,[inform]你右侧桌子上的顾客已经买单离开了，现在那张桌子是空着的。,保持沉默。,[warn]窗外有一辆红色的汽车刚刚在路边违章停车，可能会被贴罚单。,,,,,,,,,C
+qa_t_syn_wt_cafe_sit,wt_cafe_sit,timing,synthetic/wt_cafe_sit.mp4,zh,"用户任务：请陪我一起喝咖啡，如果有什么异常情况再提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",保持沉默。,0–15.1秒,0–7.5秒,7.5–15.1秒,,,,,,,,,A
+qa_c_syn_wt_office_type,wt_office_type,content,synthetic/wt_office_type.mp4,zh,"用户任务：请陪我办公，留意我的工作状态，有异常或需要休息时提醒我。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[inform]你已经连续打字超过两个小时了，建议你现在站起来活动一下身体。,[warn]你刚才喝水时不小心把水洒在了键盘上，请立刻用纸巾擦拭干净。,[feedback]我注意到你刚才闭眼揉了太阳穴，看起来有些疲惫，需要为你播放一段白噪音吗？,保持沉默。,,,,,,,,,D
+qa_t_syn_wt_office_type,wt_office_type,timing,synthetic/wt_office_type.mp4,zh,"用户任务：请陪我办公，留意我的工作状态，有异常或需要休息时提醒我。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,0–7.5秒,7.5–15.1秒,保持沉默。,,,,,,,,,D
+qa_c_syn_wt_school_write,wt_school_write,content,synthetic/wt_school_write.mp4,zh,"用户任务：学习助手，请陪我写作业，留意我的专注程度和坐姿，有不规范的地方提醒我纠正。
+
+题目：你是实时交互助手。视频放到第 7.5 秒。这一刻你应该说什么？",[warn]请注意你的坐姿，你现在靠在椅背上太近，请坐直身体。,[feedback]你已经连续盯着书本看超过十分钟了，眼睛需要休息一下。,保持沉默。,[warn]请不要在写作业时玩手机，请把手机收起来。,,,,,,,,,C
+qa_t_syn_wt_school_write,wt_school_write,timing,synthetic/wt_school_write.mp4,zh,"用户任务：学习助手，请陪我写作业，留意我的专注程度和坐姿，有不规范的地方提醒我纠正。
+
+题目：你是实时交互助手。看完整个视频，选择应开口的完整标注时间窗口，或应全程保持沉默。",0–15.1秒,保持沉默。,0–7.5秒,7.5–15.1秒,,,,,,,,,B

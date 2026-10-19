@@ -1,0 +1,141 @@
+{
+  "id": "escalator_maintenance",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "手持观察视角",
+  "target_people": "成人",
+  "scene": "操作台",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "我是设备维护人员，请帮我观察扶梯测试，扶梯开始运行或停止运行时告诉我。",
+      "text_en": "I am maintaining the escalator. Please observe its test and tell me when it starts or stops moving."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 1.467,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 1.467,
+      "end": 2.233,
+      "action": "[inform]",
+      "text_zh": "扶梯传动轮已停止旋转。",
+      "text_en": "The escalator drive wheel has stopped rotating."
+    },
+    {
+      "start": 2.233,
+      "end": 4.033,
+      "action": "[inform]",
+      "text_zh": "扶梯传动轮开始旋转。",
+      "text_en": "The escalator drive wheel starts rotating."
+    },
+    {
+      "start": 4.033,
+      "end": 4.133,
+      "action": "[inform]",
+      "text_zh": "扶梯传动轮已停止旋转。",
+      "text_en": "The escalator drive wheel has stopped rotating."
+    },
+    {
+      "start": 4.133,
+      "end": 5.967,
+      "action": "[inform]",
+      "text_zh": "扶梯传动轮开始旋转。",
+      "text_en": "The escalator drive wheel starts rotating."
+    },
+    {
+      "start": 5.967,
+      "end": 7.967,
+      "action": "[inform]",
+      "text_zh": "扶梯传动轮已停止旋转。",
+      "text_en": "The escalator drive wheel has stopped rotating."
+    },
+    {
+      "start": 7.967,
+      "end": 8.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 8.0,
+      "end": 9.767,
+      "action": "[inform]",
+      "text_zh": "扶梯传动轮开始旋转。",
+      "text_en": "The escalator drive wheel starts rotating."
+    },
+    {
+      "start": 9.767,
+      "end": 10.4,
+      "action": "[inform]",
+      "text_zh": "扶梯传动轮已停止旋转。",
+      "text_en": "The escalator drive wheel has stopped rotating."
+    },
+    {
+      "start": 10.4,
+      "end": 12.4,
+      "action": "[inform]",
+      "text_zh": "扶梯传动轮开始旋转。",
+      "text_en": "The escalator drive wheel starts rotating."
+    },
+    {
+      "start": 12.4,
+      "end": 18.733,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 18.733,
+      "end": 19.467,
+      "action": "[inform]",
+      "text_zh": "扶梯传动轮已停止旋转。",
+      "text_en": "The escalator drive wheel has stopped rotating."
+    },
+    {
+      "start": 19.467,
+      "end": 21.467,
+      "action": "[inform]",
+      "text_zh": "扶梯传动轮开始旋转。",
+      "text_en": "The escalator drive wheel starts rotating."
+    },
+    {
+      "start": 21.467,
+      "end": 29.033,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 29.033,
+      "end": 29.3,
+      "action": "[inform]",
+      "text_zh": "扶梯传动轮已停止旋转。",
+      "text_en": "The escalator drive wheel has stopped rotating."
+    },
+    {
+      "start": 29.3,
+      "end": 30.0,
+      "action": "[inform]",
+      "text_zh": "扶梯传动轮开始旋转。",
+      "text_en": "The escalator drive wheel starts rotating."
+    },
+    {
+      "start": 30.0,
+      "end": 31.78,
+      "action": "[inform]",
+      "text_zh": "扶梯传动轮已停止旋转。",
+      "text_en": "The escalator drive wheel has stopped rotating."
+    }
+  ],
+  "target_people_detail": "成人",
+  "population_id": "adult",
+  "assistant_role": "设备维护观察助理",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

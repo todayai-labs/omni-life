@@ -1,0 +1,37 @@
+{
+  "id": "p4_hos_wait",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "医院",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请陪我在医院候诊，我表达疑问或需要帮助时，请告诉我可以采取的措施。",
+      "text_en": "Please accompany me while waiting at the hospital and tell me what I can do when I express a question or a need for help."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 11.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 11.5,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "您可以去服务台咨询，或在手机上查看进度。",
+      "text_en": "You can ask at the service desk or check the progress on your phone."
+    }
+  ],
+  "target_people_detail": "就医的人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "候诊监控",
+  "eval_group": "general"
+}

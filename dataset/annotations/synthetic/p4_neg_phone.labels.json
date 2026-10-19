@@ -1,0 +1,30 @@
+{
+  "id": "p4_neg_phone",
+  "form": "short",
+  "side": "neg",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "办公",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请陪我打电话，我向你提问或请求帮助时请回应。",
+      "text_en": "Please accompany me while I make a phone call and respond when I ask you a question or request help."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "办公室白领",
+  "population_id": "adult",
+  "assistant_role": "办公助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "工位监控",
+  "eval_group": "general"
+}

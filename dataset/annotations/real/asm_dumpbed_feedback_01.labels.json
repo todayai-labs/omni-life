@@ -1,0 +1,43 @@
+{
+  "id": "asm_dumpbed_feedback_01",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "操作台",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我组装车斗，有装错或不规范的地方请及时纠正我。",
+      "text_en": "Please watch me assemble the truck bed and promptly correct any mistakes or improper steps."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 45.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 45.0,
+      "end": 55.0,
+      "action": "[feedback]",
+      "text_zh": "蓝色底座方向装反了，需要旋转180度。",
+      "text_en": "The blue base is on backwards and needs to be rotated 180 degrees."
+    },
+    {
+      "start": 55.0,
+      "end": 60.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "组装的人",
+  "population_id": "adult",
+  "assistant_role": "陪伴机器人",
+  "assistant_role_basis": "用户任务设定",
+  "eval_group": "general"
+}

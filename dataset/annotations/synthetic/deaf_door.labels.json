@@ -1,0 +1,44 @@
+{
+  "id": "deaf_door",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "听障者",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "生活助手，我听不见声音，请帮我留意门口有没有人敲门，有情况请提醒我。",
+      "text_en": "Life assistant, I can't hear any sound. Please help me keep an eye on whether someone is knocking at the door, and remind me if anything happens."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 3.0,
+      "end": 6.0,
+      "action": "[inform]",
+      "text_zh": "有人在敲门。",
+      "text_en": "Someone is knocking on the door."
+    },
+    {
+      "start": 6.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "听障者",
+  "population_id": "deaf",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

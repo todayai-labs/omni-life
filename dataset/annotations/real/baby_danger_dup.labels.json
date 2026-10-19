@@ -1,0 +1,50 @@
+{
+  "id": "baby_danger_dup",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "居家监控",
+  "target_people": "婴幼儿",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看孩子，有危险及时通知我，情况有变化也请告诉我。",
+      "text_en": "Please help me watch the child, notify me immediately if there is any danger, and also let me know if the situation changes."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 58,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 58,
+      "end": 69,
+      "action": "[warn]",
+      "text_zh": "宝宝从垫子边缘摔下了，请尽快查看！",
+      "text_en": "The baby has fallen from the edge of the mat. Please check on the baby immediately!"
+    },
+    {
+      "start": 69,
+      "end": 71,
+      "action": "[inform]",
+      "text_zh": "看护人已经赶来，正走向宝宝。",
+      "text_en": "The caregiver has returned and is approaching the baby."
+    },
+    {
+      "start": 71,
+      "end": 73,
+      "action": "[inform]",
+      "text_zh": "看护人正在俯身查看并照顾宝宝。",
+      "text_en": "The caregiver is bending down to check on and care for the baby."
+    }
+  ],
+  "target_people_detail": "婴幼儿",
+  "population_id": "baby",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "fb_pet_leash",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "第三人称视角",
+  "target_people": "宠物",
+  "scene": "室外公园",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我遛狗，如果有不规范的行为请提醒我。",
+      "text_en": "Please watch me walk the dog and remind me if there is any improper behavior."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 1.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 1.0,
+      "end": 5.0,
+      "action": "[inform]",
+      "text_zh": "带狗狗在户外活动，请记得系好牵引绳。",
+      "text_en": "Please remember to keep your dog on a leash when outdoors."
+    },
+    {
+      "start": 5.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "宠物",
+  "population_id": "pet",
+  "assistant_role": "宠物照护机器人",
+  "assistant_role_basis": "用户任务设定",
+  "eval_group": "general"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "group_morning_line",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "教室监控",
+  "target_people": "多人场合",
+  "scene": "学校",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意孩子们的集体活动和站队情况，有不规范或需要帮助的情况及时告诉我。",
+      "text_en": "Please help me keep an eye on the children's group activities and line-up, and tell me in time if there is any improper behavior or if they need help."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 11.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 11.5,
+      "end": 16.5,
+      "action": "[inform]",
+      "text_zh": "最左边的小朋友趴在地上，没有跟着站队。",
+      "text_en": "The child on the far left is lying on the ground and isn't lining up."
+    },
+    {
+      "start": 16.5,
+      "end": 60.6,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "多人场合",
+  "population_id": "group",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

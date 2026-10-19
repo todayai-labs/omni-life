@@ -1,0 +1,37 @@
+{
+  "id": "fb_yoga_mirror",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "室内运动",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我做瑜伽，结束后帮我总结一下我的表现。",
+      "text_en": "Please watch me do yoga and summarize my performance once I'm done."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 13.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 13.5,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "动作非常标准，身体控制得很好，继续保持。",
+      "text_en": "Perfect form and great body control, keep it up!"
+    }
+  ],
+  "target_people_detail": "运动的人",
+  "population_id": "adult",
+  "assistant_role": "运动助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "训练室监控",
+  "eval_group": "general"
+}

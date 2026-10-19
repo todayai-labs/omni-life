@@ -1,0 +1,57 @@
+{
+  "id": "cook_pepper_feedback",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "AI眼镜",
+  "target_people": "成人",
+  "scene": "厨房",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我做菜，有不卫生或不规范的操作时提醒我纠正。",
+      "text_en": "Please watch me cook and correct any unhygienic or improper actions."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 26.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 26.0,
+      "end": 31.0,
+      "action": "[feedback]",
+      "text_zh": "请用勺子转移蛋黄，避免用手接触。",
+      "text_en": "Use a spoon to move the egg yolk instead of your hands."
+    },
+    {
+      "start": 31.0,
+      "end": 37.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 37.0,
+      "end": 42.0,
+      "action": "[feedback]",
+      "text_zh": "请用勺子搅拌，直接用手不卫生。",
+      "text_en": "Please use a spoon to stir, as using your hands isn't hygienic."
+    },
+    {
+      "start": 42.0,
+      "end": 60.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "下厨的人",
+  "population_id": "adult",
+  "assistant_role": "生活协作助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

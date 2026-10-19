@@ -1,0 +1,43 @@
+{
+  "id": "robot_feed_cats",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "机器人摄像头",
+  "target_people": "宠物",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我看着给猫咪喂食，喂好了或者有情况请告诉我。",
+      "text_en": "Please watch the cat being fed and let me know when it's done or if anything happens."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 23.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 23.0,
+      "end": 27.0,
+      "action": "[inform]",
+      "text_zh": "三只猫咪都分到食物，开始吃啦。",
+      "text_en": "All three cats have their food now and are eating."
+    },
+    {
+      "start": 27.0,
+      "end": 30.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "宠物",
+  "population_id": "pet",
+  "assistant_role": "宠物照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

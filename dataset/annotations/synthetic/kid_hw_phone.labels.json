@@ -1,0 +1,36 @@
+{
+  "id": "kid_hw_phone",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "居家监控",
+  "target_people": "学龄儿童",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "学习助手，请陪孩子写作业，留意学习状态，持续分心时提醒他回到作业。",
+      "text_en": "Learning Assistant, please accompany the child while doing homework, monitor their learning state, and remind them to get back to work if they are continuously distracted."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "action": "[inform]",
+      "text_zh": "把手机收起来写作业吧。",
+      "text_en": "Put your phone away and do your homework."
+    },
+    {
+      "start": 4.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "学龄儿童",
+  "population_id": "kid",
+  "assistant_role": "学习助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

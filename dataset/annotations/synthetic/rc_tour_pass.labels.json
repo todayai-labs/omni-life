@@ -1,0 +1,36 @@
+{
+  "id": "rc_tour_pass",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "AI眼镜",
+  "target_people": "成人",
+  "scene": "景区",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请陪我逛逛景区，如果我对路过的景点提问，请帮我解答。",
+      "text_en": "Please accompany me around the scenic area and help answer any questions I might have about the sights we pass by."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 13.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 13.0,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "虽然无法确认这座凉亭的具体历史，但它是一座典型的中式传统凉亭，主要供游客歇息和观景。",
+      "text_en": "Although the specific history of this pavilion cannot be confirmed, it is a typical traditional Chinese pavilion, mainly for tourists to rest and view the scenery."
+    }
+  ],
+  "target_people_detail": "游客",
+  "population_id": "adult",
+  "assistant_role": "旅行陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

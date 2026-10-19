@@ -1,0 +1,50 @@
+{
+  "id": "elder_crossing",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "手持观察视角",
+  "target_people": "独居老人",
+  "scene": "交通",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意人行过街信号，信号允许通行时告诉我，停止通行时提醒我等待。",
+      "text_en": "Please monitor the pedestrian signal, tell me when it permits crossing, and remind me to wait when it stops permitting crossing."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 3,
+      "action": "[inform]",
+      "text_zh": "当前人行信号灯为绿灯，可以通行，请注意安全。",
+      "text_en": "The pedestrian signal is currently green and you can cross. Please watch out for your safety."
+    },
+    {
+      "start": 3,
+      "end": 18.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 18.5,
+      "end": 21.5,
+      "action": "[warn]",
+      "text_zh": "现在红灯已亮起，请在路边安全等待。",
+      "text_en": "The red light is now on, please wait safely by the roadside."
+    },
+    {
+      "start": 21.5,
+      "end": 22.17,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "独居老人",
+  "population_id": "elder",
+  "assistant_role": "过街信号助理",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

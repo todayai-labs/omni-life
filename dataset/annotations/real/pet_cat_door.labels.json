@@ -1,0 +1,57 @@
+{
+  "id": "pet_cat_door",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "居家监控",
+  "target_people": "宠物",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意猫咪在门边的表现，有想出门的迹象时告诉我。",
+      "text_en": "Please watch the cat’s behavior by the door and tell me about signs that it wants to go out."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 3.0,
+      "end": 7.0,
+      "action": "[inform]",
+      "text_zh": "猫咪在门前一直喵喵叫，好像想出去。",
+      "text_en": "The cat is meowing at the door, it looks like it wants to go out."
+    },
+    {
+      "start": 7.0,
+      "end": 15.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 15.0,
+      "end": 20.0,
+      "action": "[inform]",
+      "text_zh": "它现在趴在地上，正用爪子不停地掏门缝。",
+      "text_en": "It's lying on the floor, scratching at the door crack."
+    },
+    {
+      "start": 20.0,
+      "end": 45.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "宠物",
+  "population_id": "pet",
+  "assistant_role": "宠物照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

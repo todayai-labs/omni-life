@@ -1,0 +1,37 @@
+{
+  "id": "in_pet_mail",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "宠物",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看家里的狗，如果它有破坏物品或危险行为，请及时提醒我。",
+      "text_en": "Please help me watch the dog at home, and alert me immediately if it damages items or exhibits dangerous behavior."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "action": "[warn]",
+      "text_zh": "狗狗正在撕咬快递盒，快去阻止它。",
+      "text_en": "The dog is tearing up a package, go stop it!"
+    },
+    {
+      "start": 4.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "宠物",
+  "population_id": "pet",
+  "assistant_role": "宠物照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

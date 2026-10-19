@@ -1,0 +1,134 @@
+{
+  "id": "pet_dog_bowl",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "居家监控",
+  "target_people": "宠物",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看狗狗，每次它主动引起注意或表现出照顾需求时告诉我。",
+      "text_en": "Please watch over the dog and tell me each time it tries to attract attention or shows a need for care."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 16,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 16,
+      "end": 20,
+      "action": "[inform]",
+      "text_zh": "狗狗正在用爪子拨弄碗。您看看狗狗怎么了。",
+      "text_en": "The dog is pawing at the bowl. Please check on the dog."
+    },
+    {
+      "start": 20,
+      "end": 27.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 27.5,
+      "end": 29.5,
+      "action": "[inform]",
+      "text_zh": "狗狗叫了一声。您看看狗狗怎么了。",
+      "text_en": "The dog barked once. Please check on the dog."
+    },
+    {
+      "start": 29.5,
+      "end": 35.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 35.5,
+      "end": 37,
+      "action": "[inform]",
+      "text_zh": "狗狗又叫了一声。您看看狗狗怎么了。",
+      "text_en": "The dog barked again. Please check on the dog."
+    },
+    {
+      "start": 37,
+      "end": 44,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 44,
+      "end": 45.5,
+      "action": "[inform]",
+      "text_zh": "狗狗又叫了一声。您看看狗狗怎么了。",
+      "text_en": "The dog barked again. Please check on the dog."
+    },
+    {
+      "start": 45.5,
+      "end": 47,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 47,
+      "end": 48.5,
+      "action": "[inform]",
+      "text_zh": "狗狗又叫了一声。您看看狗狗怎么了。",
+      "text_en": "The dog barked again. Please check on the dog."
+    },
+    {
+      "start": 48.5,
+      "end": 50,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 50,
+      "end": 51,
+      "action": "[inform]",
+      "text_zh": "狗狗又叫了一声。您看看狗狗怎么了。",
+      "text_en": "The dog barked again. Please check on the dog."
+    },
+    {
+      "start": 51,
+      "end": 55,
+      "action": "[inform]",
+      "text_zh": "狗狗把碗叼起来了。您看看狗狗怎么了。",
+      "text_en": "The dog has picked up the bowl in its mouth. Please check on the dog."
+    },
+    {
+      "start": 55,
+      "end": 78,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 78,
+      "end": 82,
+      "action": "[inform]",
+      "text_zh": "狗狗又叼起了碗。您看看狗狗怎么了。",
+      "text_en": "The dog has picked up the bowl again. Please check on the dog."
+    },
+    {
+      "start": 82,
+      "end": 85.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "宠物",
+  "population_id": "pet",
+  "assistant_role": "宠物照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

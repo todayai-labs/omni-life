@@ -1,0 +1,74 @@
+[
+  {
+    "population_id": "baby",
+    "name_en": "Infants and toddlers",
+    "name_zh": "婴幼儿",
+    "case_count": 26
+  },
+  {
+    "population_id": "kid",
+    "name_en": "Schoolchildren",
+    "name_zh": "学龄儿童",
+    "case_count": 36
+  },
+  {
+    "population_id": "adult",
+    "name_en": "Adults",
+    "name_zh": "成人",
+    "case_count": 172
+  },
+  {
+    "population_id": "elder",
+    "name_en": "Older adults",
+    "name_zh": "老年人",
+    "case_count": 29
+  },
+  {
+    "population_id": "blind",
+    "name_en": "Visual impairment",
+    "name_zh": "视障者",
+    "case_count": 27
+  },
+  {
+    "population_id": "deaf",
+    "name_en": "Hearing impairment",
+    "name_zh": "听障者",
+    "case_count": 13
+  },
+  {
+    "population_id": "cblind",
+    "name_en": "Color-vision deficiency",
+    "name_zh": "色觉障碍",
+    "case_count": 11
+  },
+  {
+    "population_id": "wheel",
+    "name_en": "Mobility impairment",
+    "name_zh": "行动障碍",
+    "case_count": 8
+  },
+  {
+    "population_id": "alz",
+    "name_en": "Cognitive impairment",
+    "name_zh": "认知障碍",
+    "case_count": 11
+  },
+  {
+    "population_id": "chronic",
+    "name_en": "Chronic conditions",
+    "name_zh": "慢病患者",
+    "case_count": 13
+  },
+  {
+    "population_id": "pet",
+    "name_en": "Pets",
+    "name_zh": "宠物",
+    "case_count": 30
+  },
+  {
+    "population_id": "group",
+    "name_en": "Multi-person settings",
+    "name_zh": "多人场合",
+    "case_count": 24
+  }
+]

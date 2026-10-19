@@ -1,0 +1,37 @@
+{
+  "id": "ask_home_coat",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "生活助手，请在我询问穿衣建议或天气相关问题时，及时为我解答。",
+      "text_en": "Life assistant, please answer me promptly when I ask for clothing advice or weather-related questions."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 12.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 12.5,
+      "end": 15.1,
+      "action": "[answer]",
+      "text_zh": "外面下雨降温了，穿这件羽绒服刚好。",
+      "text_en": "It's raining and getting colder outside, so this down jacket is perfect."
+    }
+  ],
+  "target_people_detail": "居家的人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

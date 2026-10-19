@@ -1,0 +1,38 @@
+{
+  "id": "elder_stool_f_pos",
+  "form": "pair",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "独居老人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看独自在家的老人，如果发生危险或摔倒请及时提醒或呼救。",
+      "text_en": "Please help me watch the elderly person who is home alone, and immediately alert or call for help if danger or a fall occurs."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 8.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 8.5,
+      "end": 15.1,
+      "action": "[warn]",
+      "text_zh": "您摔倒了，请先别乱动，请附近的人查看并协助联系救援。",
+      "text_en": "You have fallen. Please avoid moving hastily and ask someone nearby to check on you and help contact emergency assistance."
+    }
+  ],
+  "target_people_detail": "独居老人",
+  "population_id": "elder",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "binary_pair",
+  "pair_id": "elder_stool_f"
+}

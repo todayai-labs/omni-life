@@ -1,0 +1,37 @@
+{
+  "id": "in_alz_coat",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "认知障碍",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意老人穿衣的情况，遇到困难或还没穿好时告诉我，并提示下一步怎么做。",
+      "text_en": "Please watch the older person getting dressed. Tell me if they are having difficulty or are not fully dressed, and suggest the next step."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 5.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 5.0,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "外套搭在肩膀上了，需要把手伸进袖子里哦。",
+      "text_en": "Your coat is just draped over your shoulders; you need to put your arms through the sleeves."
+    }
+  ],
+  "target_people_detail": "认知障碍者",
+  "population_id": "alz",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

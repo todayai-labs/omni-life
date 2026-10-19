@@ -1,0 +1,78 @@
+{
+  "id": "deaf_cafe_sign",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "店内监控",
+  "target_people": "听障者",
+  "scene": "店铺",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我观察咖啡店里店员和顾客的互动，关键进展发生时告诉我。",
+      "text_en": "Please observe interactions between staff and customers in the cafe and tell me about key developments as they occur."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 9,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 9,
+      "end": 12,
+      "action": "[inform]",
+      "text_zh": "顾客正在用手势与店员交流。",
+      "text_en": "A customer is communicating with the staff member using gestures."
+    },
+    {
+      "start": 12,
+      "end": 18,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 18,
+      "end": 23,
+      "action": "[inform]",
+      "text_zh": "顾客正在进行付款。",
+      "text_en": "The customer is making a payment."
+    },
+    {
+      "start": 23,
+      "end": 27,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 27,
+      "end": 31,
+      "action": "[inform]",
+      "text_zh": "另一位顾客走到柜台前了。",
+      "text_en": "Another customer has approached the counter."
+    },
+    {
+      "start": 31,
+      "end": 32,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 32,
+      "end": 36.5,
+      "action": "[inform]",
+      "text_zh": "店员正在杯子上写字。",
+      "text_en": "The staff member is writing on a cup."
+    }
+  ],
+  "target_people_detail": "听障者",
+  "population_id": "deaf",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

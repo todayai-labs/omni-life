@@ -1,0 +1,48 @@
+{
+  "model": "minicpm-o-4.5",
+  "counts": {
+    "videos": 400,
+    "failed": 0,
+    "nodes": 555,
+    "emitted_events": 54,
+    "false": 23,
+    "wait_minutes": 166.20119478333334,
+    "intervention": 290,
+    "correct_nodes_0": 8,
+    "correct_videos_0": 4,
+    "strict_correct_videos": 4,
+    "correct_nodes_1": 9,
+    "correct_videos_1": 4,
+    "correct_nodes_2": 10,
+    "correct_videos_2": 5,
+    "correct_nodes_5": 10,
+    "correct_videos_5": 5,
+    "correct_nodes_10": 13,
+    "correct_videos_10": 7,
+    "silent": 110,
+    "silent_correct": 105
+  },
+  "video_correct": 1.3793103448275863,
+  "action_correct": 1.4414414414414414,
+  "silent_correct": 95.45454545454545,
+  "false_per_min": 0.13838649012110738,
+  "qa_content": 53.5,
+  "qa_timing": 25.75,
+  "qa_both": 13.0,
+  "tolerance_action_correct": {
+    "0": 1.4414414414414414,
+    "1": 1.6216216216216217,
+    "2": 1.8018018018018018,
+    "5": 1.8018018018018018,
+    "10": 2.3423423423423424
+  },
+  "event_precision": 14.814814814814815,
+  "event_recall": 1.4414414414414414,
+  "event_f1": 2.6272577996715927,
+  "strict_video_correct": 1.3793103448275863,
+  "event_confusion": {
+    "tp": 8,
+    "fp": 46,
+    "fn": 547
+  }
+}

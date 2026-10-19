@@ -1,0 +1,36 @@
+{
+  "id": "jump_rope",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "室内运动",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我看着我跳绳，做完一组时提醒我休息。",
+      "text_en": "Please watch me jump rope and remind me to take a break when I finish a set."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 40.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 40.0,
+      "end": 42.7,
+      "action": "[inform]",
+      "text_zh": "第一组完成，休息十秒。",
+      "text_en": "First set done, rest for ten seconds."
+    }
+  ],
+  "target_people_detail": "运动的人",
+  "population_id": "adult",
+  "assistant_role": "运动机器人",
+  "assistant_role_basis": "用户任务设定",
+  "eval_group": "general"
+}

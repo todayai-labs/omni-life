@@ -1,0 +1,64 @@
+{
+  "id": "queue_dental_ad",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "候诊监控",
+  "target_people": "多人场合",
+  "scene": "医院",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我记录牙科的新叫号，每次更新时告诉我诊室和患者称呼，并报累计叫号次数。",
+      "text_en": "Please help me record the new dental queue calls, tell me the clinic room and patient's name/title with each update, and report the cumulative number of calls."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 2.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 2.5,
+      "end": 5.5,
+      "action": "[inform]",
+      "text_zh": "第一个，十诊许先生。",
+      "text_en": "First up is Mr. Xu from Clinic Ten."
+    },
+    {
+      "start": 5.5,
+      "end": 7.5,
+      "action": "[inform]",
+      "text_zh": "第二个，八诊王先生。",
+      "text_en": "Second is Mr. Wang in Clinic Eight."
+    },
+    {
+      "start": 7.5,
+      "end": 17.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 17.5,
+      "end": 19.5,
+      "action": "[inform]",
+      "text_zh": "第三个，二十八诊尤先生。",
+      "text_en": "Third one, Mr. You from clinic twenty-eight."
+    },
+    {
+      "start": 19.5,
+      "end": 20.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "多人场合",
+  "population_id": "group",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

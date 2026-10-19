@@ -1,0 +1,57 @@
+{
+  "id": "hail_weather",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "手持观察视角",
+  "target_people": "成人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意室外天气，出现冰雹或明显影响出行的天气变化时提醒我。",
+      "text_en": "Please monitor the weather outside and alert me to hail or a clear weather change affecting travel."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 1,
+      "end": 5,
+      "action": "[warn]",
+      "text_zh": "玻璃屋顶有持续密集的敲击声，请留意天气，注意出行安全。",
+      "text_en": "Persistent dense impacts are audible on the glass roof; monitor the weather and take care when going out."
+    },
+    {
+      "start": 5,
+      "end": 7.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 7.5,
+      "end": 11.5,
+      "action": "[warn]",
+      "text_zh": "现在可以看到室外有密集降水，请暂缓外出。",
+      "text_en": "Heavy precipitation is now visible outdoors; consider postponing going outside."
+    },
+    {
+      "start": 11.5,
+      "end": 19.63,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "成人",
+  "population_id": "adult",
+  "assistant_role": "居家天气提醒助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "kid_stove_pos",
+  "form": "pair",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "学龄儿童",
+  "scene": "厨房",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看孩子，有情况告诉我。"
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 1.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 1.5,
+      "end": 11.0,
+      "action": "[warn]",
+      "text_zh": "锅盖很烫，不要直接用手拿，小心烫伤。",
+      "text_en": "The lid is very hot, don't touch it with your bare hands."
+    },
+    {
+      "start": 11.0,
+      "end": 15.1,
+      "action": "[warn]",
+      "text_zh": "手烫到了吗？快去用冷水冲洗一下。",
+      "text_en": "Did you burn your hand? Run it under cold water quickly."
+    }
+  ],
+  "target_people_detail": "学龄儿童",
+  "population_id": "kid",
+  "assistant_role": "生活协作助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "binary_pair",
+  "pair_id": "kid_stove"
+}

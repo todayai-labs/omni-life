@@ -1,0 +1,64 @@
+{
+  "id": "baby_home",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "居家监控",
+  "target_people": "婴幼儿",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看孩子，有危险及时通知我，情况有变化也请告诉我。",
+      "text_en": "Please help me watch the child, notify me immediately if there is any danger, and also let me know if the situation changes."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 3.0,
+      "end": 8.0,
+      "action": "[warn]",
+      "text_zh": "宝宝正试图扶着沙发站立，身体有些摇晃。",
+      "text_en": "The baby is trying to stand up by the sofa, but they're a bit shaky."
+    },
+    {
+      "start": 8.0,
+      "end": 15.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 15.0,
+      "end": 20.0,
+      "action": "[warn]",
+      "text_zh": "宝宝又爬到沙发边，正尝试扶着沙发站起来。",
+      "text_en": "The baby crawled to the sofa again and is trying to stand up."
+    },
+    {
+      "start": 20.0,
+      "end": 46.0,
+      "action": "[warn]",
+      "text_zh": "宝宝独自扶着沙发站立，身边无人看护。",
+      "text_en": "The baby is standing by the sofa alone with no one watching."
+    },
+    {
+      "start": 46.0,
+      "end": 50.1,
+      "action": "[inform]",
+      "text_zh": "家长已过来抱起宝宝。",
+      "text_en": "A parent has picked up the baby."
+    }
+  ],
+  "target_people_detail": "婴幼儿",
+  "population_id": "baby",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

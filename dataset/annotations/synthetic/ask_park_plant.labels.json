@@ -1,0 +1,37 @@
+{
+  "id": "ask_park_plant",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "景区",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "旅行助手，请陪我一起游览，如果我向你提问，请及时回答我。",
+      "text_en": "Travel assistant, please tour with me, and if I ask you questions, please answer me in a timely manner."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 13.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 13.5,
+      "end": 15.1,
+      "action": "[answer]",
+      "text_zh": "这是木芙蓉，也叫芙蓉花。",
+      "text_en": "This is a cotton rose, also known as confederate rose."
+    }
+  ],
+  "target_people_detail": "户外的人",
+  "population_id": "adult",
+  "assistant_role": "旅行陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "景区监控",
+  "eval_group": "general"
+}

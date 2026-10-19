@@ -1,0 +1,37 @@
+{
+  "id": "sm_gym_set",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "室内运动",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我练器械，这一组结束后简要总结完成情况和动作表现。",
+      "text_en": "Please watch my machine workout and briefly summarize the completed exercise and my form when this set ends."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 11.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 11.5,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "你完成了一次推肩训练，动作标准。",
+      "text_en": "You've completed a shoulder press with perfect form."
+    }
+  ],
+  "target_people_detail": "运动的人",
+  "population_id": "adult",
+  "assistant_role": "运动助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "健身房监控",
+  "eval_group": "general"
+}

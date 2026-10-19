@@ -1,0 +1,51 @@
+{
+  "id": "mon_elder_fall_getup",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "独居老人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请照看我在家里的活动，有危险或意外时及时提醒并提供帮助，重要情况变化也请告诉我。",
+      "text_en": "Please watch over my activities at home, remind me and provide help in time if there is danger or an accident, and also let me know if there are important changes in the situation."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 10.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 10.0,
+      "end": 14.0,
+      "action": "[warn]",
+      "text_zh": "您摔倒了，请注意安全，先别着急乱动。",
+      "text_en": "You've fallen. Please stay safe and don't try to move just yet."
+    },
+    {
+      "start": 14.0,
+      "end": 27.0,
+      "action": "[warn]",
+      "text_zh": "您在尝试站起来，请慢一点，扶稳凳子。",
+      "text_en": "You're trying to stand up. Please go slowly and hold onto the chair."
+    },
+    {
+      "start": 27.0,
+      "end": 30.1,
+      "action": "[inform]",
+      "text_zh": "您已经站起来了，身体有哪里不舒服吗？",
+      "text_en": "You're standing now. Are you feeling alright?"
+    }
+  ],
+  "target_people_detail": "独居老人",
+  "population_id": "elder",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

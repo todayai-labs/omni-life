@@ -1,0 +1,86 @@
+{
+  "id": "cnt_bad_serve",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "室内运动",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我统计发球，每完成一次发球就报告累计次数，结束后汇总。",
+      "text_en": "Please count my serves, report the running total after each completed one, and summarize when the activity ends."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 1.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 1.5,
+      "end": 3.5,
+      "action": "[inform]",
+      "text_zh": "1",
+      "text_en": "One."
+    },
+    {
+      "start": 3.5,
+      "end": 5.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 5.5,
+      "end": 6.5,
+      "action": "[inform]",
+      "text_zh": "2",
+      "text_en": "Two."
+    },
+    {
+      "start": 6.5,
+      "end": 8.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 8.5,
+      "end": 11.0,
+      "action": "[inform]",
+      "text_zh": "3",
+      "text_en": "Three."
+    },
+    {
+      "start": 11.0,
+      "end": 13.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 13.0,
+      "end": 14.5,
+      "action": "[inform]",
+      "text_zh": "4",
+      "text_en": "4"
+    },
+    {
+      "start": 14.5,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "本次练习共成功发球4次。",
+      "text_en": "A total of 4 successful serves were made in this practice."
+    }
+  ],
+  "target_people_detail": "运动的人",
+  "population_id": "adult",
+  "assistant_role": "运动助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "球场监控",
+  "eval_group": "general"
+}

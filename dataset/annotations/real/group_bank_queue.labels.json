@@ -1,0 +1,148 @@
+{
+  "id": "group_bank_queue",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "手持观察视角",
+  "target_people": "多人场合",
+  "scene": "大厅",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我注意银行叫号，并告诉我每个号码对应的是哪位顾客。",
+      "text_en": "Please help me keep an eye on the bank queue numbers and tell me which customer each number corresponds to."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 5.0,
+      "action": "[inform]",
+      "text_zh": "37号是那位穿黑色衣服的女士。",
+      "text_en": "Number 37 is the lady in black."
+    },
+    {
+      "start": 5.0,
+      "end": 10.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 10.0,
+      "end": 15.0,
+      "action": "[inform]",
+      "text_zh": "38号是那位穿红色衣服的男士。",
+      "text_en": "Number 38 is the man in red."
+    },
+    {
+      "start": 15.0,
+      "end": 30.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 30.0,
+      "end": 35.0,
+      "action": "[inform]",
+      "text_zh": "39号是那位穿紫色衣服的男士。",
+      "text_en": "Number 39 is the man in purple."
+    },
+    {
+      "start": 35.0,
+      "end": 46.4,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 46.4,
+      "end": 51.4,
+      "action": "[inform]",
+      "text_zh": "37号是那位穿黑色衣服的女士。",
+      "text_en": "Number 37 is the lady in black."
+    },
+    {
+      "start": 51.4,
+      "end": 56.4,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 56.4,
+      "end": 61.4,
+      "action": "[inform]",
+      "text_zh": "38号是那位穿红色衣服的男士。",
+      "text_en": "Number 38 is the man in red."
+    },
+    {
+      "start": 61.4,
+      "end": 76.4,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 76.4,
+      "end": 81.4,
+      "action": "[inform]",
+      "text_zh": "39号是那位穿紫色衣服的男士。",
+      "text_en": "Number 39 is the man in purple."
+    },
+    {
+      "start": 81.4,
+      "end": 92.8,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 92.8,
+      "end": 97.8,
+      "action": "[inform]",
+      "text_zh": "37号是那位穿黑色衣服的女士。",
+      "text_en": "Number 37 is the lady in black."
+    },
+    {
+      "start": 97.8,
+      "end": 102.8,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 102.8,
+      "end": 107.8,
+      "action": "[inform]",
+      "text_zh": "38号是那位穿红色衣服的男士。",
+      "text_en": "Number 38 is the man in red."
+    },
+    {
+      "start": 107.8,
+      "end": 122.8,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 122.8,
+      "end": 127.8,
+      "action": "[inform]",
+      "text_zh": "39号是那位穿紫色衣服的男士。",
+      "text_en": "Number 39 is the man in purple."
+    },
+    {
+      "start": 127.8,
+      "end": 147.2,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "多人场合",
+  "population_id": "group",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

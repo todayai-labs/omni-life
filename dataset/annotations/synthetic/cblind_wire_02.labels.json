@@ -1,0 +1,63 @@
+{
+  "id": "cblind_wire_02",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "AI眼镜",
+  "target_people": "色觉障碍",
+  "scene": "操作台",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我观察接线，告诉我画面中不同颜色的线正接向哪个位置。"
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 1,
+      "end": 3,
+      "action": "[inform]",
+      "text_zh": "蓝线的一端接在画面左侧的白色端子上。",
+      "text_en": "One end of the blue wire is connected to the white terminal on the left of the image."
+    },
+    {
+      "start": 3,
+      "end": 6,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 6,
+      "end": 9,
+      "action": "[inform]",
+      "text_zh": "你正在把红线插向画面中间的白色端子。",
+      "text_en": "You are trying to insert the red wire into the white terminal in the middle of the image."
+    },
+    {
+      "start": 9,
+      "end": 12,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 12,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "你拿起了蓝线的另一端，正将它移向中间的白色端子。",
+      "text_en": "You have picked up the other end of the blue wire and are moving it toward the white terminal in the middle."
+    }
+  ],
+  "target_people_detail": "色觉障碍者",
+  "population_id": "cblind",
+  "assistant_role": "生活协作助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

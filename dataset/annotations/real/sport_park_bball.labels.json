@@ -1,0 +1,50 @@
+{
+  "id": "sport_park_bball",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "球场监控",
+  "target_people": "成人",
+  "scene": "户外运动",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我关注这场篮球赛，有进球时告诉我，并在结束时帮我总结一下。",
+      "text_en": "Please help me keep an eye on this basketball game, let me know when there is a basket, and summarize it for me when it ends."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 40.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 40.0,
+      "end": 43.5,
+      "action": "[inform]",
+      "text_zh": "深色背心男子在右侧中距离接球投篮命中。",
+      "text_en": "The man in the dark vest caught the ball near the right mid-range and scored."
+    },
+    {
+      "start": 43.5,
+      "end": 94.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 94.0,
+      "end": 97.5,
+      "action": "[inform]",
+      "text_zh": "这群人在公园里进行了一场篮球半场对抗赛。",
+      "text_en": "This group is playing a half-court basketball game in the park."
+    }
+  ],
+  "target_people_detail": "运动的人",
+  "population_id": "adult",
+  "assistant_role": "运动助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "house_fire_brisbane",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "手持第三人称视角",
+  "target_people": "成人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意住宅周围的安全，发现火情或明显危险时立即提醒我远离危险区域。",
+      "text_en": "Please monitor safety around the home and immediately warn me to stay away if you observe a fire or an obvious danger."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 4,
+      "action": "[warn]",
+      "text_zh": "住宅窗户处有明火，请远离起火区域。",
+      "text_en": "There are visible flames at a house window; stay away from the burning area."
+    },
+    {
+      "start": 4,
+      "end": 80.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "成人",
+  "population_id": "adult",
+  "assistant_role": "住宅周边安全助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

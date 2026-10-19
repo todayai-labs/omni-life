@@ -1,0 +1,36 @@
+{
+  "id": "agr_pig_fed",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "第一人称运动相机视角",
+  "target_people": "成人",
+  "scene": "农业",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我观察这些猪有没有在吃饲料，并告诉我看到的情况。",
+      "text_en": "Please check whether these pigs are eating feed and tell me what you see."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 1.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 1.0,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "这些猪正在吃槽里的饲料。",
+      "text_en": "These pigs are eating the feed in the trough."
+    }
+  ],
+  "target_people_detail": "务农的人",
+  "population_id": "adult",
+  "assistant_role": "农业助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

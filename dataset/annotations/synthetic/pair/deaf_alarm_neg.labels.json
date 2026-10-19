@@ -1,0 +1,31 @@
+{
+  "id": "deaf_alarm_neg",
+  "form": "pair",
+  "side": "neg",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "听障者",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "我是听障人士，请帮我留意厨房的情况，如果烟雾报警器响了或者有其他异常请及时提醒我。",
+      "text_en": "I am hearing impaired, please help me keep an eye on the kitchen. If the smoke alarm goes off or there are other abnormalities, please alert me in time."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "听障者",
+  "population_id": "deaf",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "binary_pair",
+  "pair_id": "deaf_alarm"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "kid_phone_neg",
+  "form": "pair",
+  "side": "neg",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "学龄儿童",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "学习助手，请帮我留意孩子写作业的专注情况，持续分心时提醒他纠正；短暂查看信息后继续学习则不用打断。",
+      "text_en": "Learning assistant, please monitor the child’s attention while doing homework and correct sustained distraction; do not interrupt a brief check of a message followed by a return to studying."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "学龄儿童",
+  "population_id": "kid",
+  "assistant_role": "学习助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "教室监控",
+  "eval_group": "binary_pair",
+  "pair_id": "kid_phone"
+}

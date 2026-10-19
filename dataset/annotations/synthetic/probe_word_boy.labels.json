@@ -1,0 +1,29 @@
+{
+  "id": "probe_word_boy",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "学龄儿童",
+  "scene": "书房",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请陪我读书，我向你提问或请求帮助时请回应。",
+      "text_en": "Please accompany me while I read and respond when I ask you a question or request help."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "学龄儿童",
+  "population_id": "kid",
+  "assistant_role": "手机助手",
+  "assistant_role_basis": "用户任务设定",
+  "eval_group": "general"
+}

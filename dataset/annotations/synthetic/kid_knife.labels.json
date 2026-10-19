@@ -1,0 +1,50 @@
+{
+  "id": "kid_knife",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "学龄儿童",
+  "scene": "厨房",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看孩子，有情况告诉我。"
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 2.0,
+      "end": 10.0,
+      "action": "[warn]",
+      "text_zh": "孩子爬凳子靠近刀具，很危险，快去阻止。",
+      "text_en": "The kid is climbing a stool near the knives, go stop them!"
+    },
+    {
+      "start": 10.0,
+      "end": 13.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 13.0,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "孩子已被抱离危险区域。",
+      "text_en": "The child has been carried away from the danger zone."
+    }
+  ],
+  "target_people_detail": "学龄儿童",
+  "population_id": "kid",
+  "assistant_role": "生活协作助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

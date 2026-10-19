@@ -1,0 +1,37 @@
+{
+  "id": "handler_already_there",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看家里，有安全隐患请及时提醒我。",
+      "text_en": "Please help me watch the house and alert me immediately if there are any safety hazards."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "action": "[warn]",
+      "text_zh": "厨房的锅正在冒烟，请尽快去查看。",
+      "text_en": "A pot in the kitchen is smoking, please check on it right away."
+    },
+    {
+      "start": 4.0,
+      "end": 30.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "居家的人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

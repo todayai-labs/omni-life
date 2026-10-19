@@ -1,0 +1,43 @@
+{
+  "id": "deaf_wake",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "居家监控",
+  "target_people": "听障者",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "我是听障人士，请帮我留意闹钟是否响了，有情况及时通知我。",
+      "text_en": "I am hearing impaired, please help me keep an eye on whether the alarm clock goes off, and notify me in time if anything happens."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 8,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 8,
+      "end": 14,
+      "action": "[inform]",
+      "text_zh": "闹钟闪光并震动了，该起床了。",
+      "text_en": "The alarm is flashing and vibrating, time to get up."
+    },
+    {
+      "start": 14,
+      "end": 36,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "听障者",
+  "population_id": "deaf",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

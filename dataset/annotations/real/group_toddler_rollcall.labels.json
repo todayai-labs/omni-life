@@ -1,0 +1,113 @@
+{
+  "id": "group_toddler_rollcall",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "教室监控",
+  "target_people": "多人场合",
+  "scene": "学校",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我统计点名中答到的孩子，每有一个孩子答到就报告累计人数，点名结束后汇总。",
+      "text_en": "Please count the children who answer roll call, report the running total after each response, and summarize when roll call ends."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 5.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 5.5,
+      "end": 8.5,
+      "action": "[inform]",
+      "text_zh": "第1个，中间偏左捂嘴的女孩答到了。",
+      "text_en": "First, the girl in the middle-left covering her mouth said here."
+    },
+    {
+      "start": 8.5,
+      "end": 14.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 14.0,
+      "end": 16.0,
+      "action": "[inform]",
+      "text_zh": "第2个，右侧第四个男孩答到了。",
+      "text_en": "Second, the fourth boy on the right said here."
+    },
+    {
+      "start": 16.0,
+      "end": 18.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 18.5,
+      "end": 21.5,
+      "action": "[inform]",
+      "text_zh": "第3个，左侧第二个男孩答到了。",
+      "text_en": "Third, the second boy on the left said here."
+    },
+    {
+      "start": 21.5,
+      "end": 27.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 27.5,
+      "end": 30.5,
+      "action": "[inform]",
+      "text_zh": "第4个，中间偏右前倾的男孩答到了。",
+      "text_en": "The fourth one, the boy leaning forward in the middle-right, responded."
+    },
+    {
+      "start": 30.5,
+      "end": 34.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 34.0,
+      "end": 37.0,
+      "action": "[inform]",
+      "text_zh": "第5个，右侧第二个男孩答到了。",
+      "text_en": "Fifth, the second boy on the right said here."
+    },
+    {
+      "start": 37.0,
+      "end": 39.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 39.5,
+      "end": 41.5,
+      "action": "[inform]",
+      "text_zh": "第6个，中间张大嘴的女孩答到了。",
+      "text_en": "Sixth, the girl in the middle with her mouth wide open said here."
+    },
+    {
+      "start": 41.5,
+      "end": 43.3,
+      "action": "[inform]",
+      "text_zh": "点名结束，一共有6个孩子成功答到。",
+      "text_en": "Roll call is over, and six children are present."
+    }
+  ],
+  "target_people_detail": "多人场合",
+  "population_id": "group",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

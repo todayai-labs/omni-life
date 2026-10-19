@@ -1,0 +1,43 @@
+{
+  "id": "elder_fall2_cam",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "居家监控",
+  "target_people": "独居老人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看老人，有危险或异常情况及时通知我。",
+      "text_en": "Please help me look after the elderly person, and notify me in time if there is any danger or abnormal situation."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 2.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 2.5,
+      "end": 8.0,
+      "action": "[warn]",
+      "text_zh": "老人摔倒了，请尽快过去查看！",
+      "text_en": "The elderly person has fallen, please go check on them immediately."
+    },
+    {
+      "start": 8.0,
+      "end": 15.3,
+      "action": "[warn]",
+      "text_zh": "老人还没起，要报警",
+      "text_en": "The elderly person isn't up yet, we need to call the police."
+    }
+  ],
+  "target_people_detail": "独居老人",
+  "population_id": "elder",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

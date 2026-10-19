@@ -1,0 +1,56 @@
+{
+  "id": "hostel_check",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "第一人称视角",
+  "target_people": "多人场合",
+  "scene": "学校走廊与教室",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请听视频中老师对学生单词的抽查，并告诉我他们的回答是否正确。"
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 10,
+      "end": 11,
+      "action": "[inform]",
+      "text_zh": "前两题答对了，第三题没答对。",
+      "text_en": "The first two answers were correct, but the third one was not."
+    },
+    {
+      "start": 11,
+      "end": 36,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 36,
+      "end": 37,
+      "action": "[inform]",
+      "text_zh": "刚才两题都答对了。",
+      "text_en": "Both answers just given were correct."
+    },
+    {
+      "start": 37,
+      "end": 54.08,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "教师与学生",
+  "population_id": "group",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

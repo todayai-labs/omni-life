@@ -1,0 +1,113 @@
+{
+  "id": "queue_blood_board",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "候诊监控",
+  "target_people": "多人场合",
+  "scene": "医院",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我关注抽血叫号，屏幕或广播出现新的叫号时告诉我号码和对应柜台。",
+      "text_en": "Please monitor the blood-test queue calls and tell me the number and its counter whenever a new call appears on the display or is announced."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 5.5,
+      "action": "[inform]",
+      "text_zh": "68号请到1号柜台。",
+      "text_en": "Number 68, please go to counter 1."
+    },
+    {
+      "start": 5.5,
+      "end": 11.0,
+      "action": "[inform]",
+      "text_zh": "69号请到3号柜台。",
+      "text_en": "Number 69, please go to counter 3."
+    },
+    {
+      "start": 11.0,
+      "end": 20.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 20.5,
+      "end": 26.0,
+      "action": "[inform]",
+      "text_zh": "66号请到2号柜台。",
+      "text_en": "Number 66, please go to counter 2."
+    },
+    {
+      "start": 26.0,
+      "end": 34.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 34.5,
+      "end": 40.0,
+      "action": "[inform]",
+      "text_zh": "70号请到2号柜台。",
+      "text_en": "Number 70, please go to counter 2."
+    },
+    {
+      "start": 40.0,
+      "end": 48.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 48.5,
+      "end": 54.0,
+      "action": "[inform]",
+      "text_zh": "71号请到5号柜台。",
+      "text_en": "Number 71, please go to counter 5."
+    },
+    {
+      "start": 54.0,
+      "end": 64.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 64.5,
+      "end": 70.0,
+      "action": "[inform]",
+      "text_zh": "6006号请到11号柜台。",
+      "text_en": "Number 6006, please go to counter 11."
+    },
+    {
+      "start": 70.0,
+      "end": 78.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 78.5,
+      "end": 84.0,
+      "action": "[inform]",
+      "text_zh": "72号请到3号柜台。",
+      "text_en": "Number 72, please go to counter 3."
+    },
+    {
+      "start": 84.0,
+      "end": 90.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "多人场合",
+  "population_id": "group",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

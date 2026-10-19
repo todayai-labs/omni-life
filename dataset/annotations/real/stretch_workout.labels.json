@@ -1,0 +1,85 @@
+{
+  "id": "stretch_workout",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "训练室监控",
+  "target_people": "成人",
+  "scene": "室内运动",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我拉伸，每完成一组就计数并告诉我，练习结束后简要总结做过的拉伸动作。",
+      "text_en": "Please watch me stretch, count each set as I finish it and tell me, and briefly summarize the stretches when the session ends."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 7.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 7.0,
+      "end": 8.5,
+      "action": "[inform]",
+      "text_zh": "第一组。",
+      "text_en": "The first group."
+    },
+    {
+      "start": 8.5,
+      "end": 37.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 37.0,
+      "end": 38.5,
+      "action": "[inform]",
+      "text_zh": "第二组。",
+      "text_en": "The second group."
+    },
+    {
+      "start": 38.5,
+      "end": 67.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 67.0,
+      "end": 68.5,
+      "action": "[inform]",
+      "text_zh": "第三组。",
+      "text_en": "The third group."
+    },
+    {
+      "start": 68.5,
+      "end": 79.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 79.0,
+      "end": 81.0,
+      "action": "[inform]",
+      "text_zh": "第四组。",
+      "text_en": "The fourth group."
+    },
+    {
+      "start": 81.0,
+      "end": 82.9,
+      "action": "[inform]",
+      "text_zh": "今天通过侧颈、抱头、含胸、拉肘做了拉伸。",
+      "text_en": "Today you stretched your neck, head, chest, and elbows."
+    }
+  ],
+  "target_people_detail": "运动的人",
+  "population_id": "adult",
+  "assistant_role": "运动助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

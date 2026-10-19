@@ -1,0 +1,30 @@
+{
+  "id": "wt_school_write",
+  "form": "short",
+  "side": "neg",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "学龄儿童",
+  "scene": "学校",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "学习助手，请陪我写作业，留意我的专注程度和坐姿，有不规范的地方提醒我纠正。",
+      "text_en": "Learning Assistant, please accompany me while doing homework, monitor my focus and sitting posture, and remind me to correct any improper ones."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "学生",
+  "population_id": "kid",
+  "assistant_role": "学习助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "教室监控",
+  "eval_group": "general"
+}

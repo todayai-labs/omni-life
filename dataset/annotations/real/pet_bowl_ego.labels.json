@@ -1,0 +1,50 @@
+{
+  "id": "pet_bowl_ego",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "AI眼镜",
+  "target_people": "宠物",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看狗狗，有需要关注的表现或需求时告诉我，照看结束时简要总结它的情况。",
+      "text_en": "Please watch over the dog, tell me about behavior or needs requiring attention, and briefly summarize its condition at the end of the observation."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 5.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 5.0,
+      "end": 10.0,
+      "action": "[inform]",
+      "text_zh": "狗狗在空碗旁一直哼唧，好像是饿了。",
+      "text_en": "The dog keeps whimpering by its empty bowl, it seems hungry."
+    },
+    {
+      "start": 10.0,
+      "end": 28.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 28.0,
+      "end": 32.5,
+      "action": "[inform]",
+      "text_zh": "狗狗一直在空碗旁哼唧要吃的，有人在安抚它。",
+      "text_en": "The dog is whimpering by its empty bowl, and someone is comforting it."
+    }
+  ],
+  "target_people_detail": "宠物",
+  "population_id": "pet",
+  "assistant_role": "宠物照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

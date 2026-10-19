@@ -1,0 +1,37 @@
+{
+  "id": "p4_pet_scratch",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "宠物",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看这只狗，如果发现它有什么不舒服或异常行为请提醒我。",
+      "text_en": "Please help me look after this dog, and alert me if you notice any discomfort or abnormal behavior."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 11.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 11.0,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "频繁挠耳朵可能是耳朵痒，建议检查一下耳道。",
+      "text_en": "Scratching their ears a lot might mean they're itchy; you should check their ears."
+    }
+  ],
+  "target_people_detail": "宠物",
+  "population_id": "pet",
+  "assistant_role": "宠物照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

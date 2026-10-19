@@ -1,0 +1,29 @@
+{
+  "id": "subway_wheelchair",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "第三人称视角",
+  "target_people": "行动障碍",
+  "scene": "交通",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意轮椅上下地铁的安全，有危险或需要帮助的困难时提醒我。",
+      "text_en": "Please watch for safety while the wheelchair user boards or leaves the metro and alert me to hazards or difficulties needing assistance."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 87.3,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "行动障碍者",
+  "population_id": "wheel",
+  "assistant_role": "手机助手",
+  "assistant_role_basis": "用户任务设定",
+  "eval_group": "general"
+}

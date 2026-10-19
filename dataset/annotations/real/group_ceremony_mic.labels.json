@@ -1,0 +1,43 @@
+{
+  "id": "group_ceremony_mic",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "手持第三人称视角",
+  "target_people": "多人场合",
+  "scene": "学校",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意台上孩子们参与活动的情况，有需要帮助或异常情况及时告诉我。",
+      "text_en": "Please help me keep an eye on the children participating in the activities on stage, and tell me in time if they need help or if there is any abnormal situation."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 55.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 55.0,
+      "end": 61.0,
+      "action": "[inform]",
+      "text_zh": "真田启吾没听到，旁边的女同学在提醒他。",
+      "text_en": "Keigo Sanada didn't hear, so the girl next to him is nudging him."
+    },
+    {
+      "start": 61.0,
+      "end": 109.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "多人场合",
+  "population_id": "group",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

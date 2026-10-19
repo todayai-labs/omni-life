@@ -1,0 +1,43 @@
+{
+  "id": "asm_dumpbed_feedback_02",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "操作台",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我组装车斗，有步骤不对或装错的地方请及时纠正我。",
+      "text_en": "Please watch me assemble the truck bed and promptly correct any sequencing or assembly mistakes."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 9.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 9.0,
+      "end": 13.0,
+      "action": "[feedback]",
+      "text_zh": "需要先将白色车斗与蓝色底座进行组装。",
+      "text_en": "You need to assemble the white truck bed with the blue base first."
+    },
+    {
+      "start": 13.0,
+      "end": 60.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "组装的人",
+  "population_id": "adult",
+  "assistant_role": "陪伴机器人",
+  "assistant_role_basis": "用户任务设定",
+  "eval_group": "general"
+}

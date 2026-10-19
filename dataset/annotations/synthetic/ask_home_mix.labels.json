@@ -1,0 +1,37 @@
+{
+  "id": "ask_home_mix",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "厨房",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请陪我处理生活中的事情，我向你提问时请结合现场信息回答。",
+      "text_en": "Please assist me with everyday matters and answer my questions using the scene information."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 14.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 14.0,
+      "end": 15.1,
+      "action": "[answer]",
+      "text_zh": "可以一起吃，红椒和花椰菜搭配营养很丰富。",
+      "text_en": "You can eat them together. Red pepper and cauliflower make a nutritious combination."
+    }
+  ],
+  "target_people_detail": "居家的人",
+  "population_id": "adult",
+  "assistant_role": "生活协作助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "厨房监控",
+  "eval_group": "general"
+}

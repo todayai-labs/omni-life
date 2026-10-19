@@ -1,0 +1,36 @@
+{
+  "id": "fb_farm_shovel",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "农舍监控",
+  "target_people": "成人",
+  "scene": "农业",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意铲饲料时的工作状态，出现需要休息的迹象时提醒我。",
+      "text_en": "Please monitor my condition while I shovel feed and remind me if you observe signs that I need a rest."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 13.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 13.0,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "干活辛苦了，累了就停下歇会儿吧",
+      "text_en": "You've been working hard, take a break if you're tired."
+    }
+  ],
+  "target_people_detail": "务农的人",
+  "population_id": "adult",
+  "assistant_role": "农业助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

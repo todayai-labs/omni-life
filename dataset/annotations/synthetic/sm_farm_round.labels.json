@@ -1,0 +1,37 @@
+{
+  "id": "sm_farm_round",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "农业",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我巡猪舍，巡视结束后简要总结完成情况。",
+      "text_en": "Please watch me inspect the pig pens and briefly summarize what was completed when the inspection ends."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 13.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 13.5,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "你已完成对该排猪栏的例行巡视。",
+      "text_en": "You've finished your routine check of this row of pigpens."
+    }
+  ],
+  "target_people_detail": "务农的人",
+  "population_id": "adult",
+  "assistant_role": "农业助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "猪舍监控",
+  "eval_group": "general"
+}

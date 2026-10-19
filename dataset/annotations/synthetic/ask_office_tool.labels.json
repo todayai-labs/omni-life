@@ -1,0 +1,37 @@
+{
+  "id": "ask_office_tool",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "办公",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请陪我办公，我询问工具或设备的用法时请给出操作指导。",
+      "text_en": "Please assist me while I work and provide operating guidance when I ask how to use a tool or device."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 12.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 12.0,
+      "end": 15.1,
+      "action": "[answer]",
+      "text_zh": "拉开打印机下方的纸盘，就可以放纸了。",
+      "text_en": "Just pull out the paper tray under the printer to load paper."
+    }
+  ],
+  "target_people_detail": "办公室白领",
+  "population_id": "adult",
+  "assistant_role": "办公助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "工位监控",
+  "eval_group": "general"
+}

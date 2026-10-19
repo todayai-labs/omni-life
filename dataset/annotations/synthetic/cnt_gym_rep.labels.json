@@ -1,0 +1,79 @@
+{
+  "id": "cnt_gym_rep",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "室内运动",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我统计推胸，每完成一次推胸就报告累计次数，结束后汇总。",
+      "text_en": "Please count my chest-press repetitions, report the running total after each completed one, and summarize when the activity ends."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 3.0,
+      "end": 4.5,
+      "action": "[inform]",
+      "text_zh": "1",
+      "text_en": "One."
+    },
+    {
+      "start": 4.5,
+      "end": 6.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 6.0,
+      "end": 7.5,
+      "action": "[inform]",
+      "text_zh": "2",
+      "text_en": "Two."
+    },
+    {
+      "start": 7.5,
+      "end": 10.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 10.5,
+      "end": 12.0,
+      "action": "[inform]",
+      "text_zh": "3",
+      "text_en": "Three."
+    },
+    {
+      "start": 12.0,
+      "end": 13.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 13.5,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "本次训练共完成了3次推胸。",
+      "text_en": "A total of 3 chest presses were completed in this training session."
+    }
+  ],
+  "target_people_detail": "运动的人",
+  "population_id": "adult",
+  "assistant_role": "运动助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "健身房监控",
+  "eval_group": "general"
+}

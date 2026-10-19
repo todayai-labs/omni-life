@@ -1,0 +1,29 @@
+{
+  "id": "wt_ball_shoot",
+  "form": "short",
+  "side": "neg",
+  "viewpoint": "第三人称视角",
+  "target_people": "成人",
+  "scene": "室内运动",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我记录投篮进球数，如果投进了请告诉我。",
+      "text_en": "Please help me record the number of successful shots, and let me know if a shot goes in."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "运动的人",
+  "population_id": "adult",
+  "assistant_role": "打球助手",
+  "assistant_role_basis": "用户任务设定",
+  "eval_group": "general"
+}

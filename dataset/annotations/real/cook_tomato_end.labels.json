@@ -1,0 +1,36 @@
+{
+  "id": "cook_tomato_end",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "AI眼镜",
+  "target_people": "成人",
+  "scene": "厨房",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我做这道菜，完成时帮我总结已经完成的步骤。",
+      "text_en": "Please watch me cook this dish and summarize the completed steps when I finish."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 54.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 54.0,
+      "end": 60.0,
+      "action": "[inform]",
+      "text_zh": "鸡蛋已炒好出锅，番茄炒蛋制作完成。",
+      "text_en": "The tomato scrambled eggs are ready."
+    }
+  ],
+  "target_people_detail": "下厨的人",
+  "population_id": "adult",
+  "assistant_role": "生活协作助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

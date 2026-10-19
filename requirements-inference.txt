@@ -1,0 +1,5 @@
+# Install the checkpoint's official dependencies as well.
+numpy
+Pillow
+torch
+transformers

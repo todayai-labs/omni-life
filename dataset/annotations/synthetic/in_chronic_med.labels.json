@@ -1,0 +1,44 @@
+{
+  "id": "in_chronic_med",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "慢病患者",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意老人服药的准备情况，他看过药和水后仍没有开始服药时，请告诉我。",
+      "text_en": "Please watch the older person preparing to take medication and tell me if he looks at the medicine and water but does not begin taking it."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 8.0,
+      "end": 12.0,
+      "action": "[inform]",
+      "text_zh": "老人看过茶几上的药和水后，还没有开始服药，请确认是否需要提醒。",
+      "text_en": "After looking at the medicine and water on the coffee table, he has not started taking the medicine. Please check whether a reminder is needed."
+    },
+    {
+      "start": 12.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "慢病患者",
+  "population_id": "chronic",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

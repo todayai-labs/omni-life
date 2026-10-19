@@ -1,0 +1,71 @@
+{
+  "id": "group_first_rollcall",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "教室监控",
+  "target_people": "多人场合",
+  "scene": "学校",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意孩子们点名时的应答情况，有需要关注的表现及时告诉我。",
+      "text_en": "Please help me keep an eye on the children's responses during roll call, and tell me in time if there is any behavior that needs attention."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 10.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 10.0,
+      "end": 13.0,
+      "action": "[inform]",
+      "text_zh": "老师要开始给男孩子们点名了。",
+      "text_en": "The teacher is about to take attendance for the boys."
+    },
+    {
+      "start": 13.0,
+      "end": 14.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 14.0,
+      "end": 17.5,
+      "action": "[inform]",
+      "text_zh": "中间的小男孩第一个举手大声回答了到。",
+      "text_en": "The boy in the middle raised his hand first and called out 'here.'"
+    },
+    {
+      "start": 17.5,
+      "end": 38.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 38.0,
+      "end": 42.0,
+      "action": "[inform]",
+      "text_zh": "左边的小男孩有些害羞地小声回答了。",
+      "text_en": "The boy on the left answered quietly and a bit shyly."
+    },
+    {
+      "start": 42.0,
+      "end": 44.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "多人场合",
+  "population_id": "group",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

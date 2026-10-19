@@ -1,0 +1,37 @@
+{
+  "id": "deaf_microwave",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "听障者",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "生活助手，我听不见声音，请帮我留意微波炉什么时候加热好，好了请提醒我。",
+      "text_en": "Life assistant, I can't hear any sound. Please help me keep an eye on when the microwave finishes heating, and remind me when it's done."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 11.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 11.5,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "微波炉已经加热好了。",
+      "text_en": "The microwave is done."
+    }
+  ],
+  "target_people_detail": "听障者",
+  "population_id": "deaf",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

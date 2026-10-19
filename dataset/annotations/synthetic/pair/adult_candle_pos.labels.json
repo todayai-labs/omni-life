@@ -1,0 +1,45 @@
+{
+  "id": "adult_candle_pos",
+  "form": "pair",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "我要出门一趟，请帮我看着桌上的蜡烛，如果我忘了熄灭就走，请及时提醒我。",
+      "text_en": "I'm going out for a bit, please help me watch the candle on the table. If I leave and forget to extinguish it, please remind me in time."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 3.0,
+      "end": 11.0,
+      "action": "[warn]",
+      "text_zh": "蜡烛还点着，出门前请先熄灭。",
+      "text_en": "The candle is still lit, please blow it out before you leave."
+    },
+    {
+      "start": 11.0,
+      "end": 15.1,
+      "action": "[warn]",
+      "text_zh": "你已出门，家里的蜡烛未熄灭，请注意防火。",
+      "text_en": "You've left the house, but your candles are still lit. Please be careful."
+    }
+  ],
+  "target_people_detail": "居家的人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "binary_pair",
+  "pair_id": "adult_candle"
+}

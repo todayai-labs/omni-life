@@ -1,0 +1,44 @@
+{
+  "id": "grade_case_pos",
+  "form": "graded",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "学龄儿童",
+  "scene": "展厅",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请陪孩子一起看展，有情况告诉我。"
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 4.0,
+      "end": 8.0,
+      "action": "[inform]",
+      "text_zh": "请不要触摸展柜玻璃。",
+      "text_en": "Please don't touch the display glass."
+    },
+    {
+      "start": 8.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "学龄儿童",
+  "population_id": "kid",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "展厅监控",
+  "eval_group": "graded_pair",
+  "pair_id": "grade_case"
+}

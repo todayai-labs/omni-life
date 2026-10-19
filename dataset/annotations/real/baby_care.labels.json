@@ -1,0 +1,29 @@
+{
+  "id": "baby_care",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "第一人称运动相机视角",
+  "target_people": "婴幼儿",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我看着宝宝，如果有危险或者异常情况请及时通知我。",
+      "text_en": "Please help me watch the baby, and notify me promptly if there is any danger or unusual situation."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 130.7,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "新手父母",
+  "population_id": "baby",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

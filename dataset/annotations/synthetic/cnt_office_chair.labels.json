@@ -1,0 +1,86 @@
+{
+  "id": "cnt_office_chair",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "办公",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我数分发的文件，每放好一份就报告累计份数，分发结束后汇总。",
+      "text_en": "Please count the documents distributed, report the running total after each one is placed, and summarize when distribution ends."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 1.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 1.0,
+      "end": 2.5,
+      "action": "[inform]",
+      "text_zh": "第一份。",
+      "text_en": "The first one."
+    },
+    {
+      "start": 2.5,
+      "end": 4.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 4.5,
+      "end": 6.0,
+      "action": "[inform]",
+      "text_zh": "第二份。",
+      "text_en": "The second portion."
+    },
+    {
+      "start": 6.0,
+      "end": 8.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 8.0,
+      "end": 9.5,
+      "action": "[inform]",
+      "text_zh": "第三份。",
+      "text_en": "The third one."
+    },
+    {
+      "start": 9.5,
+      "end": 11.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 11.5,
+      "end": 13.0,
+      "action": "[inform]",
+      "text_zh": "第四份。",
+      "text_en": "The fourth portion."
+    },
+    {
+      "start": 13.0,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "已分发完毕，共四份。",
+      "text_en": "All four portions have been handed out."
+    }
+  ],
+  "target_people_detail": "办公室白领",
+  "population_id": "adult",
+  "assistant_role": "办公助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "会议室监控",
+  "eval_group": "general"
+}

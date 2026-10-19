@@ -1,0 +1,50 @@
+{
+  "id": "feed_pig",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "第一人称运动相机视角",
+  "target_people": "成人",
+  "scene": "农业",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我喂猪，有重要进度提醒我，并在结束时帮我汇总过程。",
+      "text_en": "Please watch me feed the pigs, alert me to any important progress, and summarize the process for me when I'm finished."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 23.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 23.0,
+      "end": 26.0,
+      "action": "[inform]",
+      "text_zh": "饲料已经装满袋子了。",
+      "text_en": "The feed bags are full."
+    },
+    {
+      "start": 26.0,
+      "end": 124.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 124.0,
+      "end": 128.9,
+      "action": "[inform]",
+      "text_zh": "粉碎饲料、运进猪舍、倒进食槽，喂完了。",
+      "text_en": "The feed is ground, delivered to the pigsty, and the pigs are fed."
+    }
+  ],
+  "target_people_detail": "务农的人",
+  "population_id": "adult",
+  "assistant_role": "农业助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

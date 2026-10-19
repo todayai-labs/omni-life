@@ -1,0 +1,65 @@
+{
+  "id": "cnt_home_toy",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我数放进篮子的玩具，每放好一个就报告累计数量，没放进去或掉落时告诉我，收拾结束后汇总收好的数量和遗留情况。",
+      "text_en": "Please count the toys placed in the basket, report the running total after each one, tell me about toys that miss the basket or fall out, and summarize the collected total and remaining toys when tidying ends."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 2.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 2.5,
+      "end": 5.0,
+      "action": "[inform]",
+      "text_zh": "第一个，收好啦。",
+      "text_en": "Got the first one, all put away."
+    },
+    {
+      "start": 5.0,
+      "end": 8.0,
+      "action": "[inform]",
+      "text_zh": "第二个，收好啦。",
+      "text_en": "Second one, keep it safe."
+    },
+    {
+      "start": 8.0,
+      "end": 11.0,
+      "action": "[inform]",
+      "text_zh": "哎呀，小鸭子掉在外面了。",
+      "text_en": "Oh, the little duck fell outside."
+    },
+    {
+      "start": 11.0,
+      "end": 13.5,
+      "action": "[inform]",
+      "text_zh": "第三个，收好啦。",
+      "text_en": "The third one, all packed up."
+    },
+    {
+      "start": 13.5,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "一共收好了三个，地上还剩一辆蓝色小车。",
+      "text_en": "A total of three have been put away, and there is still a small blue car left on the floor."
+    }
+  ],
+  "target_people_detail": "居家的人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

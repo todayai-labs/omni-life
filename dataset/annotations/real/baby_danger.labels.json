@@ -1,0 +1,71 @@
+{
+  "id": "baby_danger",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "居家监控",
+  "target_people": "婴幼儿",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我看着孩子，如果发生危险请及时提醒，并持续帮我留意和汇报现场情况。",
+      "text_en": "Please help me watch the child, alert me promptly if any danger arises, and keep monitoring and reporting the situation on the spot."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 3.0,
+      "end": 10.0,
+      "action": "[warn]",
+      "text_zh": "宝宝好像卡喉了，妈妈正在查看情况。",
+      "text_en": "The baby seems to be choking, and mom is checking on them."
+    },
+    {
+      "start": 10.0,
+      "end": 21.0,
+      "action": "[warn]",
+      "text_zh": "宝宝被卡住了，妈妈正在进行海姆立克急救。",
+      "text_en": "The baby is choking, and mom is doing the Heimlich maneuver."
+    },
+    {
+      "start": 21.0,
+      "end": 27.0,
+      "action": "[warn]",
+      "text_zh": "宝宝还没吐出来，奶奶正在给宝宝拍背，并呼喊拿防窒息仪。",
+      "text_en": "The baby hasn't spit it out yet, grandma is patting the baby's back and calling for the anti-choking device."
+    },
+    {
+      "start": 27.0,
+      "end": 35.0,
+      "action": "[warn]",
+      "text_zh": "爸爸拿着防窒息仪赶来并给宝宝急救。",
+      "text_en": "Dad arrives with the anti-choking device and performs first aid on the baby."
+    },
+    {
+      "start": 35.0,
+      "end": 42.0,
+      "action": "[inform]",
+      "text_zh": "异物已排出，宝宝哭出来了，危险已解除。",
+      "text_en": "The object is out and the baby is crying; the danger has passed."
+    },
+    {
+      "start": 42.0,
+      "end": 63.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "婴幼儿",
+  "population_id": "baby",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

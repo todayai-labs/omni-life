@@ -1,0 +1,43 @@
+{
+  "id": "cook_pinwheel_feedback",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "AI眼镜",
+  "target_people": "成人",
+  "scene": "厨房",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我涂抹果酱，有涂抹不均匀等不规范的操作时提醒我纠正。",
+      "text_en": "Please watch me spread the jam and correct improper actions such as spreading it unevenly."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 41.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 41.0,
+      "end": 46.0,
+      "action": "[feedback]",
+      "text_zh": "果酱要均匀涂抹在整个饼上，多加一点吧。",
+      "text_en": "Spread the jam evenly over the whole pancake, and feel free to add a bit more."
+    },
+    {
+      "start": 46.0,
+      "end": 60.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "下厨的人",
+  "population_id": "adult",
+  "assistant_role": "生活协作助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

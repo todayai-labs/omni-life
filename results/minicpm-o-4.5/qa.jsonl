@@ -1,0 +1,800 @@
+{"model":"minicpm-o-4.5","case_id":"alz_home","qa_id":"qa_c_real_alz_home__v20261010","raw":"C; D","gold":["C","D"],"picks":["C","D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"asm_boom_feedback_01","qa_id":"qa_c_real_asm_boom_feedback_01","raw":"D","gold":["C"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"asm_chassis_feedback_01","qa_id":"qa_c_real_asm_chassis_feedback_01__v20261011","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"asm_dumpbed_feedback_01","qa_id":"qa_c_real_asm_dumpbed_feedback_01__v20261011","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"asm_dumpbed_feedback_02","qa_id":"qa_c_real_asm_dumpbed_feedback_02__v20261011","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"baby_care","qa_id":"qa_c_real_baby_care","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"baby_danger","qa_id":"qa_c_real_baby_danger","raw":"E;B;C","gold":["A","B","C","D","E"],"picks":["B","C","E"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_danger_dup","qa_id":"qa_c_real_baby_danger_dup","raw":"B;C;D","gold":["B","C","D"],"picks":["B","C","D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"baby_home","qa_id":"qa_c_real_baby_home","raw":"A；B；C","gold":["A","B","C","D"],"picks":["A","B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baggage_carousel","qa_id":"qa_c_real_baggage_carousel__v20261010","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"bear_surveillance","qa_id":"qa_c_real_bear_surveillance__v20261010","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"bike_ego","qa_id":"qa_c_real_bike_ego","raw":"B;D","gold":["A","C","D"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"blind_cane_demo","qa_id":"qa_c_real_blind_cane_demo","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"blind_cane_ego","qa_id":"qa_c_real_blind_cane_ego","raw":"B;E;F;G","gold":["A","B","C","E","F","G"],"picks":["B","E","F","G"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"blind_cook_ego","qa_id":"qa_c_real_blind_cook_ego","raw":"A；B；D；E","gold":["A","B","C","D","E"],"picks":["A","B","D","E"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"blind_cross_help","qa_id":"qa_c_real_blind_cross_help","raw":"A;B","gold":["A"],"picks":["A","B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"blind_walk_ego","qa_id":"qa_c_real_blind_walk_ego","raw":"B;C","gold":["A","B","C"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"coffee_ego","qa_id":"qa_c_real_coffee_ego","raw":"C","gold":["B"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"coffee_p19","qa_id":"qa_c_real_coffee_p19","raw":"B","gold":["C"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"coffee_p23","qa_id":"qa_c_real_coffee_p23","raw":"C","gold":["D"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"coffee_p27","qa_id":"qa_c_real_coffee_p27","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"coffee_p37","qa_id":"qa_c_real_coffee_p37","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"coffee_p38","qa_id":"qa_c_real_coffee_p38","raw":"C","gold":["A"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"coffee_p42","qa_id":"qa_c_real_coffee_p42","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cook_bake_end","qa_id":"qa_c_real_cook_bake_end__v20261011","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cook_bake_feedback","qa_id":"qa_c_real_cook_bake_feedback__v20261011","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cook_bread_feedback","qa_id":"qa_c_real_cook_bread_feedback","raw":"A;B","gold":["C"],"picks":["A","B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cook_corn_feedback","qa_id":"qa_c_real_cook_corn_feedback__v20261010","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cook_milk_feedback","qa_id":"qa_c_real_cook_milk_feedback","raw":"B;C","gold":["B"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cook_pepper_end","qa_id":"qa_c_real_cook_pepper_end__v20261011","raw":"A;D","gold":["A"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cook_pepper_feedback","qa_id":"qa_c_real_cook_pepper_feedback__v20261011","raw":"B；D","gold":["A","D"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cook_pinwheel_end","qa_id":"qa_c_real_cook_pinwheel_end__v20261011","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cook_pinwheel_feedback","qa_id":"qa_c_real_cook_pinwheel_feedback__v20261011","raw":"C","gold":["D"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cook_platter_end","qa_id":"qa_c_real_cook_platter_end__v20261011","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cook_platter_feedback","qa_id":"qa_c_real_cook_platter_feedback__v20261011","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cook_tomato_1min","qa_id":"qa_c_real_cook_tomato_1min__v20261011","raw":"D","gold":["A"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cook_tomato_end","qa_id":"qa_c_real_cook_tomato_end__v20261011","raw":"A;D","gold":["D"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cook_tomato_feedback","qa_id":"qa_c_real_cook_tomato_feedback","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cook_tortilla_1min","qa_id":"qa_c_real_cook_tortilla_1min","raw":"B;C","gold":["A"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cook_tortilla_feedback","qa_id":"qa_c_real_cook_tortilla_feedback","raw":"A；B","gold":["C"],"picks":["A","B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"count_bench","qa_id":"qa_c_real_count_bench__v20261011","raw":"G；F；D；B；C；A","gold":["B","C","D","E","F","G"],"picks":["A","B","C","D","F","G"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"dance_back_line","qa_id":"qa_c_real_dance_back_line","raw":"A;D","gold":["C"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"dance_back_pair","qa_id":"qa_c_real_dance_back_pair","raw":"B;D;F","gold":["A","B","D","E","F"],"picks":["B","D","F"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"deaf_cafe_sign","qa_id":"qa_c_real_deaf_cafe_sign","raw":"A;C;E","gold":["B","C","D","E"],"picks":["A","C","E"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"deaf_dog_wake","qa_id":"qa_c_real_deaf_dog_wake","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"deaf_sign_home","qa_id":"qa_c_real_deaf_sign_home","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"deaf_wake","qa_id":"qa_c_real_deaf_wake","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"dining_help","qa_id":"qa_c_real_dining_help","raw":"B；D","gold":["A","B","D"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"dog_canal_rescue","qa_id":"qa_c_real_dog_canal_rescue__v20261010","raw":"A;C;D","gold":["C","D"],"picks":["A","C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"drive_ego","qa_id":"qa_c_real_drive_ego","raw":"C;D;B","gold":["A","B","C","D","E"],"picks":["B","C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"drum_play","qa_id":"qa_c_real_drum_play","raw":"D","gold":["A"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"drum_teach","qa_id":"qa_c_real_drum_teach","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"elder_cam","qa_id":"qa_c_real_elder_cam","raw":"B;A;C;D","gold":["A","B","C","D"],"picks":["A","B","C","D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"elder_crossing","qa_id":"qa_c_real_elder_crossing__v20261010","raw":"D;A","gold":["B","D"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"elder_fall2_cam","qa_id":"qa_c_real_elder_fall2_cam","raw":"B","gold":["B","C"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"elder_mobility","qa_id":"qa_c_real_elder_mobility","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"elevator_arrival","qa_id":"qa_c_real_elevator_arrival__v20261010","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"escalator_maintenance","qa_id":"qa_c_real_escalator_maintenance__v20261010","raw":"D","gold":["A","D"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fall_s1","qa_id":"qa_c_real_fall_s1","raw":"B; D; E; F","gold":["A","B","C","D","E","F"],"picks":["B","D","E","F"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fall_s3","qa_id":"qa_c_real_fall_s3","raw":"A;D;E;F;G","gold":["A","C","D","E","F","G"],"picks":["A","D","E","F","G"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fall_s5","qa_id":"qa_c_real_fall_s5","raw":"A;C","gold":["A","C","D"],"picks":["A","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"feed_pig","qa_id":"qa_c_real_feed_pig","raw":"B;D","gold":["B","D"],"picks":["B","D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"fire_engine_response","qa_id":"qa_c_real_fire_engine_response__v20261010","raw":"C;A","gold":["A","C"],"picks":["A","C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"game_cards","qa_id":"qa_c_real_game_cards","raw":"D;","gold":["C"],"picks":[],"valid":false,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"game_mahjong_a","qa_id":"qa_c_real_game_mahjong_a","raw":"A;B","gold":["A","B"],"picks":["A","B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"game_mahjong_b","qa_id":"qa_c_real_game_mahjong_b","raw":"B;C;D","gold":["B","C"],"picks":["B","C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"group_bank_queue","qa_id":"qa_c_real_group_bank_queue","raw":"B; C","gold":["B","C","D"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"group_ceremony_close","qa_id":"qa_c_real_group_ceremony_close__v20261011","raw":"C;D","gold":["A","C","D"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"group_ceremony_mic","qa_id":"qa_c_real_group_ceremony_mic","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"group_class_question","qa_id":"qa_c_real_group_class_question__v20261011","raw":"A;B;C;E;F;G;D","gold":["A","B","C","D","E","F"],"picks":["A","B","C","D","E","F","G"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"group_first_rollcall","qa_id":"qa_c_real_group_first_rollcall","raw":"B;C","gold":["A","B","C"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"group_kg_circle","qa_id":"qa_c_real_group_kg_circle__v20261010","raw":"B;C","gold":["A","B"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"group_kg_outdoor","qa_id":"qa_c_real_group_kg_outdoor","raw":"B; D","gold":["A","B","D"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"group_morning_line","qa_id":"qa_c_real_group_morning_line","raw":"A;B","gold":["B"],"picks":["A","B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"group_raise_hand","qa_id":"qa_c_real_group_raise_hand","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"group_toddler_rollcall","qa_id":"qa_c_real_group_toddler_rollcall__v20261011","raw":"A;D;E;F","gold":["A","B","C","E","F","G"],"picks":["A","D","E","F"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"hail_weather","qa_id":"qa_c_real_hail_weather__v20261010","raw":"A;B;D","gold":["A","D"],"picks":["A","B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"hostel_check","qa_id":"qa_c_real_hostel_check","raw":"B;D","gold":["B","D"],"picks":["B","D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"house_fire_brisbane","qa_id":"qa_c_real_house_fire_brisbane__v20261010","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"jump_rope","qa_id":"qa_c_real_jump_rope","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"kid_cam","qa_id":"qa_c_real_kid_cam","raw":"C;D","gold":["A","C","D"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"kid_cry_cam","qa_id":"qa_c_real_kid_cry_cam","raw":"A;D","gold":["A","D"],"picks":["A","D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"kid_danger","qa_id":"qa_c_real_kid_danger","raw":"A；B","gold":["A","B","C"],"picks":["A","B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"loading_dock","qa_id":"qa_c_real_loading_dock__v20261010","raw":"D;A","gold":["A","D"],"picks":["A","D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"low_vision_ego","qa_id":"qa_c_real_low_vision_ego__v20261010","raw":"A；C；F","gold":["A","B","C","D","F"],"picks":["A","C","F"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"mind_gap","qa_id":"qa_c_real_mind_gap__v20261010","raw":"A；B；C","gold":["A","B","C"],"picks":["A","B","C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"orbit_ball_12","qa_id":"qa_c_real_orbit_ball_12","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"orbit_bumbag_05","qa_id":"qa_c_real_orbit_bumbag_05","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"orbit_cane_03","qa_id":"qa_c_real_orbit_cane_03","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"orbit_cane_07","qa_id":"qa_c_real_orbit_cane_07","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"orbit_condom_08","qa_id":"qa_c_real_orbit_condom_08","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"orbit_glasses_16","qa_id":"qa_c_real_orbit_glasses_16","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"orbit_headphones_18","qa_id":"qa_c_real_orbit_headphones_18","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"orbit_leash_11","qa_id":"qa_c_real_orbit_leash_11__v20261011","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"orbit_mug_06","qa_id":"qa_c_real_orbit_mug_06__v20261011","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"orbit_pepper_04","qa_id":"qa_c_real_orbit_pepper_04__v20261011","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"orbit_phone_17","qa_id":"qa_c_real_orbit_phone_17__v20261011","raw":"A;B","gold":["A","B"],"picks":["A","B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"pet_bowl_ego","qa_id":"qa_c_real_pet_bowl_ego__v20261010","raw":"A;B","gold":["A","B"],"picks":["A","B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"pet_cat_bowl","qa_id":"qa_c_real_pet_cat_bowl__v20261011","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"pet_cat_door","qa_id":"qa_c_real_pet_cat_door__v20261011","raw":"C;D","gold":["C","D"],"picks":["C","D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"pet_dog_bowl","qa_id":"qa_c_real_pet_dog_bowl__v20261010","raw":"A;B;D;F","gold":["A","B","D","E","F"],"picks":["A","B","D","F"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"pet_dog_door","qa_id":"qa_c_real_pet_dog_door","raw":"C;D","gold":["C","D"],"picks":["C","D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"pet_frenchie_bowl","qa_id":"qa_c_real_pet_frenchie_bowl__v20261010","raw":"A;B;C","gold":["A","B","C"],"picks":["A","B","C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"pet_home","qa_id":"qa_c_real_pet_home__v20261010","raw":"D","gold":["A","D"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"pet_puppy_leash","qa_id":"qa_c_real_pet_puppy_leash__v20261010","raw":"A;B","gold":["A","B"],"picks":["A","B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"pill_sort","qa_id":"qa_c_real_pill_sort__v20261011","raw":"B;C","gold":["C"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"poker_group","qa_id":"qa_c_real_poker_group","raw":"B","gold":["C"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"posture_correct","qa_id":"qa_c_real_posture_correct","raw":"B；C；D；E；F；G","gold":["B","C","D","E","F","G"],"picks":["B","C","D","E","F","G"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"queue_blood_board","qa_id":"qa_c_real_queue_blood_board__v20261010","raw":"B;D;F;G;C;E","gold":["B","C","D","E","F","G"],"picks":["B","C","D","E","F","G"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"queue_dental_ad","qa_id":"qa_c_real_queue_dental_ad","raw":"C; B","gold":["A","B","D"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"queue_ntuh_vlog","qa_id":"qa_c_real_queue_ntuh_vlog","raw":"C","gold":["A"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"road_barrier","qa_id":"qa_c_real_road_barrier__v20261010","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"roof_leak","qa_id":"qa_c_real_roof_leak__v20261010","raw":"B;C","gold":["B","C"],"picks":["B","C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"sport_park_bball","qa_id":"qa_c_real_sport_park_bball","raw":"C;D","gold":["C","D"],"picks":["C","D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"sport_run_form","qa_id":"qa_c_real_sport_run_form__v20261011","raw":"B;C","gold":["A","B","C"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"stretch_workout","qa_id":"qa_c_real_stretch_workout","raw":"B; D; E; A; F","gold":["B","C","D","E","F"],"picks":["A","B","D","E","F"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"subway_wheelchair","qa_id":"qa_c_real_subway_wheelchair__v20261010","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"tennis_ego","qa_id":"qa_c_real_tennis_ego","raw":"D;C;E;A;G","gold":["A","B","C","D","E","G"],"picks":["A","C","D","E","G"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"test_kit","qa_id":"qa_c_real_test_kit","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"tutor_homework","qa_id":"qa_c_real_tutor_homework__v20261010","raw":"A;B","gold":["C"],"picks":["A","B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"videocon_washing_machine_fault","qa_id":"qa_c_real_videocon_washing_machine_fault__v20261010","raw":"A;C","gold":["C","D"],"picks":["A","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"wheel_stairs","qa_id":"qa_c_real_wheel_stairs","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"wheel_stairs_paralyzed","qa_id":"qa_c_real_wheel_stairs_paralyzed","raw":"A;B;C","gold":["A","B","C","D"],"picks":["A","B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"adult_bath","qa_id":"qa_c_syn_adult_bath","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"adult_candle_neg","qa_id":"qa_c_syn_adult_candle_neg","raw":"C","gold":["A"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"adult_candle_pos","qa_id":"qa_c_syn_adult_candle_pos","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"adult_chop","qa_id":"qa_c_syn_adult_chop","raw":"C","gold":["A"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"adult_cut_in","qa_id":"qa_c_syn_adult_cut_in","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"adult_drowsy_neg","qa_id":"qa_c_syn_adult_drowsy_neg","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"adult_drowsy_pos","qa_id":"qa_c_syn_adult_drowsy_pos","raw":"B","gold":["C"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"adult_gas_neg","qa_id":"qa_c_syn_adult_gas_neg","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"adult_gas_pos","qa_id":"qa_c_syn_adult_gas_pos","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"adult_heater","qa_id":"qa_c_syn_adult_heater","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"adult_iron_neg","qa_id":"qa_c_syn_adult_iron_neg","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"adult_iron_on_neg","qa_id":"qa_c_syn_adult_iron_on_neg","raw":"A","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"adult_iron_on_pos","qa_id":"qa_c_syn_adult_iron_on_pos","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"adult_iron_pos","qa_id":"qa_c_syn_adult_iron_pos","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"adult_oven_neg","qa_id":"qa_c_syn_adult_oven_neg","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"adult_oven_pos","qa_id":"qa_c_syn_adult_oven_pos","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"adult_stove_neg","qa_id":"qa_c_syn_adult_stove_neg","raw":"A","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"adult_stove_pos","qa_id":"qa_c_syn_adult_stove_pos","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"adult_tap_neg","qa_id":"qa_c_syn_adult_tap_neg","raw":"B;D","gold":["A"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"adult_tap_pos","qa_id":"qa_c_syn_adult_tap_pos","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"agr_cow_med","qa_id":"qa_c_syn_agr_cow_med","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"agr_pig_fed","qa_id":"qa_c_syn_agr_pig_fed__v20261011","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"alz_coat","qa_id":"qa_c_syn_alz_coat","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"alz_door_stand","qa_id":"qa_c_syn_alz_door_stand","raw":"A","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"alz_heater_neg","qa_id":"qa_c_syn_alz_heater_neg","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"alz_heater_pos","qa_id":"qa_c_syn_alz_heater_pos","raw":"A;B","gold":["B"],"picks":["A","B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"alz_stove_neg","qa_id":"qa_c_syn_alz_stove_neg","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"alz_stove_pos","qa_id":"qa_c_syn_alz_stove_pos","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"ask_ball_rule","qa_id":"qa_c_syn_ask_ball_rule","raw":"B","gold":["C"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_cafe_menu","qa_id":"qa_c_syn_ask_cafe_menu","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_car_park","qa_id":"qa_c_syn_ask_car_park__v20261011","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"ask_farm_feed","qa_id":"qa_c_syn_ask_farm_feed","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_home_coat","qa_id":"qa_c_syn_ask_home_coat","raw":"B","gold":["C"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_park_plant","qa_id":"qa_c_syn_ask_park_plant","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"ask_pet_food","qa_id":"qa_c_syn_ask_pet_food","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"ask_run_pace","qa_id":"qa_c_syn_ask_run_pace","raw":"C","gold":["B"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_school_word","qa_id":"qa_c_syn_ask_school_word","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"ask_shop_fresh","qa_id":"qa_c_syn_ask_shop_fresh","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"ask_shop_price","qa_id":"qa_c_syn_ask_shop_price__v20261011","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"ask_street_dir","qa_id":"qa_c_syn_ask_street_dir","raw":"A; D","gold":["D"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_tour_build","qa_id":"qa_c_syn_ask_tour_build__v20261011","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"ask_tour_route","qa_id":"qa_c_syn_ask_tour_route__v20261011","raw":"B；","gold":["B"],"picks":[],"valid":false,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_tv_f1","qa_id":"qa_c_syn_ask_tv_f1__v20261011","raw":"D","gold":["A"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_tv_nolan","qa_id":"qa_c_syn_ask_tv_nolan__v20261011","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"baby_cleaner_neg","qa_id":"qa_c_syn_baby_cleaner_neg","raw":"A;D","gold":["C"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_cleaner_pos","qa_id":"qa_c_syn_baby_cleaner_pos","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"baby_cord_neg","qa_id":"qa_c_syn_baby_cord_neg","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"baby_cord_pos","qa_id":"qa_c_syn_baby_cord_pos","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"baby_fall_cry_01","qa_id":"qa_c_syn_baby_fall_cry_01__v20261011","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"baby_fall_cry_02","qa_id":"qa_c_syn_baby_fall_cry_02","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"baby_formula","qa_id":"qa_c_syn_baby_formula__v20261011","raw":"B；C","gold":["B"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_hot_bowl_neg","qa_id":"qa_c_syn_baby_hot_bowl_neg","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_hot_bowl_pos","qa_id":"qa_c_syn_baby_hot_bowl_pos","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"baby_outlet_0918_neg","qa_id":"qa_c_syn_baby_outlet_0918_neg","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_outlet_0918_pos","qa_id":"qa_c_syn_baby_outlet_0918_pos","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"baby_outlet_0920_neg","qa_id":"qa_c_syn_baby_outlet_0920_neg","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_outlet_0920_pos","qa_id":"qa_c_syn_baby_outlet_0920_pos","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"baby_slider_neg","qa_id":"qa_c_syn_baby_slider_neg","raw":"C","gold":["B"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_slider_pos","qa_id":"qa_c_syn_baby_slider_pos","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"baby_stair_neg","qa_id":"qa_c_syn_baby_stair_neg","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"baby_stair_pos","qa_id":"qa_c_syn_baby_stair_pos","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"baby_tub","qa_id":"qa_c_syn_baby_tub","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"ball_back_receive","qa_id":"qa_c_syn_ball_back_receive__v20261011","raw":"A;D","gold":["A","B","C","D"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"bike_ego_park","qa_id":"qa_c_syn_bike_ego_park","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"blind_cane_crowd","qa_id":"qa_c_syn_blind_cane_crowd","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"blind_cane_curb","qa_id":"qa_c_syn_blind_cane_curb","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"blind_cane_hole","qa_id":"qa_c_syn_blind_cane_hole","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"blind_dog_ebike_neg","qa_id":"qa_c_syn_blind_dog_ebike_neg","raw":"C","gold":["A"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"blind_dog_ebike_pos","qa_id":"qa_c_syn_blind_dog_ebike_pos","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"blind_dog_glass","qa_id":"qa_c_syn_blind_dog_glass","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"blind_puddle","qa_id":"qa_c_syn_blind_puddle","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"blind_stair_wide","qa_id":"qa_c_syn_blind_stair_wide","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cb_shop_pepper","qa_id":"qa_c_syn_cb_shop_pepper","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cblind_bottles","qa_id":"qa_c_syn_cblind_bottles","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cblind_folder","qa_id":"qa_c_syn_cblind_folder","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cblind_laundry","qa_id":"qa_c_syn_cblind_laundry__v20261011","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cblind_sunscreen_01","qa_id":"qa_c_syn_cblind_sunscreen_01__v20261011","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cblind_sunscreen_02","qa_id":"qa_c_syn_cblind_sunscreen_02__v20261011","raw":"A;D","gold":["A"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cblind_wire_01","qa_id":"qa_c_syn_cblind_wire_01","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cblind_wire_02","qa_id":"qa_c_syn_cblind_wire_02","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"chronic_cough_neg","qa_id":"qa_c_syn_chronic_cough_neg","raw":"A;","gold":["D"],"picks":[],"valid":false,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"chronic_cough_pos","qa_id":"qa_c_syn_chronic_cough_pos","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"chronic_inhaler_neg","qa_id":"qa_c_syn_chronic_inhaler_neg","raw":"C","gold":["B"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"chronic_inhaler_pos","qa_id":"qa_c_syn_chronic_inhaler_pos","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"chronic_meal","qa_id":"qa_c_syn_chronic_meal","raw":"D","gold":["C"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"chronic_onset","qa_id":"qa_c_syn_chronic_onset","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"chronic_sugar_neg","qa_id":"qa_c_syn_chronic_sugar_neg","raw":"C","gold":["B"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"chronic_sugar_pos","qa_id":"qa_c_syn_chronic_sugar_pos","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cnt_baby_step_v2","qa_id":"qa_c_syn_cnt_baby_step_v2__v20261011","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cnt_bad_serve","qa_id":"qa_c_syn_cnt_bad_serve__v20261011","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cnt_ball_layup_miss","qa_id":"qa_c_syn_cnt_ball_layup_miss__v20261011","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cnt_cafe_cup","qa_id":"qa_c_syn_cnt_cafe_cup__v20261011","raw":"B;D","gold":["C"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cnt_dance_turn_v2","qa_id":"qa_c_syn_cnt_dance_turn_v2","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cnt_gym_rep","qa_id":"qa_c_syn_cnt_gym_rep__v20261011","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cnt_home_toy","qa_id":"qa_c_syn_cnt_home_toy__v20261011","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cnt_office_chair","qa_id":"qa_c_syn_cnt_office_chair__v20261011","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cnt_street_bus","qa_id":"qa_c_syn_cnt_street_bus__v20261011","raw":"B.","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"deaf_alarm_neg","qa_id":"qa_c_syn_deaf_alarm_neg","raw":"A;D","gold":["C"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"deaf_alarm_pos","qa_id":"qa_c_syn_deaf_alarm_pos","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"deaf_behind","qa_id":"qa_c_syn_deaf_behind","raw":"C","gold":["A"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"deaf_door","qa_id":"qa_c_syn_deaf_door","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"deaf_microwave","qa_id":"qa_c_syn_deaf_microwave","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"deaf_pot_neg","qa_id":"qa_c_syn_deaf_pot_neg","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"deaf_pot_pos","qa_id":"qa_c_syn_deaf_pot_pos","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"deaf_timer","qa_id":"qa_c_syn_deaf_timer","raw":"C","gold":["D"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"dog_table_heavy","qa_id":"qa_c_syn_dog_table_heavy","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"dog_table_light","qa_id":"qa_c_syn_dog_table_light","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"ego_drum_teach","qa_id":"qa_c_syn_ego_drum_teach","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"ego_gallery_pause","qa_id":"qa_c_syn_ego_gallery_pause","raw":"A","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ego_greet_lobby","qa_id":"qa_c_syn_ego_greet_lobby","raw":"C","gold":["B"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"elder_boil","qa_id":"qa_c_syn_elder_boil","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"elder_box_m_neg","qa_id":"qa_c_syn_elder_box_m_neg","raw":"B","gold":["D"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"elder_box_m_pos","qa_id":"qa_c_syn_elder_box_m_pos__v20261011","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"elder_glow_neg","qa_id":"qa_c_syn_elder_glow_neg","raw":"C;D","gold":["A"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"elder_glow_pos","qa_id":"qa_c_syn_elder_glow_pos","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"elder_rug_f","qa_id":"qa_c_syn_elder_rug_f","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"elder_shirt_out","qa_id":"qa_c_syn_elder_shirt_out","raw":"D","gold":["A"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"elder_stand_f_neg","qa_id":"qa_c_syn_elder_stand_f_neg","raw":"C","gold":["B"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"elder_stand_f_pos","qa_id":"qa_c_syn_elder_stand_f_pos","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"elder_stool_f_neg","qa_id":"qa_c_syn_elder_stool_f_neg","raw":"A;B","gold":["C"],"picks":["A","B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"elder_stool_f_pos","qa_id":"qa_c_syn_elder_stool_f_pos__v20261011","raw":"A","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"elder_washer","qa_id":"qa_c_syn_elder_washer","raw":"A；B","gold":["B"],"picks":["A","B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_ball_elbow","qa_id":"qa_c_syn_fb_ball_elbow","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"fb_ball_foot","qa_id":"qa_c_syn_fb_ball_foot","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_bike_seat","qa_id":"qa_c_syn_fb_bike_seat__v20261011","raw":"C","gold":["D"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_kitchen_board","qa_id":"qa_c_syn_fb_kitchen_board__v20261011","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"fb_latin_step","qa_id":"qa_c_syn_fb_latin_step__v20261011","raw":"C；D","gold":["B"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_office_mouse","qa_id":"qa_c_syn_fb_office_mouse","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_office_sit","qa_id":"qa_c_syn_fb_office_sit","raw":"A;B","gold":["D"],"picks":["A","B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_pet_leash","qa_id":"qa_c_syn_fb_pet_leash","raw":"A；C","gold":["A"],"picks":["A","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_plank_hip","qa_id":"qa_c_syn_fb_plank_hip__v20261011","raw":"A；D","gold":["D"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_run_heel","qa_id":"qa_c_syn_fb_run_heel","raw":"B","gold":["C"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_school_pen","qa_id":"qa_c_syn_fb_school_pen","raw":"C","gold":["A"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_school_sit","qa_id":"qa_c_syn_fb_school_sit","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"fb_shop_carry","qa_id":"qa_c_syn_fb_shop_carry","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"fb_street_phone","qa_id":"qa_c_syn_fb_street_phone","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"fb_stretch_bounce","qa_id":"qa_c_syn_fb_stretch_bounce","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"fb_yoga_mirror","qa_id":"qa_c_syn_fb_yoga_mirror","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"grade_case_neg","qa_id":"qa_c_syn_grade_case_neg","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"grade_case_pos","qa_id":"qa_c_syn_grade_case_pos","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"grade_chair_01","qa_id":"qa_c_syn_grade_chair_01","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"grade_door_width_01","qa_id":"qa_c_syn_grade_door_width_01","raw":"C","gold":["B"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"grade_hunch_neg","qa_id":"qa_c_syn_grade_hunch_neg","raw":"D","gold":["B"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"grade_hunch_pos","qa_id":"qa_c_syn_grade_hunch_pos","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"grade_plate_01","qa_id":"qa_c_syn_grade_plate_01","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"grade_pot_neg","qa_id":"qa_c_syn_grade_pot_neg","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"grade_pot_pos","qa_id":"qa_c_syn_grade_pot_pos","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"grade_rail_neg","qa_id":"qa_c_syn_grade_rail_neg","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"grade_rail_pos","qa_id":"qa_c_syn_grade_rail_pos","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"grade_walk_home_neg","qa_id":"qa_c_syn_grade_walk_home_neg","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"grade_walk_home_pos","qa_id":"qa_c_syn_grade_walk_home_pos","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"grocery_milk","qa_id":"qa_c_syn_grocery_milk","raw":"D","gold":["C"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"group_door","qa_id":"qa_c_syn_group_door","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"group_multigen","qa_id":"qa_c_syn_group_multigen","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"group_speaker","qa_id":"qa_c_syn_group_speaker","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"handler_already_there","qa_id":"qa_c_syn_handler_already_there","raw":"B","gold":["C"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"home_chaos_balcony","qa_id":"qa_c_syn_home_chaos_balcony","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"in_alz_drawer","qa_id":"qa_c_syn_in_alz_drawer__v20261011","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"in_cblind_bins","qa_id":"qa_c_syn_in_cblind_bins","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"in_cblind_laundry","qa_id":"qa_c_syn_in_cblind_laundry","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"in_chronic_med","qa_id":"qa_c_syn_in_chronic_med__v20261011","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"in_deaf_doorbell","qa_id":"qa_c_syn_in_deaf_doorbell","raw":"D","gold":["B"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"in_elder_cane","qa_id":"qa_c_syn_in_elder_cane","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"in_keys_table","qa_id":"qa_c_syn_in_keys_table","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"in_kid_game","qa_id":"qa_c_syn_in_kid_game__v20261011","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"in_kid_hw","qa_id":"qa_c_syn_in_kid_hw","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"in_pet_bowl","qa_id":"qa_c_syn_in_pet_bowl","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"in_pet_mail","qa_id":"qa_c_syn_in_pet_mail","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"kid_book","qa_id":"qa_c_syn_kid_book","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"kid_climb","qa_id":"qa_c_syn_kid_climb","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"kid_game_late","qa_id":"qa_c_syn_kid_game_late","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"kid_hw_phone","qa_id":"qa_c_syn_kid_hw_phone","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"kid_knife","qa_id":"qa_c_syn_kid_knife","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"kid_oven_neg","qa_id":"qa_c_syn_kid_oven_neg","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"kid_oven_pos","qa_id":"qa_c_syn_kid_oven_pos","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"kid_phone_neg","qa_id":"qa_c_syn_kid_phone_neg__v20261011","raw":"D","gold":["C"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"kid_phone_pos","qa_id":"qa_c_syn_kid_phone_pos__v20261011","raw":"C","gold":["B"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"kid_railing_13","qa_id":"qa_c_syn_kid_railing_13","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"kid_stove_neg","qa_id":"qa_c_syn_kid_stove_neg","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"kid_stove_pos","qa_id":"qa_c_syn_kid_stove_pos","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"kid_window","qa_id":"qa_c_syn_kid_window","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"life_ac_elder_shorts","qa_id":"qa_c_syn_life_ac_elder_shorts","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"life_ac_skirt","qa_id":"qa_c_syn_life_ac_skirt","raw":"A;B","gold":["C"],"picks":["A","B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"life_dinner_top","qa_id":"qa_c_syn_life_dinner_top","raw":"A;C","gold":["B"],"picks":["A","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"life_food_veg_left","qa_id":"qa_c_syn_life_food_veg_left","raw":"D","gold":["C"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"life_hunch_desk","qa_id":"qa_c_syn_life_hunch_desk","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"life_poker_turns","qa_id":"qa_c_syn_life_poker_turns","raw":"D","gold":["C"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"metro_edge_heavy","qa_id":"qa_c_syn_metro_edge_heavy","raw":"C;B","gold":["B","C"],"picks":["B","C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"mon_alz_find_item","qa_id":"qa_c_syn_mon_alz_find_item","raw":"C","gold":["B"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"mon_elder_fall_getup","qa_id":"qa_c_syn_mon_elder_fall_getup","raw":"B；C；D","gold":["B","C","D"],"picks":["B","C","D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"mon_elder_fall_stay","qa_id":"qa_c_syn_mon_elder_fall_stay__v20261011","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"mon_home_baby_fall_self","qa_id":"qa_c_syn_mon_home_baby_fall_self","raw":"B;C","gold":["B","C","D"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"museum_armor","qa_id":"qa_c_syn_museum_armor","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"museum_dino","qa_id":"qa_c_syn_museum_dino","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"museum_elder_bench","qa_id":"qa_c_syn_museum_elder_bench","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"museum_kid_armor","qa_id":"qa_c_syn_museum_kid_armor","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"museum_rope_hall","qa_id":"qa_c_syn_museum_rope_hall","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"museum_vase","qa_id":"qa_c_syn_museum_vase","raw":"C","gold":["A"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"museum_wheel_stair","qa_id":"qa_c_syn_museum_wheel_stair__v20261011","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"out_duty_sun","qa_id":"qa_c_syn_out_duty_sun","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"outfit_rain","qa_id":"qa_c_syn_outfit_rain__v20261011","raw":"A;D","gold":["A","D"],"picks":["A","D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"p4_car_fuel","qa_id":"qa_c_syn_p4_car_fuel__v20261011","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"p4_hos_wait","qa_id":"qa_c_syn_p4_hos_wait__v20261011","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"p4_office_late","qa_id":"qa_c_syn_p4_office_late","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"p4_pet_scratch","qa_id":"qa_c_syn_p4_pet_scratch","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"p4_run_side","qa_id":"qa_c_syn_p4_run_side","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"p4_run_side_graded","qa_id":"qa_c_syn_p4_run_side_graded","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"p4_street_rain","qa_id":"qa_c_syn_p4_street_rain","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"pet_danger_neg","qa_id":"qa_c_syn_pet_danger_neg","raw":"B","gold":["D"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"pet_danger_pos","qa_id":"qa_c_syn_pet_danger_pos","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"pet_plant_neg","qa_id":"qa_c_syn_pet_plant_neg","raw":"A","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"pet_plant_pos","qa_id":"qa_c_syn_pet_plant_pos","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"pet_screen","qa_id":"qa_c_syn_pet_screen","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"pet_shoe","qa_id":"qa_c_syn_pet_shoe","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"pet_slider_01","qa_id":"qa_c_syn_pet_slider_01","raw":"A","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"pet_slider_02","qa_id":"qa_c_syn_pet_slider_02","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"pet_stove_neg","qa_id":"qa_c_syn_pet_stove_neg","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"pet_stove_pos","qa_id":"qa_c_syn_pet_stove_pos","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"pet_toilet","qa_id":"qa_c_syn_pet_toilet","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"pet_trash","qa_id":"qa_c_syn_pet_trash","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"rc_gym_set","qa_id":"qa_c_syn_rc_gym_set__v20261011","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"rc_run_lap","qa_id":"qa_c_syn_rc_run_lap","raw":"B;C","gold":["D"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"rc_shop_aisle","qa_id":"qa_c_syn_rc_shop_aisle","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"rc_street_turn","qa_id":"qa_c_syn_rc_street_turn","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"rc_tour_pass","qa_id":"qa_c_syn_rc_tour_pass__v20261011","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"robot_feed_cats","qa_id":"qa_c_syn_robot_feed_cats","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"robot_host_metro","qa_id":"qa_c_syn_robot_host_metro","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"robot_host_rest","qa_id":"qa_c_syn_robot_host_rest__v20261011","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"slip_wet_neg","qa_id":"qa_c_syn_slip_wet_neg","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"slip_wet_pos","qa_id":"qa_c_syn_slip_wet_pos","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"sm_ball_round","qa_id":"qa_c_syn_sm_ball_round","raw":"B；C","gold":["A"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"sm_farm_round","qa_id":"qa_c_syn_sm_farm_round__v20261011","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"sm_gym_set","qa_id":"qa_c_syn_sm_gym_set__v20261011","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"sm_office_day","qa_id":"qa_c_syn_sm_office_day","raw":"D","gold":["B"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"sm_run_done","qa_id":"qa_c_syn_sm_run_done","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"sm_school_class","qa_id":"qa_c_syn_sm_school_class","raw":"A;C","gold":["C"],"picks":["A","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"sm_yoga_flow","qa_id":"qa_c_syn_sm_yoga_flow","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"thief_bag_reach_neg","qa_id":"qa_c_syn_thief_bag_reach_neg","raw":"A;D","gold":["A","B","D"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"thief_bag_reach_pos","qa_id":"qa_c_syn_thief_bag_reach_pos","raw":"C;D","gold":["C","D"],"picks":["C","D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"tour_cone","qa_id":"qa_c_syn_tour_cone","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"tour_kid_rail","qa_id":"qa_c_syn_tour_kid_rail","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"tutor_hold","qa_id":"qa_c_syn_tutor_hold__v20261011","raw":"C","gold":["B"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"wheel_door","qa_id":"qa_c_syn_wheel_door","raw":"B","gold":["C"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"wheel_gap","qa_id":"qa_c_syn_wheel_gap","raw":"D","gold":["C"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"wheel_path","qa_id":"qa_c_syn_wheel_path","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"wt_ball_shoot","qa_id":"qa_c_syn_wt_ball_shoot","raw":"A；D","gold":["C"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"wt_cafe_sit","qa_id":"qa_c_syn_wt_cafe_sit","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"wt_office_type","qa_id":"qa_c_syn_wt_office_type","raw":"C","gold":["D"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"wt_school_write","qa_id":"qa_c_syn_wt_school_write","raw":"B","gold":["C"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_home_mix","qa_id":"qa_c_synthetic_ask_home_mix__v20261010","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"ask_hos_med","qa_id":"qa_c_synthetic_ask_hos_med__v20261011","raw":"B；","gold":["B"],"picks":[],"valid":false,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_office_tool","qa_id":"qa_c_synthetic_ask_office_tool__v20261010","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"ask_park_bird","qa_id":"qa_c_synthetic_ask_park_bird__v20261010","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cb_shop_pepper.try1","qa_id":"qa_c_synthetic_cb_shop_pepper.try1__v20261010","raw":"D","gold":["B"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ego_coffee_machine","qa_id":"qa_c_synthetic_ego_coffee_machine__v20261010","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"fb_farm_shovel","qa_id":"qa_c_synthetic_fb_farm_shovel__v20261010","raw":"B；","gold":["A"],"picks":[],"valid":false,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_home_plant","qa_id":"qa_c_synthetic_fb_home_plant__v20261010","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"fb_pet_bowl","qa_id":"qa_c_synthetic_fb_pet_bowl__v20261010","raw":"C","gold":["A"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"grade_slip_bath_neg","qa_id":"qa_c_synthetic_grade_slip_bath_neg__v20261010","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"grade_slip_bath_pos","qa_id":"qa_c_synthetic_grade_slip_bath_pos__v20261011","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"group_ball","qa_id":"qa_c_synthetic_group_ball__v20261010","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"in_alz_coat","qa_id":"qa_c_synthetic_in_alz_coat__v20261010","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"in_alz_shoes","qa_id":"qa_c_synthetic_in_alz_shoes__v20261010","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"in_chronic_plate","qa_id":"qa_c_synthetic_in_chronic_plate__v20261010","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"in_chronic_sit","qa_id":"qa_c_synthetic_in_chronic_sit__v20261010","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"life_food_fried","qa_id":"qa_c_synthetic_life_food_fried__v20261010","raw":"B","gold":["D"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"metro_edge_light","qa_id":"qa_c_synthetic_metro_edge_light__v20261010","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"mon_baby_fall","qa_id":"qa_c_synthetic_mon_baby_fall__v20261010","raw":"A","gold":["A","B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"p4_cafe_wait","qa_id":"qa_c_synthetic_p4_cafe_wait__v20261010","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"p4_neg_phone","qa_id":"qa_c_synthetic_p4_neg_phone__v20261010","raw":"A","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"p4_neg_read","qa_id":"qa_c_synthetic_p4_neg_read__v20261010","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"p4_neg_sing","qa_id":"qa_c_synthetic_p4_neg_sing__v20261010","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"p4_neg_tired","qa_id":"qa_c_synthetic_p4_neg_tired__v20261010","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"p4_tour_view","qa_id":"qa_c_synthetic_p4_tour_view__v20261010","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"patrol_cone_jaywalk","qa_id":"qa_c_synthetic_patrol_cone_jaywalk__v20261010","raw":"A;B","gold":["B"],"picks":["A","B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"probe_word_boy","qa_id":"qa_c_synthetic_probe_word_boy__v20261010","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"tour_elder_steps","qa_id":"qa_c_synthetic_tour_elder_steps__v20261010","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"alz_home","qa_id":"qa_t_real_alz_home__v20261010","raw":"A; C","gold":["C","D"],"picks":["A","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"asm_boom_feedback_01","qa_id":"qa_t_real_asm_boom_feedback_01","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"asm_chassis_feedback_01","qa_id":"qa_t_real_asm_chassis_feedback_01__v20261011","raw":"B","gold":["C"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"asm_dumpbed_feedback_01","qa_id":"qa_t_real_asm_dumpbed_feedback_01__v20261011","raw":"B","gold":["C"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"asm_dumpbed_feedback_02","qa_id":"qa_t_real_asm_dumpbed_feedback_02__v20261011","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_care","qa_id":"qa_t_real_baby_care","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"baby_danger","qa_id":"qa_t_real_baby_danger","raw":"A; B","gold":["A","B","D","E","F"],"picks":["A","B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_danger_dup","qa_id":"qa_t_real_baby_danger_dup","raw":"A; B","gold":["A","B","D"],"picks":["A","B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_home","qa_id":"qa_t_real_baby_home","raw":"B; C","gold":["A","C","D","E"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baggage_carousel","qa_id":"qa_t_real_baggage_carousel__v20261010","raw":"A","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"bear_surveillance","qa_id":"qa_t_real_bear_surveillance__v20261010","raw":"B; D","gold":["B"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"bike_ego","qa_id":"qa_t_real_bike_ego","raw":"C; D","gold":["B","C","D"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"blind_cane_demo","qa_id":"qa_t_real_blind_cane_demo","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"blind_cane_ego","qa_id":"qa_t_real_blind_cane_ego","raw":"B; D; F; G","gold":["A","C","D","E","F","G"],"picks":["B","D","F","G"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"blind_cook_ego","qa_id":"qa_t_real_blind_cook_ego","raw":"D; E; F","gold":["A","B","C","E","F"],"picks":["D","E","F"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"blind_cross_help","qa_id":"qa_t_real_blind_cross_help","raw":"A; D","gold":["A","B"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"blind_walk_ego","qa_id":"qa_t_real_blind_walk_ego","raw":"B; D","gold":["B","C","D"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"coffee_ego","qa_id":"qa_t_real_coffee_ego","raw":"D","gold":["C"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"coffee_p19","qa_id":"qa_t_real_coffee_p19","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"coffee_p23","qa_id":"qa_t_real_coffee_p23","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"coffee_p27","qa_id":"qa_t_real_coffee_p27","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"coffee_p37","qa_id":"qa_t_real_coffee_p37","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"coffee_p38","qa_id":"qa_t_real_coffee_p38","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"coffee_p42","qa_id":"qa_t_real_coffee_p42","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cook_bake_end","qa_id":"qa_t_real_cook_bake_end__v20261011","raw":"C","gold":["A"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cook_bake_feedback","qa_id":"qa_t_real_cook_bake_feedback__v20261011","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cook_bread_feedback","qa_id":"qa_t_real_cook_bread_feedback","raw":"B; D","gold":["A"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cook_corn_feedback","qa_id":"qa_t_real_cook_corn_feedback__v20261010","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cook_milk_feedback","qa_id":"qa_t_real_cook_milk_feedback","raw":"A. 保持沉默。","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cook_pepper_end","qa_id":"qa_t_real_cook_pepper_end__v20261011","raw":"B","gold":["D"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cook_pepper_feedback","qa_id":"qa_t_real_cook_pepper_feedback__v20261011","raw":"B; C","gold":["B","C"],"picks":["B","C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cook_pinwheel_end","qa_id":"qa_t_real_cook_pinwheel_end__v20261011","raw":"B","gold":["D"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cook_pinwheel_feedback","qa_id":"qa_t_real_cook_pinwheel_feedback__v20261011","raw":"B. 保持沉默。","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cook_platter_end","qa_id":"qa_t_real_cook_platter_end__v20261011","raw":"C","gold":["A"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cook_platter_feedback","qa_id":"qa_t_real_cook_platter_feedback__v20261011","raw":"B; D","gold":["C"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cook_tomato_1min","qa_id":"qa_t_real_cook_tomato_1min__v20261011","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cook_tomato_end","qa_id":"qa_t_real_cook_tomato_end__v20261011","raw":"A。","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cook_tomato_feedback","qa_id":"qa_t_real_cook_tomato_feedback","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cook_tortilla_1min","qa_id":"qa_t_real_cook_tortilla_1min","raw":"B. 保持沉默。","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cook_tortilla_feedback","qa_id":"qa_t_real_cook_tortilla_feedback","raw":"C; D","gold":["B"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"count_bench","qa_id":"qa_t_real_count_bench__v20261011","raw":"B; C","gold":["A","B","C","E","F","G"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"dance_back_line","qa_id":"qa_t_real_dance_back_line","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"dance_back_pair","qa_id":"qa_t_real_dance_back_pair","raw":"B; D; E","gold":["A","B","C","D","E"],"picks":["B","D","E"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"deaf_cafe_sign","qa_id":"qa_t_real_deaf_cafe_sign","raw":"A; B; E","gold":["B","C","D","E"],"picks":["A","B","E"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"deaf_dog_wake","qa_id":"qa_t_real_deaf_dog_wake","raw":"C；D","gold":["C"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"deaf_sign_home","qa_id":"qa_t_real_deaf_sign_home","raw":"B. 保持沉默。","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"deaf_wake","qa_id":"qa_t_real_deaf_wake","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"dining_help","qa_id":"qa_t_real_dining_help","raw":"B; C","gold":["B","C","D"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"dog_canal_rescue","qa_id":"qa_t_real_dog_canal_rescue__v20261010","raw":"D","gold":["B","D"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"drive_ego","qa_id":"qa_t_real_drive_ego","raw":"D; E","gold":["A","B","C","D","E"],"picks":["D","E"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"drum_play","qa_id":"qa_t_real_drum_play","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"drum_teach","qa_id":"qa_t_real_drum_teach","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"elder_cam","qa_id":"qa_t_real_elder_cam","raw":"B; D","gold":["B","C","D","E"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"elder_crossing","qa_id":"qa_t_real_elder_crossing__v20261010","raw":"B; C","gold":["A","B"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"elder_fall2_cam","qa_id":"qa_t_real_elder_fall2_cam","raw":"A; B","gold":["A","B"],"picks":["A","B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"elder_mobility","qa_id":"qa_t_real_elder_mobility","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"elevator_arrival","qa_id":"qa_t_real_elevator_arrival__v20261010","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"escalator_maintenance","qa_id":"qa_t_real_escalator_maintenance__v20261010","raw":"C; D","gold":["A","B","D","E","F","G"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fall_s1","qa_id":"qa_t_real_fall_s1","raw":"C; D; G","gold":["A","C","D","E","F","G"],"picks":["C","D","G"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fall_s3","qa_id":"qa_t_real_fall_s3","raw":"A; D; E; F; G","gold":["B","C","D","E","F","G"],"picks":["A","D","E","F","G"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fall_s5","qa_id":"qa_t_real_fall_s5","raw":"A; F","gold":["B","C","D","E","F"],"picks":["A","F"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"feed_pig","qa_id":"qa_t_real_feed_pig","raw":"A; D","gold":["B","C"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fire_engine_response","qa_id":"qa_t_real_fire_engine_response__v20261010","raw":"D","gold":["C","D"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"game_cards","qa_id":"qa_t_real_game_cards","raw":"D","gold":["C"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"game_mahjong_a","qa_id":"qa_t_real_game_mahjong_a","raw":"A; D","gold":["B","D"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"game_mahjong_b","qa_id":"qa_t_real_game_mahjong_b","raw":"B; C","gold":["B","C"],"picks":["B","C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"group_bank_queue","qa_id":"qa_t_real_group_bank_queue","raw":"E; F; G","gold":["A","B","D","E","F","G"],"picks":["E","F","G"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"group_ceremony_close","qa_id":"qa_t_real_group_ceremony_close__v20261011","raw":"B; D","gold":["B","C","D"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"group_ceremony_mic","qa_id":"qa_t_real_group_ceremony_mic","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"group_class_question","qa_id":"qa_t_real_group_class_question__v20261011","raw":"G; B; E; F; A","gold":["A","B","C","D","E","F"],"picks":["A","B","E","F","G"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"group_first_rollcall","qa_id":"qa_t_real_group_first_rollcall","raw":"C; D","gold":["A","B","C"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"group_kg_circle","qa_id":"qa_t_real_group_kg_circle__v20261010","raw":"B; C","gold":["A","D"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"group_kg_outdoor","qa_id":"qa_t_real_group_kg_outdoor","raw":"C; D","gold":["A","C","D"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"group_morning_line","qa_id":"qa_t_real_group_morning_line","raw":"C; D","gold":["A"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"group_raise_hand","qa_id":"qa_t_real_group_raise_hand","raw":"A; D","gold":["A"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"group_toddler_rollcall","qa_id":"qa_t_real_group_toddler_rollcall__v20261011","raw":"A; D; E; G","gold":["A","B","C","D","E","G"],"picks":["A","D","E","G"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"hail_weather","qa_id":"qa_t_real_hail_weather__v20261010","raw":"C","gold":["A","B"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"hostel_check","qa_id":"qa_t_real_hostel_check","raw":"D;","gold":["A","C"],"picks":[],"valid":false,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"house_fire_brisbane","qa_id":"qa_t_real_house_fire_brisbane__v20261010","raw":"C; D","gold":["C"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"jump_rope","qa_id":"qa_t_real_jump_rope","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"kid_cam","qa_id":"qa_t_real_kid_cam","raw":"B; D","gold":["B","C","D"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"kid_cry_cam","qa_id":"qa_t_real_kid_cry_cam","raw":"B; D","gold":["C","D"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"kid_danger","qa_id":"qa_t_real_kid_danger","raw":"B; D","gold":["B","C","D"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"loading_dock","qa_id":"qa_t_real_loading_dock__v20261010","raw":"A; D","gold":["A","C"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"low_vision_ego","qa_id":"qa_t_real_low_vision_ego__v20261010","raw":"E；F；B","gold":["A","B","D","E","F"],"picks":["B","E","F"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"mind_gap","qa_id":"qa_t_real_mind_gap__v20261010","raw":"A","gold":["A","B","C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"orbit_ball_12","qa_id":"qa_t_real_orbit_ball_12","raw":"D","gold":["C"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"orbit_bumbag_05","qa_id":"qa_t_real_orbit_bumbag_05","raw":"B","gold":["D"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"orbit_cane_03","qa_id":"qa_t_real_orbit_cane_03","raw":"C","gold":["D"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"orbit_cane_07","qa_id":"qa_t_real_orbit_cane_07","raw":"C","gold":["D"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"orbit_condom_08","qa_id":"qa_t_real_orbit_condom_08","raw":"D","gold":["B"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"orbit_glasses_16","qa_id":"qa_t_real_orbit_glasses_16","raw":"A","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"orbit_headphones_18","qa_id":"qa_t_real_orbit_headphones_18","raw":"A; D","gold":["A"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"orbit_leash_11","qa_id":"qa_t_real_orbit_leash_11__v20261011","raw":"D; A","gold":["A","B","D"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"orbit_mug_06","qa_id":"qa_t_real_orbit_mug_06__v20261011","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"orbit_pepper_04","qa_id":"qa_t_real_orbit_pepper_04__v20261011","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"orbit_phone_17","qa_id":"qa_t_real_orbit_phone_17__v20261011","raw":"A; B; D","gold":["B","D"],"picks":["A","B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"pet_bowl_ego","qa_id":"qa_t_real_pet_bowl_ego__v20261010","raw":"C; D","gold":["C","D"],"picks":["C","D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"pet_cat_bowl","qa_id":"qa_t_real_pet_cat_bowl__v20261011","raw":"A；D","gold":["A"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"pet_cat_door","qa_id":"qa_t_real_pet_cat_door__v20261011","raw":"A; C","gold":["C","D"],"picks":["A","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"pet_dog_bowl","qa_id":"qa_t_real_pet_dog_bowl__v20261010","raw":"F; G;","gold":["A","B","D","E","F","G"],"picks":[],"valid":false,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"pet_dog_door","qa_id":"qa_t_real_pet_dog_door","raw":"A; C","gold":["B","D"],"picks":["A","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"pet_frenchie_bowl","qa_id":"qa_t_real_pet_frenchie_bowl__v20261010","raw":"A; C","gold":["A","B","C"],"picks":["A","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"pet_home","qa_id":"qa_t_real_pet_home__v20261010","raw":"A; D","gold":["A","B"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"pet_puppy_leash","qa_id":"qa_t_real_pet_puppy_leash__v20261010","raw":"A; D","gold":["C","D"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"pill_sort","qa_id":"qa_t_real_pill_sort__v20261011","raw":"C","gold":["B"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"poker_group","qa_id":"qa_t_real_poker_group","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"posture_correct","qa_id":"qa_t_real_posture_correct","raw":"B; D; F; A","gold":["A","C","D","E","F","G"],"picks":["A","B","D","F"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"queue_blood_board","qa_id":"qa_t_real_queue_blood_board__v20261010","raw":"B; E; F; G","gold":["A","B","C","D","E","F"],"picks":["B","E","F","G"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"queue_dental_ad","qa_id":"qa_t_real_queue_dental_ad","raw":"B; C","gold":["A","B","C"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"queue_ntuh_vlog","qa_id":"qa_t_real_queue_ntuh_vlog","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"road_barrier","qa_id":"qa_t_real_road_barrier__v20261010","raw":"A; D","gold":["A"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"roof_leak","qa_id":"qa_t_real_roof_leak__v20261010","raw":"D","gold":["A","C"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"sport_park_bball","qa_id":"qa_t_real_sport_park_bball","raw":"D","gold":["A","B"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"sport_run_form","qa_id":"qa_t_real_sport_run_form__v20261011","raw":"B; D","gold":["B","C","D"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"stretch_workout","qa_id":"qa_t_real_stretch_workout","raw":"B; D; E","gold":["A","B","C","D","E"],"picks":["B","D","E"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"subway_wheelchair","qa_id":"qa_t_real_subway_wheelchair__v20261010","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"tennis_ego","qa_id":"qa_t_real_tennis_ego","raw":"F; G","gold":["A","B","C","D","E","G"],"picks":["F","G"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"test_kit","qa_id":"qa_t_real_test_kit","raw":"B. 保持沉默。","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"tutor_homework","qa_id":"qa_t_real_tutor_homework__v20261010","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"videocon_washing_machine_fault","qa_id":"qa_t_real_videocon_washing_machine_fault__v20261010","raw":"C; D","gold":["A","B"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"wheel_stairs","qa_id":"qa_t_real_wheel_stairs","raw":"B","gold":["C"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"wheel_stairs_paralyzed","qa_id":"qa_t_real_wheel_stairs_paralyzed","raw":"A; D","gold":["B","C","D","E"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"adult_bath","qa_id":"qa_t_syn_adult_bath","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"adult_candle_neg","qa_id":"qa_t_syn_adult_candle_neg","raw":"C","gold":["D"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"adult_candle_pos","qa_id":"qa_t_syn_adult_candle_pos","raw":"B; D","gold":["B","C"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"adult_chop","qa_id":"qa_t_syn_adult_chop","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"adult_cut_in","qa_id":"qa_t_syn_adult_cut_in","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"adult_drowsy_neg","qa_id":"qa_t_syn_adult_drowsy_neg","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"adult_drowsy_pos","qa_id":"qa_t_syn_adult_drowsy_pos","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"adult_gas_neg","qa_id":"qa_t_syn_adult_gas_neg","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"adult_gas_pos","qa_id":"qa_t_syn_adult_gas_pos","raw":"A","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"adult_heater","qa_id":"qa_t_syn_adult_heater","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"adult_iron_neg","qa_id":"qa_t_syn_adult_iron_neg","raw":"C","gold":["D"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"adult_iron_on_neg","qa_id":"qa_t_syn_adult_iron_on_neg","raw":"D","gold":["B"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"adult_iron_on_pos","qa_id":"qa_t_syn_adult_iron_on_pos","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"adult_iron_pos","qa_id":"qa_t_syn_adult_iron_pos","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"adult_oven_neg","qa_id":"qa_t_syn_adult_oven_neg","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"adult_oven_pos","qa_id":"qa_t_syn_adult_oven_pos","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"adult_stove_neg","qa_id":"qa_t_syn_adult_stove_neg","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"adult_stove_pos","qa_id":"qa_t_syn_adult_stove_pos","raw":"B；D","gold":["D"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"adult_tap_neg","qa_id":"qa_t_syn_adult_tap_neg","raw":"D","gold":["A"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"adult_tap_pos","qa_id":"qa_t_syn_adult_tap_pos","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"agr_cow_med","qa_id":"qa_t_syn_agr_cow_med","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"agr_pig_fed","qa_id":"qa_t_syn_agr_pig_fed__v20261011","raw":"B；D","gold":["B"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"alz_coat","qa_id":"qa_t_syn_alz_coat","raw":"C; D","gold":["B"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"alz_door_stand","qa_id":"qa_t_syn_alz_door_stand","raw":"D","gold":["A"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"alz_heater_neg","qa_id":"qa_t_syn_alz_heater_neg","raw":"D","gold":["A"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"alz_heater_pos","qa_id":"qa_t_syn_alz_heater_pos","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"alz_stove_neg","qa_id":"qa_t_syn_alz_stove_neg","raw":"C. 保持沉默。","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"alz_stove_pos","qa_id":"qa_t_syn_alz_stove_pos","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_ball_rule","qa_id":"qa_t_syn_ask_ball_rule","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_cafe_menu","qa_id":"qa_t_syn_ask_cafe_menu","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_car_park","qa_id":"qa_t_syn_ask_car_park__v20261011","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"ask_farm_feed","qa_id":"qa_t_syn_ask_farm_feed","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_home_coat","qa_id":"qa_t_syn_ask_home_coat","raw":"B；C","gold":["C"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_park_plant","qa_id":"qa_t_syn_ask_park_plant","raw":"B","gold":["D"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_pet_food","qa_id":"qa_t_syn_ask_pet_food","raw":"A. 保持沉默。","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_run_pace","qa_id":"qa_t_syn_ask_run_pace","raw":"A. 保持沉默。","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_school_word","qa_id":"qa_t_syn_ask_school_word","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_shop_fresh","qa_id":"qa_t_syn_ask_shop_fresh","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_shop_price","qa_id":"qa_t_syn_ask_shop_price__v20261011","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_street_dir","qa_id":"qa_t_syn_ask_street_dir","raw":"C；D","gold":["B"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_tour_build","qa_id":"qa_t_syn_ask_tour_build__v20261011","raw":"A. 保持沉默。","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_tour_route","qa_id":"qa_t_syn_ask_tour_route__v20261011","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"ask_tv_f1","qa_id":"qa_t_syn_ask_tv_f1__v20261011","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"ask_tv_nolan","qa_id":"qa_t_syn_ask_tv_nolan__v20261011","raw":"A. 保持沉默。","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_cleaner_neg","qa_id":"qa_t_syn_baby_cleaner_neg","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"baby_cleaner_pos","qa_id":"qa_t_syn_baby_cleaner_pos","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_cord_neg","qa_id":"qa_t_syn_baby_cord_neg","raw":"D","gold":["B"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_cord_pos","qa_id":"qa_t_syn_baby_cord_pos","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"baby_fall_cry_01","qa_id":"qa_t_syn_baby_fall_cry_01__v20261011","raw":"A; D","gold":["A","B"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_fall_cry_02","qa_id":"qa_t_syn_baby_fall_cry_02","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"baby_formula","qa_id":"qa_t_syn_baby_formula__v20261011","raw":"A. 保持沉默。","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_hot_bowl_neg","qa_id":"qa_t_syn_baby_hot_bowl_neg","raw":"D","gold":["B"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_hot_bowl_pos","qa_id":"qa_t_syn_baby_hot_bowl_pos","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_outlet_0918_neg","qa_id":"qa_t_syn_baby_outlet_0918_neg","raw":"D","gold":["A"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_outlet_0918_pos","qa_id":"qa_t_syn_baby_outlet_0918_pos","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_outlet_0920_neg","qa_id":"qa_t_syn_baby_outlet_0920_neg","raw":"D","gold":["A"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_outlet_0920_pos","qa_id":"qa_t_syn_baby_outlet_0920_pos","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"baby_slider_neg","qa_id":"qa_t_syn_baby_slider_neg","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"baby_slider_pos","qa_id":"qa_t_syn_baby_slider_pos","raw":"A; B","gold":["A","C"],"picks":["A","B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_stair_neg","qa_id":"qa_t_syn_baby_stair_neg","raw":"D","gold":["B"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_stair_pos","qa_id":"qa_t_syn_baby_stair_pos","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"baby_tub","qa_id":"qa_t_syn_baby_tub","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"ball_back_receive","qa_id":"qa_t_syn_ball_back_receive__v20261011","raw":"E","gold":["A","B","C","E"],"picks":["E"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"bike_ego_park","qa_id":"qa_t_syn_bike_ego_park","raw":"B","gold":["D"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"blind_cane_crowd","qa_id":"qa_t_syn_blind_cane_crowd","raw":"A","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"blind_cane_curb","qa_id":"qa_t_syn_blind_cane_curb","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"blind_cane_hole","qa_id":"qa_t_syn_blind_cane_hole","raw":"C","gold":["B"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"blind_dog_ebike_neg","qa_id":"qa_t_syn_blind_dog_ebike_neg","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"blind_dog_ebike_pos","qa_id":"qa_t_syn_blind_dog_ebike_pos","raw":"B. 保持沉默。","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"blind_dog_glass","qa_id":"qa_t_syn_blind_dog_glass","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"blind_puddle","qa_id":"qa_t_syn_blind_puddle","raw":"B","gold":["D"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"blind_stair_wide","qa_id":"qa_t_syn_blind_stair_wide","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cb_shop_pepper","qa_id":"qa_t_syn_cb_shop_pepper","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"cblind_bottles","qa_id":"qa_t_syn_cblind_bottles","raw":"C; D","gold":["B"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cblind_folder","qa_id":"qa_t_syn_cblind_folder","raw":"A","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cblind_laundry","qa_id":"qa_t_syn_cblind_laundry__v20261011","raw":"B; D","gold":["B","C"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cblind_sunscreen_01","qa_id":"qa_t_syn_cblind_sunscreen_01__v20261011","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cblind_sunscreen_02","qa_id":"qa_t_syn_cblind_sunscreen_02__v20261011","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cblind_wire_01","qa_id":"qa_t_syn_cblind_wire_01","raw":"B; D","gold":["D"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cblind_wire_02","qa_id":"qa_t_syn_cblind_wire_02","raw":"A; B","gold":["A","B","D"],"picks":["A","B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"chronic_cough_neg","qa_id":"qa_t_syn_chronic_cough_neg","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"chronic_cough_pos","qa_id":"qa_t_syn_chronic_cough_pos","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"chronic_inhaler_neg","qa_id":"qa_t_syn_chronic_inhaler_neg","raw":"B. 保持沉默。","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"chronic_inhaler_pos","qa_id":"qa_t_syn_chronic_inhaler_pos","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"chronic_meal","qa_id":"qa_t_syn_chronic_meal","raw":"B. 保持沉默。","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"chronic_onset","qa_id":"qa_t_syn_chronic_onset","raw":"D","gold":["B","C","D"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"chronic_sugar_neg","qa_id":"qa_t_syn_chronic_sugar_neg","raw":"B；D","gold":["C"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"chronic_sugar_pos","qa_id":"qa_t_syn_chronic_sugar_pos","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cnt_baby_step_v2","qa_id":"qa_t_syn_cnt_baby_step_v2__v20261011","raw":"E; B","gold":["A","B","C","D"],"picks":["B","E"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cnt_bad_serve","qa_id":"qa_t_syn_cnt_bad_serve__v20261011","raw":"B; D; E","gold":["A","B","C","D","E"],"picks":["B","D","E"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cnt_ball_layup_miss","qa_id":"qa_t_syn_cnt_ball_layup_miss__v20261011","raw":"F; B","gold":["A","B","D","E","F"],"picks":["B","F"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cnt_cafe_cup","qa_id":"qa_t_syn_cnt_cafe_cup__v20261011","raw":"B; D","gold":["B","C","D","E"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cnt_dance_turn_v2","qa_id":"qa_t_syn_cnt_dance_turn_v2","raw":"A; D; E; F","gold":["B","C","D","E","F"],"picks":["A","D","E","F"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cnt_gym_rep","qa_id":"qa_t_syn_cnt_gym_rep__v20261011","raw":"D;E","gold":["A","B","D","E"],"picks":["D","E"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cnt_home_toy","qa_id":"qa_t_syn_cnt_home_toy__v20261011","raw":"B; E","gold":["A","B","C","D","E"],"picks":["B","E"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cnt_office_chair","qa_id":"qa_t_syn_cnt_office_chair__v20261011","raw":"B; F","gold":["A","C","D","E","F"],"picks":["B","F"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cnt_street_bus","qa_id":"qa_t_syn_cnt_street_bus__v20261011","raw":"D; E","gold":["B","C","D","E"],"picks":["D","E"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"deaf_alarm_neg","qa_id":"qa_t_syn_deaf_alarm_neg","raw":"A；D","gold":["C"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"deaf_alarm_pos","qa_id":"qa_t_syn_deaf_alarm_pos","raw":"C","gold":["D"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"deaf_behind","qa_id":"qa_t_syn_deaf_behind","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"deaf_door","qa_id":"qa_t_syn_deaf_door","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"deaf_microwave","qa_id":"qa_t_syn_deaf_microwave","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"deaf_pot_neg","qa_id":"qa_t_syn_deaf_pot_neg","raw":"D","gold":["B"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"deaf_pot_pos","qa_id":"qa_t_syn_deaf_pot_pos","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"deaf_timer","qa_id":"qa_t_syn_deaf_timer","raw":"A。保持沉默。","gold":["D"],"picks":[],"valid":false,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"dog_table_heavy","qa_id":"qa_t_syn_dog_table_heavy","raw":"A。保持沉默。","gold":["D"],"picks":[],"valid":false,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"dog_table_light","qa_id":"qa_t_syn_dog_table_light","raw":"A","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ego_drum_teach","qa_id":"qa_t_syn_ego_drum_teach","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"ego_gallery_pause","qa_id":"qa_t_syn_ego_gallery_pause","raw":"D","gold":["A"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ego_greet_lobby","qa_id":"qa_t_syn_ego_greet_lobby","raw":"D","gold":["A"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"elder_boil","qa_id":"qa_t_syn_elder_boil","raw":"B. 保持沉默。","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"elder_box_m_neg","qa_id":"qa_t_syn_elder_box_m_neg","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"elder_box_m_pos","qa_id":"qa_t_syn_elder_box_m_pos","raw":"C; D","gold":["A","C"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"elder_glow_neg","qa_id":"qa_t_syn_elder_glow_neg","raw":"C; D","gold":["B"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"elder_glow_pos","qa_id":"qa_t_syn_elder_glow_pos","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"elder_rug_f","qa_id":"qa_t_syn_elder_rug_f","raw":"D","gold":["B"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"elder_shirt_out","qa_id":"qa_t_syn_elder_shirt_out","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"elder_stand_f_neg","qa_id":"qa_t_syn_elder_stand_f_neg","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"elder_stand_f_pos","qa_id":"qa_t_syn_elder_stand_f_pos","raw":"B; A","gold":["A","B","C"],"picks":["A","B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"elder_stool_f_neg","qa_id":"qa_t_syn_elder_stool_f_neg","raw":"D","gold":["B"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"elder_stool_f_pos","qa_id":"qa_t_syn_elder_stool_f_pos","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"elder_washer","qa_id":"qa_t_syn_elder_washer","raw":"A; D","gold":["A","B"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_ball_elbow","qa_id":"qa_t_syn_fb_ball_elbow","raw":"B；D","gold":["D"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_ball_foot","qa_id":"qa_t_syn_fb_ball_foot","raw":"B；C","gold":["C"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_bike_seat","qa_id":"qa_t_syn_fb_bike_seat__v20261011","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"fb_kitchen_board","qa_id":"qa_t_syn_fb_kitchen_board__v20261011","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_latin_step","qa_id":"qa_t_syn_fb_latin_step__v20261011","raw":"B","gold":["D"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_office_mouse","qa_id":"qa_t_syn_fb_office_mouse","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"fb_office_sit","qa_id":"qa_t_syn_fb_office_sit","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"fb_pet_leash","qa_id":"qa_t_syn_fb_pet_leash","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_plank_hip","qa_id":"qa_t_syn_fb_plank_hip__v20261011","raw":"A。","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_run_heel","qa_id":"qa_t_syn_fb_run_heel","raw":"A. 保持沉默。","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_school_pen","qa_id":"qa_t_syn_fb_school_pen","raw":"D","gold":["A"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_school_sit","qa_id":"qa_t_syn_fb_school_sit","raw":"B","gold":["C"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_shop_carry","qa_id":"qa_t_syn_fb_shop_carry","raw":"A；C","gold":["D"],"picks":["A","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_street_phone","qa_id":"qa_t_syn_fb_street_phone","raw":"D","gold":["A"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_stretch_bounce","qa_id":"qa_t_syn_fb_stretch_bounce","raw":"A. 保持沉默。","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_yoga_mirror","qa_id":"qa_t_syn_fb_yoga_mirror","raw":"A","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"grade_case_neg","qa_id":"qa_t_syn_grade_case_neg","raw":"D","gold":["A"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"grade_case_pos","qa_id":"qa_t_syn_grade_case_pos","raw":"B. 保持沉默。","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"grade_chair_01","qa_id":"qa_t_syn_grade_chair_01","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"grade_door_width_01","qa_id":"qa_t_syn_grade_door_width_01","raw":"A; D","gold":["C","D"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"grade_hunch_neg","qa_id":"qa_t_syn_grade_hunch_neg","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"grade_hunch_pos","qa_id":"qa_t_syn_grade_hunch_pos","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"grade_plate_01","qa_id":"qa_t_syn_grade_plate_01","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"grade_pot_neg","qa_id":"qa_t_syn_grade_pot_neg","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"grade_pot_pos","qa_id":"qa_t_syn_grade_pot_pos","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"grade_rail_neg","qa_id":"qa_t_syn_grade_rail_neg","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"grade_rail_pos","qa_id":"qa_t_syn_grade_rail_pos","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"grade_walk_home_neg","qa_id":"qa_t_syn_grade_walk_home_neg","raw":"D","gold":["A"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"grade_walk_home_pos","qa_id":"qa_t_syn_grade_walk_home_pos","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"grocery_milk","qa_id":"qa_t_syn_grocery_milk","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"group_door","qa_id":"qa_t_syn_group_door","raw":"B; D","gold":["D"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"group_multigen","qa_id":"qa_t_syn_group_multigen","raw":"B. 保持沉默。","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"group_speaker","qa_id":"qa_t_syn_group_speaker","raw":"D","gold":["B"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"handler_already_there","qa_id":"qa_t_syn_handler_already_there","raw":"B","gold":["D"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"home_chaos_balcony","qa_id":"qa_t_syn_home_chaos_balcony","raw":"A. 保持沉默。","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"in_alz_drawer","qa_id":"qa_t_syn_in_alz_drawer__v20261011","raw":"B; C","gold":["C"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"in_cblind_bins","qa_id":"qa_t_syn_in_cblind_bins","raw":"A; D","gold":["A"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"in_cblind_laundry","qa_id":"qa_t_syn_in_cblind_laundry","raw":"C","gold":["D"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"in_chronic_med","qa_id":"qa_t_syn_in_chronic_med__v20261011","raw":"C; D","gold":["B"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"in_deaf_doorbell","qa_id":"qa_t_syn_in_deaf_doorbell","raw":"B; D; E","gold":["A","C","D","E"],"picks":["B","D","E"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"in_elder_cane","qa_id":"qa_t_syn_in_elder_cane","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"in_keys_table","qa_id":"qa_t_syn_in_keys_table","raw":"A. 保持沉默。","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"in_kid_game","qa_id":"qa_t_syn_in_kid_game__v20261011","raw":"B. 保持沉默。","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"in_kid_hw","qa_id":"qa_t_syn_in_kid_hw","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"in_pet_bowl","qa_id":"qa_t_syn_in_pet_bowl","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"in_pet_mail","qa_id":"qa_t_syn_in_pet_mail","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"kid_book","qa_id":"qa_t_syn_kid_book","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"kid_climb","qa_id":"qa_t_syn_kid_climb","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"kid_game_late","qa_id":"qa_t_syn_kid_game_late","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"kid_hw_phone","qa_id":"qa_t_syn_kid_hw_phone","raw":"B","gold":["C"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"kid_knife","qa_id":"qa_t_syn_kid_knife","raw":"A; D","gold":["A","B"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"kid_oven_neg","qa_id":"qa_t_syn_kid_oven_neg","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"kid_oven_pos","qa_id":"qa_t_syn_kid_oven_pos","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"kid_phone_neg","qa_id":"qa_t_syn_kid_phone_neg__v20261011","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"kid_phone_pos","qa_id":"qa_t_syn_kid_phone_pos__v20261011","raw":"A. 保持沉默。","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"kid_railing_13","qa_id":"qa_t_syn_kid_railing_13","raw":"C","gold":["D"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"kid_stove_neg","qa_id":"qa_t_syn_kid_stove_neg","raw":"D","gold":["A"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"kid_stove_pos","qa_id":"qa_t_syn_kid_stove_pos","raw":"B; D","gold":["A","B"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"kid_window","qa_id":"qa_t_syn_kid_window","raw":"A; C","gold":["C","D"],"picks":["A","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"life_ac_elder_shorts","qa_id":"qa_t_syn_life_ac_elder_shorts","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"life_ac_skirt","qa_id":"qa_t_syn_life_ac_skirt","raw":"D","gold":["A"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"life_dinner_top","qa_id":"qa_t_syn_life_dinner_top","raw":"A. 保持沉默。","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"life_food_veg_left","qa_id":"qa_t_syn_life_food_veg_left","raw":"D","gold":["A"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"life_hunch_desk","qa_id":"qa_t_syn_life_hunch_desk","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"life_poker_turns","qa_id":"qa_t_syn_life_poker_turns","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"metro_edge_heavy","qa_id":"qa_t_syn_metro_edge_heavy","raw":"B; D","gold":["B","C"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"mon_alz_find_item","qa_id":"qa_t_syn_mon_alz_find_item","raw":"A. 保持沉默。","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"mon_elder_fall_getup","qa_id":"qa_t_syn_mon_elder_fall_getup","raw":"C; D","gold":["B","C","D"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"mon_elder_fall_stay","qa_id":"qa_t_syn_mon_elder_fall_stay","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"mon_home_baby_fall_self","qa_id":"qa_t_syn_mon_home_baby_fall_self","raw":"A; D","gold":["A","C","D"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"museum_armor","qa_id":"qa_t_syn_museum_armor","raw":"B. 保持沉默。","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"museum_dino","qa_id":"qa_t_syn_museum_dino","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"museum_elder_bench","qa_id":"qa_t_syn_museum_elder_bench","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"museum_kid_armor","qa_id":"qa_t_syn_museum_kid_armor","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"museum_rope_hall","qa_id":"qa_t_syn_museum_rope_hall","raw":"A","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"museum_vase","qa_id":"qa_t_syn_museum_vase","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"museum_wheel_stair","qa_id":"qa_t_syn_museum_wheel_stair__v20261011","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"out_duty_sun","qa_id":"qa_t_syn_out_duty_sun","raw":"B. 保持沉默。","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"outfit_rain","qa_id":"qa_t_syn_outfit_rain__v20261011","raw":"B; C","gold":["B","D"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"p4_car_fuel","qa_id":"qa_t_syn_p4_car_fuel__v20261011","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"p4_hos_wait","qa_id":"qa_t_syn_p4_hos_wait__v20261011","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"p4_office_late","qa_id":"qa_t_syn_p4_office_late","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"p4_pet_scratch","qa_id":"qa_t_syn_p4_pet_scratch","raw":"A. 保持沉默。","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"p4_run_side","qa_id":"qa_t_syn_p4_run_side","raw":"C","gold":["D"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"p4_run_side_graded","qa_id":"qa_t_syn_p4_run_side_graded","raw":"B; D","gold":["C","D"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"p4_street_rain","qa_id":"qa_t_syn_p4_street_rain","raw":"C; D","gold":["C"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"pet_danger_neg","qa_id":"qa_t_syn_pet_danger_neg","raw":"C. 7.5–15.1秒","gold":["D"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"pet_danger_pos","qa_id":"qa_t_syn_pet_danger_pos","raw":"A; D","gold":["A","C"],"picks":["A","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"pet_plant_neg","qa_id":"qa_t_syn_pet_plant_neg","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"pet_plant_pos","qa_id":"qa_t_syn_pet_plant_pos","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"pet_screen","qa_id":"qa_t_syn_pet_screen","raw":"A。保持沉默。","gold":["D"],"picks":[],"valid":false,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"pet_shoe","qa_id":"qa_t_syn_pet_shoe","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"pet_slider_01","qa_id":"qa_t_syn_pet_slider_01","raw":"D","gold":["A"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"pet_slider_02","qa_id":"qa_t_syn_pet_slider_02","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"pet_stove_neg","qa_id":"qa_t_syn_pet_stove_neg","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"pet_stove_pos","qa_id":"qa_t_syn_pet_stove_pos","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"pet_toilet","qa_id":"qa_t_syn_pet_toilet","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"pet_trash","qa_id":"qa_t_syn_pet_trash","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"rc_gym_set","qa_id":"qa_t_syn_rc_gym_set__v20261011","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"rc_run_lap","qa_id":"qa_t_syn_rc_run_lap","raw":"B; D","gold":["A"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"rc_shop_aisle","qa_id":"qa_t_syn_rc_shop_aisle","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"rc_street_turn","qa_id":"qa_t_syn_rc_street_turn","raw":"A. 保持沉默。","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"rc_tour_pass","qa_id":"qa_t_syn_rc_tour_pass__v20261011","raw":"B；C","gold":["D"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"robot_feed_cats","qa_id":"qa_t_syn_robot_feed_cats","raw":"D","gold":["A"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"robot_host_metro","qa_id":"qa_t_syn_robot_host_metro","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"robot_host_rest","qa_id":"qa_t_syn_robot_host_rest__v20261011","raw":"D","gold":["C"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"slip_wet_neg","qa_id":"qa_t_syn_slip_wet_neg","raw":"B; D","gold":["B","C","D"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"slip_wet_pos","qa_id":"qa_t_syn_slip_wet_pos","raw":"B; D","gold":["B","C","D"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"sm_ball_round","qa_id":"qa_t_syn_sm_ball_round","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"sm_farm_round","qa_id":"qa_t_syn_sm_farm_round__v20261011","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"sm_gym_set","qa_id":"qa_t_syn_sm_gym_set__v20261011","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"sm_office_day","qa_id":"qa_t_syn_sm_office_day","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"sm_run_done","qa_id":"qa_t_syn_sm_run_done","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"sm_school_class","qa_id":"qa_t_syn_sm_school_class","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"sm_yoga_flow","qa_id":"qa_t_syn_sm_yoga_flow","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"thief_bag_reach_neg","qa_id":"qa_t_syn_thief_bag_reach_neg","raw":"D","gold":["A","C","D"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"thief_bag_reach_pos","qa_id":"qa_t_syn_thief_bag_reach_pos","raw":"C; D","gold":["A","B"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"tour_cone","qa_id":"qa_t_syn_tour_cone","raw":"A","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"tour_kid_rail","qa_id":"qa_t_syn_tour_kid_rail","raw":"A","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"tutor_hold","qa_id":"qa_t_syn_tutor_hold__v20261011","raw":"A. 保持沉默。","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"wheel_door","qa_id":"qa_t_syn_wheel_door","raw":"A. 保持沉默。","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"wheel_gap","qa_id":"qa_t_syn_wheel_gap","raw":"A. 保持沉默。","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"wheel_path","qa_id":"qa_t_syn_wheel_path","raw":"A","gold":["C"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"wt_ball_shoot","qa_id":"qa_t_syn_wt_ball_shoot","raw":"B. 0–7.5秒","gold":["C"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"wt_cafe_sit","qa_id":"qa_t_syn_wt_cafe_sit","raw":"D","gold":["A"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"wt_office_type","qa_id":"qa_t_syn_wt_office_type","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"wt_school_write","qa_id":"qa_t_syn_wt_school_write","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"ask_home_mix","qa_id":"qa_t_synthetic_ask_home_mix__v20261010","raw":"D","gold":["C"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"ask_hos_med","qa_id":"qa_t_synthetic_ask_hos_med__v20261011","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"ask_office_tool","qa_id":"qa_t_synthetic_ask_office_tool__v20261010","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"ask_park_bird","qa_id":"qa_t_synthetic_ask_park_bird__v20261010","raw":"B；C","gold":["D"],"picks":["B","C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"cb_shop_pepper.try1","qa_id":"qa_t_synthetic_cb_shop_pepper.try1__v20261010","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"ego_coffee_machine","qa_id":"qa_t_synthetic_ego_coffee_machine__v20261010","raw":"A。","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"fb_farm_shovel","qa_id":"qa_t_synthetic_fb_farm_shovel__v20261010","raw":"A","gold":["D"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"fb_home_plant","qa_id":"qa_t_synthetic_fb_home_plant__v20261010","raw":"A. 保持沉默。","gold":["A"],"picks":["A"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"fb_pet_bowl","qa_id":"qa_t_synthetic_fb_pet_bowl__v20261010","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"grade_slip_bath_neg","qa_id":"qa_t_synthetic_grade_slip_bath_neg__v20261010","raw":"B; D","gold":["B","D"],"picks":["B","D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"grade_slip_bath_pos","qa_id":"qa_t_synthetic_grade_slip_bath_pos__v20261010","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"group_ball","qa_id":"qa_t_synthetic_group_ball__v20261010","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"in_alz_coat","qa_id":"qa_t_synthetic_in_alz_coat__v20261010","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"in_alz_shoes","qa_id":"qa_t_synthetic_in_alz_shoes__v20261010","raw":"C; D","gold":["B"],"picks":["C","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"in_chronic_plate","qa_id":"qa_t_synthetic_in_chronic_plate__v20261010","raw":"B. 保持沉默。","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"in_chronic_sit","qa_id":"qa_t_synthetic_in_chronic_sit__v20261010","raw":"B","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"life_food_fried","qa_id":"qa_t_synthetic_life_food_fried__v20261010","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"metro_edge_light","qa_id":"qa_t_synthetic_metro_edge_light__v20261010","raw":"A. 保持沉默。","gold":["B"],"picks":["A"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"mon_baby_fall","qa_id":"qa_t_synthetic_mon_baby_fall__v20261010","raw":"B; D","gold":["B","C"],"picks":["B","D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"p4_cafe_wait","qa_id":"qa_t_synthetic_p4_cafe_wait__v20261010","raw":"D","gold":["B"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"p4_neg_phone","qa_id":"qa_t_synthetic_p4_neg_phone__v20261010","raw":"B. 保持沉默。","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"p4_neg_read","qa_id":"qa_t_synthetic_p4_neg_read__v20261010","raw":"D","gold":["D"],"picks":["D"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"p4_neg_sing","qa_id":"qa_t_synthetic_p4_neg_sing__v20261010","raw":"B","gold":["A"],"picks":["B"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"p4_neg_tired","qa_id":"qa_t_synthetic_p4_neg_tired__v20261010","raw":"B. 保持沉默。","gold":["B"],"picks":["B"],"valid":true,"exact":true}
+{"model":"minicpm-o-4.5","case_id":"p4_tour_view","qa_id":"qa_t_synthetic_p4_tour_view__v20261010","raw":"D","gold":["B"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"patrol_cone_jaywalk","qa_id":"qa_t_synthetic_patrol_cone_jaywalk__v20261010","raw":"C","gold":["D"],"picks":["C"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"probe_word_boy","qa_id":"qa_t_synthetic_probe_word_boy__v20261010","raw":"D","gold":["B"],"picks":["D"],"valid":true,"exact":false}
+{"model":"minicpm-o-4.5","case_id":"tour_elder_steps","qa_id":"qa_t_synthetic_tour_elder_steps__v20261010","raw":"C","gold":["C"],"picks":["C"],"valid":true,"exact":true}

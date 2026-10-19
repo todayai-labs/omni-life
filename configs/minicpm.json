@@ -1,0 +1,15 @@
+{
+  "model_id": "minicpm-o-4.5",
+  "checkpoint_revision": "503e754207c94da6bb26850b4469f367c9ea3582",
+  "seed": 20261008,
+  "input_contract": "omnilife-av-source-aligned-v1",
+  "checkpoint": "openbmb/MiniCPM-o-4_5",
+  "generate_audio": false,
+  "decode_mode": "greedy",
+  "max_new_speak_tokens_per_chunk": 20,
+  "force_listen_count": 0,
+  "frame_rate_hz": 1,
+  "frame_width": 640,
+  "audio_sample_rate_hz": 16000,
+  "audio_chunk_s": 1.0
+}

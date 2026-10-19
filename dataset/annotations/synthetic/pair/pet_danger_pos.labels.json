@@ -1,0 +1,44 @@
+{
+  "id": "pet_danger_pos",
+  "form": "pair",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "宠物",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看狗，有情况告诉我。"
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 11,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 11,
+      "end": 13.1,
+      "action": "[warn]",
+      "text_zh": "狗狗正在靠近桌上的巧克力，快去阻止它。",
+      "text_en": "The dog is getting close to the chocolate on the table, go stop it!"
+    },
+    {
+      "start": 13.1,
+      "end": 15.1,
+      "action": "[warn]",
+      "text_zh": "狗狗正在咬取桌上的巧克力，快去阻止它！",
+      "text_en": "The dog is biting at the chocolate on the table. Please stop it!"
+    }
+  ],
+  "target_people_detail": "宠物",
+  "population_id": "pet",
+  "assistant_role": "宠物照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "binary_pair",
+  "pair_id": "pet_danger"
+}

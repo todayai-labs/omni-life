@@ -1,0 +1,36 @@
+{
+  "id": "elder_mobility",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "居家监控",
+  "target_people": "独居老人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看老人，有危险或需要帮助时及时通知我。",
+      "text_en": "Please help me look after the elderly person, and notify me in time if there is any danger or if they need help."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "action": "[warn]",
+      "text_zh": "老人正在台阶边弯腰拿凳子，容易摔倒，快去帮一下。",
+      "text_en": "The elderly person is bending down to grab a stool near the steps and might fall, please go help them."
+    },
+    {
+      "start": 8.0,
+      "end": 95.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "独居老人",
+  "population_id": "elder",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "deaf_timer",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "听障者",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "我是听障人士，请帮我盯着烤箱定时器，到时间了提醒我。",
+      "text_en": "I am hearing impaired, please help me keep an eye on the oven timer and remind me when the time is up."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "action": "[inform]",
+      "text_zh": "烤箱定时已到，请注意查看。",
+      "text_en": "The oven timer went off, please check on it."
+    },
+    {
+      "start": 4.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "听障者",
+  "population_id": "deaf",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

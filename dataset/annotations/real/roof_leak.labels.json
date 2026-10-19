@@ -1,0 +1,57 @@
+{
+  "id": "roof_leak",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "手持观察视角",
+  "target_people": "成人",
+  "scene": "厨房",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意室内情况，发现漏水或持续滴水时及时告诉我位置和情况。",
+      "text_en": "Please monitor the room and tell me the location and situation if you observe a leak or persistent dripping."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 2,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 2,
+      "end": 5,
+      "action": "[inform]",
+      "text_zh": "厨房天花板灯具附近正在漏水。",
+      "text_en": "Water is leaking near a light fixture in the kitchen ceiling."
+    },
+    {
+      "start": 5,
+      "end": 22,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 22,
+      "end": 25,
+      "action": "[inform]",
+      "text_zh": "地面上放着多个接水容器和布，正在接住漏下的水。",
+      "text_en": "Several containers and cloths on the floor are catching the leaking water."
+    },
+    {
+      "start": 25,
+      "end": 72.37,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "成人",
+  "population_id": "adult",
+  "assistant_role": "居家异常监护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

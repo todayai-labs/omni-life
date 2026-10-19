@@ -1,0 +1,37 @@
+{
+  "id": "ask_school_word",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "学龄儿童",
+  "scene": "学校",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "学习助手，请陪我一起学习，如果我向你提问，请及时回答我。",
+      "text_en": "Learning Assistant, please study with me and answer promptly if I ask you questions."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 12.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 12.5,
+      "end": 15.1,
+      "action": "[answer]",
+      "text_zh": "abandon 是放弃、抛弃的意思。",
+      "text_en": "Abandon means to give up or discard something."
+    }
+  ],
+  "target_people_detail": "学生",
+  "population_id": "kid",
+  "assistant_role": "学习助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "教室监控",
+  "eval_group": "general"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "drum_teach",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "排练室监控",
+  "target_people": "成人",
+  "scene": "排练室",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我记录打鼓练习，结束时提醒我。",
+      "text_en": "Please help me record the drumming practice and remind me when it's finished."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 60.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "练乐器的人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "thief_bag_reach_pos",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "第一人称视角",
+  "target_people": "成人",
+  "scene": "交通",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "巡逻机器人，请留意现场人员和物品安全，有异常及时警告，情况变化也请告诉我。",
+      "text_en": "Patrol robot, please keep an eye on the safety of personnel and items on site, warn of any abnormalities in a timely manner, and let me know if the situation changes."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 2.0,
+      "end": 23.0,
+      "action": "[warn]",
+      "text_zh": "有人在拉你的包，请注意防盗。",
+      "text_en": "Someone is pulling at your bag, watch out for pickpockets."
+    },
+    {
+      "start": 23.0,
+      "end": 30.1,
+      "action": "[inform]",
+      "text_zh": "包的拉链被拉开了，请检查随身物品。",
+      "text_en": "Your bag is unzipped, please check your belongings."
+    }
+  ],
+  "target_people_detail": "路上的行人",
+  "population_id": "adult",
+  "assistant_role": "巡逻机器人",
+  "assistant_role_basis": "用户任务设定",
+  "eval_group": "general"
+}

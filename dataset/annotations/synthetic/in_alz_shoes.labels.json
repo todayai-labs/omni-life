@@ -1,0 +1,44 @@
+{
+  "id": "in_alz_shoes",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "认知障碍",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意老人出门的安全，有风险或不安全的行为时提醒我。",
+      "text_en": "Please watch for the older person’s safety when going outside and alert me to risks or unsafe behavior."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 7.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 7.5,
+      "end": 12.0,
+      "action": "[warn]",
+      "text_zh": "您没穿鞋，请不要直接走到室外。",
+      "text_en": "You're not wearing shoes. Please don't go outside barefoot."
+    },
+    {
+      "start": 12.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "认知障碍者",
+  "population_id": "alz",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

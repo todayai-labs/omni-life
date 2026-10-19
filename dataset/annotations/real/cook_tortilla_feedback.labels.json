@@ -1,0 +1,43 @@
+{
+  "id": "cook_tortilla_feedback",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "AI眼镜",
+  "target_people": "成人",
+  "scene": "厨房",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我做这道菜，如果有不规范或有安全隐患的操作请及时提醒我。",
+      "text_en": "Please watch me cook this dish and warn me immediately if there are any improper or unsafe practices."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 16.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 16.5,
+      "end": 21.5,
+      "action": "[feedback]",
+      "text_zh": "微波炉加热蛋液两分钟太久，容易变硬炸开。",
+      "text_en": "Microwaving the eggs for two minutes is too long; they might get tough or explode."
+    },
+    {
+      "start": 21.5,
+      "end": 60.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "下厨的人",
+  "population_id": "adult",
+  "assistant_role": "生活协作助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

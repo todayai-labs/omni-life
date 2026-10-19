@@ -1,0 +1,86 @@
+{
+  "id": "cnt_ball_layup_miss",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "户外运动",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我统计投篮进球，每完成一个进球就报告累计次数，结束后汇总。",
+      "text_en": "Please count my made baskets, report the running total after each completed one, and summarize when the activity ends."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 2.0,
+      "end": 3.5,
+      "action": "[inform]",
+      "text_zh": "第一个，上篮打进。",
+      "text_en": "First one, he makes the layup."
+    },
+    {
+      "start": 3.5,
+      "end": 6.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 6.0,
+      "end": 7.5,
+      "action": "[inform]",
+      "text_zh": "第二个，篮下投进。",
+      "text_en": "Second one, scored under the basket."
+    },
+    {
+      "start": 7.5,
+      "end": 9.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 9.5,
+      "end": 11.0,
+      "action": "[inform]",
+      "text_zh": "第三个，中投打进。",
+      "text_en": "Third one, mid-range shot is in."
+    },
+    {
+      "start": 11.0,
+      "end": 12.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 12.5,
+      "end": 14.0,
+      "action": "[inform]",
+      "text_zh": "第四个，上篮再进。",
+      "text_en": "The fourth one, another layup goes in."
+    },
+    {
+      "start": 14.0,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "一共投进四个球，命中率百分之百。",
+      "text_en": "A total of four shots were made, with a 100% success rate."
+    }
+  ],
+  "target_people_detail": "运动的人",
+  "population_id": "adult",
+  "assistant_role": "运动助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "球场监控",
+  "eval_group": "general"
+}

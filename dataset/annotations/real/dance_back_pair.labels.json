@@ -1,0 +1,85 @@
+{
+  "id": "dance_back_pair",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "训练室监控",
+  "target_people": "成人",
+  "scene": "室内运动",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我们检查舞蹈动作，有不规范的地方及时纠正，练习结束后简要总结动作表现。",
+      "text_en": "Please check our dance moves, correct anything irregular right away, and briefly summarize the performance when practice ends."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 7.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 7.0,
+      "end": 10.0,
+      "action": "[feedback]",
+      "text_zh": "下蹲时膝盖再弯曲一点，身体自然前倾。",
+      "text_en": "Bend your knees a bit more as you squat, and lean forward naturally."
+    },
+    {
+      "start": 10.0,
+      "end": 16.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 16.5,
+      "end": 19.5,
+      "action": "[feedback]",
+      "text_zh": "右手向上完全伸直，身体向左侧弯。",
+      "text_en": "Stretch your right arm straight up and bend your body to the left."
+    },
+    {
+      "start": 19.5,
+      "end": 68.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 68.0,
+      "end": 71.0,
+      "action": "[feedback]",
+      "text_zh": "这里要深蹲下去，上身前倾，保持平衡。",
+      "text_en": "Squat down here, lean forward, and keep your balance."
+    },
+    {
+      "start": 71.0,
+      "end": 88.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 88.5,
+      "end": 91.5,
+      "action": "[feedback]",
+      "text_zh": "右手向上指，身体向上延伸，姿态要舒展。",
+      "text_en": "Point your right hand up, stretch your body upward, and keep your posture open."
+    },
+    {
+      "start": 91.5,
+      "end": 94.7,
+      "action": "[inform]",
+      "text_zh": "整体节奏跟得很好，注意下蹲和延伸的幅度。",
+      "text_en": "Your rhythm is great, just watch the depth of your squats and extensions."
+    }
+  ],
+  "target_people_detail": "运动的人",
+  "population_id": "adult",
+  "assistant_role": "运动助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

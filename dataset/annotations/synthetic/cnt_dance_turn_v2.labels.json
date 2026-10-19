@@ -1,0 +1,86 @@
+{
+  "id": "cnt_dance_turn_v2",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "室内运动",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我统计旋转动作的次数，每次起跳、旋转后落地算一次动作，完成一次就报累计次数，结束后汇总。",
+      "text_en": "Please help me count the number of spins. Each jump, spin, and landing counts as one repetition. Announce the cumulative count after each completion, and summarize at the end."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 3.0,
+      "end": 4.0,
+      "action": "[inform]",
+      "text_zh": "完成第一次旋转动作",
+      "text_en": "Completed the first rotation."
+    },
+    {
+      "start": 4.0,
+      "end": 6.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 6.0,
+      "end": 7.0,
+      "action": "[inform]",
+      "text_zh": "完成第二次旋转动作",
+      "text_en": "Completed the second rotation movement."
+    },
+    {
+      "start": 7.0,
+      "end": 9.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 9.0,
+      "end": 10.0,
+      "action": "[inform]",
+      "text_zh": "完成第三次旋转动作",
+      "text_en": "Completed the third rotation."
+    },
+    {
+      "start": 10.0,
+      "end": 12.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 12.5,
+      "end": 13.5,
+      "action": "[inform]",
+      "text_zh": "完成第四次旋转动作",
+      "text_en": "Completed the fourth rotation movement."
+    },
+    {
+      "start": 13.5,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "你一共完成了四次旋转动作。",
+      "text_en": "You have completed a total of four rotations."
+    }
+  ],
+  "target_people_detail": "运动的人",
+  "population_id": "adult",
+  "assistant_role": "运动助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "训练室监控",
+  "eval_group": "general"
+}

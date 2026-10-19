@@ -1,0 +1,37 @@
+{
+  "id": "in_alz_drawer",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "认知障碍",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意老人找东西的情况，把他的寻找动作和遇到的困难告诉我。",
+      "text_en": "Please observe the older person looking for things and tell me about the search and any apparent difficulties."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 9.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 9.0,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "老人刚刚打开抽屉看了一下，随后又关上了，现在站在原地，似乎忘记了要拿什么。",
+      "text_en": "The elderly person just opened the drawer, looked inside, and then closed it. He is now standing there, seemingly forgetting what he wanted to get."
+    }
+  ],
+  "target_people_detail": "认知障碍者",
+  "population_id": "alz",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

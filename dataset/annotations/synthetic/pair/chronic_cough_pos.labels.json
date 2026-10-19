@@ -1,0 +1,49 @@
+{
+  "id": "chronic_cough_pos",
+  "form": "pair",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "慢病患者",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意患者的状态，持续不适且尚未得到及时处理时通知我；患者或照护者已及时处理、情况受控时，不必重复提醒。",
+      "text_en": "Please monitor the patient and notify me of persistent distress that has not been promptly addressed. When the patient or caregiver has acted promptly and the situation is under control, do not repeat the alert."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 7,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 7,
+      "end": 11,
+      "action": "[warn]",
+      "text_zh": "老人仍在剧烈咳嗽，照护者已经离开，请及时查看并按既定照护安排提供帮助。",
+      "text_en": "The older adult is still coughing heavily and the caregiver has left. Please check on them promptly and provide help according to the established care plan."
+    },
+    {
+      "start": 11,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "慢病患者",
+  "population_id": "chronic",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "task_context": {
+    "text_zh": "任务背景（人工确认）：片中的吸入设备属于该患者既定的用药设备；本任务只判断持续不适是否得到及时照护，不要求诊断。",
+    "text_en": "Task context (human-confirmed): the inhalation device in this clip is part of this patient's established medication plan. This task assesses whether persistent distress receives prompt care; it does not require a diagnosis."
+  },
+  "eval_group": "binary_pair",
+  "pair_id": "chronic_cough"
+}

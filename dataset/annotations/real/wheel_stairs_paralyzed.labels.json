@@ -1,0 +1,85 @@
+{
+  "id": "wheel_stairs_paralyzed",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "居家监控",
+  "target_people": "行动障碍",
+  "scene": "室内楼梯",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着她在室内楼梯上移动，有重要进展或情况变化时告诉我。",
+      "text_en": "Please watch her moving on the indoor stairs, and let me know if there are important developments or changes in the situation."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 5,
+      "end": 9,
+      "action": "[inform]",
+      "text_zh": "她正在离开轮椅，转移到楼梯上。",
+      "text_en": "She is transferring from the wheelchair onto the stairs."
+    },
+    {
+      "start": 9,
+      "end": 12,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 12,
+      "end": 16,
+      "action": "[inform]",
+      "text_zh": "她正在用手臂支撑身体，沿楼梯向上挪动。",
+      "text_en": "She is supporting herself with her arms and moving up the stairs."
+    },
+    {
+      "start": 16,
+      "end": 40,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 40,
+      "end": 43,
+      "action": "[inform]",
+      "text_zh": "她已移动到楼梯上方，正在扶着栏杆。",
+      "text_en": "She has moved to the upper part of the staircase and is holding the railing."
+    },
+    {
+      "start": 43,
+      "end": 44,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 44,
+      "end": 48,
+      "action": "[inform]",
+      "text_zh": "她正在沿楼梯向下挪动。",
+      "text_en": "She is moving down the stairs."
+    },
+    {
+      "start": 48,
+      "end": 70.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "使用轮椅的女性",
+  "population_id": "wheel",
+  "assistant_role": "无障碍生活助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "cook_bake_feedback",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "AI眼镜",
+  "target_people": "成人",
+  "scene": "厨房",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我按菜谱烘焙，这次面粉只取一勺，如果我再取，请提醒我纠正。",
+      "text_en": "Please watch me bake according to the recipe. I should take only one scoop of flour this time; if I take another, please correct me."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 56.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 56.0,
+      "end": 59.0,
+      "action": "[feedback]",
+      "text_zh": "您已经取过一勺面粉了，请先不要再取第二勺。",
+      "text_en": "You have already taken one scoop of flour, please do not take a second scoop yet."
+    },
+    {
+      "start": 59.0,
+      "end": 60.01,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "下厨的人",
+  "population_id": "adult",
+  "assistant_role": "生活协作助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

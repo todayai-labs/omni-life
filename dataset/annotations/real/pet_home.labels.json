@@ -1,0 +1,57 @@
+{
+  "id": "pet_home",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "居家监控",
+  "target_people": "宠物",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看狗狗，有危险或需要关注的情况时及时提醒我。",
+      "text_en": "Please watch over the dog and alert me promptly to danger or situations needing attention."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 3.0,
+      "end": 8.0,
+      "action": "[warn]",
+      "text_zh": "狗狗跳上茶几开始嚎叫了，注意跌落风险。",
+      "text_en": "The dog jumped onto the coffee table and is howling, watch out so it doesn't fall."
+    },
+    {
+      "start": 8.0,
+      "end": 49.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 49.0,
+      "end": 54.0,
+      "action": "[inform]",
+      "text_zh": "狗狗在茶几上趴下了，目前情绪有所稳定。",
+      "text_en": "The dog has laid down on the coffee table and seems calmer now."
+    },
+    {
+      "start": 54.0,
+      "end": 55.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "宠物",
+  "population_id": "pet",
+  "assistant_role": "宠物照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}
