@@ -1,0 +1,38 @@
+{
+  "id": "elder_box_m_pos",
+  "form": "pair",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "独居老人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看老人搬东西，如果视线受阻有碰撞危险或发生意外摔倒，请及时提醒。",
+      "text_en": "Please help me watch the elderly person moving things, and alert me immediately if their line of sight is blocked posing a collision risk, or if an accidental fall occurs."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 4.5,
+      "action": "[warn]",
+      "text_zh": "前方有茶几，请注意脚下安全。",
+      "text_en": "Coffee table ahead, please watch your step."
+    },
+    {
+      "start": 4.5,
+      "end": 15.1,
+      "action": "[warn]",
+      "text_zh": "您摔倒了，请先别乱动，请附近的人查看并帮忙联系家人。",
+      "text_en": "You have fallen. Please avoid moving hastily and ask someone nearby to check on you and help contact your family."
+    }
+  ],
+  "target_people_detail": "独居老人",
+  "population_id": "elder",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "binary_pair",
+  "pair_id": "elder_box_m"
+}

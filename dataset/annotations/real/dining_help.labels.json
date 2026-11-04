@@ -1,0 +1,57 @@
+{
+  "id": "dining_help",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "居家监控",
+  "target_people": "多人场合",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看餐厅里的人，有异常或危险情况请及时提醒我。",
+      "text_en": "Please help me look after the people in the restaurant, and alert me in time if there is any abnormal or dangerous situation."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 13.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 13.0,
+      "end": 18.0,
+      "action": "[warn]",
+      "text_zh": "有人摔倒了，快去看看！",
+      "text_en": "Someone fell down, go check on them quickly."
+    },
+    {
+      "start": 18.0,
+      "end": 35.0,
+      "action": "[warn]",
+      "text_zh": "家属正在扶她，她看起来有些痛苦。",
+      "text_en": "Her family is holding her up, and she seems to be in pain."
+    },
+    {
+      "start": 35.0,
+      "end": 40.0,
+      "action": "[inform]",
+      "text_zh": "女子已被扶到椅子上坐下休息。",
+      "text_en": "She has been helped into a chair to rest."
+    },
+    {
+      "start": 40.0,
+      "end": 75.7,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "多人场合",
+  "population_id": "group",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

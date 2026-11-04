@@ -1,0 +1,43 @@
+{
+  "id": "kid_book",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "居家监控",
+  "target_people": "学龄儿童",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我看着孩子写字，如果他坐姿不端正，请帮我纠正。",
+      "text_en": "Please help me watch the child writing, and help me correct him if his posture is poor."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 2.0,
+      "end": 6.0,
+      "action": "[feedback]",
+      "text_zh": "请端正坐姿，不要趴在桌上写字。",
+      "text_en": "Sit up straight and don't slouch over the desk while writing."
+    },
+    {
+      "start": 6.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "学龄儿童",
+  "population_id": "kid",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

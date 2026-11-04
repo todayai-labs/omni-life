@@ -1,0 +1,55 @@
+{
+  "id": "alz_home",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "移动第三人称拍摄（含剪辑）",
+  "target_people": "认知障碍",
+  "scene": "室内（房间与厨房）",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看奶奶，有需要关注的情绪或行为变化时告诉我，情况稳定时简要总结照看情况。",
+      "text_en": "Please watch over grandma, tell me about changes in her mood or behavior that need attention, and briefly summarize her care when the situation is stable."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 11.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 11.5,
+      "end": 16.0,
+      "action": "[inform]",
+      "text_zh": "奶奶在房间里反复找东西，现在看起来有些焦虑。",
+      "text_en": "Grandma is searching all over the room and seems a bit anxious."
+    },
+    {
+      "start": 16.0,
+      "end": 41.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 41.0,
+      "end": 45.0,
+      "action": "[inform]",
+      "text_zh": "奶奶通过帮忙洗菜转移了注意力，情绪已平稳。",
+      "text_en": "Grandma calmed down after helping wash the vegetables."
+    }
+  ],
+  "target_people_detail": "认知障碍者",
+  "population_id": "alz",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "media_processing": {
+    "subtitles": "opaque-masked central captions 0–16s and lower caption band throughout",
+    "original_audio": "removed",
+    "duration_sec": 45.0
+  },
+  "eval_group": "general"
+}

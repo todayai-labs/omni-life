@@ -1,0 +1,65 @@
+{
+  "id": "cnt_street_bus",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "交通",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我数驶过的公交车，每经过一辆就报告累计数量，这批车辆通过后汇总。",
+      "text_en": "Please count the buses passing by, report the running total after each bus, and summarize once this group of vehicles has passed."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "action": "[inform]",
+      "text_zh": "第一辆公交车。",
+      "text_en": "The first bus."
+    },
+    {
+      "start": 3.0,
+      "end": 4.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 4.5,
+      "end": 8.0,
+      "action": "[inform]",
+      "text_zh": "第二辆公交车。",
+      "text_en": "The second bus."
+    },
+    {
+      "start": 8.0,
+      "end": 11.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 11.0,
+      "end": 14.0,
+      "action": "[inform]",
+      "text_zh": "第三辆公交车。",
+      "text_en": "The third bus."
+    },
+    {
+      "start": 14.0,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "一共开过去三辆公交车。",
+      "text_en": "A total of three buses drove past."
+    }
+  ],
+  "target_people_detail": "路上的行人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "站台监控",
+  "eval_group": "general"
+}

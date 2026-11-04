@@ -1,0 +1,148 @@
+{
+  "id": "fall_s3",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "居家监控",
+  "target_people": "独居老人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看房间里的人，有危险及时通知我，情况变化也请告诉我。",
+      "text_en": "Please help me watch the people in the room, notify me immediately if there is any danger, and also let me know if the situation changes."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 3.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 3.5,
+      "end": 7.5,
+      "action": "[warn]",
+      "text_zh": "有人摔倒了，请注意",
+      "text_en": "Someone has fallen down, please be careful."
+    },
+    {
+      "start": 7.5,
+      "end": 8.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 8.0,
+      "end": 9.5,
+      "action": "[inform]",
+      "text_zh": "她已经自己站起来了",
+      "text_en": "She got back up on her own."
+    },
+    {
+      "start": 9.5,
+      "end": 11.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 11.0,
+      "end": 15.5,
+      "action": "[warn]",
+      "text_zh": "她又摔倒了",
+      "text_en": "She's fallen again."
+    },
+    {
+      "start": 15.5,
+      "end": 16.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 16.5,
+      "end": 20.5,
+      "action": "[inform]",
+      "text_zh": "她又站起来了",
+      "text_en": "She's back up again."
+    },
+    {
+      "start": 20.5,
+      "end": 21.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 21.5,
+      "end": 23.5,
+      "action": "[warn]",
+      "text_zh": "她再次摔倒了",
+      "text_en": "She fell down again."
+    },
+    {
+      "start": 23.5,
+      "end": 24.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 24.5,
+      "end": 26.5,
+      "action": "[inform]",
+      "text_zh": "她又站起来了",
+      "text_en": "She's back up again."
+    },
+    {
+      "start": 26.5,
+      "end": 27.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 27.5,
+      "end": 34.5,
+      "action": "[warn]",
+      "text_zh": "她再次摔倒，躺在地上没动",
+      "text_en": "She fell again and is lying still on the floor."
+    },
+    {
+      "start": 34.5,
+      "end": 36.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 36.0,
+      "end": 37.5,
+      "action": "[inform]",
+      "text_zh": "她坐到椅子上了",
+      "text_en": "She sat down in the chair."
+    },
+    {
+      "start": 37.5,
+      "end": 39.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 39.0,
+      "end": 45.0,
+      "action": "[warn]",
+      "text_zh": "她又从椅子上摔下来了，躺在地上没动",
+      "text_en": "She fell off her chair again and is lying still on the floor."
+    }
+  ],
+  "target_people_detail": "独居老人",
+  "population_id": "elder",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

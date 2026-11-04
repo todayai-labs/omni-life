@@ -1,0 +1,37 @@
+{
+  "id": "sm_run_done",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "户外运动",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我跑步，结束后帮我总结一下。",
+      "text_en": "Please watch me run, and help me summarize it when I'm finished."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 11.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 11.0,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "你完成了两组冲刺，辛苦了，注意调整呼吸。",
+      "text_en": "You've finished two sets of sprints. Great job, now catch your breath."
+    }
+  ],
+  "target_people_detail": "运动的人",
+  "population_id": "adult",
+  "assistant_role": "运动助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "跑道监控",
+  "eval_group": "general"
+}

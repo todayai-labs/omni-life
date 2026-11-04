@@ -1,0 +1,36 @@
+{
+  "id": "agr_cow_med",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "第一人称运动相机视角",
+  "target_people": "成人",
+  "scene": "农业",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我找到挂着白色药瓶的生病小牛，并且告诉我。",
+      "text_en": "Please find the sick calf with a white medicine bottle hanging by it, and tell me."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 9.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 9.5,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "眼前这头棕白色小牛的围栏上挂着白色药瓶，它需要照顾。",
+      "text_en": "The brown-and-white calf directly in front has a white medicine bottle on its pen and needs care."
+    }
+  ],
+  "target_people_detail": "务农的人",
+  "population_id": "adult",
+  "assistant_role": "农业助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

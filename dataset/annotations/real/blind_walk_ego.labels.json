@@ -1,0 +1,71 @@
+{
+  "id": "blind_walk_ego",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "AI眼镜",
+  "target_people": "视障者",
+  "scene": "交通",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意行走路况，有障碍物或危险及时提醒我。",
+      "text_en": "Please help me keep an eye on the road conditions while walking, and alert me in time if there are any obstacles or dangers."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 15.0,
+      "end": 18.0,
+      "action": "[inform]",
+      "text_zh": "前方盲道有车辆停放，请注意避让。",
+      "text_en": "Vehicle parked on the tactile paving ahead, please watch out."
+    },
+    {
+      "start": 18.0,
+      "end": 47.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 47.0,
+      "end": 50.0,
+      "action": "[inform]",
+      "text_zh": "前方有花盆占用盲道。",
+      "text_en": "There's a flowerpot blocking the tactile paving ahead."
+    },
+    {
+      "start": 50.0,
+      "end": 52.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 52.0,
+      "end": 55.0,
+      "action": "[inform]",
+      "text_zh": "前方停有一辆白色面包车。",
+      "text_en": "There's a white van parked ahead."
+    },
+    {
+      "start": 55.0,
+      "end": 80.3,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "视障者",
+  "population_id": "blind",
+  "assistant_role": "无障碍生活助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

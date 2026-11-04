@@ -1,0 +1,37 @@
+{
+  "id": "fb_school_sit",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "学龄儿童",
+  "scene": "学校",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "学习助手，请帮我留意孩子的学习状态和坐姿，有不规范的地方提醒他纠正。",
+      "text_en": "Learning Assistant, please help me monitor the child's learning state and sitting posture, and remind him to correct any improper ones."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "action": "[feedback]",
+      "text_zh": "请端正坐姿，不要趴在桌上睡觉。",
+      "text_en": "Sit up straight and don't sleep on the desk."
+    },
+    {
+      "start": 4.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "学生",
+  "population_id": "kid",
+  "assistant_role": "学习助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "教室监控",
+  "eval_group": "general"
+}

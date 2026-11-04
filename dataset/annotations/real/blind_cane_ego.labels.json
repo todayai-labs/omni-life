@@ -1,0 +1,162 @@
+{
+  "id": "blind_cane_ego",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "AI眼镜",
+  "target_people": "视障者",
+  "scene": "街面",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请协助我安全行走和过街，提供路线引导，有障碍物或危险及时提醒，完成后帮我总结行程。",
+      "text_en": "Please help me walk and cross streets safely, provide route guidance, alert me to obstacles or dangers, and summarize the journey when it is finished."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 5.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 5.0,
+      "end": 10.0,
+      "action": "[inform]",
+      "text_zh": "前方是红绿灯柱，可以按下过街按钮",
+      "text_en": "There's a traffic light pole ahead, you can press the button to cross."
+    },
+    {
+      "start": 10.0,
+      "end": 15.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 15.0,
+      "end": 20.0,
+      "action": "[warn]",
+      "text_zh": "前方有车辆通过，请在路边等待",
+      "text_en": "Traffic passing ahead, please wait by the roadside."
+    },
+    {
+      "start": 20.0,
+      "end": 26.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 26.0,
+      "end": 31.0,
+      "action": "[inform]",
+      "text_zh": "有一名行人从你身边走过",
+      "text_en": "A pedestrian walked past you."
+    },
+    {
+      "start": 31.0,
+      "end": 39.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 39.0,
+      "end": 43.0,
+      "action": "[warn]",
+      "text_zh": "前方仍有车辆通过，请继续等待",
+      "text_en": "Cars are still passing ahead, please keep waiting."
+    },
+    {
+      "start": 43.0,
+      "end": 53.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 53.0,
+      "end": 57.0,
+      "action": "[warn]",
+      "text_zh": "前方有车辆通过，请在路边等待",
+      "text_en": "Traffic passing ahead, please wait by the roadside."
+    },
+    {
+      "start": 57.0,
+      "end": 70.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 70.0,
+      "end": 75.0,
+      "action": "[inform]",
+      "text_zh": "前方车辆已通过，可以安全过马路了",
+      "text_en": "The traffic has cleared, it's safe to cross now."
+    },
+    {
+      "start": 75.0,
+      "end": 87.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 87.0,
+      "end": 92.0,
+      "action": "[inform]",
+      "text_zh": "已到达安全岛，请调整方向准备第二次过街",
+      "text_en": "You've reached the safety island, get ready to cross the next street."
+    },
+    {
+      "start": 92.0,
+      "end": 93.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 93.0,
+      "end": 97.0,
+      "action": "[warn]",
+      "text_zh": "前方有车辆通过，请在安全岛等待",
+      "text_en": "Traffic passing ahead, please wait on the safety island."
+    },
+    {
+      "start": 97.0,
+      "end": 98.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 98.0,
+      "end": 102.0,
+      "action": "[inform]",
+      "text_zh": "前方车辆已通过，可以安全过马路了",
+      "text_en": "The traffic has cleared, it's safe to cross now."
+    },
+    {
+      "start": 102.0,
+      "end": 108.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 108.0,
+      "end": 113.6,
+      "action": "[inform]",
+      "text_zh": "你已成功安全通过两次马路",
+      "text_en": "You've successfully crossed the street twice."
+    }
+  ],
+  "target_people_detail": "视障者",
+  "population_id": "blind",
+  "assistant_role": "无障碍生活助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

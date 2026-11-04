@@ -1,0 +1,43 @@
+{
+  "id": "test_kit",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "第一人称视角",
+  "target_people": "慢病患者",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我做这个检测，出结果时告诉我。",
+      "text_en": "Please watch me run this test and let me know when the results are out."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 120.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 120.0,
+      "end": 126.0,
+      "action": "[inform]",
+      "text_zh": "检测卡显示两道杠，结果呈阳性。",
+      "text_en": "The test shows two lines, meaning it's positive."
+    },
+    {
+      "start": 126.0,
+      "end": 145.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "慢病患者",
+  "population_id": "chronic",
+  "assistant_role": "手机助手",
+  "assistant_role_basis": "用户任务设定",
+  "eval_group": "general"
+}

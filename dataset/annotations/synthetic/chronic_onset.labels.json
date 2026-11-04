@@ -1,0 +1,51 @@
+{
+  "id": "chronic_onset",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "慢病患者",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看老人，有异常或危险情况及时提醒我。",
+      "text_en": "Please help me look after the elderly person, and alert me in time if there is any abnormal or dangerous situation."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "action": "[warn]",
+      "text_zh": "您手抖得厉害，请先坐下休息。",
+      "text_en": "Your hands are shaking quite a bit. Please sit down and rest."
+    },
+    {
+      "start": 3.0,
+      "end": 7.0,
+      "action": "[warn]",
+      "text_zh": "您身体在摇晃，请扶好，谨防摔倒。",
+      "text_en": "You're swaying a bit. Please hold onto something so you don't fall."
+    },
+    {
+      "start": 7.0,
+      "end": 9.5,
+      "action": "[warn]",
+      "text_zh": "您摔倒了，请保持静止，等待救援。",
+      "text_en": "You've fallen. Please stay still and wait for help."
+    },
+    {
+      "start": 9.5,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "慢病患者",
+  "population_id": "chronic",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

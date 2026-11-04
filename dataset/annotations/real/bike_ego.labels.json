@@ -1,0 +1,71 @@
+{
+  "id": "bike_ego",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "运动相机视角",
+  "target_people": "成人",
+  "scene": "交通",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我看着路况，有危险或需要注意的情况请及时提醒我。",
+      "text_en": "Please watch the road conditions for me and please alert me immediately if there is any danger or anything I need to pay attention to."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 5.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 5.5,
+      "end": 8.5,
+      "action": "[inform]",
+      "text_zh": "前方红灯，请减速停车。",
+      "text_en": "There is a red light ahead. Please slow down and stop."
+    },
+    {
+      "start": 8.5,
+      "end": 25.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 25.5,
+      "end": 28.5,
+      "action": "[warn]",
+      "text_zh": "注意左侧超车车辆。",
+      "text_en": "Watch out for overtaking vehicles on your left."
+    },
+    {
+      "start": 28.5,
+      "end": 55.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 55.0,
+      "end": 58.0,
+      "action": "[warn]",
+      "text_zh": "注意右侧大卡车，保持安全距离。",
+      "text_en": "Watch out for the large truck on your right and keep a safe distance."
+    },
+    {
+      "start": 58.0,
+      "end": 65.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "骑车的人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

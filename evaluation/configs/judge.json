@@ -1,0 +1,9 @@
+{
+  "requested_model": "deepseek-v4-flash",
+  "observed_returned_model": "deepseek-v4-flash-0731",
+  "temperature": 0,
+  "thinking": "disabled",
+  "max_tokens": 32,
+  "system_prompt_sha256": "9cad97c6bf530ec09b4776a6ffaf63aeca97f249b8e2268dc92c36ef84ace6e2",
+  "reproduction": "Published labels are frozen. A new call through the requested model alias may resolve to another version and may return different labels."
+}

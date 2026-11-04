@@ -1,0 +1,36 @@
+{
+  "id": "blind_puddle",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "路边监控",
+  "target_people": "视障者",
+  "scene": "街面",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我用盲杖走路，有障碍物或危险请及时提醒我。",
+      "text_en": "Please watch me walk with my white cane, and warn me in time if there are any obstacles or dangers."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "action": "[warn]",
+      "text_zh": "前方有积水和地滑警示牌，请注意避让。",
+      "text_en": "Puddle and wet floor sign ahead, please watch your step."
+    },
+    {
+      "start": 3.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "视障者",
+  "population_id": "blind",
+  "assistant_role": "无障碍生活助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

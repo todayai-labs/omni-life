@@ -1,0 +1,36 @@
+{
+  "id": "cook_pinwheel_end",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "AI眼镜",
+  "target_people": "成人",
+  "scene": "厨房",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我做菜，阶段完成后帮我总结已经完成的步骤。",
+      "text_en": "Please watch me cook and summarize the steps completed when a stage is finished."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 55.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 55.0,
+      "end": 60.0,
+      "action": "[inform]",
+      "text_zh": "你已成功将卷饼切段并装杯，完成了这个步骤。",
+      "text_en": "You've sliced the wrap and put it in the cup, that step is done."
+    }
+  ],
+  "target_people_detail": "下厨的人",
+  "population_id": "adult",
+  "assistant_role": "生活协作助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

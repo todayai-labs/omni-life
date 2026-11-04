@@ -1,0 +1,29 @@
+{
+  "id": "fb_school_pen",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "学龄儿童",
+  "scene": "书房",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "学习助手，请帮我留意孩子的书写和学习习惯，有不规范的地方提醒他纠正。",
+      "text_en": "Learning Assistant, please help me monitor the child's writing and study habits, and remind him to correct any improper ones."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "学生",
+  "population_id": "kid",
+  "assistant_role": "手机助手",
+  "assistant_role_basis": "用户任务设定",
+  "eval_group": "general"
+}

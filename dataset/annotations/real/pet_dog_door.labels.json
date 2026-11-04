@@ -1,0 +1,50 @@
+{
+  "id": "pet_dog_door",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "居家监控",
+  "target_people": "宠物",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看门口的狗狗，有需要帮助或异常的情况及时通知我。",
+      "text_en": "Please help me look after the dog at the door, and notify me in time if it needs help or if there is any abnormal situation."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 2.0,
+      "end": 8.0,
+      "action": "[inform]",
+      "text_zh": "狗狗在按门铃，它想进屋了。",
+      "text_en": "The dog is ringing the doorbell to come inside."
+    },
+    {
+      "start": 8.0,
+      "end": 13.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 13.0,
+      "end": 16.4,
+      "action": "[inform]",
+      "text_zh": "狗狗又按了一次门铃。",
+      "text_en": "The dog rang the doorbell again."
+    }
+  ],
+  "target_people_detail": "宠物",
+  "population_id": "pet",
+  "assistant_role": "宠物照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "ask_shop_fresh",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "店铺",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "购物助手，请陪我一起选购商品，在我询问商品新鲜度或挑选建议时给予解答。",
+      "text_en": "Shopping assistant, please shop with me and answer my questions when I ask about product freshness or need selection advice."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 12.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 12.0,
+      "end": 15.1,
+      "action": "[answer]",
+      "text_zh": "这棵青菜叶片挺绿的，看着还很新鲜。",
+      "text_en": "These greens look really fresh and vibrant."
+    }
+  ],
+  "target_people_detail": "逛店的人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "超市监控",
+  "eval_group": "general"
+}

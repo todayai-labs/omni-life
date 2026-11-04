@@ -1,0 +1,38 @@
+{
+  "id": "adult_iron_pos",
+  "form": "pair",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我看着熨斗，如果我离开时还通着电，请及时提醒我。",
+      "text_en": "Please watch the iron for me and remind me if I leave while it's still plugged in."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 6.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 6.0,
+      "end": 15.1,
+      "action": "[warn]",
+      "text_zh": "熨斗还通着电，请及时关闭，注意安全。",
+      "text_en": "The iron is still plugged in, please turn it off for safety."
+    }
+  ],
+  "target_people_detail": "居家的人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "binary_pair",
+  "pair_id": "adult_iron"
+}

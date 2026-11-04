@@ -1,0 +1,57 @@
+{
+  "id": "group_ceremony_close",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "教室监控",
+  "target_people": "多人场合",
+  "scene": "学校",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意台上孩子们，出现人物特写时告诉我画面中的人物特征，点名结束时告知出席人数，活动环节变化时也告诉我。",
+      "text_en": "Please watch the children on stage, describe the child shown in a close-up, report attendance when roll call ends, and tell me when the activity changes."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 8.0,
+      "end": 12.0,
+      "action": "[inform]",
+      "text_zh": "画面特写的是一位扎着双辫子的小女孩。",
+      "text_en": "It's a close-up of a little girl with pigtails."
+    },
+    {
+      "start": 12.0,
+      "end": 49.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 49.0,
+      "end": 54.0,
+      "action": "[inform]",
+      "text_zh": "点名已结束，共有二十五名小朋友出席。",
+      "text_en": "Roll call is done, and twenty-five children are present."
+    },
+    {
+      "start": 54.0,
+      "end": 58.7,
+      "action": "[inform]",
+      "text_zh": "孩子们已在台上排好队，准备开始致辞。",
+      "text_en": "The kids are lined up on stage, ready to start the speeches."
+    }
+  ],
+  "target_people_detail": "多人场合",
+  "population_id": "group",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

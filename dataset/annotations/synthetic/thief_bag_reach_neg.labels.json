@@ -1,0 +1,65 @@
+{
+  "id": "thief_bag_reach_neg",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "交通",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "巡逻机器人，请留意现场人员和物品安全，有异常及时警告，情况变化也请告诉我。",
+      "text_en": "Patrol robot, please keep an eye on the safety of personnel and items on site, warn of any abnormalities in a timely manner, and let me know if the situation changes."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 1.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 1.5,
+      "end": 8.0,
+      "action": "[warn]",
+      "text_zh": "注意，旁边有人在摸你的包，小心小偷。",
+      "text_en": "Watch out, someone next to you is touching your bag."
+    },
+    {
+      "start": 8.0,
+      "end": 10.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 10.5,
+      "end": 14.5,
+      "action": "[warn]",
+      "text_zh": "他又在碰你的包了，请提高警惕。",
+      "text_en": "He's touching your bag again, please be careful."
+    },
+    {
+      "start": 14.5,
+      "end": 22.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 22.0,
+      "end": 30.1,
+      "action": "[inform]",
+      "text_zh": "那个人已经走远了，请检查一下包包。",
+      "text_en": "That person has walked away, please check your bag."
+    }
+  ],
+  "target_people_detail": "路上的行人",
+  "population_id": "adult",
+  "assistant_role": "巡逻机器人",
+  "assistant_role_basis": "用户任务设定（同任务正负条件）",
+  "capture_context": "车厢监控",
+  "eval_group": "general"
+}

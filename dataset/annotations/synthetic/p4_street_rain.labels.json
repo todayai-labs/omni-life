@@ -1,0 +1,44 @@
+{
+  "id": "p4_street_rain",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "街面",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我在外面散步，如果天气有变或者快下雨了请提醒我。",
+      "text_en": "Please watch me while I walk outside and let me know if the weather changes or if it's about to rain."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 3.0,
+      "end": 8.0,
+      "action": "[inform]",
+      "text_zh": "天气阴沉风大，可能要下雨，建议尽快避雨。",
+      "text_en": "It's cloudy and windy, and looks like rain, so you might want to find shelter soon."
+    },
+    {
+      "start": 8.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "路上的行人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "路边监控",
+  "eval_group": "general"
+}

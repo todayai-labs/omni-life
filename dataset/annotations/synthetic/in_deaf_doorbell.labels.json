@@ -1,0 +1,79 @@
+{
+  "id": "in_deaf_doorbell",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "听障者",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "我是听障人士，请帮我留意家里的门铃声，响了请及时提醒我。",
+      "text_en": "I am hearing impaired, please help me keep an ear out for the doorbell at home, and alert me in time if it rings."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 1,
+      "end": 3,
+      "action": "[inform]",
+      "text_zh": "有人按门铃了。",
+      "text_en": "Someone rang the doorbell."
+    },
+    {
+      "start": 3,
+      "end": 8,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 8,
+      "end": 10,
+      "action": "[inform]",
+      "text_zh": "门铃又响了。",
+      "text_en": "The doorbell rang again."
+    },
+    {
+      "start": 10,
+      "end": 11,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 11,
+      "end": 12.5,
+      "action": "[inform]",
+      "text_zh": "门铃第三次响了。",
+      "text_en": "The doorbell rang a third time."
+    },
+    {
+      "start": 12.5,
+      "end": 13.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 13.5,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "门铃第四次响了。",
+      "text_en": "The doorbell rang a fourth time."
+    }
+  ],
+  "target_people_detail": "听障者",
+  "population_id": "deaf",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

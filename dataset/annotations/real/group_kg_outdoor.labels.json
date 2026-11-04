@@ -1,0 +1,56 @@
+{
+  "id": "group_kg_outdoor",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "手持第三人称视角",
+  "target_people": "多人场合",
+  "scene": "学校",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意排队的孩子，听到班级名称并能判断对应队伍时告诉我，确认各队所属班级后汇总一下。"
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 53.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 53.0,
+      "end": 58.0,
+      "action": "[inform]",
+      "text_zh": "左边这一队是苹果班。",
+      "text_en": "The group on the left is the Apple Class."
+    },
+    {
+      "start": 58.0,
+      "end": 71.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 71.0,
+      "end": 76.0,
+      "action": "[inform]",
+      "text_zh": "右边这一队是葡萄班。",
+      "text_en": "The group on the right is the Grape Class."
+    },
+    {
+      "start": 76.0,
+      "end": 78.6,
+      "action": "[inform]",
+      "text_zh": "幼儿园有两队，一队苹果班，一队葡萄班。",
+      "text_en": "The kindergarten has two groups: the Apple class and the Grape class."
+    }
+  ],
+  "target_people_detail": "多人场合",
+  "population_id": "group",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

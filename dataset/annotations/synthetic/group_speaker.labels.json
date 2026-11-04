@@ -1,0 +1,30 @@
+{
+  "id": "group_speaker",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "多人场合",
+  "scene": "办公",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我看着会议室，有异常情况请提醒我。",
+      "text_en": "Please help me keep an eye on the meeting room, and alert me if there is any unusual activity."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "多人场合",
+  "population_id": "group",
+  "assistant_role": "办公助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "会议室监控",
+  "eval_group": "general"
+}

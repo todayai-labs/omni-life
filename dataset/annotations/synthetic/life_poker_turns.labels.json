@@ -1,0 +1,44 @@
+{
+  "id": "life_poker_turns",
+  "form": "long",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "多人场合",
+  "scene": "牌桌",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我们检查摸牌是否遵守规则，发现违规时提醒纠正。本局规则：每人每轮摸一张牌，按开局前三次摸牌的人员顺序循环。",
+      "text_en": "Please help us check if the card drawing complies with the rules, and remind us to correct any violations. The rules for this round: each person draws one card per round, cycling in the order of the first three people who drew cards at the start."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 18.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 18.5,
+      "end": 22.5,
+      "action": "[feedback]",
+      "text_zh": "黄衣男子没有按轮次摸牌，请按约定的顺序摸牌。",
+      "text_en": "The man in yellow drew out of turn. Please draw cards in the agreed order."
+    },
+    {
+      "start": 22.5,
+      "end": 30.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "多人场合",
+  "population_id": "group",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "牌桌监控",
+  "eval_group": "general"
+}

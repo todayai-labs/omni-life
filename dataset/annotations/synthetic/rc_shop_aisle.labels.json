@@ -1,0 +1,37 @@
+{
+  "id": "rc_shop_aisle",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "店铺",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我买东西，如果我找不到商品开口问你，请告诉我位置。",
+      "text_en": "Please watch me shopping, and if I can't find an item and ask you, please tell me its location."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 11.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 11.5,
+      "end": 15.1,
+      "action": "[answer]",
+      "text_zh": "这里是零食和干货区，牛奶通常在冷藏区。",
+      "text_en": "This is the snacks and dry goods section; milk is usually in the fridge."
+    }
+  ],
+  "target_people_detail": "逛店的人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "超市监控",
+  "eval_group": "general"
+}

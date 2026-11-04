@@ -1,0 +1,29 @@
+{
+  "id": "cb_shop_pepper",
+  "form": "synthetic",
+  "side": "pos",
+  "viewpoint": "AI眼镜",
+  "target_people": "色觉障碍",
+  "scene": "店铺",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我买菜，如果我询问蔬菜颜色或有需要时请协助我。",
+      "text_en": "Please watch me buying groceries, and assist me if I ask about the color of the vegetables or have any needs."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "色觉障碍者",
+  "population_id": "cblind",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

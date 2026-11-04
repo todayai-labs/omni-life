@@ -1,0 +1,30 @@
+{
+  "id": "museum_rope_hall",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "展厅",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请陪我参观展览，留意安全和参观规范，有问题及时提醒我。",
+      "text_en": "Please accompany me to the exhibition, keep an eye on safety and exhibition rules, and alert me in time if there are any issues."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "游客",
+  "population_id": "adult",
+  "assistant_role": "旅行陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "展厅监控",
+  "eval_group": "general"
+}

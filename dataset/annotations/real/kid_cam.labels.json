@@ -1,0 +1,64 @@
+{
+  "id": "kid_cam",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "居家监控",
+  "target_people": "学龄儿童",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看孩子，有危险或异常情况及时通知我。",
+      "text_en": "Please help me watch the child and notify me immediately if there is any danger or abnormal situation."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 5.0,
+      "action": "[warn]",
+      "text_zh": "孩子在爬电视柜抓电视，容易砸伤，快去看看",
+      "text_en": "The child is climbing the TV stand and grabbing the TV, go check before it falls!"
+    },
+    {
+      "start": 5.0,
+      "end": 10.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 10.0,
+      "end": 15.0,
+      "action": "[warn]",
+      "text_zh": "孩子在用扫把戳电视屏幕，快去阻止他们",
+      "text_en": "The child is poking the TV screen with a broom, go stop them!"
+    },
+    {
+      "start": 15.0,
+      "end": 36.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 36.0,
+      "end": 41.0,
+      "action": "[inform]",
+      "text_zh": "电视屏幕黑了，可能被孩子戳坏了",
+      "text_en": "The TV screen went black, a kid might have broken it."
+    },
+    {
+      "start": 41.0,
+      "end": 47.8,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "学龄儿童",
+  "population_id": "kid",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

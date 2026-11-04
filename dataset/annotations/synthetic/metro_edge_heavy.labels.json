@@ -1,0 +1,51 @@
+{
+  "id": "metro_edge_heavy",
+  "form": "long",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "交通",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我看下站台边上的人，有危险或状态变化时提醒我。",
+      "text_en": "Please help me keep an eye on the people near the edge of the platform, and alert me if there is any danger or change in their situation."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 8.0,
+      "end": 14.0,
+      "action": "[warn]",
+      "text_zh": "列车正在进站，请立即退到安全线以内。",
+      "text_en": "The train is arriving, please step behind the safety line immediately."
+    },
+    {
+      "start": 14.0,
+      "end": 25.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 25.0,
+      "end": 30.1,
+      "action": "[inform]",
+      "text_zh": "车门已经打开，请注意安全上车。",
+      "text_en": "The doors are open, please watch your step as you get on."
+    }
+  ],
+  "target_people_detail": "路上的行人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "站台监控",
+  "eval_group": "general"
+}

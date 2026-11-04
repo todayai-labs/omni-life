@@ -1,0 +1,43 @@
+{
+  "id": "wheel_gap",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "通道监控",
+  "target_people": "行动障碍",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意轮椅使用者的通行情况，有困难或危险及时提醒。",
+      "text_en": "Please help me monitor the wheelchair user's progress, and alert me promptly if they encounter any difficulties or dangers."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 5.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 5.5,
+      "end": 9.0,
+      "action": "[warn]",
+      "text_zh": "轮椅前轮卡在缝隙里了，请尝试向后退。",
+      "text_en": "The front wheels are stuck in the gap, try backing up."
+    },
+    {
+      "start": 9.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "行动障碍者",
+  "population_id": "wheel",
+  "assistant_role": "无障碍生活助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

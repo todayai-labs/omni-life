@@ -1,0 +1,18 @@
+{
+  "videos": 400,
+  "source_types": {
+    "real": 123,
+    "synthetic": 277
+  },
+  "assistance_videos": 290,
+  "silent_videos": 110,
+  "required_intervention_events": 555,
+  "silence_intervals": 685,
+  "populations": 12,
+  "scenarios": 5,
+  "qa_questions": 800,
+  "qa_question_types": {
+    "content": 400,
+    "timing": 400
+  }
+}

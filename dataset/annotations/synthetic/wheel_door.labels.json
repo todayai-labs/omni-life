@@ -1,0 +1,44 @@
+{
+  "id": "wheel_door",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "行动障碍",
+  "scene": "医院",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意轮椅使用者过门的情况，有困难时提醒并提供建议。",
+      "text_en": "Please help me watch the wheelchair user going through the doorway, and alert me and offer suggestions if they have any difficulty."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 5.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 5.5,
+      "end": 10.0,
+      "action": "[inform]",
+      "text_zh": "前方是手推门，需要帮您呼叫工作人员吗？",
+      "text_en": "There's a push door ahead, would you like me to call for assistance?"
+    },
+    {
+      "start": 10.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "行动障碍者",
+  "population_id": "wheel",
+  "assistant_role": "无障碍生活助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "走廊监控",
+  "eval_group": "general"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "baby_slider_pos",
+  "form": "pair",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "婴幼儿",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看孩子，有情况告诉我。"
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "action": "[warn]",
+      "text_zh": "宝宝正爬向开着的阳台门，请注意安全。",
+      "text_en": "The baby is crawling towards the open balcony door, watch out!"
+    },
+    {
+      "start": 4.0,
+      "end": 15.1,
+      "action": "[warn]",
+      "text_zh": "宝宝已经到阳台边缘了，请立刻抱回宝宝。",
+      "text_en": "The baby is at the edge of the balcony, bring them back now!"
+    }
+  ],
+  "target_people_detail": "婴幼儿",
+  "population_id": "baby",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "binary_pair",
+  "pair_id": "baby_slider"
+}

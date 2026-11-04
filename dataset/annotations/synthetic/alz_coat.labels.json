@@ -1,0 +1,44 @@
+{
+  "id": "alz_coat",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "认知障碍",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我看着老人穿衣服，穿好后告诉我，并提醒她注意安全。",
+      "text_en": "Please watch the elderly lady get dressed, let me know when she's done, and remind her to be careful."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 8.0,
+      "end": 12.0,
+      "action": "[inform]",
+      "text_zh": "外套穿好啦，慢点走，注意安全。",
+      "text_en": "Your coat is on, now walk slowly and stay safe."
+    },
+    {
+      "start": 12.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "认知障碍者",
+  "population_id": "alz",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

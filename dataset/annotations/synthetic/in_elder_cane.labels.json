@@ -1,0 +1,44 @@
+{
+  "id": "in_elder_cane",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "独居老人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看家里的老人，如果他起身走动时忘了拿拐杖，请及时提醒他。",
+      "text_en": "Please help me watch the elderly person at home, and remind him in time if he gets up to walk around but forgets his cane."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 1.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 1.5,
+      "end": 6.0,
+      "action": "[warn]",
+      "text_zh": "您忘记拿拐杖了，请拿上拐杖，注意安全。",
+      "text_en": "You forgot your cane. Please take it with you and stay safe."
+    },
+    {
+      "start": 6.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "独居老人",
+  "population_id": "elder",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

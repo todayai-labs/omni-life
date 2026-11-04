@@ -1,0 +1,30 @@
+{
+  "id": "wt_office_type",
+  "form": "short",
+  "side": "neg",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "办公",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请陪我办公，留意我的工作状态，有异常或需要休息时提醒我。",
+      "text_en": "Please keep me company while I work, monitor my work state, and remind me if anything is off or if I need to take a break."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "办公室白领",
+  "population_id": "adult",
+  "assistant_role": "办公助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "工位监控",
+  "eval_group": "general"
+}

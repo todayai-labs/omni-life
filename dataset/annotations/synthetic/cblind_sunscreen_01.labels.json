@@ -1,0 +1,43 @@
+{
+  "id": "cblind_sunscreen_01",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "AI眼镜",
+  "target_people": "色觉障碍",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我找到桌面上的防晒霜，并告诉我位置。",
+      "text_en": "Please find the sunscreen on the table and tell me where it is."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 2,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 2,
+      "end": 5,
+      "action": "[inform]",
+      "text_zh": "防晒霜是右侧这一盒。",
+      "text_en": "The sunscreen is the box on the right."
+    },
+    {
+      "start": 5,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "色觉障碍者",
+  "population_id": "cblind",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

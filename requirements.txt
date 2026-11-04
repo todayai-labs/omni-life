@@ -1,0 +1,8 @@
+# Offline scoring, validation, and tests use only the Python 3.10+ standard library.
+# No pip installation is required for the released reference reproduction.
+# Optional local MiniCPM inference dependencies follow. This is not an environment lock;
+# also follow the pinned checkpoint's official setup instructions in benchmark/README.md.
+numpy
+Pillow
+torch
+transformers

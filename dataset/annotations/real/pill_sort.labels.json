@@ -1,0 +1,36 @@
+{
+  "id": "pill_sort",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "居家监控",
+  "target_people": "慢病患者",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我分药，分完后汇总分好的药片数量及散落情况。",
+      "text_en": "Please watch me sort the pills and, once I finish, summarize the number of sorted pills and any pills left outside the containers."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 103.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 103.5,
+      "end": 106.0,
+      "action": "[inform]",
+      "text_zh": "分好五粒整药和两瓣半药，一粒掉在桌上了。",
+      "text_en": "You've sorted five whole pills and two halves, but one fell on the table."
+    }
+  ],
+  "target_people_detail": "慢病患者",
+  "population_id": "chronic",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

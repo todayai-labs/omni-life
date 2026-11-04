@@ -1,0 +1,37 @@
+{
+  "id": "ask_cafe_menu",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "店铺",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "购物助手，请在我询问商品或菜单信息时及时为我解答。",
+      "text_en": "Shopping assistant, please answer when I ask about a product or the menu."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 14.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 14.0,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "我为您查阅菜单。",
+      "text_en": "I'll look up the menu for you."
+    }
+  ],
+  "target_people_detail": "逛店的人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "店内监控",
+  "eval_group": "general"
+}

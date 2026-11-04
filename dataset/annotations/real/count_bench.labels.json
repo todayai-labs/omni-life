@@ -1,0 +1,113 @@
+{
+  "id": "count_bench",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "健身房监控",
+  "target_people": "成人",
+  "scene": "室内运动",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我记录卧推训练，每完成一组就告诉我累计组数，训练结束后汇总。",
+      "text_en": "Please track my bench-press workout, tell me the running set total after each completed set, and summarize when the workout finishes."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 6.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 6.0,
+      "end": 7.5,
+      "action": "[inform]",
+      "text_zh": "完成了第一组。",
+      "text_en": "First set completed."
+    },
+    {
+      "start": 7.5,
+      "end": 18.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 18.0,
+      "end": 19.5,
+      "action": "[inform]",
+      "text_zh": "完成了第二组。",
+      "text_en": "Second set completed."
+    },
+    {
+      "start": 19.5,
+      "end": 26.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 26.0,
+      "end": 27.5,
+      "action": "[inform]",
+      "text_zh": "完成了第三组。",
+      "text_en": "Third set completed."
+    },
+    {
+      "start": 27.5,
+      "end": 38.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 38.0,
+      "end": 39.5,
+      "action": "[inform]",
+      "text_zh": "完成了第四组。",
+      "text_en": "Fourth set completed."
+    },
+    {
+      "start": 39.5,
+      "end": 49.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 49.5,
+      "end": 51.0,
+      "action": "[inform]",
+      "text_zh": "完成了第五组。",
+      "text_en": "Fifth set completed."
+    },
+    {
+      "start": 51.0,
+      "end": 63.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 63.5,
+      "end": 65.0,
+      "action": "[inform]",
+      "text_zh": "完成了第六组。",
+      "text_en": "Sixth set completed."
+    },
+    {
+      "start": 65.0,
+      "end": 65.8,
+      "action": "[inform]",
+      "text_zh": "你一共完成了六组卧推训练。",
+      "text_en": "You've completed six sets of bench press in total."
+    }
+  ],
+  "target_people_detail": "运动的人",
+  "population_id": "adult",
+  "assistant_role": "运动助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

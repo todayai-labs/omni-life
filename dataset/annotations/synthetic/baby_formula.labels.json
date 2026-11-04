@@ -1,0 +1,36 @@
+{
+  "id": "baby_formula",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "第三人称视角",
+  "target_people": "婴幼儿",
+  "scene": "厨房",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我冲奶，发现不安全或可能影响宝宝的操作时请及时提醒我。",
+      "text_en": "Please watch me prepare formula and alert me promptly to unsafe actions or actions that may affect the baby."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 12.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 12.0,
+      "end": 15.1,
+      "action": "[warn]",
+      "text_zh": "不要上下摇晃奶瓶，容易产生气泡导致胀气",
+      "text_en": "Don't shake the bottle up and down, it creates bubbles and causes gas."
+    }
+  ],
+  "target_people_detail": "新手父母",
+  "population_id": "baby",
+  "assistant_role": "手机助手",
+  "assistant_role_basis": "用户任务设定",
+  "eval_group": "general"
+}

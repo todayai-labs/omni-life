@@ -1,0 +1,50 @@
+{
+  "id": "pet_puppy_leash",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "居家监控",
+  "target_people": "宠物",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看小狗，有需要关注的表现或需求时告诉我，照看结束时简要总结它的情况。",
+      "text_en": "Please watch over the puppy, tell me about behavior or needs requiring attention, and briefly summarize its condition at the end of the observation."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 12.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 12.5,
+      "end": 17.5,
+      "action": "[inform]",
+      "text_zh": "小狗叼着牵引绳在门口等，它想进屋了。",
+      "text_en": "The dog is waiting at the door with its leash, ready to come inside."
+    },
+    {
+      "start": 17.5,
+      "end": 85.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 85.0,
+      "end": 90.1,
+      "action": "[inform]",
+      "text_zh": "小狗一直叼着牵引绳在门口等，想进屋呢。",
+      "text_en": "The dog is waiting at the door with its leash, wanting to come in."
+    }
+  ],
+  "target_people_detail": "宠物",
+  "population_id": "pet",
+  "assistant_role": "宠物照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

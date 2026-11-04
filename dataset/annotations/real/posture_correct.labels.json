@@ -1,0 +1,92 @@
+{
+  "id": "posture_correct",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "训练室监控",
+  "target_people": "成人",
+  "scene": "室内运动",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我看着我做这套动作，每当我完成一个动作时，请告诉我。",
+      "text_en": "Please watch me perform this set of movements, and let me know every time I complete one."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 3.0,
+      "end": 6.5,
+      "action": "[inform]",
+      "text_zh": "右侧阿拉贝斯克做完了。",
+      "text_en": "The right arabesque is complete."
+    },
+    {
+      "start": 6.5,
+      "end": 12.0,
+      "action": "[inform]",
+      "text_zh": "划手转身做完了。",
+      "text_en": "You've finished the stroke and turn."
+    },
+    {
+      "start": 12.0,
+      "end": 17.5,
+      "action": "[inform]",
+      "text_zh": "平举左右移动做完了。",
+      "text_en": "The horizontal raise and side-to-side movement is completed."
+    },
+    {
+      "start": 17.5,
+      "end": 21.0,
+      "action": "[inform]",
+      "text_zh": "右脚点地做完了。",
+      "text_en": "The right foot taps are complete."
+    },
+    {
+      "start": 21.0,
+      "end": 24.5,
+      "action": "[inform]",
+      "text_zh": "反方向阿拉贝斯克做完了。",
+      "text_en": "The reverse arabesque is complete."
+    },
+    {
+      "start": 24.5,
+      "end": 29.0,
+      "action": "[inform]",
+      "text_zh": "反向转身做完了。",
+      "text_en": "The reverse turn is completed."
+    },
+    {
+      "start": 29.0,
+      "end": 34.0,
+      "action": "[inform]",
+      "text_zh": "平举左右移动做完了。",
+      "text_en": "The horizontal raise and side-to-side movement is completed."
+    },
+    {
+      "start": 34.0,
+      "end": 37.0,
+      "action": "[inform]",
+      "text_zh": "左脚点地做完了。",
+      "text_en": "Left foot taps are done."
+    },
+    {
+      "start": 37.0,
+      "end": 39.6,
+      "action": "[inform]",
+      "text_zh": "这套练习做完了。",
+      "text_en": "You've finished this set of exercises."
+    }
+  ],
+  "target_people_detail": "运动的人",
+  "population_id": "adult",
+  "assistant_role": "运动助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

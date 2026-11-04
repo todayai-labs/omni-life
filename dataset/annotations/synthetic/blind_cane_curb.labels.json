@@ -1,0 +1,43 @@
+{
+  "id": "blind_cane_curb",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "第一人称运动相机视角",
+  "target_people": "视障者",
+  "scene": "交通",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我看着路，我用盲杖走路时如果前方有障碍物或危险，请及时提醒我。",
+      "text_en": "Please watch the road for me and alert me immediately if there are any obstacles or dangers ahead while I'm walking with my white cane."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 5.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 5.0,
+      "end": 8.0,
+      "action": "[inform]",
+      "text_zh": "前方是绿化带马路牙子，请注意",
+      "text_en": "There's a curb and a green belt ahead, please watch your step."
+    },
+    {
+      "start": 8.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "视障者",
+  "population_id": "blind",
+  "assistant_role": "无障碍生活助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

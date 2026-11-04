@@ -1,0 +1,36 @@
+{
+  "id": "poker_group",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "第一人称运动相机视角",
+  "target_people": "多人场合",
+  "scene": "牌桌",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "这段视频以画面下方的玩家为拍摄视角，规定右侧是女子、左侧是男子。请告诉我谁出牌次数最多。",
+      "text_en": "This video is filmed from the player at the bottom of the frame. The person on the right is a woman and the person on the left is a man. Please tell me who played the most cards."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 161.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 161.5,
+      "end": 163.3,
+      "action": "[answer]",
+      "text_zh": "在画面可见的出牌中，下方玩家出牌次数最多。",
+      "text_en": "Among the card plays visible in the clip, the player at the bottom played most often."
+    }
+  ],
+  "target_people_detail": "多人场合",
+  "population_id": "group",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

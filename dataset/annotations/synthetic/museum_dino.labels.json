@@ -1,0 +1,30 @@
+{
+  "id": "museum_dino",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "学龄儿童",
+  "scene": "展厅",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看孩子参观展览，留意安全和参观规范，有问题及时提醒我。",
+      "text_en": "Please help me watch the child visiting the exhibition, pay attention to safety and exhibition rules, and remind me in time if there are any issues."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "学龄儿童",
+  "population_id": "kid",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "展厅监控",
+  "eval_group": "general"
+}
