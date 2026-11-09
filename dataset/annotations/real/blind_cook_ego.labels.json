@@ -1,0 +1,99 @@
+{
+  "id": "blind_cook_ego",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "视障者",
+  "scene": "厨房",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请协助我准备汉堡，留意操作是否安全、规范，有问题及时提醒我。",
+      "text_en": "Please assist me in preparing the burgers, pay attention to whether the operations are safe and standard, and remind me in time if there are any issues."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 18.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 18.0,
+      "end": 21.0,
+      "action": "[warn]",
+      "text_zh": "啤酒瓶倒了，酒洒在桌子上了。",
+      "text_en": "The beer bottle tipped over and spilled on the table."
+    },
+    {
+      "start": 21.0,
+      "end": 23.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 23.5,
+      "end": 26.0,
+      "action": "[warn]",
+      "text_zh": "啤酒瓶又倒了，倒在盘子里了。",
+      "text_en": "The beer bottle tipped over again, this time into the plate."
+    },
+    {
+      "start": 26.0,
+      "end": 47.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 47.0,
+      "end": 50.0,
+      "action": "[warn]",
+      "text_zh": "烤箱内部很烫，请不要用裸手直接触碰。",
+      "text_en": "The oven is very hot inside, so don't touch it with your bare hands."
+    },
+    {
+      "start": 50.0,
+      "end": 71.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 71.0,
+      "end": 74.0,
+      "action": "[inform]",
+      "text_zh": "啤酒瓶在电饼铛左侧，盘子上方。",
+      "text_en": "The beer bottle is to the left of the griddle, just above the plate."
+    },
+    {
+      "start": 74.0,
+      "end": 102.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 102.0,
+      "end": 106.0,
+      "action": "[inform]",
+      "text_zh": "肉饼没对准，掉在面包右侧的盘子里了。",
+      "text_en": "The patty missed and fell onto the plate to the right of the bun."
+    },
+    {
+      "start": 106.0,
+      "end": 118.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "视障者",
+  "population_id": "blind",
+  "assistant_role": "起居机器人",
+  "assistant_role_basis": "用户任务设定",
+  "eval_group": "general"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "elder_glow_pos",
+  "form": "pair",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "独居老人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看独自烤火的老人，如果离电暖器太近有安全隐患且无人照看，请及时提醒。",
+      "text_en": "Please help me watch the elderly person warming themselves by the fire alone, and alert me immediately if they are too close to the electric heater, posing a safety hazard while unattended."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 3.0,
+      "end": 8.0,
+      "action": "[inform]",
+      "text_zh": "老人离火太近了。",
+      "text_en": "The elderly person is too close to the fire."
+    },
+    {
+      "start": 8.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "独居老人",
+  "population_id": "elder",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "binary_pair",
+  "pair_id": "elder_glow"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "cook_platter_feedback",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "AI眼镜",
+  "target_people": "成人",
+  "scene": "厨房",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我做这道菜，有做错或不卫生的行为请及时纠正我。",
+      "text_en": "Please watch me prepare this dish and promptly correct any mistakes or unhygienic actions."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 33.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 33.0,
+      "end": 38.0,
+      "action": "[feedback]",
+      "text_zh": "打完喷嚏后请先洗手，不要用手接触调料。",
+      "text_en": "Please wash your hands after sneezing before touching the seasonings."
+    },
+    {
+      "start": 38.0,
+      "end": 60.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "下厨的人",
+  "population_id": "adult",
+  "assistant_role": "生活协作助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

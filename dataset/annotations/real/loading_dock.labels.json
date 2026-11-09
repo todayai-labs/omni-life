@@ -1,0 +1,50 @@
+{
+  "id": "loading_dock",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "操作台",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意装卸平台，门完全打开或平台停止调整时告诉我当前状态。",
+      "text_en": "Please monitor the loading dock and tell me its current status when the door is fully open or the platform stops adjusting."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 18,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 18,
+      "end": 21,
+      "action": "[inform]",
+      "text_zh": "门已完全打开，装卸平台正在开始调整。",
+      "text_en": "The door is fully open, and the loading platform is starting to adjust."
+    },
+    {
+      "start": 21,
+      "end": 47,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 47,
+      "end": 48.33,
+      "action": "[inform]",
+      "text_zh": "装卸平台已停止调整，目前已处于静止就绪状态。",
+      "text_en": "The loading platform has stopped adjusting and is now stationary and ready."
+    }
+  ],
+  "target_people_detail": "成人",
+  "population_id": "adult",
+  "assistant_role": "装卸平台观察助理",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

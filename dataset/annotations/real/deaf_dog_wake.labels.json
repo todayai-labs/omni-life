@@ -1,0 +1,49 @@
+{
+  "id": "deaf_dog_wake",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "第一人称视角",
+  "target_people": "听障者",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "我是听障人士，请帮我留意家里的动静和狗狗的状况，有情况及时通知我。",
+      "text_en": "I am hearing impaired, please help me keep an eye on the house and the dog's condition, and notify me in time if anything happens."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 3.0,
+      "end": 6.0,
+      "action": "[inform]",
+      "text_zh": "闹钟响了，狗狗正在叫醒你。",
+      "text_en": "The alarm is going off and your dog is trying to wake you up."
+    },
+    {
+      "start": 6.0,
+      "end": 15.2,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "听障者",
+  "population_id": "deaf",
+  "assistant_role": "宠物照护机器人",
+  "assistant_role_basis": "用户任务设定",
+  "media_processing": {
+    "advertising_tail": "removed before white fade",
+    "trim_end_sec": 15.2,
+    "original_duration_sec": 17.08,
+    "original_audio": "source had no audio stream"
+  },
+  "eval_group": "general"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "ask_tv_nolan",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "生活助手，请陪我一起看电视，如果我有关于电视内容的问题请回答我。",
+      "text_en": "Life assistant, please watch TV with me and answer my questions if I have any about the TV content."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 13.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 13.0,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "无法查阅，需要更多信息。",
+      "text_en": "I can't look this up and need more information."
+    }
+  ],
+  "target_people_detail": "居家的人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "videocon_washing_machine_fault",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意洗衣机运行，出现明显异常晃动或异常声响时及时提醒我。",
+      "text_en": "Please monitor the washing machine and alert me to obvious abnormal shaking or unusual sounds."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 14,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 14,
+      "end": 17,
+      "action": "[warn]",
+      "text_zh": "洗衣机出现异常声响，请留意运行情况。",
+      "text_en": "The washing machine is making an unusual sound; please check its operation."
+    },
+    {
+      "start": 17,
+      "end": 19,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 19,
+      "end": 33,
+      "action": "[warn]",
+      "text_zh": "洗衣机正在明显移位，请停止使用并检查。",
+      "text_en": "The washing machine is visibly shifting position; stop using it and check it."
+    },
+    {
+      "start": 33,
+      "end": 50.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "成人",
+  "population_id": "adult",
+  "assistant_role": "家用电器监护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

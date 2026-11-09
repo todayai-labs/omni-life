@@ -1,0 +1,44 @@
+{
+  "id": "rc_run_lap",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "户外运动",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我数一下我做了多少个高抬腿跳跃，等我问你的时候告诉我。",
+      "text_en": "Please help me count how many high-knee jumps I did, and tell me when I ask you."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 25.7,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 25.7,
+      "end": 29.5,
+      "action": "[answer]",
+      "text_zh": "两组加起来，您一共做了44次高抬腿跳跃。",
+      "text_en": "Across the two sets, you completed 44 high-knee jumps."
+    },
+    {
+      "start": 29.5,
+      "end": 30.08,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "运动的人",
+  "population_id": "adult",
+  "assistant_role": "运动助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "跑道监控",
+  "eval_group": "general"
+}

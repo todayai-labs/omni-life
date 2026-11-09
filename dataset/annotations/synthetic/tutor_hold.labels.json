@@ -1,0 +1,36 @@
+{
+  "id": "tutor_hold",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "学龄儿童",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "学习助手，请和我们一起学习，如果孩子向你提问，请及时解答。",
+      "text_en": "Learning Assistant, please study with us and answer promptly if the child asks you questions."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 27.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 27.0,
+      "end": 30.1,
+      "action": "[inform]",
+      "text_zh": "看不清题目，把书拿近一点我帮你看看吧。",
+      "text_en": "I can't read the question, bring the book closer so I can help you."
+    }
+  ],
+  "target_people_detail": "学龄儿童",
+  "population_id": "kid",
+  "assistant_role": "手机学习助手",
+  "assistant_role_basis": "用户任务设定",
+  "eval_group": "general"
+}

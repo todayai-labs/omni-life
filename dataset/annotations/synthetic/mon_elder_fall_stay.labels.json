@@ -1,0 +1,37 @@
+{
+  "id": "mon_elder_fall_stay",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "独居老人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看家里的老人，如果发生摔倒等意外或危险请及时提醒并呼救。",
+      "text_en": "Please help me watch the elderly person at home, and immediately alert and call for help if an accident or danger like a fall occurs."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 11.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 11.0,
+      "end": 30.1,
+      "action": "[warn]",
+      "text_zh": "老人摔倒后还没有起身，请尽快查看，并协助联系救援。",
+      "text_en": "The older person has not got up after falling. Please check on them promptly and help contact emergency assistance."
+    }
+  ],
+  "target_people_detail": "独居老人",
+  "population_id": "elder",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "grade_pot_pos",
+  "form": "graded",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "学龄儿童",
+  "scene": "厨房",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意厨房里的人和器具，有安全风险及时通知我。",
+      "text_en": "Please help me keep an eye on the people and utensils in the kitchen, and notify me in time if there are any safety risks."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 1.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 1.5,
+      "end": 15.1,
+      "action": "[warn]",
+      "text_zh": "蒸汽很烫，手不要靠得太近，小心烫伤。",
+      "text_en": "The steam is very hot, keep your hands away so you don't get burned."
+    }
+  ],
+  "target_people_detail": "学龄儿童",
+  "population_id": "kid",
+  "assistant_role": "生活协作助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "graded_pair",
+  "pair_id": "grade_pot"
+}

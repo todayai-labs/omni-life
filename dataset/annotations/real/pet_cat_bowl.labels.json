@@ -1,0 +1,43 @@
+{
+  "id": "pet_cat_bowl",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "第一人称视角",
+  "target_people": "宠物",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意猫咪在食碗旁的表现，有进食需求的迹象时告诉我。",
+      "text_en": "Please watch the cat’s behavior near its food bowl and tell me about signs that it wants food."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 15.0,
+      "end": 20.0,
+      "action": "[inform]",
+      "text_zh": "猫咪正守着空碗喵喵叫，可能饿了。",
+      "text_en": "The cat is meowing by its empty bowl, it might be hungry."
+    },
+    {
+      "start": 20.0,
+      "end": 33.3,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "宠物",
+  "population_id": "pet",
+  "assistant_role": "手机助手",
+  "assistant_role_basis": "用户任务设定",
+  "eval_group": "general"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "kid_danger",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "居家监控",
+  "target_people": "学龄儿童",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看孩子，有危险或异常情况及时通知我。",
+      "text_en": "Please help me watch the child and notify me immediately if there is any danger or abnormal situation."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 3.0,
+      "end": 6.0,
+      "action": "[warn]",
+      "text_zh": "学步车侧翻，宝宝摔倒了，快去看看！",
+      "text_en": "The walker tipped over and the baby fell, go check on them!"
+    },
+    {
+      "start": 6.0,
+      "end": 14.0,
+      "action": "[inform]",
+      "text_zh": "姐姐已经抱起宝宝，宝宝正在大哭。",
+      "text_en": "Big sister has picked up the baby, who is crying loudly."
+    },
+    {
+      "start": 14.0,
+      "end": 17.0,
+      "action": "[inform]",
+      "text_zh": "姐姐抱着宝宝回屋了，宝宝还在哭。",
+      "text_en": "Big sister carries the crying baby back into the room."
+    }
+  ],
+  "target_people_detail": "学龄儿童",
+  "population_id": "kid",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

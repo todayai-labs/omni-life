@@ -1,0 +1,36 @@
+{
+  "id": "wheel_stairs",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "室内监控",
+  "target_people": "行动障碍",
+  "scene": "医院",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我看着他们抬轮椅，结束后总结一下情况。",
+      "text_en": "Please help me watch them lift the wheelchair, and summarize the situation once they are finished."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 63.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 63.0,
+      "end": 68.8,
+      "action": "[inform]",
+      "text_zh": "两人配合，轮椅抬上又安全抬下。",
+      "text_en": "Working together, they safely carried the wheelchair up and down."
+    }
+  ],
+  "target_people_detail": "行动障碍者",
+  "population_id": "wheel",
+  "assistant_role": "无障碍生活助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

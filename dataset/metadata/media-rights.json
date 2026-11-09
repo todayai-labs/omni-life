@@ -1,0 +1,3652 @@
+{
+  "schema_version": 1,
+  "videos": [
+    {
+      "case_id": "adult_bath",
+      "source_type": "synthetic",
+      "video_sha256": "5638a5c44fc093ea608ad3e989c37d218d7ceb99fa230c46ef0717100760d65d",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "adult_candle_neg",
+      "source_type": "synthetic",
+      "video_sha256": "07204511bf4bd981c6ca640ce857a5aaefd5ed9e732f9ff1d55dab869a1173d5",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "adult_candle_pos",
+      "source_type": "synthetic",
+      "video_sha256": "7034a90c596f0766b64e9fa287e837f28957fdd8c7240185c230ddeeaf986bdb",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "adult_chop",
+      "source_type": "synthetic",
+      "video_sha256": "b6f6575161f6ea64bd465e33d2c1efad4ca434e8d1a99cab043623562b401ccb",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "adult_cut_in",
+      "source_type": "synthetic",
+      "video_sha256": "2cb31b39a7b0e6046d61e768531da5302f09161f1793a8af809c925dfb9e1f91",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "adult_drowsy_neg",
+      "source_type": "synthetic",
+      "video_sha256": "5a2dd9a29ad1460f755d035ad5afc962ae08cfb238dc723562b075e1f89ada06",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "adult_drowsy_pos",
+      "source_type": "synthetic",
+      "video_sha256": "fa0700085cbb53a4fce64916b063f50a67f13a4880e21e9d4e39265674c3b357",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "adult_gas_neg",
+      "source_type": "synthetic",
+      "video_sha256": "31fe93334e497d8df63df5eff29443618a0d35721e3d5c34fcbfd55082625637",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "adult_gas_pos",
+      "source_type": "synthetic",
+      "video_sha256": "0806689b6b529c5b3c346b2d5da65a62c00be623d02fc79b2cf392d44be918b8",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "adult_heater",
+      "source_type": "synthetic",
+      "video_sha256": "ad4939783a6202836422a054ec0a91d8a6192cb41d702d20b84f10ba11c296ab",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "adult_iron_neg",
+      "source_type": "synthetic",
+      "video_sha256": "70c777c72eebacb17384de33c62d7f19a22d7409efe9d3c678a2adc5fc139a17",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "adult_iron_on_neg",
+      "source_type": "synthetic",
+      "video_sha256": "28b9f1dc5f69ae48e25bd0c0c6f5444412d6a49c55b7cbca590066ca75cfe20c",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "adult_iron_on_pos",
+      "source_type": "synthetic",
+      "video_sha256": "c0e1318315230f44db5fc9b2db4be667e62e5ea2d99ab574d7c3db1bd1c05b9b",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "adult_iron_pos",
+      "source_type": "synthetic",
+      "video_sha256": "3a543881bd69ab689c530719dbdbc7b76912ae848d0b19878df3eee59f5eec69",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "adult_oven_neg",
+      "source_type": "synthetic",
+      "video_sha256": "cbd5562a3332c6d5e60aac8d16bc8cf367ed260d6325bd8d7b734100ec3c9c18",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "adult_oven_pos",
+      "source_type": "synthetic",
+      "video_sha256": "0bfcedefb1d2e0eca4b699a102029276dd4f28ab8aeb20a32a9210b3bbb65070",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "adult_stove_neg",
+      "source_type": "synthetic",
+      "video_sha256": "27431bffe48b4e8b8eababcdc53de99a3ae25e155774a44f6ec7a1fc039666d4",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "adult_stove_pos",
+      "source_type": "synthetic",
+      "video_sha256": "dee566fa573858e1156d6395d62d35f50f832eb57d92f23876692a1eeae9262b",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "adult_tap_neg",
+      "source_type": "synthetic",
+      "video_sha256": "d94d1522e50970e6fd69d3986932ba7caffcfa22f0b4b62d3bbf41189d0365bb",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "adult_tap_pos",
+      "source_type": "synthetic",
+      "video_sha256": "94009063802e74d96d5e29674fcd826bc03e1b371aaddd5e431a468205548999",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "agr_cow_med",
+      "source_type": "synthetic",
+      "video_sha256": "753530ee2b3f6c8af73f475f506a8160b592c9745bd6cd3a34cd9ef977e5f0bb",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "agr_pig_fed",
+      "source_type": "synthetic",
+      "video_sha256": "ff85aabef2edbacbf25015045c59267e007f3f040fa140d114bd50a8ba33f60a",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "alz_coat",
+      "source_type": "synthetic",
+      "video_sha256": "c82a58e516e443ae23604ba4a59618df0f34b42ee13ec409f4d807d4166d2038",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "alz_door_stand",
+      "source_type": "synthetic",
+      "video_sha256": "2cafce7918b209e087195e31420201d616f688e894108d23ba700349979817a8",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "alz_heater_neg",
+      "source_type": "synthetic",
+      "video_sha256": "1bff6e94fa25bb46e7b83311a433454d17e91ea861c4f0c8dc23e4993eb4c565",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "alz_heater_pos",
+      "source_type": "synthetic",
+      "video_sha256": "8b6c3800f5c9af027ec4cd9089f3507e9c86de960b14d6c1d8640b4f4f08f3d2",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "alz_home",
+      "source_type": "real",
+      "video_sha256": "77c1c4042445cbcd235634be48ac65a8e7bb28e23c83902f0d0db4e6bba7e6fa",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "alz_stove_neg",
+      "source_type": "synthetic",
+      "video_sha256": "f0044ba4f73ab28e9cdb0f5b266d45c3b91845e747eb19bfe31ccd0190503f8e",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "alz_stove_pos",
+      "source_type": "synthetic",
+      "video_sha256": "fee04def7fac31dc77dd3d9d3ae372c70b7db4eae63301c289ac13ff811f69e8",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ask_ball_rule",
+      "source_type": "synthetic",
+      "video_sha256": "4c3ab0596d635d243cf8b2525e3ca20ee07fa59908bc9e7ce174e74c061c79e1",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ask_cafe_menu",
+      "source_type": "synthetic",
+      "video_sha256": "368c8915b126a1c48b5f5a2c52bccbcb4c57b30087bdebb2abb5104025ea5f38",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ask_car_park",
+      "source_type": "synthetic",
+      "video_sha256": "98ee22c7ca373b307348d79782bfe7e767b291d56d1895b322a806bf2e5a0271",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ask_farm_feed",
+      "source_type": "synthetic",
+      "video_sha256": "5effbc970138745ce28c75565d2bf5180db39d0ef5522f1594e6888346cfcf14",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ask_home_coat",
+      "source_type": "synthetic",
+      "video_sha256": "96c1dd598e8d4b5c3acc3ca02d9f6f1539ef7081eb1f02bfbccba0a4664c31b1",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ask_home_mix",
+      "source_type": "synthetic",
+      "video_sha256": "f291c5b59f9086b1edec36f0593eeeb388d9291c62a58afed53b2a9d0288222c",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ask_hos_med",
+      "source_type": "synthetic",
+      "video_sha256": "7be0dbc1d82648214c65e70c8b96cf683ab44291c60df02c8b43d9c1cadf0ada",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ask_office_tool",
+      "source_type": "synthetic",
+      "video_sha256": "a8bf9a0376b3b231a09743da99fb088980bb2d77296a88401cb69398c25fa09f",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ask_park_bird",
+      "source_type": "synthetic",
+      "video_sha256": "ad1868d6e6041700099cbb6a539f893e300db6c2a2f78f971741f3a1d92117ca",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ask_park_plant",
+      "source_type": "synthetic",
+      "video_sha256": "838884173effb1a325205ed989ec73582d4d1fd7a22bffec175d9730b9790cc7",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ask_pet_food",
+      "source_type": "synthetic",
+      "video_sha256": "bd2da98934c62675adc0e2ddcf19a9e314613a3a621f2ab8552bd79f05d9509c",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ask_run_pace",
+      "source_type": "synthetic",
+      "video_sha256": "4f6d093d20ea78f436cfe9319a2d378ae95b22376648244a7faef4dee343ce89",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ask_school_word",
+      "source_type": "synthetic",
+      "video_sha256": "524f07c96357133d52ffd1a9a077fee35accb35df5d33325a7bd8bd960dcbbf1",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ask_shop_fresh",
+      "source_type": "synthetic",
+      "video_sha256": "fb7ca525b4ac00d06eda9d364822068c642475c24a17c6738d493c88e4fe871e",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ask_shop_price",
+      "source_type": "synthetic",
+      "video_sha256": "807eb045b560198bc1988aa6a304bab8f80f29ca73dc9cc655b6c425286ffbed",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ask_street_dir",
+      "source_type": "synthetic",
+      "video_sha256": "ff7f0c377e13263ae53576db7f27fbec3b1c9d532699aff301c6899926e2f6c3",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ask_tour_build",
+      "source_type": "synthetic",
+      "video_sha256": "0248a80ea93b12ada86a2c90ddc3e354a49e4593ba5b89118df51318fa45ee8f",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ask_tour_route",
+      "source_type": "synthetic",
+      "video_sha256": "4ddc8e12bdfe533952f9dbe13420abbc95aebc4f0aa361c0a30b45f501a5a19d",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ask_tv_f1",
+      "source_type": "synthetic",
+      "video_sha256": "0f643162e4a7357f29dc9ddfb590d312fb5a474916cafda84b4999d8b3ed6ba1",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ask_tv_nolan",
+      "source_type": "synthetic",
+      "video_sha256": "42f3708ef88d1f99a0f4a7a4e6e1543061c6a762f950fdd37e5bacec36c5ce9f",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "asm_boom_feedback_01",
+      "source_type": "real",
+      "video_sha256": "3b321b65a9d5f31fd6207238fb8c220bd871b9865f38c4062124ff07c24275b5",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "asm_chassis_feedback_01",
+      "source_type": "real",
+      "video_sha256": "f4ff28f950ec81776b577322c311478c6703ad1a00d46224df13efaa89732a46",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "asm_dumpbed_feedback_01",
+      "source_type": "real",
+      "video_sha256": "8df3aca9eca9627d2887f9f761f61d5903d77e7e77ea93a59f1b6161addcd64b",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "asm_dumpbed_feedback_02",
+      "source_type": "real",
+      "video_sha256": "674e4a15ab9f3453d4b4418b2ba000c18f364b1743160f433bb8e1bf30da5938",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baby_care",
+      "source_type": "real",
+      "video_sha256": "dc380ba4c291158b71b60eef5f06a268f1022b294491da5c00279d1dd0999109",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baby_cleaner_neg",
+      "source_type": "synthetic",
+      "video_sha256": "2a275252f938cf1c67e8dc927b03f0d642de6300a0921fb4ae9366be56ba2622",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baby_cleaner_pos",
+      "source_type": "synthetic",
+      "video_sha256": "208979caefed2393032140061b4cd0e5b14c2219b2ab5fd95bf19e2449961e80",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baby_cord_neg",
+      "source_type": "synthetic",
+      "video_sha256": "f741d74c5a2718664118610400c92b601bc63bf19e91c7c36d926308932f323f",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baby_cord_pos",
+      "source_type": "synthetic",
+      "video_sha256": "6d9dde21c132d976f984746002ed87f21947cfe99226508544d6e6c488ef408a",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baby_danger",
+      "source_type": "real",
+      "video_sha256": "b4f65ff18202517d87c8dc6954c42fae25ddb2c63e16ed074712d4fa6646c8c4",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baby_danger_dup",
+      "source_type": "real",
+      "video_sha256": "1392c5d10bd3c12f1f29bae801d720d796c991bd2f1bf04cc41158cdd0338413",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baby_fall_cry_01",
+      "source_type": "synthetic",
+      "video_sha256": "3229d4a9e944bd22f9dc72a662306eb11f2a0c20aa824af749639a70bbc8a0b3",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baby_fall_cry_02",
+      "source_type": "synthetic",
+      "video_sha256": "c1a7923f17ab8cb1713316aa2f5ce2b8aefe62368b15a75ff7788dd27faf121c",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baby_formula",
+      "source_type": "synthetic",
+      "video_sha256": "5c25bd315784d0cbe03852aaecc9d7c24dbfa3400e2f428f2777b80694149eb1",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baby_home",
+      "source_type": "real",
+      "video_sha256": "548fef56b6260139e94a6929830ff7a28a8f049e87ac4dbae2a9f88a31aff269",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baby_hot_bowl_neg",
+      "source_type": "synthetic",
+      "video_sha256": "3c84f9ed4a0a802d607388c5f0806b7d5cf03f6253bb54aac6322019852dbae9",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baby_hot_bowl_pos",
+      "source_type": "synthetic",
+      "video_sha256": "ddd17bf37bd183c8e1ef2197084e8f659150a6493ec216003384a3034fdb571b",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baby_outlet_0918_neg",
+      "source_type": "synthetic",
+      "video_sha256": "6ece7a42e733ab65dd0527f913d042d8f6fe0e93b9c69209131ee0aa76a0f8ae",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baby_outlet_0918_pos",
+      "source_type": "synthetic",
+      "video_sha256": "35e8255a30700628562511308dd4d6abe226ac2a6a14a26822b5f25d4f8c2dd5",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baby_outlet_0920_neg",
+      "source_type": "synthetic",
+      "video_sha256": "cd9cfd992d83e1d7b1b0a804b87a4b63cb365c8628265843eb2aca52dd152611",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baby_outlet_0920_pos",
+      "source_type": "synthetic",
+      "video_sha256": "78019958869ecd80c5c23682500868cac1a18ec0614b456aa28a0d494c971b01",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baby_slider_neg",
+      "source_type": "synthetic",
+      "video_sha256": "a06d99b7064340ad5aa8760360909db4f310a1803bf2ea55f8a49aab4b2a8bbb",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baby_slider_pos",
+      "source_type": "synthetic",
+      "video_sha256": "b7940e2f12cff55b9eed9588d72bb1a5564cd5e7c6fd53a8ca1f1cf6a2a34532",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baby_stair_neg",
+      "source_type": "synthetic",
+      "video_sha256": "e834ee0c906b499e3c293ae1f80f5ac4515e7efdeee213c114ed4ef996d0dbb6",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baby_stair_pos",
+      "source_type": "synthetic",
+      "video_sha256": "cb1b80c945756582b0a8ba547daf18dfb5cda5f586ee599abeb85d0cf3defc52",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baby_tub",
+      "source_type": "synthetic",
+      "video_sha256": "83ebe6395580686a9427bbfa6a749f164c5429d03ed3cc28dd834b640672aeab",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "baggage_carousel",
+      "source_type": "real",
+      "video_sha256": "b375d947edebc759445143c5e97bea60e04710126efc4dc81da81ca8a5ac6ab3",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ball_back_receive",
+      "source_type": "synthetic",
+      "video_sha256": "c704a5b2eaf3a649cf62a50747c669953bba09df13001b4ad38dd641bf16a051",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "bear_surveillance",
+      "source_type": "real",
+      "video_sha256": "f97be946d8dddd73dba0b990026b7f190f0af585ce714bd5d21fd342f382a9e4",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "bike_ego",
+      "source_type": "real",
+      "video_sha256": "3fb951a8af14fc0e6e49533afdf781b859f1d1630d602eb1af7aa19d40865da4",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "bike_ego_park",
+      "source_type": "synthetic",
+      "video_sha256": "19fdf67cfe18df7664d7f9230df16d4ed310d8400b8c51a0f0fb604b078d1d83",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "blind_cane_crowd",
+      "source_type": "synthetic",
+      "video_sha256": "8211ad1073fba1ab5363a8a7bdbe5b4d58f27a194860a5055946694600303c5d",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "blind_cane_curb",
+      "source_type": "synthetic",
+      "video_sha256": "ddbcaeef3270526d2c14360be37da03447b5d4a34b22c237e0a19f2cbef96f28",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "blind_cane_demo",
+      "source_type": "real",
+      "video_sha256": "17cd1c115525abde6ba2b4ed6e5e3be210d87d9c32313356cad2de4d4429e9b1",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "blind_cane_ego",
+      "source_type": "real",
+      "video_sha256": "1025d51e9e4be2134ac51888874afee69f13d6cf3ec9defc8d590e4da4eca1cf",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "blind_cane_hole",
+      "source_type": "synthetic",
+      "video_sha256": "67e8774297d0c1d2245f2efd0e89937b2aa0b67a0af86fbe9f562f2a6a1a9898",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "blind_cook_ego",
+      "source_type": "real",
+      "video_sha256": "0127769ea62b72b4f2ccd41643f1360a2305944c8d03a3b152a6178c900e6aa7",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "blind_cross_help",
+      "source_type": "real",
+      "video_sha256": "53a021c4c9766d4e25ca1491512ff307f983aadb5aa214e264253bb36ff99fc1",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "blind_dog_ebike_neg",
+      "source_type": "synthetic",
+      "video_sha256": "812347fc5a9512a0ff80366d47a5c77dc18e6ccb257d0ac93a3969d0939c2fb1",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "blind_dog_ebike_pos",
+      "source_type": "synthetic",
+      "video_sha256": "b964c8445021feebbda5a7bcee5a1a9a4a763fc3122efddb17a99cd11c719d44",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "blind_dog_glass",
+      "source_type": "synthetic",
+      "video_sha256": "93f9fcace937d58621a42b7ad9d9a0be9850f8299de7797f2deabb9ba701a864",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "blind_puddle",
+      "source_type": "synthetic",
+      "video_sha256": "6f1eca7f78c954535413f5d14ff4ec733ca37ebc7e33ba898e936bc30d0ed0d9",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "blind_stair_wide",
+      "source_type": "synthetic",
+      "video_sha256": "3e9b7038875be10eba8781da7543d5a1a892db81c58512b66fe03957c77c0c5b",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "blind_walk_ego",
+      "source_type": "real",
+      "video_sha256": "f574679c1bad1137a1e5dfb2d385319c69519aed88240dfbc56ace631deab19a",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cb_shop_pepper",
+      "source_type": "synthetic",
+      "video_sha256": "70c02e5563e50d82239e3946db54319ec947a02789cf248cadf275c6cf7fb088",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cb_shop_pepper.try1",
+      "source_type": "synthetic",
+      "video_sha256": "b8e3ec027206542fc51e131fdc783790689aa2780b2dc383cab8951f25f199d1",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cblind_bottles",
+      "source_type": "synthetic",
+      "video_sha256": "981650cf07ce127b477a3904aa748e461530f55dd3560b81b4c9e9a6a3aadf70",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cblind_folder",
+      "source_type": "synthetic",
+      "video_sha256": "32496b6a65dbb4d4579f782c561437cba16575ed0c9b44367033da3b74c34ffa",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cblind_laundry",
+      "source_type": "synthetic",
+      "video_sha256": "b57bc2cc55f48c53fd07806d7ad3d3ee13e870c0fcbc7c3311233757b08ae692",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cblind_sunscreen_01",
+      "source_type": "synthetic",
+      "video_sha256": "7f764b0dcadfcde0f0fb51ecb05173dfdc6142b5953ba5b574b40808178ad0bc",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cblind_sunscreen_02",
+      "source_type": "synthetic",
+      "video_sha256": "356059bfb01890219854594bba0119b30f82ad134af02274a235cd4003b0a3a0",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cblind_wire_01",
+      "source_type": "synthetic",
+      "video_sha256": "710c5aa60389e096c345cd28548c9c4384b41539841800b348a8c840c491c887",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cblind_wire_02",
+      "source_type": "synthetic",
+      "video_sha256": "067f7c713f8da9cd2e7e5387f4cf07a4de95f2efa1ebe81f7c6ab7bdc612e57b",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "chronic_cough_neg",
+      "source_type": "synthetic",
+      "video_sha256": "2bd05ce9d3ce952b8de28c9928d025feb0861f827f57c84814d9c87ebf14650c",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "chronic_cough_pos",
+      "source_type": "synthetic",
+      "video_sha256": "374c31c3218eb887d9d2ef653c2409d701df9f2035f9c19df1d9b63c1160cd00",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "chronic_inhaler_neg",
+      "source_type": "synthetic",
+      "video_sha256": "41be0eefdb56ffe9285bf57293cb01ed9d653e4c589f8fda82befa274167f2eb",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "chronic_inhaler_pos",
+      "source_type": "synthetic",
+      "video_sha256": "c1cf3d97651b7b024ef5e4178735de9c3c47168d1574cc1d9fc6ac8a02ab4ce8",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "chronic_meal",
+      "source_type": "synthetic",
+      "video_sha256": "1c53ea9daa882d166fa37571785bc4f89dc11b436000f68408183cde3b4fa8d5",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "chronic_onset",
+      "source_type": "synthetic",
+      "video_sha256": "c795fc2d7b2028cc64fcb710d758bc819b8cac3a8524bfa860fa0ff67dceffff",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "chronic_sugar_neg",
+      "source_type": "synthetic",
+      "video_sha256": "699382fc4a4fb2aff68ee857210d861bff04b1b60c75651fdc12020d7a9f88c1",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "chronic_sugar_pos",
+      "source_type": "synthetic",
+      "video_sha256": "1c9b750b508d9e859d3aa03324a12a857443f36005013bb14d512e057698fb24",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cnt_baby_step_v2",
+      "source_type": "synthetic",
+      "video_sha256": "14448408a4bfcfdbf45320034f61a2a32e50ad7a7de8cd952ef2c7d8fd050cb0",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cnt_bad_serve",
+      "source_type": "synthetic",
+      "video_sha256": "468c0c580deb14dba3089e5c4060781b262b5aeb3d64f3a2531ade71f2a5adbc",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cnt_ball_layup_miss",
+      "source_type": "synthetic",
+      "video_sha256": "383eb1b299fe3911d643d255fe50696b7625e5bdc21423fe1af433ade3f00db9",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cnt_cafe_cup",
+      "source_type": "synthetic",
+      "video_sha256": "20ad66198fb2d9b3a7858448f085be705c0aaef298572227a69c4832504074ad",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cnt_dance_turn_v2",
+      "source_type": "synthetic",
+      "video_sha256": "48e8f7f73bf6a303d2bcd0c6b5826592bff29648203f5516463ac09a366429e8",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cnt_gym_rep",
+      "source_type": "synthetic",
+      "video_sha256": "bb6de7d4a6fd9c85a718be21d9bde8d7fc1d6b712b52f0c25f4cc5e836705096",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cnt_home_toy",
+      "source_type": "synthetic",
+      "video_sha256": "453ec97626edbc353546802bb0e9b02cde9aba4f7d2c8f078eb1ef61a890fca7",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cnt_office_chair",
+      "source_type": "synthetic",
+      "video_sha256": "d01ea1dd5511c0b916ca0a5089df813ecce6871f617c60d84b96c064cb217e27",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cnt_street_bus",
+      "source_type": "synthetic",
+      "video_sha256": "3c38caf2481fa37310db8d9d54590973da19bae17f24b4de3b258675b4e58d2a",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "coffee_ego",
+      "source_type": "real",
+      "video_sha256": "2d596e088371e504c719cf82ed4b69fc31ba9a449b5679935758256412fc92dc",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "coffee_p19",
+      "source_type": "real",
+      "video_sha256": "b54cf1e5ad399d2270e5bc56e00c8fadd15f4a60794b2da527a46b7cb85989f5",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "coffee_p23",
+      "source_type": "real",
+      "video_sha256": "1be4d5bc40586885548c02dc3c19cd6bfca53ef15cce0f5e6373e53fe6b6cb2b",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "coffee_p27",
+      "source_type": "real",
+      "video_sha256": "dacb74d4884b7f6a410e5701caa5c6fc9a60a4f39aaaa6079e8378d9b96cccd2",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "coffee_p37",
+      "source_type": "real",
+      "video_sha256": "e0a0fdf259aee6d05e52cade8cef4dfcc1bdea53a02277e48307e8ffca60ff8c",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "coffee_p38",
+      "source_type": "real",
+      "video_sha256": "89f1483ab994c030e181a2a68fb9c47c22ebe03db2e266ef84fbf918cf057d3e",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "coffee_p42",
+      "source_type": "real",
+      "video_sha256": "be8c983b5a2fa49561ca2fd160b6379e736f6f4e3ad1ac8763b24da961d29553",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cook_bake_end",
+      "source_type": "real",
+      "video_sha256": "112384f772e7038b15e8edc8da529f50a49a594a596adca738af6e0d8cc281dd",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cook_bake_feedback",
+      "source_type": "real",
+      "video_sha256": "9414eee5951d85fcce9876e111716ab8667d1767014b00b334bd9ab5218efbdf",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cook_bread_feedback",
+      "source_type": "real",
+      "video_sha256": "edc52d8ab7fedc12a861dcd430cf6399888bea7b84dce6c5a237b7c4f51788ce",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cook_corn_feedback",
+      "source_type": "real",
+      "video_sha256": "50d96051ee8a03c557f219c49d09f20b9aa579df4cc9b78f651e3c0b20c9673e",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cook_milk_feedback",
+      "source_type": "real",
+      "video_sha256": "ec295c286584b9d881e4ecc5c6808535b0b3511bd79c7ae3ccd6d8e4ca2f64e0",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cook_pepper_end",
+      "source_type": "real",
+      "video_sha256": "51d79baead42428c6a9e94bf2d1bc5c0a06ed3e976d3c07d0fe570ee5f8ae363",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cook_pepper_feedback",
+      "source_type": "real",
+      "video_sha256": "574cb9fef77f294b994cfc2f86b349ba1d4a218f9efd2aaecc686e159d637440",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cook_pinwheel_end",
+      "source_type": "real",
+      "video_sha256": "4e992891f5ef520c42972df79bbc95d96db92a78eb02ba2aad9f96190ceaf892",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cook_pinwheel_feedback",
+      "source_type": "real",
+      "video_sha256": "8fb9d292de9870328a2d94bde5bec0a293c4633ff90a34c7872fd608d2cac615",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cook_platter_end",
+      "source_type": "real",
+      "video_sha256": "e6ace2bec7f2bb8113d88d7b89121c470d8c5e2051573a9585c376451d078ddd",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cook_platter_feedback",
+      "source_type": "real",
+      "video_sha256": "3eb98e7a08004e8decd90b577d0fc07fd7b0fe783b5d4012f9a3e80474518535",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cook_tomato_1min",
+      "source_type": "real",
+      "video_sha256": "b3a6b60fb5accc974659b07539541bd29244a1a01b9ea97e651a183a89eabd7a",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cook_tomato_end",
+      "source_type": "real",
+      "video_sha256": "16170432e774b10a050e2bf40f3f945a135dbff8018cd261efeff2f445f22337",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cook_tomato_feedback",
+      "source_type": "real",
+      "video_sha256": "11b98a8c324a594f1aa7d26383b2309f78d2b939876e521a0cee8637c0164d2a",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cook_tortilla_1min",
+      "source_type": "real",
+      "video_sha256": "916af9cd734e9620605e3ab90bfe2632b6a60380926a2fdecb5515f69dc0352a",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "cook_tortilla_feedback",
+      "source_type": "real",
+      "video_sha256": "aa8d9388297ed56015bf1cfb238dc34177105cd81192b742c12451069ce478fd",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "count_bench",
+      "source_type": "real",
+      "video_sha256": "3770eabdc0ada155233c287010af684b53f2b0638317fca4ff5ac75d310fd129",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "dance_back_line",
+      "source_type": "real",
+      "video_sha256": "ef8e42418d91f26ed08429b6bb91720202203101ca12c6f575083856b0e5f76f",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "dance_back_pair",
+      "source_type": "real",
+      "video_sha256": "88fa00d86c800c4bbbfb3f60ff769ead59f2878b514bb9027830763421c3c703",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "deaf_alarm_neg",
+      "source_type": "synthetic",
+      "video_sha256": "f943ddfd96db32b78e048077a69a08a44e3a759b56bcfa7cea35015854fb4846",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "deaf_alarm_pos",
+      "source_type": "synthetic",
+      "video_sha256": "9c88e518056b481e95c9f8735ef94ed3228006545a5f445254d389ea03a43053",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "deaf_behind",
+      "source_type": "synthetic",
+      "video_sha256": "0db5a999c0cb992a812f9b811b9c07d39539877acff0a7d3cc2a3add7218c856",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "deaf_cafe_sign",
+      "source_type": "real",
+      "video_sha256": "6fca7c81fca9f2c12895e0532ba3ec9f461552346d69e0428f46f0cc642de84c",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "deaf_dog_wake",
+      "source_type": "real",
+      "video_sha256": "4b5e7f4152b054fc04edb4dcef6d4593bc5caf36f08a3062a600f757afbfa153",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "deaf_door",
+      "source_type": "synthetic",
+      "video_sha256": "4c587105776f70a30c013b935c7db805a888f1a3beb846869e5339400ec73b6a",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "deaf_microwave",
+      "source_type": "synthetic",
+      "video_sha256": "0c2c40255f2c137324e2384f8e5db750de3c1be31ad1a97611fa5cb612dbf24c",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "deaf_pot_neg",
+      "source_type": "synthetic",
+      "video_sha256": "322de59557c195c696d72ca3fcbc6b74ac658e0ab5620d9530e3a387a0f6cf0b",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "deaf_pot_pos",
+      "source_type": "synthetic",
+      "video_sha256": "415e6257a166a886166fdcda54b115d990544cca330b62171b37a203d19ed2b8",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "deaf_sign_home",
+      "source_type": "real",
+      "video_sha256": "1f9956a65e90ff2604512341af056116594db44a01854daef88d85daf61eb186",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "deaf_timer",
+      "source_type": "synthetic",
+      "video_sha256": "409215bedfb999b060f11271b84dda451321b9994eea6ea0d7967cea702ae98b",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "deaf_wake",
+      "source_type": "real",
+      "video_sha256": "c27874053f5e080efa3b514c6312067b23158ff86a94277d31a8e5f06104cfb0",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "dining_help",
+      "source_type": "real",
+      "video_sha256": "2289bb3efc8fae97d8bc7f64c99bc3365c5b7f5d1057d4710e40e8ec6dc5bff4",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "dog_canal_rescue",
+      "source_type": "real",
+      "video_sha256": "69ddfa41405c2dd98b6440216572e266569289cd80e53569f3b3dedaa3ab1066",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "dog_table_heavy",
+      "source_type": "synthetic",
+      "video_sha256": "3a3673ed5dfea203e9064af1afcb0f30899f8571b71e1415cffa2527ae3b5697",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "dog_table_light",
+      "source_type": "synthetic",
+      "video_sha256": "9e24ced5cf8fb447a7abb14f3b53713a7a1bf7afd013dbf62d1d6eaba1d3550f",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "drive_ego",
+      "source_type": "real",
+      "video_sha256": "b4886522423f3ee773f747691ddfb8e1f94a5d4f187867a0b6a1fabbd34c0ba0",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "drum_play",
+      "source_type": "real",
+      "video_sha256": "8917223bc08491820f2a75b6b6f0b7768584209d5a514fa88193f6f70f21cd0e",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "drum_teach",
+      "source_type": "real",
+      "video_sha256": "03b1ef3d6f8b76b6f06c1a05b4bbc1fe23249707778336f58851c70370350fd1",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ego_coffee_machine",
+      "source_type": "synthetic",
+      "video_sha256": "f8f43de076877a26513b8540e49d6a7d310029971f403d3292d03edcbf8c2caf",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ego_drum_teach",
+      "source_type": "synthetic",
+      "video_sha256": "eae79b1bba416b47331048408d38cf43fe59f529fe0391dc59208aec05dc0778",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ego_gallery_pause",
+      "source_type": "synthetic",
+      "video_sha256": "d041d3c0f3acc38d15cc9e53269baee12e69f7d6e712985210d5bbc8ad981c0a",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "ego_greet_lobby",
+      "source_type": "synthetic",
+      "video_sha256": "943627369cb9400fa847630728ec45cc56ed3273f2c24d7504c0057ef81672b0",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "elder_boil",
+      "source_type": "synthetic",
+      "video_sha256": "d98bd2b27c296b7f0a57d6218c9f0a0872a1609e050292f8ff7ab6eddf23e603",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "elder_box_m_neg",
+      "source_type": "synthetic",
+      "video_sha256": "7f2de2072dd36058e374d616e188a486981d86f2cebce945c52c2693bad8ff90",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "elder_box_m_pos",
+      "source_type": "synthetic",
+      "video_sha256": "323bcbf9b101ed5504cae7dc9707f2a11c664efa8e8de63d26bd3a7782a0f88c",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "elder_cam",
+      "source_type": "real",
+      "video_sha256": "22a9fcc6ab62432436f6ccfaa0f9aacfe23dd0ba526576834712b2efce6cdb8e",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "elder_crossing",
+      "source_type": "real",
+      "video_sha256": "6f80009277e342742c6f4d68fd736b75406179e3f4ff7fe510ce935dad7a0a57",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "elder_fall2_cam",
+      "source_type": "real",
+      "video_sha256": "34302b0296a01bf6ff8d9bed7f44b2ecf8678441142f3d66a1171eb833db0f4d",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "elder_glow_neg",
+      "source_type": "synthetic",
+      "video_sha256": "782bbd8a5c51d3b68fa56978d553b0a47092fbda781238e428fa4229d7232ef5",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "elder_glow_pos",
+      "source_type": "synthetic",
+      "video_sha256": "9aa88e6d446a3f518f6d12b7b548b9ae90d3c5e09eda2447bb6d58cf718ca99e",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "elder_mobility",
+      "source_type": "real",
+      "video_sha256": "a60aef9433c1f4b7ab9d58263925dea275817d67324f8c39c9bdeeda528254c0",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "elder_rug_f",
+      "source_type": "synthetic",
+      "video_sha256": "ae9ff7bba24580cd6ce4f69c80f06cc99edca48284d54d8ca1a8f2bd0be68618",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "elder_shirt_out",
+      "source_type": "synthetic",
+      "video_sha256": "eb993f7f6f833d52e602972b81fd25244e489c5f6d1d42ac075a4bd9039dfbaf",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "elder_stand_f_neg",
+      "source_type": "synthetic",
+      "video_sha256": "3e5d3f7bb6eab1e3fe85348bfc617ce0375cd3a65d4d53eb0ab91136c9951795",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "elder_stand_f_pos",
+      "source_type": "synthetic",
+      "video_sha256": "6e0f1e0db691848f08946ee91db356bfff7e100e4b1e5736675dc799cbcb2218",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "elder_stool_f_neg",
+      "source_type": "synthetic",
+      "video_sha256": "c95ce187b02fc8d58fac4c6f22b5786c9fb00bac8878c2adfef9596bc89ea419",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "elder_stool_f_pos",
+      "source_type": "synthetic",
+      "video_sha256": "c4bad8c76a9a025113aaba5f40ccbae82df3d7720ad0dd1d59e04afde024350f",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "elder_washer",
+      "source_type": "synthetic",
+      "video_sha256": "b11cd8c144171d272afb75700c4efaf389d8d1a4494566818f34388ffa051ef4",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "elevator_arrival",
+      "source_type": "real",
+      "video_sha256": "5ba624cf872c75a442ff87a01866530f66bad0bb9ba8116600ccb4df12ccd873",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "escalator_maintenance",
+      "source_type": "real",
+      "video_sha256": "3ada53db75aae842112e4262b50aef8df45231af7c239878c50375d53ce2c1ea",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fall_s1",
+      "source_type": "real",
+      "video_sha256": "7a399599674e9dfd0c13284ba5e25ceca5b507c779ba77950b0e8cee77e5d9c7",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fall_s3",
+      "source_type": "real",
+      "video_sha256": "0d7b77a12a00f767ab0305e67ad46db03d9b1ffa12761fbd20647b3c1c300f24",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fall_s5",
+      "source_type": "real",
+      "video_sha256": "1451b195c2ac263fe5c5b6c2539c8aac521e34c1161d779c0b475bf0b2dd10d4",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fb_ball_elbow",
+      "source_type": "synthetic",
+      "video_sha256": "dd2ead58df72df2587799093401039a8fbc07a01f1f298943bac98f7a76d9523",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fb_ball_foot",
+      "source_type": "synthetic",
+      "video_sha256": "7744df936e405a92aa221398a94f169993d9fe784dfe0df4ac31de73cb35dae0",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fb_bike_seat",
+      "source_type": "synthetic",
+      "video_sha256": "ad69003420ec3dc396fd2d4a4093dbe2e399c72076aee59561fb0ec8345b4072",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fb_farm_shovel",
+      "source_type": "synthetic",
+      "video_sha256": "b353b47d0cebedb8bcce6e08730b71fa5892aae4e9cae85d56c222d9e2b34a97",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fb_home_plant",
+      "source_type": "synthetic",
+      "video_sha256": "19628dfc7103fbdc4b7fb17d18fd751e1be0cb9ca2d6347c7e0ee85b66e8ddbb",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fb_kitchen_board",
+      "source_type": "synthetic",
+      "video_sha256": "82b0059a51725d1b8323ba3ba93f11a3273ab96de6dc01739b8d97815187d367",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fb_latin_step",
+      "source_type": "synthetic",
+      "video_sha256": "201ffd15f13aecc9bcd54df6a5b5c0707581dd0189c727e982de651cbe72f81f",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fb_office_mouse",
+      "source_type": "synthetic",
+      "video_sha256": "b4e4e0e17c1cd70a336c05153b35827b22bbb55942b02c0bee97971f8bba0a6f",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fb_office_sit",
+      "source_type": "synthetic",
+      "video_sha256": "1c648e8e9c8346106bae6169037980da6438ef6478771165f42111af3dcf1d45",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fb_pet_bowl",
+      "source_type": "synthetic",
+      "video_sha256": "d3f4103240e3fb39888c82f9ccf470d43dbf0d71f1a95861a165692cbe2e00c2",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fb_pet_leash",
+      "source_type": "synthetic",
+      "video_sha256": "06647faa96ae1f6c82ffc4c04fa409ad8a717f46c4b02b347892b9bd67b8c4be",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fb_plank_hip",
+      "source_type": "synthetic",
+      "video_sha256": "04621bc461fbdd554e1da663c55228feccb8cc28e94fb0772f6b0714cce74b6a",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fb_run_heel",
+      "source_type": "synthetic",
+      "video_sha256": "f3dde382578fcae09c27d11266db835e505420b848d5524fb02e4c0a7264133d",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fb_school_pen",
+      "source_type": "synthetic",
+      "video_sha256": "bd0e0275df7d510f74eb4f84949b0f9e31e2a0132d9841dc9abc4f013d344821",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fb_school_sit",
+      "source_type": "synthetic",
+      "video_sha256": "67d5d2eb6a961cb3282850a8aa861db7670ba4f2f6f2a3ee219fdcd06d83ecc5",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fb_shop_carry",
+      "source_type": "synthetic",
+      "video_sha256": "e44b920554e5b58fb9bd2e6f972c8c2cd089e77448b6230177e4c63e72a692d5",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fb_street_phone",
+      "source_type": "synthetic",
+      "video_sha256": "41fc68ac5385ae79339dbcc7e35cbbe2c5a30f47bce7f63377ac9d62b1994c69",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fb_stretch_bounce",
+      "source_type": "synthetic",
+      "video_sha256": "474380638002fcd8e0b16226687adcce52b980e528e5d1f6ef599b1b2ccc571f",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fb_yoga_mirror",
+      "source_type": "synthetic",
+      "video_sha256": "06fca9c7b27776d9191351af95011ee143f42364102e38e8b128f494460937ae",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "feed_pig",
+      "source_type": "real",
+      "video_sha256": "f41e6a2c34065a155cd8953b90493e3b3804c3d351002e7e8435a9dbc683179f",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "fire_engine_response",
+      "source_type": "real",
+      "video_sha256": "68392592798a779d6d921a3347cdcd08e3312b9616c2d79a743786d3ab2a8dc2",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "game_cards",
+      "source_type": "real",
+      "video_sha256": "5a334d284154899d9844e13d00b6ecd577821f4d8aa4fc9b9bdb96b3750e79e7",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "game_mahjong_a",
+      "source_type": "real",
+      "video_sha256": "1df82a71e6c79451c6e8e0c62a4bda93d82c57c0d7064ecfa06bc55e5836eb10",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "game_mahjong_b",
+      "source_type": "real",
+      "video_sha256": "4333f4a0e77c657927a96a8f28cf503edf3da52a2c0a0ef61595f39776f9c378",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "grade_case_neg",
+      "source_type": "synthetic",
+      "video_sha256": "e9fe4bec188589c6f23e2732ad0cf832a384dfcd4155eca6d79258fa05d24107",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "grade_case_pos",
+      "source_type": "synthetic",
+      "video_sha256": "db13f1d616752daec115322f03f932ee1ea292dd23e02ff408df07378b670673",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "grade_chair_01",
+      "source_type": "synthetic",
+      "video_sha256": "c9b38e197511dfe8805b22c28d66a6c85e32b575626fb15a3b8aff9e6cc0097e",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "grade_door_width_01",
+      "source_type": "synthetic",
+      "video_sha256": "2ed4907c62457c3b7ad5972ca7187f13dec5f97c3ff823f084e973312d40dd08",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "grade_hunch_neg",
+      "source_type": "synthetic",
+      "video_sha256": "09b88e1152a2d0fab6cdc67aff63974813c5e76ccb3025cca956bce622cd4b50",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "grade_hunch_pos",
+      "source_type": "synthetic",
+      "video_sha256": "ab23d425880c46266caca7e4dba4a9710c13e2777412db95845d9f7c838c72c1",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "grade_plate_01",
+      "source_type": "synthetic",
+      "video_sha256": "63ddf2fa3dea06fb68a6ce7ee4e469a3e9d496e6452d16a4bbb001f03874fe15",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "grade_pot_neg",
+      "source_type": "synthetic",
+      "video_sha256": "b7786951169412671b747716a88801725bc660c905e1f9a6b7f2417a9425ab98",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "grade_pot_pos",
+      "source_type": "synthetic",
+      "video_sha256": "48bee21798828d4b0e280ff4d827294fbd19856b5eb44e889ae43e55eb984397",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "grade_rail_neg",
+      "source_type": "synthetic",
+      "video_sha256": "04da93c33cccbefebcba456fac915c2118843446a311ec4b181f59c071398702",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "grade_rail_pos",
+      "source_type": "synthetic",
+      "video_sha256": "45d411453bfc5cd7e40699906f566190d85a9d9968d5eaa8f8c9924ec3628ffe",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "grade_slip_bath_neg",
+      "source_type": "synthetic",
+      "video_sha256": "dffc942f4e738fece62f15461f9296c7c528b07888be66ae175eae1e1560aa08",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "grade_slip_bath_pos",
+      "source_type": "synthetic",
+      "video_sha256": "78d2ee95b05d7befe40b9cf00a369cc8c49b4058044a3b7f4141cf5f46d2062e",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "grade_walk_home_neg",
+      "source_type": "synthetic",
+      "video_sha256": "820dfc3457384a63502d592c0a3621531c16711b5eb22c5de99638d8765ac2ad",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "grade_walk_home_pos",
+      "source_type": "synthetic",
+      "video_sha256": "d4b9fbd80c3aae7d66ca20943902cac1543b9e3a6c1e96e90e2fa28d9e812302",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "grocery_milk",
+      "source_type": "synthetic",
+      "video_sha256": "1c94a0d1b1beea57a06d71ce219c4d0e4431bb48d454cd90adfab3f0d7dbcc9f",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "group_ball",
+      "source_type": "synthetic",
+      "video_sha256": "78e6d1d3be78e010b254961285be4b7e5ad2fc5eb4a973152f6f094e458cbf1d",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "group_bank_queue",
+      "source_type": "real",
+      "video_sha256": "a55be546f5db1d206b50f9e4184614eb90eebebb590f8aacf9e90768ff83827c",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "group_ceremony_close",
+      "source_type": "real",
+      "video_sha256": "d2025a7568169a226c349e1ec1596e1050e8dabb678996ec905e00b20953807a",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "group_ceremony_mic",
+      "source_type": "real",
+      "video_sha256": "df23ed9eb54a010aa765b05e3c166be9983b46daf1f5d601c294f6c7394068e7",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "group_class_question",
+      "source_type": "real",
+      "video_sha256": "668b10606a4704990039ed4fc0bf016bb94f865675610e37b0b01b4f95787863",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "group_door",
+      "source_type": "synthetic",
+      "video_sha256": "c1b95553228bd53f6fa165c38ecc7a6d8ba4bc5f92dcaadf1b01e0b924ad2ff2",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "group_first_rollcall",
+      "source_type": "real",
+      "video_sha256": "b9cce9c025323d207d40ff69924e19c2a4b8ef5ce10a35261e4a3109309262f3",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "group_kg_circle",
+      "source_type": "real",
+      "video_sha256": "1e440f11047fa4ee02c6165443d1bcf935d749d4993ffec81189a2f38dec14ff",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "group_kg_outdoor",
+      "source_type": "real",
+      "video_sha256": "fad2c9421cce7feb0429706dca2989d472ca22bd6ce6f7d110e3306a9b5e887a",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "group_morning_line",
+      "source_type": "real",
+      "video_sha256": "6a7e5c6e00d2bb09c49862817cebee0942043703ba51583e97bf0e05bcbcfb4c",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "group_multigen",
+      "source_type": "synthetic",
+      "video_sha256": "9bb19f9b1eefeb0f7a8b17469dad5173039ea88f732966c5d3dce4656aa0dcdf",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "group_raise_hand",
+      "source_type": "real",
+      "video_sha256": "10aafe38e761535ff9ef6ad00681e197285452241d864c673987b02cd4541ca2",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "group_speaker",
+      "source_type": "synthetic",
+      "video_sha256": "d37fc262d71eda1cd7124322d41e81321840fe165eaad450f1e9a51760453189",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "group_toddler_rollcall",
+      "source_type": "real",
+      "video_sha256": "b7dfe9c2a8ff5b9c06b218cc243bbd6edfc59eefe41f8041c1fb017663dc78fb",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "hail_weather",
+      "source_type": "real",
+      "video_sha256": "13e763c85d9f79313fdf8e3354402a3ee8658be86e3adc76bf95709da3c603b1",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "handler_already_there",
+      "source_type": "synthetic",
+      "video_sha256": "5d17d706225c9581c40867ae92b4d0f49d3960e0890d350e69a921632ce181cd",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "home_chaos_balcony",
+      "source_type": "synthetic",
+      "video_sha256": "a1331831b41ad5f9def111e435c03cccc2404202daa46063c1916a2e0d0589ea",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "hostel_check",
+      "source_type": "real",
+      "video_sha256": "c493a384a7aa0030d4bec8d8e7123be81d2392270742134fcb7a48df8d859220",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "house_fire_brisbane",
+      "source_type": "real",
+      "video_sha256": "6501625590e411e8bee75a0ee0e999094970773cc2422cb9825ba2958ddabaa4",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "in_alz_coat",
+      "source_type": "synthetic",
+      "video_sha256": "45ea0b83fcedd3225c42c4e36c399556c0b540baf5d37ada4145cb16b3935ffd",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "in_alz_drawer",
+      "source_type": "synthetic",
+      "video_sha256": "51750757c195eda341c44736e697e9491eded70e920eaa6a1a86d65540981b31",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "in_alz_shoes",
+      "source_type": "synthetic",
+      "video_sha256": "c9d80d6e01e9ca96612608b5b7eb2189200f69bb519e1c4f8ead548f28153efd",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "in_cblind_bins",
+      "source_type": "synthetic",
+      "video_sha256": "5531da610111bcc309c4d7bf783b16310644ffa3e16f2af97eb216265ae10e98",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "in_cblind_laundry",
+      "source_type": "synthetic",
+      "video_sha256": "25d012dbdc6b52288adb1849bcc2508ceaf42a38e938f42037d27f7d10f8ff79",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "in_chronic_med",
+      "source_type": "synthetic",
+      "video_sha256": "f5134685f8b90cd4f05def277adec76eb63449e42475d376a78c9b0aab9fdeaf",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "in_chronic_plate",
+      "source_type": "synthetic",
+      "video_sha256": "a93b6bd5d9e49b8d5410f8791178ff2d83c5c8a9ba4da108ecde8b1a6641f189",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "in_chronic_sit",
+      "source_type": "synthetic",
+      "video_sha256": "f73626d6d0a19e5ebf509e8a7f1249102582f66502ed1d927778fd71b3e48559",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "in_deaf_doorbell",
+      "source_type": "synthetic",
+      "video_sha256": "342eca8db8fa3218863ada9c005b0e35fb45a299bc6d6b58b997d1f22563f156",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "in_elder_cane",
+      "source_type": "synthetic",
+      "video_sha256": "198fcf9d5a0c1b297873a05a5ecf7e5e6b9776f5254adb141c6b017e7694b9e6",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "in_keys_table",
+      "source_type": "synthetic",
+      "video_sha256": "961a5434e00cbd66768f6093bd591ec5b31a013359e90f0f1acb0bca94d89a60",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "in_kid_game",
+      "source_type": "synthetic",
+      "video_sha256": "1d97dd488152e3efcc79e58ab25e20a2e118c2fdf944b587320973914ce4de96",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "in_kid_hw",
+      "source_type": "synthetic",
+      "video_sha256": "de5234dee86dc900f7731876b37138cc610e8bbc075636c97bc21392259427b8",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "in_pet_bowl",
+      "source_type": "synthetic",
+      "video_sha256": "ba62b848d42d9f4772d975991a1d9b53ece66c809a8141b09a13a68455214143",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "in_pet_mail",
+      "source_type": "synthetic",
+      "video_sha256": "b77c46eb541dd8415d96935bacf74bfaf6b82ea60856c5c23667d0def3264969",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "jump_rope",
+      "source_type": "real",
+      "video_sha256": "130b646bbb7c189e4653fd66b9fd36029938994330797eb5f2ee5643d0e5de7d",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "kid_book",
+      "source_type": "synthetic",
+      "video_sha256": "6d6acd9a4ae5c3638610f0dca131475e98bc6e3ea780dfd20f25f6c42ac58568",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "kid_cam",
+      "source_type": "real",
+      "video_sha256": "2893012d34616e0e8b86f76201a88c3e8553bb9a92d1d4d98414c7d03c25eb47",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "kid_climb",
+      "source_type": "synthetic",
+      "video_sha256": "0243e52692acce9d46adc67d4c4c2e5bd446d6bfaceed2029af8fb380ae1dd34",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "kid_cry_cam",
+      "source_type": "real",
+      "video_sha256": "9ffc1bde038a7523782b563617f14bfabe6923dac3381b1f4b15be7793372579",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "kid_danger",
+      "source_type": "real",
+      "video_sha256": "262c95a7ac46b8343772fe03c255611ef4a28744c9094743d64ec13ce5f2b500",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "kid_game_late",
+      "source_type": "synthetic",
+      "video_sha256": "3a3f1a5074f0569f39c70cf9a58451a9874041ad1d552ab4c6f64e47c85ffb16",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "kid_hw_phone",
+      "source_type": "synthetic",
+      "video_sha256": "e5eccdf1e404258e6fabdba3002af0a5bc23b6f4a051ee23f4186c8c508bb042",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "kid_knife",
+      "source_type": "synthetic",
+      "video_sha256": "0cb444fb1ada0cc8b7d05ef3be1a221ba8b78ab439d670fdd9d56b75ea1c8473",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "kid_oven_neg",
+      "source_type": "synthetic",
+      "video_sha256": "ff99f791fafa3054b6e76b8339bca0e46580bc678fca7a77bd70c8406fac1b06",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "kid_oven_pos",
+      "source_type": "synthetic",
+      "video_sha256": "4e52eba940b860c0aa91da2e1254b3015c3c4ee634278a55ea7684b3316a6935",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "kid_phone_neg",
+      "source_type": "synthetic",
+      "video_sha256": "28783f2062d337801c6a040eba6928856d931146b23bb252227e6f3e302f4c72",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "kid_phone_pos",
+      "source_type": "synthetic",
+      "video_sha256": "8c61de597c1af6953313b71d6f6e36b4a56c12e4de4efcf50a28dcc1d5ee315b",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "kid_railing_13",
+      "source_type": "synthetic",
+      "video_sha256": "18bde02cb09bc68f34397074eb5e41169837c71e28137ebefb8060440a7735fc",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "kid_stove_neg",
+      "source_type": "synthetic",
+      "video_sha256": "4ea7051d26aa842bef24d08c4c717e046d526be5add95fd3222990ca712b1152",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "kid_stove_pos",
+      "source_type": "synthetic",
+      "video_sha256": "d22c34db5516058de18696ff2090847554104bfeba46002a0da3a2cf256cec13",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "kid_window",
+      "source_type": "synthetic",
+      "video_sha256": "4ebfb354644a4ccfe2aebfcbba4c1c1b844a01460d9334a20c7e25bd7033afb5",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "life_ac_elder_shorts",
+      "source_type": "synthetic",
+      "video_sha256": "7aacd5c5d620b933a6ddf51c3038042594b971b0611eb6a23e196f9a00547066",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "life_ac_skirt",
+      "source_type": "synthetic",
+      "video_sha256": "3119f3cfbf1cba3f9c0c878279db2947cb86c51d23fb4c2fa48820fd000c7595",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "life_dinner_top",
+      "source_type": "synthetic",
+      "video_sha256": "0f82c1f3c9b3217d2e521eb68be6d9d114f2045a99c28d57dc22c9518ea92304",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "life_food_fried",
+      "source_type": "synthetic",
+      "video_sha256": "797885962441c182ac898da348af07e712e65a3e4b19ff50d646318426d00a3d",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "life_food_veg_left",
+      "source_type": "synthetic",
+      "video_sha256": "5b9d490026df6ebf465c49dbb7273a88d0b99776090c6a33d199fa41fc2b8c4d",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "life_hunch_desk",
+      "source_type": "synthetic",
+      "video_sha256": "199fb968e9357c39b1e0666460cab84344be149546f05efe3d92c22d09e0ba87",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "life_poker_turns",
+      "source_type": "synthetic",
+      "video_sha256": "f50236be946da02195b3739a15b32909125a20dcbe8aeca20d8013aff65d4e86",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "loading_dock",
+      "source_type": "real",
+      "video_sha256": "0e1f766359c6c78231b50a81d6b007d0d6a86638fc0b41cf7bd75881cb545380",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "low_vision_ego",
+      "source_type": "real",
+      "video_sha256": "bef78b1149349a4008e2e47c4503a6adef2b42290d33c9d327c3f5a758529b20",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "metro_edge_heavy",
+      "source_type": "synthetic",
+      "video_sha256": "7a1c991090a76f3089ee0a03d785e0a0481f4dbc7c38441bda142e4c01204eb4",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "metro_edge_light",
+      "source_type": "synthetic",
+      "video_sha256": "6c38da1816306edcc1520890b97ed09bff2be4fa5a10af8fa074f0cb26885487",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "mind_gap",
+      "source_type": "real",
+      "video_sha256": "3e629b94fd31a391f484cab0369b6131f939c7cc6c496588d7c65236dd4cf768",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "mon_alz_find_item",
+      "source_type": "synthetic",
+      "video_sha256": "6658889c60c83d3d4d7b0c9ccf7ad3f6c9625992537673e068e9aefb0da6a102",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "mon_baby_fall",
+      "source_type": "synthetic",
+      "video_sha256": "0779cf5336c6180e47b71df0d61460656a554588090d94aceb71ab9964992d41",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "mon_elder_fall_getup",
+      "source_type": "synthetic",
+      "video_sha256": "f8d7f85c920856d29610b8388b5e63c7499eb0a73fd31dff0ece038b3a151cee",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "mon_elder_fall_stay",
+      "source_type": "synthetic",
+      "video_sha256": "0c0ab859e9dd393608deab3ee24917ba0b3f02b50a2ef9fbd3335a939f418983",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "mon_home_baby_fall_self",
+      "source_type": "synthetic",
+      "video_sha256": "971d8c1ffb93871f5ef3dbf1c6758523bc8ed9d2e595735a2ab8630158579843",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "museum_armor",
+      "source_type": "synthetic",
+      "video_sha256": "89b8e2d37e1daf4567ccf84bbbd1d6a6bd84766f475d93de2d3642b450dd351f",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "museum_dino",
+      "source_type": "synthetic",
+      "video_sha256": "3cade381e07802068c5aad4d1175be2a78db88048665c7244dd833f33c57e75c",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "museum_elder_bench",
+      "source_type": "synthetic",
+      "video_sha256": "c2c12412b30b9c1c66e8e8e8b003baffb9a57761398ee239f694f224660c4263",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "museum_kid_armor",
+      "source_type": "synthetic",
+      "video_sha256": "23cfc46d9aa1ad19697e7507be98deccc3ca1a2b9a50446f2f279470aa8e10f8",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "museum_rope_hall",
+      "source_type": "synthetic",
+      "video_sha256": "4db7ebe8a569f64c02329cce5972a74bb69f6963d7e283a66b7ba3b4bc3442e0",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "museum_vase",
+      "source_type": "synthetic",
+      "video_sha256": "2484fd3c782c9bff88c46ffa14b159c6149bfa0719dd464569997b0f150df9d6",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "museum_wheel_stair",
+      "source_type": "synthetic",
+      "video_sha256": "e056dae55e0c4194e7e3c0f2430310443c00701aaa871de12ef4f9c0047c976c",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "orbit_ball_12",
+      "source_type": "real",
+      "video_sha256": "7e9d23f9fd6227e8c6103d125d8fe8d95850a8e4f65a7f60c5e6e8a95962c474",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "orbit_bumbag_05",
+      "source_type": "real",
+      "video_sha256": "ea644d63941f968d307c8218913bbf2e69473951b4b2cb1f6bfaad3f6284ad15",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "orbit_cane_03",
+      "source_type": "real",
+      "video_sha256": "ea9655f351a4502e8b03f6772acdea32dcd78a7d1f3a2af039b5b8dd522698a5",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "orbit_cane_07",
+      "source_type": "real",
+      "video_sha256": "41805c0d76bf47df47db0a7fc9a66be6da61266f08258185b1889233647f128b",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "orbit_condom_08",
+      "source_type": "real",
+      "video_sha256": "dc42fed62cc735e488a954d007bc19a28faa472958d073891fbaf12db37f82a7",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "orbit_glasses_16",
+      "source_type": "real",
+      "video_sha256": "0d2a884aec913e80126827ebcede9fcae1d8ff20740f2982fcd7cc8f78614acb",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "orbit_headphones_18",
+      "source_type": "real",
+      "video_sha256": "d20f6b4c98ea34164de37f42b1d21b771f4b4b6cd3024e60fe493d42be5eaa59",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "orbit_leash_11",
+      "source_type": "real",
+      "video_sha256": "35436c5f8d57dd18d2026268bbabc9e74e1afa5716cc955296f15407255eb805",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "orbit_mug_06",
+      "source_type": "real",
+      "video_sha256": "d6672c646706d56b1479c795f69e458257dd257e6eb38aa95afd1a4106a07df3",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "orbit_pepper_04",
+      "source_type": "real",
+      "video_sha256": "b660b257a88315c6efb224ae98b84d08c2365fa4bfbe5a9ae1f28ac133fa8756",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "orbit_phone_17",
+      "source_type": "real",
+      "video_sha256": "13dff0847659d715c945750654258e1cc27b3fb06ee6a2a6e09d6cd43a862f69",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "out_duty_sun",
+      "source_type": "synthetic",
+      "video_sha256": "e515a75571be45ee3e5516787f833d9e908f28a19bef6e46468e4305bdfcd9eb",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "outfit_rain",
+      "source_type": "synthetic",
+      "video_sha256": "b3b7c04021bdd8c52f50b2a48110606d89815719a84a046ad3b3c75a0c3781e7",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "p4_cafe_wait",
+      "source_type": "synthetic",
+      "video_sha256": "efd220b1fcfeecfb2bdc2e16f9de2c388ab86939a2b27c1e373c44e271d05724",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "p4_car_fuel",
+      "source_type": "synthetic",
+      "video_sha256": "2cd8c09b76868a26a918a1a2deaf399e92b5687ffbd5045105f3dc238c0b990b",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "p4_hos_wait",
+      "source_type": "synthetic",
+      "video_sha256": "b25eaeb3a08ddab7f694463beb63029f953a4813f5b3be3082f93818a67c43d5",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "p4_neg_phone",
+      "source_type": "synthetic",
+      "video_sha256": "ceec8fa5387a4608df475cca34129c0d43d4398bf3cf2703874c9db656345696",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "p4_neg_read",
+      "source_type": "synthetic",
+      "video_sha256": "6b03c18ff4ca8169ec8025a5e40e38ad9505cfc40a43aec4037e932e66b96178",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "p4_neg_sing",
+      "source_type": "synthetic",
+      "video_sha256": "87d2664a50d0617f99484baf701b30289031e00b0e9afa278ff94758a02fa2a2",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "p4_neg_tired",
+      "source_type": "synthetic",
+      "video_sha256": "8967b548df703b819f13c85b70b204709a953ddf638ed1e9004728af24dd68c1",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "p4_office_late",
+      "source_type": "synthetic",
+      "video_sha256": "3c58e777ed5fd025f189558647a8ea68739380c17abb5c7cde14045cafa4c45f",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "p4_pet_scratch",
+      "source_type": "synthetic",
+      "video_sha256": "17a6328bfc99e0b1501bea64624b9f74bd6e6202098e1fa23c4ebf1860ebf908",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "p4_run_side",
+      "source_type": "synthetic",
+      "video_sha256": "1f8c0646f7645110b53ae978359fd8356f8dc3de6a40b37d45fa8aff4e52f364",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "p4_run_side_graded",
+      "source_type": "synthetic",
+      "video_sha256": "d8029066a5c94068695cdb49264a34eef933bd94a82b7b1ef226c7f2fb8cdae5",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "p4_street_rain",
+      "source_type": "synthetic",
+      "video_sha256": "bd925d52ed6846a4a303d2839ffd726f583cfaed0bb759617093b81a5198e5c1",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "p4_tour_view",
+      "source_type": "synthetic",
+      "video_sha256": "336a7806b9ef735f89035837ccb37ed784774e248d724ea22aa9145b31d16703",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "patrol_cone_jaywalk",
+      "source_type": "synthetic",
+      "video_sha256": "4bc9fd9d8db0bd970d24e1d922bfa784e5ae5142247a9857c06c3d774658d617",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "pet_bowl_ego",
+      "source_type": "real",
+      "video_sha256": "25937a6cd974049c69dadd2d35b282968b77bf40dafae031b11e4c18445b408d",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "pet_cat_bowl",
+      "source_type": "real",
+      "video_sha256": "911f2ce61d9f2c8eada9c72ec2616467acdb496f049652c638fc93f2e47f9e9b",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "pet_cat_door",
+      "source_type": "real",
+      "video_sha256": "25bf47020cc9ebb1fd976be4567b6ee377ee0d65cb5430d9950b6804fae22d08",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "pet_danger_neg",
+      "source_type": "synthetic",
+      "video_sha256": "d835fdbd7eee1eb16baa85173a7de1ff35ca184ef3e671394c94b25ad5f028c7",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "pet_danger_pos",
+      "source_type": "synthetic",
+      "video_sha256": "17f4ef02cf7ba4e22a52fd6f83361969cc0b56ec6d3cffeabb016aa7fdcccf83",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "pet_dog_bowl",
+      "source_type": "real",
+      "video_sha256": "079e1fbd1e6353bbf37152df7a50c7f0aacbae46fe0b866e886a221806d5ad21",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "pet_dog_door",
+      "source_type": "real",
+      "video_sha256": "9d511a8ac76ae6b93a8bc2827c645887e57be03ff93c12ed4993f645f7ad1c98",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "pet_frenchie_bowl",
+      "source_type": "real",
+      "video_sha256": "82c9c7d55856f859f141c15c860204678de0f44af35e34eb03cf074d74e3bbd2",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "pet_home",
+      "source_type": "real",
+      "video_sha256": "0758674fcee395bdd4a865578fa10e96b8c346f70b2e01d73ac565521f857c63",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "pet_plant_neg",
+      "source_type": "synthetic",
+      "video_sha256": "c386efa5e44f2e6e63ea1575521ffc5966bb4c800eb5df5b60d10fdb9b812c7c",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "pet_plant_pos",
+      "source_type": "synthetic",
+      "video_sha256": "cd26479d3023158bebda29ef26b3aa6805c5835aeaaa3dfcc1fe5e13635dec62",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "pet_puppy_leash",
+      "source_type": "real",
+      "video_sha256": "fa0289f98b2ebbbecc2d6c35652cfdf4f522668307c8da618eaead6383e6f8e3",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "pet_screen",
+      "source_type": "synthetic",
+      "video_sha256": "2ca5b7dfb4bfea5c00a5e5f75c63580d66f7a467578a4d7a5bd7bf40a4fa44a7",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "pet_shoe",
+      "source_type": "synthetic",
+      "video_sha256": "52b64017941b634e25e9fd945b5784c721ca8a67072756c2ce012070e41a4586",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "pet_slider_01",
+      "source_type": "synthetic",
+      "video_sha256": "366ca24b5d313be9f1039a53d6fe4a58747c44e954b326757efb7fe9d62ac343",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "pet_slider_02",
+      "source_type": "synthetic",
+      "video_sha256": "83423e138a8ce26983813b963ef0220f0ab516c45c8564e847f5ecf6d7e616c1",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "pet_stove_neg",
+      "source_type": "synthetic",
+      "video_sha256": "610b27b9e8ab01308a5b429627704f71c57d9f08f264bcf544064ad17cb62b67",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "pet_stove_pos",
+      "source_type": "synthetic",
+      "video_sha256": "3b9aaed92b9ac4e33820715a9f94b90efdd7a24895beb7ed7aea9b1ba9ebdaa9",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "pet_toilet",
+      "source_type": "synthetic",
+      "video_sha256": "b99f0c32cf5ca9902233956adf114c5d7efb741f491f56e477e584ba8b4e5ad3",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "pet_trash",
+      "source_type": "synthetic",
+      "video_sha256": "c44e92af37fdf5638e63aed4fca7c669513a24b79f36e338ed3855725d0e4c60",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "pill_sort",
+      "source_type": "real",
+      "video_sha256": "af1d48eb8b780c345d9ec6c20ed4e9305a9146b9c3dd23b42b89f58f0c81d21c",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "poker_group",
+      "source_type": "real",
+      "video_sha256": "cd67e7557526e5b4b0be0346b85ab3592d6d7d69107f901f5f947ae18cafe651",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "posture_correct",
+      "source_type": "real",
+      "video_sha256": "820a62cd2f9b68963fe71f162149ef5ff83e4496882fcf059ac4e4785c850c95",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "probe_word_boy",
+      "source_type": "synthetic",
+      "video_sha256": "d6c4d01454535369fc54991299df7f4c17c6948711139327b7c96b7b5774de03",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "queue_blood_board",
+      "source_type": "real",
+      "video_sha256": "616113a5a0664b508f5a4317433a3b082b260a1bbaba8e5619ada0c500e0c989",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "queue_dental_ad",
+      "source_type": "real",
+      "video_sha256": "791e6caabd7faf01efff47c88fe5a0dc6bafc46367df84d17668f3a8f60532e3",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "queue_ntuh_vlog",
+      "source_type": "real",
+      "video_sha256": "12e086e3fc9cea451d588c4192a0f16cdc37b1924f5cb67b3ad36215b01e4c01",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "rc_gym_set",
+      "source_type": "synthetic",
+      "video_sha256": "dec3c7a819e0c22fed57fe27d57f5405afb7e26b769c7588ed26fd6883137aae",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "rc_run_lap",
+      "source_type": "synthetic",
+      "video_sha256": "34b83c470a4137c97ff44cb62da707f109fd4f8e7470b02504eeb976abf127d0",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "rc_shop_aisle",
+      "source_type": "synthetic",
+      "video_sha256": "6f3b0af732ca29cf63ca802eaba6dfaac99a7ee9da17c6d722d7a6a31aada1ce",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "rc_street_turn",
+      "source_type": "synthetic",
+      "video_sha256": "e5b0ead41f50c89e421f5104da89ca2b612aa6a203a4242c145b9198078e4a00",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "rc_tour_pass",
+      "source_type": "synthetic",
+      "video_sha256": "bdfed264c4f63ec49e2c4388ea622cdf9ba682da3777c3544150981333415db2",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "road_barrier",
+      "source_type": "real",
+      "video_sha256": "bf0eabc0e1989ad66e31e9d87af2164a38141b7dc799c46533393117b395e3a5",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "robot_feed_cats",
+      "source_type": "synthetic",
+      "video_sha256": "e43e71c49a39e349573eee75bd51622207f072aa105cf04aa03437cb7504989a",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "robot_host_metro",
+      "source_type": "synthetic",
+      "video_sha256": "1340abba6ba6f3eddb93faf5852f73d97a4c7a90ca286fcebe4437aa0b3ec934",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "robot_host_rest",
+      "source_type": "synthetic",
+      "video_sha256": "f3052ad3a76fcd8832863c15c0cacf315f0162dc0b095222301edaf087a98650",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "roof_leak",
+      "source_type": "real",
+      "video_sha256": "a36f3a33fd61fac1bb06ec8ac01c147566ac8365120b3a9c6016517ee34e8f54",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "slip_wet_neg",
+      "source_type": "synthetic",
+      "video_sha256": "b41b5fc4b616929f42ff0e18b21ed887224fd8dfab1406a3c17a496a069fc446",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "slip_wet_pos",
+      "source_type": "synthetic",
+      "video_sha256": "eaf545ac30297871707dab27735ab66d2326de3308b1d7d6baaba28fe1a8ee72",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "sm_ball_round",
+      "source_type": "synthetic",
+      "video_sha256": "1413b3ea16ddc2c2fe6bc27c7e4aa12152b53341722fa01c0898925686e0edc8",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "sm_farm_round",
+      "source_type": "synthetic",
+      "video_sha256": "0c03cc83fb5edac41132528c2df83c06774fa74803ddfc525be701ce692566fe",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "sm_gym_set",
+      "source_type": "synthetic",
+      "video_sha256": "b4ffa6a45d3614fb1c83d7c5748cda2c72463d2e544dae9892b9f64d34ff87ce",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "sm_office_day",
+      "source_type": "synthetic",
+      "video_sha256": "776b03f1f8b913b934a8d97a81228c355d71b0c2ef5bc0d6d775ab3de8488d1d",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "sm_run_done",
+      "source_type": "synthetic",
+      "video_sha256": "55644e0cf5566c765bedad76f1ba92d00cddd9f82c926d1f485b8adc726c4d51",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "sm_school_class",
+      "source_type": "synthetic",
+      "video_sha256": "15a30ec4c2b811b39a84b8386552eaefa4326e0a957a9f1d931ce12b81671781",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "sm_yoga_flow",
+      "source_type": "synthetic",
+      "video_sha256": "cf96c6ba8276c0205c8cb9955c2ee108de1b9876b431b42f19be4f649c242c8e",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "sport_park_bball",
+      "source_type": "real",
+      "video_sha256": "106b24817a34c4246841c9c4bf62d08c1befee99043d546a8c21202410ff3a99",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "sport_run_form",
+      "source_type": "real",
+      "video_sha256": "a6fa32ba50beecc2667cab5d86312941e710646ff2a7eeecbe9ad4d92df2f13f",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "stretch_workout",
+      "source_type": "real",
+      "video_sha256": "5121d1f5f754d12ea3ad295bbc4c17e90fec699d7fd2b20b6a87515c256043f1",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "subway_wheelchair",
+      "source_type": "real",
+      "video_sha256": "5ea49aa1417c15a53be7911539c42690168f0e288559fa3a2cc6ee805fb3740b",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "tennis_ego",
+      "source_type": "real",
+      "video_sha256": "c1100e7f76159cc39854e0b52ab2f722a4dec088ddefdf20368fa7d7c408a166",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "test_kit",
+      "source_type": "real",
+      "video_sha256": "d93d12374a8bcf3b410cb71c5e53d8937a9b41a47142117b1bd5100fbb0432de",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "thief_bag_reach_neg",
+      "source_type": "synthetic",
+      "video_sha256": "6576d273abb0dab78b31a13caf885f873830018d97fa8c612014c058ae812fad",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "thief_bag_reach_pos",
+      "source_type": "synthetic",
+      "video_sha256": "b1307e1a1b7163460b3dabeeb1d4610f3859c66dc185041a053a32595fcd1f90",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "tour_cone",
+      "source_type": "synthetic",
+      "video_sha256": "300cfbb47170fb2db3203ab88c424e21cec18b33214efc0d3115a193c1429466",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "tour_elder_steps",
+      "source_type": "synthetic",
+      "video_sha256": "1a4a0d09ea195382c3bb83d9cb7042e146813418cc46d989eb079ea0a38fa2e7",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "tour_kid_rail",
+      "source_type": "synthetic",
+      "video_sha256": "f44272ba74218a981d55a73829ec4b07ee85bb41f56f9ac229bac6fb0d7b8c08",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "tutor_hold",
+      "source_type": "synthetic",
+      "video_sha256": "e5efad224a7c76db06760fb65d99c503f4d9531b2870c40d520912ebb9c200fd",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "tutor_homework",
+      "source_type": "real",
+      "video_sha256": "f5acde1b3e1c7e400d6976de2a72e95677167230be227de2bfe5ea0f8b1ca259",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "videocon_washing_machine_fault",
+      "source_type": "real",
+      "video_sha256": "1752a213012f15f971a1cf51b4ab157c1b58369db1628181577c0828a2f611a0",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "wheel_door",
+      "source_type": "synthetic",
+      "video_sha256": "ce6e636cdccfed4b7bed92e621a4510ca443ba9a967f233e63d2bc2bf009485b",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "wheel_gap",
+      "source_type": "synthetic",
+      "video_sha256": "605b658c3f34f92d5ea2c9562cda803e6682a5ef53cfb08486fdd6d3fa945ddc",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "wheel_path",
+      "source_type": "synthetic",
+      "video_sha256": "046d8ada86e01c39c694317d6b0b7d9cad70b463d5f3062c4c91d2326253e79d",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "wheel_stairs",
+      "source_type": "real",
+      "video_sha256": "7f0633ee72a817eabce9ed01a16da112046a8f1ccebfca88a545bae4a2dfdc12",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "wheel_stairs_paralyzed",
+      "source_type": "real",
+      "video_sha256": "4b2d2b494435c1baae224b8c5213f5e003b327d81bd1f40472b06fa1b679b581",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "wt_ball_shoot",
+      "source_type": "synthetic",
+      "video_sha256": "cfe5445fdbada7d8bdedae8abc7d7e157274b16806efc48dfe209dd789895a46",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "wt_cafe_sit",
+      "source_type": "synthetic",
+      "video_sha256": "4ce5d5424934ffd8df89ccae5e033fa6b95d15373d8743d0a2f2dc434e1d2fcf",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "wt_office_type",
+      "source_type": "synthetic",
+      "video_sha256": "c53a55fc88708fef9cc2925f5c77156b5a63c13c5108abfa406d46c7ee3bc113",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "case_id": "wt_school_write",
+      "source_type": "synthetic",
+      "video_sha256": "7cc960ffbd516e293133ecb16713089f9ce0929419cbd1df2f887ac4734bcb0c",
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    }
+  ],
+  "repository_media": [
+    {
+      "path": "assets/readme/benchmark-pipeline.png",
+      "sha256": "909d43b8a902ab9529e5241fb89a259fc118d82d3a5d70e4ad4b34b6e41534b8",
+      "contains_source_frames": true,
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "path": "assets/readme/dataset-examples-mobile.png",
+      "sha256": "135e34de7abb6c85a1e4164c5b5415ca29ba74bbb7b4d33cc39f4242cd705e61",
+      "contains_source_frames": true,
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "path": "assets/readme/dataset-examples.png",
+      "sha256": "135e34de7abb6c85a1e4164c5b5415ca29ba74bbb7b4d33cc39f4242cd705e61",
+      "contains_source_frames": true,
+      "rights_status": "not_documented",
+      "privacy_status": "not_documented",
+      "decision": "pending",
+      "evidence_ref": null
+    },
+    {
+      "path": "assets/readme/hero-mobile.svg",
+      "sha256": "a3240f44937edc00bda0f54767b60f6bad1f94c18425129b49b2fdb4bfc72d0e",
+      "contains_source_frames": false,
+      "rights_status": "reviewed",
+      "privacy_status": "reviewed",
+      "decision": "repository_presentation_only",
+      "evidence_ref": "review-8c3f0127-4129-463b-91db-7a1d29ccbc62"
+    },
+    {
+      "path": "assets/readme/hero.svg",
+      "sha256": "95a0aacc37f49649fb50fd60287e2889de7c5973c09a0e1f10e892fd5733421a",
+      "contains_source_frames": false,
+      "rights_status": "reviewed",
+      "privacy_status": "reviewed",
+      "decision": "repository_presentation_only",
+      "evidence_ref": "review-8c3f0127-4129-463b-91db-7a1d29ccbc62"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "group_kg_circle",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "教室监控",
+  "target_people": "多人场合",
+  "scene": "学校",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我观察孩子们的活动，活动环节变化或有人完成当前活动时告诉我。",
+      "text_en": "Please watch the children’s activity and tell me when the activity stage changes or someone completes their current activity."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 25.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 25.0,
+      "end": 30.0,
+      "action": "[inform]",
+      "text_zh": "红衣男孩开始绕圈，挨个拍小朋友的头数数。",
+      "text_en": "The boy in red is walking in circles, patting each kid's head to count them."
+    },
+    {
+      "start": 30.0,
+      "end": 48.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 48.0,
+      "end": 53.0,
+      "action": "[inform]",
+      "text_zh": "红衣男孩数完9个人后，在椅子上坐下了。",
+      "text_en": "After counting nine people, the boy in red sat down on a chair."
+    },
+    {
+      "start": 53.0,
+      "end": 54.3,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "多人场合",
+  "population_id": "group",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

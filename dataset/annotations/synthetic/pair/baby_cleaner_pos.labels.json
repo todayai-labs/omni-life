@@ -1,0 +1,37 @@
+{
+  "id": "baby_cleaner_pos",
+  "form": "pair",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "婴幼儿",
+  "scene": "厨房",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看孩子，有情况告诉我。"
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 3.0,
+      "end": 15.1,
+      "action": "[warn]",
+      "text_zh": "宝宝在拿橱柜里的洗涤剂，请注意安全。",
+      "text_en": "The baby is reaching for the detergent in the cabinet, watch out!"
+    }
+  ],
+  "target_people_detail": "婴幼儿",
+  "population_id": "baby",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "binary_pair",
+  "pair_id": "baby_cleaner"
+}

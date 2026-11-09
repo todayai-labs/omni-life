@@ -1,0 +1,29 @@
+{
+  "id": "ego_greet_lobby",
+  "form": "synthetic",
+  "side": "pos",
+  "viewpoint": "AI眼镜",
+  "target_people": "成人",
+  "scene": "大厅",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我在大堂和人打招呼，如果有什么需要注意的随时提醒我。",
+      "text_en": "Please watch as I greet people in the lobby, and let me know if anything needs my attention."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 30.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "前台接待",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

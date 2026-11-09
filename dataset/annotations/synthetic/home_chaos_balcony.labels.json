@@ -1,0 +1,44 @@
+{
+  "id": "home_chaos_balcony",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "婴幼儿",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看家里的孩子，有危险及时通知我。",
+      "text_en": "Please help me watch the children at home and notify me immediately if there is any danger."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 5.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 5.0,
+      "end": 13.0,
+      "action": "[warn]",
+      "text_zh": "宝宝靠近阳台门了，请注意看护。",
+      "text_en": "The baby is near the balcony door, please keep an eye on them."
+    },
+    {
+      "start": 13.0,
+      "end": 30.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "婴幼儿",
+  "population_id": "baby",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

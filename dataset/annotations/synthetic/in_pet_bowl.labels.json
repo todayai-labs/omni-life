@@ -1,0 +1,30 @@
+{
+  "id": "in_pet_bowl",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "宠物",
+  "scene": "厨房",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意狗有没有去吃碗里的饭，如果它开始吃了就告诉我。",
+      "text_en": "Please help me keep an eye on whether the dog goes to eat the food in its bowl, and let me know if it starts eating."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "宠物",
+  "population_id": "pet",
+  "assistant_role": "宠物照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

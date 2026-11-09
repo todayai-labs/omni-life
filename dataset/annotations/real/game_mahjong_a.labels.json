@@ -1,0 +1,57 @@
+{
+  "id": "game_mahjong_a",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "第一视角牌桌观察",
+  "target_people": "多人场合",
+  "scene": "牌桌",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请陪我们打麻将，留意画面下方玩家的摸牌、出牌和摆牌进展，有重要变化时告诉我。",
+      "text_en": "Please join us for mahjong, keep an eye on the drawing, discarding, and arranging of tiles by the player at the bottom of the screen, and let me know if there are any major changes."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 13,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 13,
+      "end": 15,
+      "action": "[inform]",
+      "text_zh": "下方玩家把一组牌摆到了手牌前方。",
+      "text_en": "The player at the bottom has laid a group of tiles in front of their hand."
+    },
+    {
+      "start": 15,
+      "end": 23,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 23,
+      "end": 25,
+      "action": "[inform]",
+      "text_zh": "下方玩家又摆出了一组牌。",
+      "text_en": "The player at the bottom has laid out another group of tiles."
+    },
+    {
+      "start": 25,
+      "end": 55.87,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "画面下方玩家，手牌位于画面下沿",
+  "population_id": "group",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

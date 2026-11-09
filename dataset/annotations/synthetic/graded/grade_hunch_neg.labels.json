@@ -1,0 +1,38 @@
+{
+  "id": "grade_hunch_neg",
+  "form": "graded",
+  "side": "neg",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "学习助手，请陪我们一起学习，留意坐姿是否规范，有问题提醒我们纠正。",
+      "text_en": "Learning Assistant, please study with us, monitor whether our sitting posture is proper, and remind us to correct it if there are any issues."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 8.0,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "你有些驼背了，把背挺直吧。",
+      "text_en": "You're slouching a bit, straighten your back."
+    }
+  ],
+  "target_people_detail": "居家的人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "工位监控",
+  "eval_group": "graded_pair",
+  "pair_id": "grade_hunch"
+}

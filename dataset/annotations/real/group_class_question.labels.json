@@ -1,0 +1,120 @@
+{
+  "id": "group_class_question",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "教室监控",
+  "target_people": "多人场合",
+  "scene": "学校",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意课堂发言，每有人开始回答时告诉我是谁，这轮问答结束后汇总发言的学生。",
+      "text_en": "Please follow the classroom discussion, tell me who begins each answer, and summarize who spoke when this round of questions ends."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 3.0,
+      "end": 5.0,
+      "action": "[inform]",
+      "text_zh": "奥斯汀正在发言。",
+      "text_en": "Austin is speaking."
+    },
+    {
+      "start": 5.0,
+      "end": 20.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 20.0,
+      "end": 22.0,
+      "action": "[inform]",
+      "text_zh": "基根正在发言。",
+      "text_en": "Keegan is speaking."
+    },
+    {
+      "start": 22.0,
+      "end": 43.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 43.0,
+      "end": 45.0,
+      "action": "[inform]",
+      "text_zh": "麦迪正在发言。",
+      "text_en": "Maddy is speaking."
+    },
+    {
+      "start": 45.0,
+      "end": 80.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 80.0,
+      "end": 82.0,
+      "action": "[inform]",
+      "text_zh": "泰勒正在发言。",
+      "text_en": "Taylor is speaking."
+    },
+    {
+      "start": 82.0,
+      "end": 95.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 95.0,
+      "end": 97.0,
+      "action": "[inform]",
+      "text_zh": "朱丽叶正在发言。",
+      "text_en": "Juliet is speaking."
+    },
+    {
+      "start": 97.0,
+      "end": 112.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 112.0,
+      "end": 114.0,
+      "action": "[inform]",
+      "text_zh": "莉莉正在发言。",
+      "text_en": "Lily is speaking."
+    },
+    {
+      "start": 114.0,
+      "end": 128.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 128.0,
+      "end": 130.9,
+      "action": "[inform]",
+      "text_zh": "奥斯汀、基根、麦迪、泰勒、朱丽叶、莉莉都发言了。",
+      "text_en": "Austin, Keegan, Maddy, Taylor, Juliet, and Lily have all spoken."
+    }
+  ],
+  "target_people_detail": "多人场合",
+  "population_id": "group",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

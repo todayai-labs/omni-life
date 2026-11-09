@@ -1,0 +1,29 @@
+{
+  "id": "cook_tomato_1min",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "AI眼镜",
+  "target_people": "成人",
+  "scene": "厨房",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我做菜，有明显不卫生或不规范的操作时提醒我纠正。",
+      "text_en": "Please watch me cook and correct any clearly unhygienic or improper actions."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 56.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "下厨的人",
+  "population_id": "adult",
+  "assistant_role": "生活协作助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "kid_cry_cam",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "居家监控",
+  "target_people": "学龄儿童",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看孩子，有危险或异常情况及时通知我。",
+      "text_en": "Please help me watch the child and notify me immediately if there is any danger or abnormal situation."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 11.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 11.0,
+      "end": 25.0,
+      "action": "[warn]",
+      "text_zh": "宝宝在床上哭闹，快去看看吧。",
+      "text_en": "The baby is crying in bed, go check on them."
+    },
+    {
+      "start": 25.0,
+      "end": 31.1,
+      "action": "[inform]",
+      "text_zh": "家长已进入房间安抚宝宝。",
+      "text_en": "A parent has gone into the room to comfort the baby."
+    }
+  ],
+  "target_people_detail": "学龄儿童",
+  "population_id": "kid",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

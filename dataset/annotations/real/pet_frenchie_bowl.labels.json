@@ -1,0 +1,64 @@
+{
+  "id": "pet_frenchie_bowl",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "居家监控",
+  "target_people": "宠物",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看狗狗，每次出现需要关注的表现时告诉我。",
+      "text_en": "Please watch over the dog and tell me each time it shows behavior needing attention."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 4,
+      "action": "[inform]",
+      "text_zh": "狗狗在食碗旁发出哼唧声。您看看狗狗怎么了。",
+      "text_en": "The dog is whining beside the food bowl. Please check on the dog."
+    },
+    {
+      "start": 4,
+      "end": 24.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 24.5,
+      "end": 28.5,
+      "action": "[inform]",
+      "text_zh": "狗狗开始大声嚎叫。您看看狗狗怎么了。",
+      "text_en": "The dog has started howling loudly. Please check on the dog."
+    },
+    {
+      "start": 28.5,
+      "end": 47.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 47.5,
+      "end": 51,
+      "action": "[inform]",
+      "text_zh": "狗狗又开始嚎叫了。您看看狗狗怎么了。",
+      "text_en": "The dog has started howling again. Please check on the dog."
+    },
+    {
+      "start": 51,
+      "end": 60.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "宠物",
+  "population_id": "pet",
+  "assistant_role": "宠物照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

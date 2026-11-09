@@ -1,0 +1,44 @@
+{
+  "id": "deaf_behind",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "听障者",
+  "scene": "室内",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "我是听障人士，请帮我留意家里的动静，如果有人按门铃或者有其他声音请及时提醒我。",
+      "text_en": "I am hearing impaired, please help me keep an eye on the house. If someone rings the doorbell or there are other sounds, please alert me in time."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 2.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 2.5,
+      "end": 5.5,
+      "action": "[inform]",
+      "text_zh": "门铃响了，有人在门外。",
+      "text_en": "The doorbell rang, someone is at the door."
+    },
+    {
+      "start": 5.5,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "听障者",
+  "population_id": "deaf",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

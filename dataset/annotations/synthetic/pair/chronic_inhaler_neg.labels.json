@@ -1,0 +1,31 @@
+{
+  "id": "chronic_inhaler_neg",
+  "form": "pair",
+  "side": "neg",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "慢病患者",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意患者的状态，持续不适且尚未得到及时处理时通知我；患者或照护者已及时处理、情况受控时，不必重复提醒。",
+      "text_en": "Please monitor the patient and notify me of persistent distress that has not been promptly addressed. When the patient or caregiver has acted promptly and the situation is under control, do not repeat the alert."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "慢病患者",
+  "population_id": "chronic",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "binary_pair",
+  "pair_id": "chronic_inhaler"
+}

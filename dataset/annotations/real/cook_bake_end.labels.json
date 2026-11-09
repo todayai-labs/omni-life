@@ -1,0 +1,36 @@
+{
+  "id": "cook_bake_end",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "AI眼镜",
+  "target_people": "成人",
+  "scene": "厨房",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我操作，在我查看下一步时，汇总一下刚才完成的步骤。",
+      "text_en": "Please watch what I do and summarize the steps I just finished when I check the next step."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 55.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 55.0,
+      "end": 60.0,
+      "action": "[inform]",
+      "text_zh": "你已洗净量勺，并从微波炉里取出了杯子。",
+      "text_en": "You've washed the measuring spoon and taken the cup out of the microwave."
+    }
+  ],
+  "target_people_detail": "下厨的人",
+  "population_id": "adult",
+  "assistant_role": "生活协作助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

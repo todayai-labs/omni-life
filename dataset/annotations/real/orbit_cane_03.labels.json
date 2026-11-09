@@ -1,0 +1,42 @@
+{
+  "id": "orbit_cane_03",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "AI眼镜",
+  "target_people": "视障者",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请告知我这是什么。"
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 1.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 1.5,
+      "end": 5.5,
+      "action": "[inform]",
+      "text_zh": "你面前是一根折叠好的盲杖，带有白色滚轮杖尖。",
+      "text_en": "In front of you is a folded white cane with a roller tip."
+    },
+    {
+      "start": 5.5,
+      "end": 16.2,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "视障者",
+  "population_id": "blind",
+  "assistant_role": "无障碍生活助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

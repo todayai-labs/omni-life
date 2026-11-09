@@ -1,0 +1,29 @@
+{
+  "id": "fb_street_phone",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "街面",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "出行助手，请陪我一起走路，有状况提醒我。"
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.1,
+      "action": "[warn]",
+      "text_zh": "请注意安全，走路时请勿一直低头看手机，留意周围路况。",
+      "text_en": "Please pay attention to safety. Do not keep looking down at your phone while walking, and stay aware of your surroundings."
+    }
+  ],
+  "target_people_detail": "路上的行人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "路边监控",
+  "eval_group": "general"
+}

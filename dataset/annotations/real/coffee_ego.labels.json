@@ -1,0 +1,36 @@
+{
+  "id": "coffee_ego",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "AI眼镜",
+  "target_people": "成人",
+  "scene": "厨房",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我做咖啡，做完后帮我总结一下步骤。",
+      "text_en": "Please watch me make coffee, and help me summarize the steps once it's done."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 138.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 138.0,
+      "end": 145.0,
+      "action": "[inform]",
+      "text_zh": "磨豆、压粉、萃取、打奶、拉花，咖啡做好了。",
+      "text_en": "Grind, tamp, brew, steam, and pour—your coffee is ready!"
+    }
+  ],
+  "target_people_detail": "下厨的人",
+  "population_id": "adult",
+  "assistant_role": "生活协作助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

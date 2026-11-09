@@ -1,0 +1,38 @@
+{
+  "id": "adult_oven_pos",
+  "form": "pair",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "厨房",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我看着烤箱，如果发生异常或着火请及时提醒我。",
+      "text_en": "Please keep an eye on the oven and alert me immediately if anything goes wrong or if it catches fire."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 4.0,
+      "end": 15.1,
+      "action": "[warn]",
+      "text_zh": "烤箱里着火了，快回来处理！",
+      "text_en": "The oven is on fire, come back and put it out quickly!"
+    }
+  ],
+  "target_people_detail": "居家的人",
+  "population_id": "adult",
+  "assistant_role": "生活协作助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "binary_pair",
+  "pair_id": "adult_oven"
+}

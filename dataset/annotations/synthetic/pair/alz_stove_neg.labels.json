@@ -1,0 +1,31 @@
+{
+  "id": "alz_stove_neg",
+  "form": "pair",
+  "side": "neg",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "认知障碍",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看燃气灶，如果老人离开且火没关，请及时提醒。",
+      "text_en": "Please help me watch the gas stove, and alert me immediately if the elderly person leaves and the stove is still on."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "认知障碍者",
+  "population_id": "alz",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "binary_pair",
+  "pair_id": "alz_stove"
+}

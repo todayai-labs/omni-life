@@ -1,0 +1,30 @@
+{
+  "id": "group_multigen",
+  "form": "short",
+  "side": "neg",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "多人场合",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看家里的孩子，有危险及时通知我。",
+      "text_en": "Please help me watch the children at home and notify me immediately if there is any danger."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "多人场合",
+  "population_id": "group",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

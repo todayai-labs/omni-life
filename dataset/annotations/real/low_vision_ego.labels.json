@@ -1,0 +1,71 @@
+{
+  "id": "low_vision_ego",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "AI眼镜",
+  "target_people": "视障者",
+  "scene": "交通",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请协助我安全行走，发现障碍或危险时提醒我，绕过障碍或危险解除时告诉我。",
+      "text_en": "Please help me walk safely. Alert me to obstacles or hazards, and tell me when I have passed an obstacle or a hazard has cleared."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 4.5,
+      "action": "[warn]",
+      "text_zh": "摩托车挡在盲道上。",
+      "text_en": "A motorcycle is blocking the tactile paving."
+    },
+    {
+      "start": 4.5,
+      "end": 7.0,
+      "action": "[inform]",
+      "text_zh": "已经绕到旁边了。",
+      "text_en": "You have bypassed it to the side."
+    },
+    {
+      "start": 7.0,
+      "end": 24.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 24.5,
+      "end": 31.0,
+      "action": "[warn]",
+      "text_zh": "右侧电动车贴过来了。",
+      "text_en": "An electric scooter is pulling up close on your right."
+    },
+    {
+      "start": 31.0,
+      "end": 34.0,
+      "action": "[inform]",
+      "text_zh": "车过去了，这边能走。",
+      "text_en": "The scooter has passed, you can walk here."
+    },
+    {
+      "start": 34.0,
+      "end": 66.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 66.5,
+      "end": 70.0,
+      "action": "[warn]",
+      "text_zh": "前方路牌和电动车挡在盲道上。",
+      "text_en": "A street sign and scooter are blocking the tactile paving ahead."
+    }
+  ],
+  "target_people_detail": "视障者",
+  "population_id": "blind",
+  "assistant_role": "无障碍生活助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "adult_iron_on_pos",
+  "form": "pair",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "生活助手，请帮我看着熨斗并陪我整理衣物，如果我离开时有安全隐患请提醒我。",
+      "text_en": "Life assistant, please help me watch the iron and accompany me while I organize clothes, and remind me if there are any safety hazards when I leave."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 8.0,
+      "end": 15.1,
+      "action": "[warn]",
+      "text_zh": "熨斗还开着，请及时关闭，注意安全。",
+      "text_en": "The iron is still on, please turn it off to be safe."
+    }
+  ],
+  "target_people_detail": "居家的人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "binary_pair",
+  "pair_id": "adult_iron_on"
+}

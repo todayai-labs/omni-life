@@ -1,0 +1,37 @@
+{
+  "id": "p4_car_fuel",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "交通",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请陪我开车，听到我提出行程中的需求时，告诉我可以采取的措施。",
+      "text_en": "Please accompany me while driving and tell me what I can do when I mention a travel-related need."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 12.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 12.5,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "您提到油量可能不足，请先确认剩余油量，并用导航查找可到达的加油站。",
+      "text_en": "You mentioned that fuel may be low. Please check the remaining fuel and use navigation to find a reachable gas station."
+    }
+  ],
+  "target_people_detail": "开车的人",
+  "population_id": "adult",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "车内监控",
+  "eval_group": "general"
+}

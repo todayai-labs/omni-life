@@ -1,0 +1,43 @@
+{
+  "id": "elevator_arrival",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "第一人称视角",
+  "target_people": "成人",
+  "scene": "交通",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意电梯，电梯开门时提醒我。",
+      "text_en": "Please monitor the elevator and notify me when its doors open."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 18.75,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 18.75,
+      "end": 21.75,
+      "action": "[inform]",
+      "text_zh": "电梯门正在打开。",
+      "text_en": "The elevator doors are opening."
+    },
+    {
+      "start": 21.75,
+      "end": 27.77,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "成人",
+  "population_id": "adult",
+  "assistant_role": "乘梯到站提醒助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "fb_stretch_bounce",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "室内运动",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我拉伸，如果动作不规范请提醒我。",
+      "text_en": "Please watch me stretch and remind me if my form is incorrect."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 4.0,
+      "end": 8.0,
+      "action": "[feedback]",
+      "text_zh": "拉伸时请保持静态，不要弹抖，避免拉伤。",
+      "text_en": "Keep your stretches static and avoid bouncing to prevent injury."
+    },
+    {
+      "start": 8.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "运动的人",
+  "population_id": "adult",
+  "assistant_role": "运动助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "训练室监控",
+  "eval_group": "general"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "sport_run_form",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "第三人称运动相机跟拍视角",
+  "target_people": "成人",
+  "scene": "户外运动",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我跑步，有不规范的跑姿请帮我纠正，姿势改善时也请告诉我。",
+      "text_en": "Please watch me run, correct improper running form, and tell me when my form improves."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 5.0,
+      "action": "[feedback]",
+      "text_zh": "跑步时收紧核心，骨盆保持中立，避免前倾。",
+      "text_en": "Keep your core tight and pelvis neutral while running, and avoid leaning forward."
+    },
+    {
+      "start": 5.0,
+      "end": 15.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 15.0,
+      "end": 20.0,
+      "action": "[feedback]",
+      "text_zh": "缩短步幅，尽量用脚掌中部着地，减少冲击。",
+      "text_en": "Shorten your stride and land on your midfoot to reduce impact."
+    },
+    {
+      "start": 20.0,
+      "end": 25.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 25.0,
+      "end": 30.0,
+      "action": "[inform]",
+      "text_zh": "现在的姿势很好，身体自然前倾，核心很稳定。",
+      "text_en": "Your posture looks great, leaning forward naturally with a stable core."
+    },
+    {
+      "start": 30.0,
+      "end": 36.9,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "运动的人",
+  "population_id": "adult",
+  "assistant_role": "运动助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

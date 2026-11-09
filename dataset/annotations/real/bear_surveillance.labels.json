@@ -1,0 +1,43 @@
+{
+  "id": "bear_surveillance",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "居家监控",
+  "target_people": "成人",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意院子，有大型野生动物进入时及时告诉我。",
+      "text_en": "Please monitor the yard and tell me when a large wild animal enters."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 5,
+      "end": 9,
+      "action": "[warn]",
+      "text_zh": "警告：有一只黑熊正走入您的车道，请注意安全，避免外出。",
+      "text_en": "Warning: A black bear is walking into your driveway. Please stay safe and avoid going outside."
+    },
+    {
+      "start": 9,
+      "end": 33.85,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "成人",
+  "population_id": "adult",
+  "assistant_role": "院落监护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

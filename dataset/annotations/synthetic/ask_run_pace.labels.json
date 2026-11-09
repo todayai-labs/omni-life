@@ -1,0 +1,37 @@
+{
+  "id": "ask_run_pace",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "户外运动",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "运动助手，请陪我一起锻炼，如果我向你提问，请及时回答我。",
+      "text_en": "Workout assistant, please exercise with me and answer my questions promptly."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 14.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 14.0,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "我需要查阅计时等信息。",
+      "text_en": "I need timing information to look this up."
+    }
+  ],
+  "target_people_detail": "运动的人",
+  "population_id": "adult",
+  "assistant_role": "运动助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "跑道监控",
+  "eval_group": "general"
+}

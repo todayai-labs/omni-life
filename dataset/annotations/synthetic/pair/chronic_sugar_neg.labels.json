@@ -1,0 +1,30 @@
+{
+  "id": "chronic_sugar_neg",
+  "form": "pair",
+  "side": "neg",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "慢病患者",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看老人的服药过程，有情况告诉我。"
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "慢病患者",
+  "population_id": "chronic",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "binary_pair",
+  "pair_id": "chronic_sugar"
+}

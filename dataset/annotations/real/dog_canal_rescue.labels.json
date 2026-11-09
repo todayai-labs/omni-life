@@ -1,0 +1,57 @@
+{
+  "id": "dog_canal_rescue",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "第一人称运动相机视角",
+  "target_people": "宠物",
+  "scene": "街面",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意小狗的救助情况，有人在救助时告诉我，小狗成功获救后也请通知我。",
+      "text_en": "Please monitor the dog rescue, tell me when someone is rescuing it, and notify me when the dog has been successfully rescued."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0,
+      "end": 3,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 3,
+      "end": 6,
+      "action": "[inform]",
+      "text_zh": "有人正在水边救助小狗。",
+      "text_en": "People are rescuing the dog at the water’s edge."
+    },
+    {
+      "start": 6,
+      "end": 12.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 12.5,
+      "end": 15.5,
+      "action": "[inform]",
+      "text_zh": "小狗已成功上岸获救。",
+      "text_en": "The dog has been brought safely ashore."
+    },
+    {
+      "start": 15.5,
+      "end": 25.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "宠物",
+  "population_id": "pet",
+  "assistant_role": "动物受困观察助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

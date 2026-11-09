@@ -1,0 +1,30 @@
+{
+  "id": "grade_rail_pos",
+  "form": "graded",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "景区",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请陪我一起观景，有状况提醒我。"
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "游客",
+  "population_id": "adult",
+  "assistant_role": "旅行陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "景区监控",
+  "eval_group": "graded_pair",
+  "pair_id": "grade_rail"
+}

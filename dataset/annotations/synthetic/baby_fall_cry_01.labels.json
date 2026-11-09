@@ -1,0 +1,44 @@
+{
+  "id": "baby_fall_cry_01",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "婴幼儿",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看孩子，有危险或需要帮助时及时通知我，并提醒我查看和安抚孩子。",
+      "text_en": "Please watch the child, notify me promptly of danger or a need for help, and remind me to check on and comfort the child."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 2.0,
+      "end": 10.0,
+      "action": "[warn]",
+      "text_zh": "宝宝摔倒了，请及时查看并安抚。",
+      "text_en": "The baby has fallen. Please check on and comfort the baby promptly."
+    },
+    {
+      "start": 10.0,
+      "end": 15.1,
+      "action": "[warn]",
+      "text_zh": "宝宝开始哭了，请过去看看并安抚。",
+      "text_en": "The baby has started crying. Please go check on and comfort the baby."
+    }
+  ],
+  "target_people_detail": "婴幼儿",
+  "population_id": "baby",
+  "assistant_role": "照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

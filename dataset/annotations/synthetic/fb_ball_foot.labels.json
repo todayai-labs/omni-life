@@ -1,0 +1,37 @@
+{
+  "id": "fb_ball_foot",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "户外运动",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我记录投篮结果，练习结束后汇总命中情况。",
+      "text_en": "Please help me record the shooting results and summarize the successful shots after the practice ends."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 11.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 11.5,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "刚才三次投篮都命中了。",
+      "text_en": "All three shots just now went in."
+    }
+  ],
+  "target_people_detail": "运动的人",
+  "population_id": "adult",
+  "assistant_role": "运动助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "球场监控",
+  "eval_group": "general"
+}

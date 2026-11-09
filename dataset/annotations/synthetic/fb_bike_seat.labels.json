@@ -1,0 +1,44 @@
+{
+  "id": "fb_bike_seat",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "室内运动",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我骑动感单车，骑行姿势或设备设置有不规范的地方时，请提醒我纠正。",
+      "text_en": "Please watch me ride the stationary bike and correct any improper riding posture or equipment setup."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 3.0,
+      "end": 13.0,
+      "action": "[feedback]",
+      "text_zh": "车座高度偏低，建议将车座调高一些。",
+      "text_en": "The seat is a bit low, so you should raise it up."
+    },
+    {
+      "start": 13.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "运动的人",
+  "population_id": "adult",
+  "assistant_role": "运动助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "健身房监控",
+  "eval_group": "general"
+}

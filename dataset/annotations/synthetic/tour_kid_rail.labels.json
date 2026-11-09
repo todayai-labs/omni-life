@@ -1,0 +1,43 @@
+{
+  "id": "tour_kid_rail",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "学龄儿童",
+  "scene": "景区",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我照看孩子，有情况告诉我。"
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 1.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 1.5,
+      "end": 5.0,
+      "action": "[inform]",
+      "text_zh": "请勿翻越防护栏，请退回安全区域。",
+      "text_en": "Please don't climb over the railing, and step back to safety."
+    },
+    {
+      "start": 5.0,
+      "end": 15.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "学龄儿童",
+  "population_id": "kid",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "路边监控",
+  "eval_group": "general"
+}

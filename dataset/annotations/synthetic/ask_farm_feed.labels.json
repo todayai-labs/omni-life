@@ -1,0 +1,36 @@
+{
+  "id": "ask_farm_feed",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "农舍监控",
+  "target_people": "成人",
+  "scene": "农业",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "农业助手，请在有人询问农场物资或饲料信息时，及时提供解答。",
+      "text_en": "Agricultural Assistant, please provide timely answers when someone asks about farm supplies or feed information."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 12.5,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 12.5,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "请靠近拍摄饲料信息。",
+      "text_en": "Please move closer and film the feed information."
+    }
+  ],
+  "target_people_detail": "务农的人",
+  "population_id": "adult",
+  "assistant_role": "农业助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

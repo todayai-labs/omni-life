@@ -1,0 +1,58 @@
+# Omni-Life Research Evaluation License 1.0
+
+License identifier: `LicenseRef-Omni-Life-Research-Evaluation-1.0`
+
+Version: 1.0 · 2026-11-02
+
+This is a custom license for benchmark data. It is not a Creative Commons license or an OSI-approved open-source license. The evaluation software is licensed separately under [Apache License 2.0](../LICENSE); see [licensing scope](../evaluation/README.md#licensing-and-external-materials).
+
+## 1. Scope and definitions
+
+**Benchmark Material** means the annotations, metadata, QA records, benchmark prompts, and frozen reference results in `dataset/`, `evaluation/prompts/`, and `results/` that the relevant rights holders make available under this license. **Licensor** means each rights holder granting permission for their contribution. Permission extends only to rights that a Licensor has authority to grant.
+
+Source videos and audio, third-party images and video frames, model weights and external model code, fonts, names, logos, and trademarks are excluded. Their appearance in a repository, paper, or example does not grant permission to reuse them. Independently applicable rights and third-party terms remain in effect.
+
+**Noncommercial Research Evaluation** means scientific investigation, reproducibility, comparative evaluation, error analysis, or research education that is not primarily intended for commercial advantage or monetary compensation. An organization's nonprofit or commercial status alone does not determine whether a use qualifies. Commercial product development, product qualification, and evaluation undertaken primarily for commercial advantage require separate written permission.
+
+## 2. Permission
+
+Subject to this license, the Licensor grants a nonexclusive, royalty-free permission to use, copy, analyze, and redistribute the Benchmark Material solely for Noncommercial Research Evaluation. You may make reproducible format conversions and technical adaptations needed to run evaluations, provided you preserve the source version, case identities, reference meaning, and provenance.
+
+You may publish aggregate metrics, scientific analyses, and limited excerpts needed to explain research findings. Retain any required attribution and identify the dataset version or commit. Examples containing third-party media, identifiable people, or other excluded material require an independent basis for their use; this license does not supply one.
+
+These permissions do not authorize commercial use, model training, or operational deployment of the Benchmark Material. Other uses require separate written permission from the relevant rights holders. Requests may be sent to [mengze@today.ai](mailto:mengze@today.ai).
+
+## 3. Conditions and prohibited uses
+
+When exercising permissions under this license, you must:
+
+- **Preserve evaluation integrity.** Do not overwrite or alter canonical reference labels, QA answers, reference time windows, or frozen reference results and redistribute them as the official benchmark. Keep proposed corrections or alternative annotations in clearly identified, separate files or patches, retaining the original version and a record of changes. Identify converted or modified distributions and do not present them as an unchanged official release.
+- **Keep the benchmark out of training.** Do not use the Benchmark Material, its reference answers, or derivatives made from them for pretraining, fine-tuning, distillation, reinforcement learning, reward-model training, parameter updates, or construction of training datasets. Do not use it to optimize models, prompts, routing policies, or retrieval answer stores against the benchmark's reference targets. Running a fixed system or comparing predefined evaluation conditions is permitted when it does not adapt the system to those targets.
+- **Report results honestly.** Do not conceal benchmark exposure, tune on reference targets and present the result as held-out performance, selectively omit failed cases while claiming full-benchmark coverage, or present altered references as the official protocol. Identify material protocol changes and the evaluated subset.
+- **Respect people represented in the data.** Do not use the Benchmark Material to identify or re-identify people, match their identities across sources, link them to external personal records, or build tracking or surveillance of identifiable people. Do not use it to harass, impersonate, exploit, or profile an individual for sensitive attributes.
+- **Keep use within research evaluation.** Do not use the Benchmark Material as operational data for automated decisions about real people in medical care, emergency response, security, law enforcement, employment, insurance, or similarly consequential settings. Benchmark results do not establish readiness for such deployment. This condition applies to the Benchmark Material, not to the separately licensed Apache-2.0 software.
+- **Respect independent rights.** Do not infer consent, privacy clearance, redistribution permission, or endorsement from public availability, a dataset label, or an example image. Obtain any permissions independently required for your intended use and apply appropriate access, storage, and retention controls.
+
+## 4. Redistribution and attribution
+
+You may redistribute Benchmark Material for the permitted purposes only under this same license. Include this license, retain supplied attribution and rights notices, identify Omni-Life and the source repository and version, and clearly describe any technical transformations. Recipients receive permission from the relevant Licensor under these terms; you may not grant broader rights to the material.
+
+The same-license requirement applies to redistributed Benchmark Material and adaptations of that material. It does not require separately developed evaluation software, methods, independently developed models, aggregate measurements, or original research commentary to adopt this license merely because they are used with or discuss Omni-Life. Any included copy of Benchmark Material remains subject to its applicable terms.
+
+No redistribution permission for source videos, audio, identifiable-person imagery, third-party frames, or other excluded material is granted here. Access to any such material is determined separately, case by case. Receiving access does not imply permission to transfer it to others. Follow the applicable source terms and any written access agreement.
+
+## 5. Rights reserved and legal exceptions
+
+All rights not expressly granted by a Licensor are reserved to their respective rights holders. No patent, trademark, publicity, privacy, or personality rights are granted. No use may imply endorsement by Today, the researchers, contributors, source creators, or depicted people.
+
+This license does not restrict uses that do not require permission under applicable law, including applicable statutory exceptions and limitations. It does not claim ownership of public-domain material or facts that are not subject to exclusive rights. It does not replace third-party terms or confer rights that the Licensor does not hold.
+
+## 6. No warranty or deployment assurance
+
+To the extent permitted by applicable law, the Benchmark Material is provided as is, without warranties of accuracy, completeness, fitness for a particular purpose, title, or non-infringement. No guarantee is made that a research result will generalize to a real-world setting or that any third-party media is cleared for your proposed use. To the extent permitted by applicable law, the Licensor is not liable for loss arising from use of the Benchmark Material. Nothing in this section excludes liability that cannot lawfully be excluded.
+
+## 7. Breach, versions, and contact
+
+Permission under this license terminates for a recipient who materially breaches its conditions. The recipient must cease uses that depend on the terminated permission. Reinstatement requires remedying the breach and written confirmation from the relevant Licensor; independent legal rights and exceptions remain unaffected. A recipient's breach does not by itself terminate permissions held by other recipients who comply with this license.
+
+This version governs material released under it. A later license version does not automatically change the terms applicable to copies already received. Requests for another use, clarification, corrections, or rights and privacy concerns can be sent to [mengze@today.ai](mailto:mengze@today.ai). See the [data access and rights process](README.md#access-privacy-and-rights).

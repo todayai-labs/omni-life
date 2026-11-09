@@ -1,0 +1,37 @@
+{
+  "id": "ask_pet_food",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "宠物",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "生活助手，请陪我一起照看宠物，如果我向你提问，请及时回答我。",
+      "text_en": "Life assistant, please help me look after the pets, and answer me promptly if I ask you any questions."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 13.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 13.0,
+      "end": 15.1,
+      "action": "[answer]",
+      "text_zh": "如果是人吃的饼干，最好不要给狗狗吃哦。",
+      "text_en": "If they're human cookies, it's best not to feed them to the dog."
+    }
+  ],
+  "target_people_detail": "宠物",
+  "population_id": "pet",
+  "assistant_role": "宠物照护助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}

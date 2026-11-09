@@ -1,0 +1,37 @@
+{
+  "id": "p4_office_late",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "成人",
+  "scene": "办公",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请看着我加班，如果时间太晚了请提醒我。",
+      "text_en": "Please watch over me while I work overtime and remind me if it gets too late."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 11.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 11.0,
+      "end": 15.1,
+      "action": "[inform]",
+      "text_zh": "已经深夜了，辛苦了，早点下班休息吧。",
+      "text_en": "It's late, thanks for your hard work, go home and get some rest."
+    }
+  ],
+  "target_people_detail": "办公室白领",
+  "population_id": "adult",
+  "assistant_role": "办公助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "工位监控",
+  "eval_group": "general"
+}

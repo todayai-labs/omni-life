@@ -1,0 +1,42 @@
+{
+  "id": "game_cards",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "手持观察视角",
+  "target_people": "多人场合",
+  "scene": "牌桌",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请观察这场牌局，告诉我最后一次出牌的是谁。"
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 195.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 195.0,
+      "end": 205.0,
+      "action": "[answer]",
+      "text_zh": "画面中最后一次出牌的是左侧穿蓝色长裤的男生。",
+      "text_en": "The last person to play a card in the video is the boy in blue pants on the left."
+    },
+    {
+      "start": 205.0,
+      "end": 208.33,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "多人场合",
+  "population_id": "group",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

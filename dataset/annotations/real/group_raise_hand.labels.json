@@ -1,0 +1,43 @@
+{
+  "id": "group_raise_hand",
+  "form": "real",
+  "side": "real",
+  "viewpoint": "教室监控",
+  "target_people": "多人场合",
+  "scene": "学校",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我看着孩子们，如果有谁举手了请告诉我。",
+      "text_en": "Please help me watch the children, and let me know if anyone raises their hand."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    },
+    {
+      "start": 3.0,
+      "end": 8.0,
+      "action": "[inform]",
+      "text_zh": "左边和右边的两个小女孩举手了。",
+      "text_en": "The two girls on the left and right raised their hands."
+    },
+    {
+      "start": 8.0,
+      "end": 30.1,
+      "action": "[wait]",
+      "text_zh": "",
+      "text_en": ""
+    }
+  ],
+  "target_people_detail": "多人场合",
+  "population_id": "group",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "eval_group": "general"
+}

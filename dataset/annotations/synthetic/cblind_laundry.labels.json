@@ -1,0 +1,37 @@
+{
+  "id": "cblind_laundry",
+  "form": "short",
+  "side": "pos",
+  "viewpoint": "固定第三人称视角",
+  "target_people": "色觉障碍",
+  "scene": "居家",
+  "query": [
+    {
+      "start_time_sec": 0,
+      "text": "请帮我留意洗衣服时的颜色分类，发现可能串色的混洗情况时提醒我。",
+      "text_en": "Please monitor the color sorting during laundry and warn me if mixing garments could cause color transfer."
+    }
+  ],
+  "annotation": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "action": "[warn]",
+      "text_zh": "红白衣服混洗容易串色，请分开浸泡。",
+      "text_en": "Red and white clothes can bleed, so please soak them separately."
+    },
+    {
+      "start": 8.0,
+      "end": 15.1,
+      "action": "[warn]",
+      "text_zh": "白衣服已放进红衣盆中，请尽快拿出来。",
+      "text_en": "The white clothes are in the red basket, please take them out soon."
+    }
+  ],
+  "target_people_detail": "色觉障碍者",
+  "population_id": "cblind",
+  "assistant_role": "生活陪伴助手",
+  "assistant_role_basis": "按任务归类，不代表可从画面确认设备硬件",
+  "capture_context": "居家监控",
+  "eval_group": "general"
+}
