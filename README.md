@@ -7,7 +7,12 @@
 
 <p align="center"><a href="https://todayai-labs.github.io/omni-life/">Project page</a> &nbsp;·&nbsp; <a href="https://arxiv.org/html/2611.02835v1">Read the paper</a> &nbsp;·&nbsp; <a href="https://huggingface.co/datasets/mengze-hong/omni-life">Hugging Face dataset</a> &nbsp;·&nbsp; <a href="results/README.md">Results</a></p>
 
-https://github.com/user-attachments/assets/564c1b7b-8b76-41b6-8c7c-f63fdf7bb6bf
+<p align="center">
+  <a href="https://todayai-labs.github.io/omni-life/media/overview.mp4">
+    <img src="assets/readme/overview-video-cover.svg" width="80%" alt="Play the 73-second Omni-Life overview video" />
+  </a>
+</p>
+<p align="center"><a href="https://todayai-labs.github.io/omni-life/media/overview.mp4">Watch the overview</a> &nbsp;·&nbsp; <a href="https://github.com/todayai-labs/omni-life/raw/refs/heads/main/assets/readme/omni-life-promo.mp4">Download MP4</a></p>
 
 ## The benchmark
 
