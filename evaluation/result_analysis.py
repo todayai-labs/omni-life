@@ -20,6 +20,17 @@ def validate_basis(row, case, label):
     if capture is not None and score(case, capture) != result:
         raise ValueError(f'Original alignment differs for {label}')
     selected = original['full_correct']
+    certificate = original.get('failure_certificate')
+    if certificate is not None:
+        if selected is not False or result['full_correct'] is not None:
+            raise ValueError(f'Certificate contradicts the capture verdict for {label}')
+        if 'minimum' in certificate and certificate['observed'] >= certificate['minimum']:
+            raise ValueError(f'Invalid minimum-turn certificate for {label}')
+        if 'maximum' in certificate:
+            observed = next(certificate[key] for key in ('observed', 'observed_at_least', 'inside_lower_bound')
+                            if key in certificate)
+            if observed <= certificate['maximum']:
+                raise ValueError(f'Invalid maximum-turn certificate for {label}')
     source = 'original'
     if selected is None:
         for evidence in row['evidence']:
