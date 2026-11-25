@@ -6,7 +6,7 @@ Run from the repository root with Python 3.10+. Use [Hugging Face](https://huggi
 
 ```sh
 hf download mengze-hong/omni-life --repo-type dataset \
-  --include 'scenes.csv' 'qa/*' 'protocol/*' --local-dir ./omni-life-data
+  --include 'scenes.csv' --include 'qa/*' --include 'protocol/*' --local-dir ./omni-life-data
 python3 -m evaluation reproduce --dataset ./omni-life-data --check
 ```
 
@@ -36,7 +36,7 @@ Download the labels and add the media ZIP only if you want to check the archive.
 
 ```sh
 hf download mengze-hong/omni-life --repo-type dataset \
-  --include 'scenes.csv' 'qa/*' 'protocol/*' 'streaming-labels/*' \
+  --include 'scenes.csv' --include 'qa/*' --include 'protocol/*' --include 'streaming-labels/*' \
   --local-dir ./omni-life-data
 python3 -m evaluation validate-data --dataset ./omni-life-data
 ```
