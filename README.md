@@ -5,7 +5,7 @@
   </picture>
 </p>
 
-<p align="center"><a href="https://todayai-labs.github.io/omni-life/">Project page</a> &nbsp;·&nbsp; <a href="https://arxiv.org/html/2611.02835v1">Read the paper</a> &nbsp;·&nbsp; <a href="https://huggingface.co/datasets/mengze-hong/omni-life">Hugging Face dataset</a></p>
+<p align="center"><a href="https://todayai-labs.github.io/omni-life/">Project page</a> &nbsp;·&nbsp; <a href="https://arxiv.org/html/2611.02835v1">Read the paper</a> &nbsp;·&nbsp; <a href="https://huggingface.co/datasets/mengze-hong/omni-life">Hugging Face dataset</a> &nbsp;·&nbsp; <a href="results/README.md">Results</a></p>
 
 https://github.com/user-attachments/assets/564c1b7b-8b76-41b6-8c7c-f63fdf7bb6bf
 
@@ -21,7 +21,7 @@ Omni-Life tests whether real-time omnimodal assistants can **provide useful help
 - **Streaming:** 297 assistance episodes contain 500 required interventions, including 13 final counts. Another 103 episodes require silence.
 - **QA:** 400 Content questions and 400 Timing questions. Joint QA checks both answers for each episode.
 
-Download the data, media and scoring rules from [Hugging Face](https://huggingface.co/datasets/mengze-hong/omni-life).
+Download the [dataset and media](https://huggingface.co/datasets/mengze-hong/omni-life) and browse the [main results](results/summary.csv) and [ablations](results/ablations.csv). Streaming uses scene-level **Full Correct** across 400 scenes. A scene passes when every required response is correct and on time, with no extra responses.
 
 ## Examples
 
@@ -34,16 +34,23 @@ Download the data, media and scoring rules from [Hugging Face](https://huggingfa
 
 ## Quick start
 
-From the repository root, verify the model results with Python 3.10+ and the Hugging Face CLI.
+Verify the published results with Python 3.10+ and the Hugging Face CLI. The command downloads only the files needed for scoring.
 
 ```sh
+git clone https://github.com/todayai-labs/omni-life.git
+cd omni-life
+python3 -m pip install huggingface_hub
 hf download mengze-hong/omni-life --repo-type dataset \
   --include 'scenes.csv' 'qa/*' 'protocol/streaming-scoring.json' \
   --local-dir ./omni-life-data
 python3 -m evaluation reproduce --dataset ./omni-life-data --check
 ```
 
-[Evaluation commands](evaluation/README.md) · [Model results](results/README.md) · [Hugging Face dataset](https://huggingface.co/datasets/mengze-hong/omni-life)
+[Evaluation guide](evaluation/README.md) · [Per-model records](results/README.md) · [Dataset and media verification](evaluation/README.md#verify-the-dataset)
+
+## Citation
+
+Use the [paper’s BibTeX entry](https://huggingface.co/datasets/mengze-hong/omni-life#citation) when citing Omni-Life.
 
 ## License
 

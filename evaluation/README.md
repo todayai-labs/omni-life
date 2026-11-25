@@ -2,7 +2,7 @@
 
 Run from the repository root with Python 3.10+. Use [Hugging Face](https://huggingface.co/datasets/mengze-hong/omni-life) as the data source. The [results directory](../results/README.md) contains the model runs and summary tables.
 
-## Verify and score
+## Recompute the published scores
 
 ```sh
 hf download mengze-hong/omni-life --repo-type dataset \
@@ -10,7 +10,9 @@ hf download mengze-hong/omni-life --repo-type dataset \
 python3 -m evaluation reproduce --dataset ./omni-life-data --check
 ```
 
-`reproduce` verifies the submitted options against the answer key and rebuilds the main and ablation tables from the recorded Streaming verdicts. The scoring commands use the standard library and run offline.
+`reproduce` verifies the submitted options against the answer key and rebuilds the main and ablation tables from the recorded Streaming verdicts. The scoring commands use the standard library and run offline. See [Quick start](../README.md#quick-start) to install the download CLI.
+
+## Score new submissions
 
 | Command | Input | Output |
 | --- | --- | --- |
@@ -26,7 +28,20 @@ python3 -m evaluation streaming ./omni-life-data/protocol/streaming-scoring.json
 
 For QA, pass `--lang en` for the English question bank. A single-choice response must select exactly one letter. A multiple-choice response must match the complete answer set. Mark a failed QA capture with `technical_success=false`.
 
-Streaming captures are JSON maps keyed by case ID. Each capture supplies `capture_complete`, `eof_opportunity`, `semantic_review_complete` and an ordered `replies` list. Each reply contains text, a semantic `verdict` and either `phase: video` with `video_s` or `phase: post_video` with `turn: 1`. A grounded reply supplies the ordered reference fact IDs in `facts`. Use the released [semantic criteria](https://huggingface.co/datasets/mengze-hong/omni-life/blob/main/protocol/semantic-judge.json) to adjudicate content before scoring. A missing verdict is `null`. Paired ablations use scenes with determined scores in both runs.
+Streaming captures are JSON maps keyed by case ID. Each capture supplies `capture_complete`, `eof_opportunity`, `semantic_review_complete` and an ordered `replies` list. Each reply contains text, a semantic `verdict` and either `phase: video` with `video_s` or `phase: post_video` with `turn: 1`. A grounded reply supplies the ordered reference fact IDs in `facts`. Use the released [semantic criteria](https://huggingface.co/datasets/mengze-hong/omni-life/blob/main/protocol/semantic-judge.json) to adjudicate content before scoring. Use `pending` when a reply needs content adjudication. Set `semantic_review_complete: false` until all replies have been reviewed. The scorer returns `full_correct: null` for cases whose outcome is undetermined. Paired ablations use scenes with determined scores in both runs.
+
+## Verify the dataset
+
+Download the labels and add the media ZIP only if you want to check the archive. The validator checks scene IDs, bilingual answer keys, media references, and exact agreement between the per-scene labels and aggregate protocol.
+
+```sh
+hf download mengze-hong/omni-life --repo-type dataset \
+  --include 'scenes.csv' 'qa/*' 'protocol/*' 'streaming-labels/*' \
+  --local-dir ./omni-life-data
+python3 -m evaluation validate-data --dataset ./omni-life-data
+```
+
+With `media.zip` and `media.zip.sha256` in the dataset folder, pass `--media-archive ./omni-life-data/media.zip` to check the archive and its files.
 
 ## Run and export native captures
 

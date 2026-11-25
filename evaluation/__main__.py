@@ -7,6 +7,7 @@ import sys
 
 
 SCORERS = {
+    'validate-data': ('validate_data', 'Verify dataset indexes, labels and optional media archive'),
     'reproduce': ('reproduce', 'Verify the results shipped in this repository'),
     'qa': ('qa', 'Build a QA prompt or score QA answers'),
     'streaming': ('score_streaming', 'Score adjudicated Streaming captures'),
