@@ -6,7 +6,7 @@ Run from the repository root with Python 3.10+. Use [Hugging Face](https://huggi
 
 ```sh
 hf download mengze-hong/omni-life --repo-type dataset \
-  --revision 2ec0a3aba19e03327650d0bca99dfc643f44f8d4 \
+  --revision 1df079eadff3c0db96062c119183605d66821954 \
   --include 'scenes.csv' --include 'qa/*' --include 'protocol/*' --local-dir ./omni-life-data
 python3 -m evaluation reproduce --dataset ./omni-life-data --check
 ```

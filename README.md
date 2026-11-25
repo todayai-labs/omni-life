@@ -46,7 +46,7 @@ git clone https://github.com/todayai-labs/omni-life.git
 cd omni-life
 python3 -m pip install huggingface_hub
 hf download mengze-hong/omni-life --repo-type dataset \
-  --revision 2ec0a3aba19e03327650d0bca99dfc643f44f8d4 \
+  --revision 1df079eadff3c0db96062c119183605d66821954 \
   --include 'scenes.csv' --include 'qa/*' --include 'protocol/streaming-scoring.json' \
   --local-dir ./omni-life-data
 python3 -m evaluation reproduce --dataset ./omni-life-data --check
