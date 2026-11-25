@@ -1,0 +1,86 @@
+{
+  "runtime_files": {
+    "reminders/moss_av.py": {
+      "archive_sha256": "fb49c139892e7a97b0413a9046c03cbd46cd80cee09446fd206f531f49bf014b",
+      "file_sha256": "b7b247d2b4391ff808e14587e847cafe99ba75449c9b50cb58a3b2cb671e75c6"
+    },
+    "reminders/venus_v2.py": {
+      "archive_sha256": "857bf612ee413b6a90f2587845696d01ca34987c9b1d5ca4b0fe427dfeeb5346",
+      "file_sha256": "857bf612ee413b6a90f2587845696d01ca34987c9b1d5ca4b0fe427dfeeb5346"
+    },
+    "reminders/venus_memory_v2.py": {
+      "archive_sha256": "78378b1758a44716738d622f02f25f436fc8222aa4c75ba46cbef15e577c717c",
+      "file_sha256": "78378b1758a44716738d622f02f25f436fc8222aa4c75ba46cbef15e577c717c"
+    },
+    "strict/minicpm-o-4.5-local/run_full.py": {
+      "archive_sha256": "5bb05308970b7126065b2a0d733f68e597c81952811abb79a553f385ff0d08cf",
+      "file_sha256": "02a00d734132e80f4d609967b82b07217bfcc315d2458312d6bca3e4d1142d7a"
+    },
+    "strict/minicpm-o-4.5-local/tts_phase.py": {
+      "archive_sha256": "9d39a54ed1b8275990ba4979a69603ab5b6287031b5f822265c588ce915989c7",
+      "file_sha256": "9d39a54ed1b8275990ba4979a69603ab5b6287031b5f822265c588ce915989c7"
+    },
+    "strict/minicpm-o-4.5-local/tts_native.py": {
+      "archive_sha256": "80c094cbeb75d36f89eb7e95a83cb61d6afd4639e7a9c14f1ff6e5711ba23b48",
+      "file_sha256": "80c094cbeb75d36f89eb7e95a83cb61d6afd4639e7a9c14f1ff6e5711ba23b48"
+    },
+    "strict/minicpm-o-4.5-local/tts_minicpm.py": {
+      "archive_sha256": "9bcc53a408357a183f4f070244ea68174c9babe3afdc5501132bd134164375ea",
+      "file_sha256": "9bcc53a408357a183f4f070244ea68174c9babe3afdc5501132bd134164375ea"
+    },
+    "strict/minicpm-o-4.5-local/tts_venus.py": {
+      "archive_sha256": "f2bf4ae152c96b6cf2c79a59647d435372c6f7e1d65f71813f8bbedb5f352734",
+      "file_sha256": "f2bf4ae152c96b6cf2c79a59647d435372c6f7e1d65f71813f8bbedb5f352734"
+    },
+    "strict/minicpm-o-4.5-local/strict_boundary.py": {
+      "archive_sha256": "027792a0251296699514d74af7de461f2dd807201cac2409d08c9d3f41040c14",
+      "file_sha256": "027792a0251296699514d74af7de461f2dd807201cac2409d08c9d3f41040c14"
+    },
+    "strict/realtime-venus-omni/run_full.py": {
+      "archive_sha256": "5bb05308970b7126065b2a0d733f68e597c81952811abb79a553f385ff0d08cf",
+      "file_sha256": "02a00d734132e80f4d609967b82b07217bfcc315d2458312d6bca3e4d1142d7a"
+    },
+    "strict/realtime-venus-omni/tts_phase.py": {
+      "archive_sha256": "330bbbeddec11f9b06c1ac04f308354b96aadd4c7378b9c7c5549881a8191008",
+      "file_sha256": "330bbbeddec11f9b06c1ac04f308354b96aadd4c7378b9c7c5549881a8191008"
+    },
+    "strict/realtime-venus-omni/tts_native.py": {
+      "archive_sha256": "ec3cc64a534662ea95422c199fe6c5b2bdd7f0950995ae3ef1ab7017e6263227",
+      "file_sha256": "ec3cc64a534662ea95422c199fe6c5b2bdd7f0950995ae3ef1ab7017e6263227"
+    },
+    "strict/realtime-venus-omni/tts_minicpm.py": {
+      "archive_sha256": "9bcc53a408357a183f4f070244ea68174c9babe3afdc5501132bd134164375ea",
+      "file_sha256": "9bcc53a408357a183f4f070244ea68174c9babe3afdc5501132bd134164375ea"
+    },
+    "strict/realtime-venus-omni/tts_venus.py": {
+      "archive_sha256": "f2bf4ae152c96b6cf2c79a59647d435372c6f7e1d65f71813f8bbedb5f352734",
+      "file_sha256": "f2bf4ae152c96b6cf2c79a59647d435372c6f7e1d65f71813f8bbedb5f352734"
+    },
+    "strict/realtime-venus-omni/strict_boundary.py": {
+      "archive_sha256": "027792a0251296699514d74af7de461f2dd807201cac2409d08c9d3f41040c14",
+      "file_sha256": "027792a0251296699514d74af7de461f2dd807201cac2409d08c9d3f41040c14"
+    }
+  },
+  "conditions_sha256": "7ffac9c64ff9d56981455944da22376693208581a007f75aa8f5bdc2dbd3a447",
+  "task_audio_index_sha256": "91e098ea1c225c5a9dd0cc2fc4c91aff4e108fd0d55afe529e1b98a9ae8f2cc6",
+  "historical_wavs_preserved": 384,
+  "updated_task_mp3_decoded": [
+    "adult_chop",
+    "asm_dumpbed_feedback_01",
+    "count_bench",
+    "drum_teach",
+    "escalator_maintenance",
+    "fb_latin_step",
+    "fb_stretch_bounce",
+    "game_mahjong_a",
+    "game_mahjong_b",
+    "group_bank_queue",
+    "group_door",
+    "group_kg_outdoor",
+    "kid_phone_neg",
+    "kid_phone_pos",
+    "p4_office_late",
+    "wheel_gap"
+  ],
+  "updated_mp3_decoder": "ffmpeg 7.1; PCM s16le 16000 Hz mono"
+}

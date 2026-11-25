@@ -1,6 +1,10 @@
 # Dataset and evaluation protocol
 
-Omni-Life contains **400 episodes: 277 synthetic and 123 real-world**, spanning five application domains. Of these, **290 assistance episodes contain 555 interventions** and **110 episodes require silence throughout**. The 685 `wait` intervals also include quiet periods within assistance episodes.
+The [current Hugging Face release](https://huggingface.co/datasets/mengze-hong/omni-life) contains the r3.2 data, media archive and scoring rules. The annotations and reference runs in this Git checkout reproduce the historical paper-era benchmark.
+
+Omni-Life contains 400 episodes across five application domains, with **277 synthetic and 123 real-world videos**. In r3.2, **297 assistance episodes contain 500 required interventions** and **103 episodes require silence throughout**.
+
+The frozen paper-era annotations below mark 290 assistance episodes with 555 interventions and 110 silence-only episodes. Their 685 `wait` intervals also cover quiet periods within assistance episodes.
 
 ## Files and identities
 
@@ -42,4 +46,4 @@ Tolerance scoring adds 0/1/2/5/10 seconds only to reference-window ends, keeps o
 
 Benchmark material is covered by the [Omni-Life Research Evaluation License 1.0](LICENSE) for **noncommercial research evaluation only; model training is prohibited**. Code has a separate [Apache-2.0 license](../LICENSE).
 
-Source videos are not included due to their large size and may be provided upon reasonable request. Email [mengze@today.ai](mailto:mengze@today.ai), subject **Omni-Life data access**, with your research contact and affiliation, if applicable.
+Download the current source media from the [Omni-Life dataset on Hugging Face](https://huggingface.co/datasets/mengze-hong/omni-life). Refer to the dataset card and the license for the permitted use of each material.

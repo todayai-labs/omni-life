@@ -1,5 +1,7 @@
 # Evaluation toolkit
 
+For the current dataset and the November 25 results, use the [r3.2 experiment toolkit](r32/README.md). The commands on this page reproduce the historical reference.
+
 Run all commands from the repository root with **Python 3.10+**. The released scores, input validation, and tests use the standard library only; no videos, weights, GPU, credentials, or dependency installation are needed for offline reproduction.
 
 ## Structure and usage
