@@ -26,7 +26,7 @@ Omni-Life tests whether real-time omnimodal assistants can **provide useful help
 - **Streaming:** 297 assistance episodes contain 500 required interventions, including 13 final counts. Another 103 episodes require silence.
 - **QA:** 400 Content questions and 400 Timing questions. Joint QA checks both answers for each episode.
 
-Download the [dataset and media](https://huggingface.co/datasets/mengze-hong/omni-life) and browse the [main results](results/summary.csv) and [ablations](results/ablations.csv). Streaming uses scene-level **Full Correct** across 400 scenes. A scene passes when every required response is correct and on time, with no extra responses.
+Download the [dataset and media](https://huggingface.co/datasets/mengze-hong/omni-life) and browse the 11-model [main results](results/summary.csv) and [ablations](results/ablations.csv). Streaming uses scene-level **Full Correct** across 400 scenes. A scene passes when every required response is correct and on time, with no extra responses.
 
 ## Examples
 
@@ -46,6 +46,7 @@ git clone https://github.com/todayai-labs/omni-life.git
 cd omni-life
 python3 -m pip install huggingface_hub
 hf download mengze-hong/omni-life --repo-type dataset \
+  --revision 2ec0a3aba19e03327650d0bca99dfc643f44f8d4 \
   --include 'scenes.csv' --include 'qa/*' --include 'protocol/streaming-scoring.json' \
   --local-dir ./omni-life-data
 python3 -m evaluation reproduce --dataset ./omni-life-data --check

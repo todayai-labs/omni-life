@@ -1,28 +1,31 @@
 # Model results
 
-[Main summary](summary.csv) · [Ablation summary](ablations.csv)
+[Main summary](summary.csv) · [Input ablations](ablations.csv) · [Paper analysis values](paper.json)
 
-Each of the 12 model directories has 800 QA records and 400 Streaming rows. The five models with ablations include an `ablations.jsonl` file with 400 rows per tested condition, for 22 conditions in total.
+The released comparison covers 11 models. Each has 400 Content QA answers, 400 Timing QA answers and 400 determined Streaming outcomes. The four models with input ablations have 400 determined outcomes for each of the 18 model and condition combinations. Gemini's Streaming coverage is incomplete.
 
 | File | Contents |
 | --- | --- |
-| `qa.jsonl` | Output text, correctness and available latency for each Content or Timing question |
-| `streaming.jsonl` | Full Correct decision, capture records and evidence route for each scene |
-| `ablations.jsonl` | Per-condition Full Correct decisions and scoring evidence |
+| `<model>/qa.jsonl` | Recorded Chinese QA output, correctness and measured latency |
+| `<model>/streaming.jsonl` | Scene verdict, original assessment, available captures and supplemental evidence |
+| `<model>/ablations.jsonl` | Input condition, scene verdict, available original capture and supplemental evidence |
+| `scene-groups.csv` | Scenario and service population for all 400 scenes |
+| `judge-panel.csv` | Four original-protocol assessments for each of 1,600 model and scene pairs |
+| `human-baseline.csv` | Observed reviewer counts by track |
 
-`null` means the available evidence could not resolve the score. Gemini still has 122 unresolved main scenes and 411 unresolved ablation scenes in this snapshot. `pending` counts those scenes. `full_correct_percent` is present when all 400 scenes have determined scores. The `score_source` field records whether a case used its original protocol or a supplemental capture, such as an explicit end-of-video control. The main and ablation summaries use the recorded decisions across those routes.
+`score_source` identifies the evidence used for each scene. The main comparison uses 4,329 original-protocol assessments and 71 supplemental assessments. The 18 input ablations use 6,967 original-protocol assessments and 233 supplemental assessments. Supplemental routes include explicit terminal controls and provider-specific media commits. They can change model behavior. Event diagnostics and deadline replay use original captures. Judge sensitivity uses scenes with a decision from every judge within each model. An empty judge cell means the score is unresolved.
 
-Rebuild the two tables with `python3 -m evaluation reproduce --dataset ./omni-life-data --check`. See the [evaluation guide](../evaluation/README.md) for setup and the [Hugging Face dataset](https://huggingface.co/datasets/mengze-hong/omni-life) for inputs and data terms.
+Run `python3 -m evaluation reproduce --dataset ./omni-life-data --check` to replay the available judged captures and verify the published summaries. Omit `--check` to print the computed results and paper analysis values as JSON. Where an accepted adjudication or failure certificate is the available evidence, verification uses that record. See the [evaluation guide](../evaluation/README.md) for dataset and inference setup.
 
 ## Human baseline
 
-Two reviewers answered independently. Observed counts use original answers that remain compatible with the released benchmark. The 400-item estimates average each reviewer's observed rate and assume comparable difficulty for items without compatible answers.
+Two reviewers answered independently. Observed counts use original answers compatible with the released benchmark. Full-set estimates average the observed rates and assume comparable difficulty for items without compatible answers.
 
 | Track | Reviewer 1 observed | Reviewer 2 observed | Estimated on all 400 |
 | --- | ---: | ---: | ---: |
-| Content QA | 236/265 | 236/265 | 89.1% |
-| Timing QA | 233/309 | 243/309 | 77.0% |
-| Streaming Full Correct | 261/377 | 268/377 | 70.2% |
+| Content QA | 236/265 | 236/265 | 89.06% |
+| Timing QA | 233/309 | 243/309 | 77.02% |
+| Streaming Full Correct | 261/377 | 268/377 | 70.16% |
 | Joint QA | 158/219 | 167/219 | |
 
-The observed mean for Joint QA is 74.2% across the 219 paired scenes per reviewer.
+The observed mean for Joint QA is 74.20% across 219 paired scenes per reviewer.

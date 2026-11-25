@@ -1,0 +1,1478 @@
+{
+  "actions": {
+    "[answer]": {
+      "hit": 25,
+      "miss": 39,
+      "unknown": 189
+    },
+    "[feedback]": {
+      "hit": 2,
+      "miss": 181,
+      "unknown": 103
+    },
+    "[inform]": {
+      "hit": 66,
+      "miss": 1376,
+      "unknown": 1990
+    },
+    "[summarize]": {
+      "hit": 0,
+      "miss": 0,
+      "unknown": 22
+    },
+    "[warn]": {
+      "hit": 27,
+      "miss": 768,
+      "unknown": 712
+    }
+  },
+  "human": {
+    "content": {
+      "counts": [
+        [
+          236,
+          265
+        ],
+        [
+          236,
+          265
+        ]
+      ],
+      "observed_mean_percent": 89.06
+    },
+    "joint": {
+      "counts": [
+        [
+          158,
+          219
+        ],
+        [
+          167,
+          219
+        ]
+      ],
+      "observed_mean_percent": 74.2
+    },
+    "streaming": {
+      "counts": [
+        [
+          261,
+          377
+        ],
+        [
+          268,
+          377
+        ]
+      ],
+      "observed_mean_percent": 70.16
+    },
+    "timing": {
+      "counts": [
+        [
+          233,
+          309
+        ],
+        [
+          243,
+          309
+        ]
+      ],
+      "observed_mean_percent": 77.02
+    }
+  },
+  "input_ablations": {
+    "minicpm-o-4.5-local": {
+      "N1": {
+        "correct": 110,
+        "gained": 7,
+        "lost": 8,
+        "silence_correct": 97,
+        "supplemental_scenes": 14,
+        "total": 400
+      },
+      "Q-structured": {
+        "correct": 112,
+        "gained": 5,
+        "lost": 4,
+        "silence_correct": 101,
+        "supplemental_scenes": 16,
+        "total": 400
+      },
+      "R1": {
+        "correct": 115,
+        "gained": 19,
+        "lost": 15,
+        "silence_correct": 89,
+        "supplemental_scenes": 13,
+        "total": 400
+      },
+      "R5": {
+        "correct": 113,
+        "gained": 8,
+        "lost": 6,
+        "silence_correct": 99,
+        "supplemental_scenes": 14,
+        "total": 400
+      },
+      "TTS-audio-only-v2": {
+        "correct": 53,
+        "gained": 36,
+        "lost": 94,
+        "silence_correct": 17,
+        "supplemental_scenes": 4,
+        "total": 400
+      }
+    },
+    "moss-vl-realtime": {
+      "N1": {
+        "correct": 113,
+        "gained": 22,
+        "lost": 16,
+        "silence_correct": 80,
+        "supplemental_scenes": 0,
+        "total": 400
+      },
+      "Q-structured": {
+        "correct": 113,
+        "gained": 13,
+        "lost": 7,
+        "silence_correct": 79,
+        "supplemental_scenes": 0,
+        "total": 400
+      },
+      "R1": {
+        "correct": 85,
+        "gained": 15,
+        "lost": 37,
+        "silence_correct": 62,
+        "supplemental_scenes": 0,
+        "total": 400
+      },
+      "R5": {
+        "correct": 67,
+        "gained": 8,
+        "lost": 48,
+        "silence_correct": 48,
+        "supplemental_scenes": 0,
+        "total": 400
+      }
+    },
+    "qwen3.8-omni-flash-realtime": {
+      "N1": {
+        "correct": 112,
+        "gained": 5,
+        "lost": 2,
+        "silence_correct": 92,
+        "supplemental_scenes": 39,
+        "total": 400
+      },
+      "Q-structured": {
+        "correct": 109,
+        "gained": 4,
+        "lost": 4,
+        "silence_correct": 92,
+        "supplemental_scenes": 39,
+        "total": 400
+      },
+      "R1": {
+        "correct": 111,
+        "gained": 4,
+        "lost": 2,
+        "silence_correct": 92,
+        "supplemental_scenes": 39,
+        "total": 400
+      },
+      "R5": {
+        "correct": 108,
+        "gained": 3,
+        "lost": 4,
+        "silence_correct": 92,
+        "supplemental_scenes": 39,
+        "total": 400
+      }
+    },
+    "realtime-venus-omni": {
+      "N1": {
+        "correct": 11,
+        "gained": 7,
+        "lost": 97,
+        "silence_correct": 9,
+        "supplemental_scenes": 2,
+        "total": 400
+      },
+      "Q-structured": {
+        "correct": 106,
+        "gained": 28,
+        "lost": 23,
+        "silence_correct": 77,
+        "supplemental_scenes": 7,
+        "total": 400
+      },
+      "R1": {
+        "correct": 6,
+        "gained": 4,
+        "lost": 99,
+        "silence_correct": 5,
+        "supplemental_scenes": 3,
+        "total": 400
+      },
+      "R5": {
+        "correct": 5,
+        "gained": 2,
+        "lost": 98,
+        "silence_correct": 2,
+        "supplemental_scenes": 0,
+        "total": 400
+      },
+      "TTS-audio-only-v2": {
+        "correct": 61,
+        "gained": 30,
+        "lost": 70,
+        "silence_correct": 31,
+        "supplemental_scenes": 4,
+        "total": 400
+      }
+    }
+  },
+  "judge_panel": {
+    "gander": {
+      "full_bank": {
+        "deepseek-v4-flash": {
+          "correct": 112,
+          "incorrect": 272,
+          "pending": 16,
+          "total": 400
+        },
+        "gpt-6-astra": {
+          "correct": 108,
+          "incorrect": 276,
+          "pending": 16,
+          "total": 400
+        },
+        "kimi-k3": {
+          "correct": 111,
+          "incorrect": 272,
+          "pending": 17,
+          "total": 400
+        },
+        "primary": {
+          "correct": 108,
+          "incorrect": 276,
+          "pending": 16,
+          "total": 400
+        }
+      },
+      "paired_correct": {
+        "deepseek-v4-flash": 112,
+        "gpt-6-astra": 108,
+        "kimi-k3": 111,
+        "primary": 108
+      },
+      "paired_scenes": 383
+    },
+    "minicpm-o-4.5-local": {
+      "full_bank": {
+        "deepseek-v4-flash": {
+          "correct": 112,
+          "incorrect": 270,
+          "pending": 18,
+          "total": 400
+        },
+        "gpt-6-astra": {
+          "correct": 109,
+          "incorrect": 276,
+          "pending": 15,
+          "total": 400
+        },
+        "kimi-k3": {
+          "correct": 111,
+          "incorrect": 273,
+          "pending": 16,
+          "total": 400
+        },
+        "primary": {
+          "correct": 111,
+          "incorrect": 273,
+          "pending": 16,
+          "total": 400
+        }
+      },
+      "paired_correct": {
+        "deepseek-v4-flash": 112,
+        "gpt-6-astra": 109,
+        "kimi-k3": 111,
+        "primary": 110
+      },
+      "paired_scenes": 382
+    },
+    "qwen3.8-omni-flash-realtime": {
+      "full_bank": {
+        "deepseek-v4-flash": {
+          "correct": 106,
+          "incorrect": 284,
+          "pending": 10,
+          "total": 400
+        },
+        "gpt-6-astra": {
+          "correct": 102,
+          "incorrect": 288,
+          "pending": 10,
+          "total": 400
+        },
+        "kimi-k3": {
+          "correct": 106,
+          "incorrect": 284,
+          "pending": 10,
+          "total": 400
+        },
+        "primary": {
+          "correct": 105,
+          "incorrect": 285,
+          "pending": 10,
+          "total": 400
+        }
+      },
+      "paired_correct": {
+        "deepseek-v4-flash": 106,
+        "gpt-6-astra": 102,
+        "kimi-k3": 106,
+        "primary": 105
+      },
+      "paired_scenes": 390
+    },
+    "realtime-venus-omni": {
+      "full_bank": {
+        "deepseek-v4-flash": {
+          "correct": 104,
+          "incorrect": 280,
+          "pending": 16,
+          "total": 400
+        },
+        "gpt-6-astra": {
+          "correct": 97,
+          "incorrect": 291,
+          "pending": 12,
+          "total": 400
+        },
+        "kimi-k3": {
+          "correct": 104,
+          "incorrect": 281,
+          "pending": 15,
+          "total": 400
+        },
+        "primary": {
+          "correct": 98,
+          "incorrect": 290,
+          "pending": 12,
+          "total": 400
+        }
+      },
+      "paired_correct": {
+        "deepseek-v4-flash": 104,
+        "gpt-6-astra": 97,
+        "kimi-k3": 103,
+        "primary": 98
+      },
+      "paired_scenes": 382
+    }
+  },
+  "models": {
+    "aura": {
+      "deadline_hits": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "event": {
+        "extra_replies": 7192,
+        "hit": 1,
+        "miss": 6,
+        "unknown": 493
+      },
+      "failures": {
+        "both": 3,
+        "extra": 1,
+        "miss": 3,
+        "other_fail": 289,
+        "pass": 13,
+        "silent_fail": 91
+      },
+      "populations": {
+        "Adults": {
+          "correct": 5,
+          "total": 172
+        },
+        "Children": {
+          "correct": 2,
+          "total": 36
+        },
+        "Chronic illness": {
+          "correct": 0,
+          "total": 13
+        },
+        "Cognitive": {
+          "correct": 0,
+          "total": 11
+        },
+        "Color vision": {
+          "correct": 0,
+          "total": 11
+        },
+        "Groups": {
+          "correct": 0,
+          "total": 24
+        },
+        "Hearing": {
+          "correct": 0,
+          "total": 13
+        },
+        "Infants": {
+          "correct": 4,
+          "total": 26
+        },
+        "Mobility": {
+          "correct": 0,
+          "total": 8
+        },
+        "Older adults": {
+          "correct": 1,
+          "total": 29
+        },
+        "Pets": {
+          "correct": 1,
+          "total": 30
+        },
+        "Visual": {
+          "correct": 0,
+          "total": 27
+        }
+      },
+      "scenarios": {
+        "Daily living and services": {
+          "correct": 0,
+          "total": 103
+        },
+        "Education and work": {
+          "correct": 0,
+          "total": 41
+        },
+        "Health and caregiving": {
+          "correct": 1,
+          "total": 69
+        },
+        "Sports and leisure": {
+          "correct": 0,
+          "total": 46
+        },
+        "Travel and mobility": {
+          "correct": 0,
+          "total": 38
+        }
+      },
+      "score_sources": {
+        "original": 400
+      },
+      "silence_correct": 12
+    },
+    "duplexomni": {
+      "deadline_hits": [
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "event": {
+        "extra_replies": 518,
+        "hit": 14,
+        "miss": 11,
+        "unknown": 475
+      },
+      "failures": {
+        "both": 11,
+        "extra": 2,
+        "miss": 0,
+        "other_fail": 270,
+        "pass": 14,
+        "silent_fail": 103
+      },
+      "populations": {
+        "Adults": {
+          "correct": 1,
+          "total": 172
+        },
+        "Children": {
+          "correct": 4,
+          "total": 36
+        },
+        "Chronic illness": {
+          "correct": 0,
+          "total": 13
+        },
+        "Cognitive": {
+          "correct": 0,
+          "total": 11
+        },
+        "Color vision": {
+          "correct": 1,
+          "total": 11
+        },
+        "Groups": {
+          "correct": 0,
+          "total": 24
+        },
+        "Hearing": {
+          "correct": 1,
+          "total": 13
+        },
+        "Infants": {
+          "correct": 0,
+          "total": 26
+        },
+        "Mobility": {
+          "correct": 1,
+          "total": 8
+        },
+        "Older adults": {
+          "correct": 1,
+          "total": 29
+        },
+        "Pets": {
+          "correct": 3,
+          "total": 30
+        },
+        "Visual": {
+          "correct": 2,
+          "total": 27
+        }
+      },
+      "scenarios": {
+        "Daily living and services": {
+          "correct": 3,
+          "total": 103
+        },
+        "Education and work": {
+          "correct": 4,
+          "total": 41
+        },
+        "Health and caregiving": {
+          "correct": 4,
+          "total": 69
+        },
+        "Sports and leisure": {
+          "correct": 0,
+          "total": 46
+        },
+        "Travel and mobility": {
+          "correct": 3,
+          "total": 38
+        }
+      },
+      "score_sources": {
+        "original": 400
+      },
+      "silence_correct": 0
+    },
+    "gander": {
+      "deadline_hits": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "event": {
+        "extra_replies": 31,
+        "hit": 6,
+        "miss": 394,
+        "unknown": 100
+      },
+      "failures": {
+        "both": 2,
+        "extra": 1,
+        "miss": 248,
+        "other_fail": 40,
+        "pass": 108,
+        "silent_fail": 1
+      },
+      "populations": {
+        "Adults": {
+          "correct": 44,
+          "total": 172
+        },
+        "Children": {
+          "correct": 14,
+          "total": 36
+        },
+        "Chronic illness": {
+          "correct": 7,
+          "total": 13
+        },
+        "Cognitive": {
+          "correct": 3,
+          "total": 11
+        },
+        "Color vision": {
+          "correct": 3,
+          "total": 11
+        },
+        "Groups": {
+          "correct": 4,
+          "total": 24
+        },
+        "Hearing": {
+          "correct": 0,
+          "total": 13
+        },
+        "Infants": {
+          "correct": 9,
+          "total": 26
+        },
+        "Mobility": {
+          "correct": 1,
+          "total": 8
+        },
+        "Older adults": {
+          "correct": 9,
+          "total": 29
+        },
+        "Pets": {
+          "correct": 8,
+          "total": 30
+        },
+        "Visual": {
+          "correct": 6,
+          "total": 27
+        }
+      },
+      "scenarios": {
+        "Daily living and services": {
+          "correct": 3,
+          "total": 103
+        },
+        "Education and work": {
+          "correct": 2,
+          "total": 41
+        },
+        "Health and caregiving": {
+          "correct": 1,
+          "total": 69
+        },
+        "Sports and leisure": {
+          "correct": 0,
+          "total": 46
+        },
+        "Travel and mobility": {
+          "correct": 0,
+          "total": 38
+        }
+      },
+      "score_sources": {
+        "explicit-terminal-control": 16,
+        "original": 384
+      },
+      "silence_correct": 102
+    },
+    "joyai-vl-interaction": {
+      "deadline_hits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "event": {
+        "extra_replies": 12544,
+        "hit": 0,
+        "miss": 2,
+        "unknown": 498
+      },
+      "failures": {
+        "both": 2,
+        "extra": 0,
+        "miss": 0,
+        "other_fail": 295,
+        "pass": 0,
+        "silent_fail": 103
+      },
+      "populations": {
+        "Adults": {
+          "correct": 0,
+          "total": 172
+        },
+        "Children": {
+          "correct": 0,
+          "total": 36
+        },
+        "Chronic illness": {
+          "correct": 0,
+          "total": 13
+        },
+        "Cognitive": {
+          "correct": 0,
+          "total": 11
+        },
+        "Color vision": {
+          "correct": 0,
+          "total": 11
+        },
+        "Groups": {
+          "correct": 0,
+          "total": 24
+        },
+        "Hearing": {
+          "correct": 0,
+          "total": 13
+        },
+        "Infants": {
+          "correct": 0,
+          "total": 26
+        },
+        "Mobility": {
+          "correct": 0,
+          "total": 8
+        },
+        "Older adults": {
+          "correct": 0,
+          "total": 29
+        },
+        "Pets": {
+          "correct": 0,
+          "total": 30
+        },
+        "Visual": {
+          "correct": 0,
+          "total": 27
+        }
+      },
+      "scenarios": {
+        "Daily living and services": {
+          "correct": 0,
+          "total": 103
+        },
+        "Education and work": {
+          "correct": 0,
+          "total": 41
+        },
+        "Health and caregiving": {
+          "correct": 0,
+          "total": 69
+        },
+        "Sports and leisure": {
+          "correct": 0,
+          "total": 46
+        },
+        "Travel and mobility": {
+          "correct": 0,
+          "total": 38
+        }
+      },
+      "score_sources": {
+        "original": 400
+      },
+      "silence_correct": 0
+    },
+    "minicpm-o-4.5-local": {
+      "deadline_hits": [
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      "event": {
+        "extra_replies": 55,
+        "hit": 11,
+        "miss": 337,
+        "unknown": 152
+      },
+      "failures": {
+        "both": 2,
+        "extra": 2,
+        "miss": 229,
+        "other_fail": 54,
+        "pass": 111,
+        "silent_fail": 2
+      },
+      "populations": {
+        "Adults": {
+          "correct": 48,
+          "total": 172
+        },
+        "Children": {
+          "correct": 13,
+          "total": 36
+        },
+        "Chronic illness": {
+          "correct": 7,
+          "total": 13
+        },
+        "Cognitive": {
+          "correct": 3,
+          "total": 11
+        },
+        "Color vision": {
+          "correct": 3,
+          "total": 11
+        },
+        "Groups": {
+          "correct": 3,
+          "total": 24
+        },
+        "Hearing": {
+          "correct": 1,
+          "total": 13
+        },
+        "Infants": {
+          "correct": 9,
+          "total": 26
+        },
+        "Mobility": {
+          "correct": 0,
+          "total": 8
+        },
+        "Older adults": {
+          "correct": 9,
+          "total": 29
+        },
+        "Pets": {
+          "correct": 8,
+          "total": 30
+        },
+        "Visual": {
+          "correct": 7,
+          "total": 27
+        }
+      },
+      "scenarios": {
+        "Daily living and services": {
+          "correct": 6,
+          "total": 103
+        },
+        "Education and work": {
+          "correct": 2,
+          "total": 41
+        },
+        "Health and caregiving": {
+          "correct": 1,
+          "total": 69
+        },
+        "Sports and leisure": {
+          "correct": 0,
+          "total": 46
+        },
+        "Travel and mobility": {
+          "correct": 1,
+          "total": 38
+        }
+      },
+      "score_sources": {
+        "explicit-terminal-control": 16,
+        "original": 384
+      },
+      "silence_correct": 101
+    },
+    "moss-preview-realtime": {
+      "deadline_hits": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "event": {
+        "extra_replies": 657,
+        "hit": 1,
+        "miss": 33,
+        "unknown": 466
+      },
+      "failures": {
+        "both": 13,
+        "extra": 1,
+        "miss": 9,
+        "other_fail": 274,
+        "pass": 4,
+        "silent_fail": 99
+      },
+      "populations": {
+        "Adults": {
+          "correct": 3,
+          "total": 172
+        },
+        "Children": {
+          "correct": 0,
+          "total": 36
+        },
+        "Chronic illness": {
+          "correct": 0,
+          "total": 13
+        },
+        "Cognitive": {
+          "correct": 0,
+          "total": 11
+        },
+        "Color vision": {
+          "correct": 0,
+          "total": 11
+        },
+        "Groups": {
+          "correct": 0,
+          "total": 24
+        },
+        "Hearing": {
+          "correct": 0,
+          "total": 13
+        },
+        "Infants": {
+          "correct": 0,
+          "total": 26
+        },
+        "Mobility": {
+          "correct": 0,
+          "total": 8
+        },
+        "Older adults": {
+          "correct": 0,
+          "total": 29
+        },
+        "Pets": {
+          "correct": 0,
+          "total": 30
+        },
+        "Visual": {
+          "correct": 1,
+          "total": 27
+        }
+      },
+      "scenarios": {
+        "Daily living and services": {
+          "correct": 0,
+          "total": 103
+        },
+        "Education and work": {
+          "correct": 0,
+          "total": 41
+        },
+        "Health and caregiving": {
+          "correct": 0,
+          "total": 69
+        },
+        "Sports and leisure": {
+          "correct": 0,
+          "total": 46
+        },
+        "Travel and mobility": {
+          "correct": 0,
+          "total": 38
+        }
+      },
+      "score_sources": {
+        "original": 400
+      },
+      "silence_correct": 4
+    },
+    "moss-vl-realtime": {
+      "deadline_hits": [
+        27,
+        27,
+        28,
+        28,
+        28
+      ],
+      "event": {
+        "extra_replies": 336,
+        "hit": 27,
+        "miss": 257,
+        "unknown": 216
+      },
+      "failures": {
+        "both": 3,
+        "extra": 1,
+        "miss": 175,
+        "other_fail": 93,
+        "pass": 107,
+        "silent_fail": 21
+      },
+      "populations": {
+        "Adults": {
+          "correct": 48,
+          "total": 172
+        },
+        "Children": {
+          "correct": 11,
+          "total": 36
+        },
+        "Chronic illness": {
+          "correct": 6,
+          "total": 13
+        },
+        "Cognitive": {
+          "correct": 1,
+          "total": 11
+        },
+        "Color vision": {
+          "correct": 4,
+          "total": 11
+        },
+        "Groups": {
+          "correct": 3,
+          "total": 24
+        },
+        "Hearing": {
+          "correct": 1,
+          "total": 13
+        },
+        "Infants": {
+          "correct": 9,
+          "total": 26
+        },
+        "Mobility": {
+          "correct": 1,
+          "total": 8
+        },
+        "Older adults": {
+          "correct": 8,
+          "total": 29
+        },
+        "Pets": {
+          "correct": 7,
+          "total": 30
+        },
+        "Visual": {
+          "correct": 8,
+          "total": 27
+        }
+      },
+      "scenarios": {
+        "Daily living and services": {
+          "correct": 11,
+          "total": 103
+        },
+        "Education and work": {
+          "correct": 2,
+          "total": 41
+        },
+        "Health and caregiving": {
+          "correct": 4,
+          "total": 69
+        },
+        "Sports and leisure": {
+          "correct": 4,
+          "total": 46
+        },
+        "Travel and mobility": {
+          "correct": 4,
+          "total": 38
+        }
+      },
+      "score_sources": {
+        "original": 400
+      },
+      "silence_correct": 82
+    },
+    "qwen3.5-omni-flash-realtime": {
+      "deadline_hits": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "event": {
+        "extra_replies": 277,
+        "hit": 12,
+        "miss": 353,
+        "unknown": 135
+      },
+      "failures": {
+        "both": 3,
+        "extra": 4,
+        "miss": 222,
+        "other_fail": 53,
+        "pass": 105,
+        "silent_fail": 13
+      },
+      "populations": {
+        "Adults": {
+          "correct": 49,
+          "total": 172
+        },
+        "Children": {
+          "correct": 11,
+          "total": 36
+        },
+        "Chronic illness": {
+          "correct": 7,
+          "total": 13
+        },
+        "Cognitive": {
+          "correct": 3,
+          "total": 11
+        },
+        "Color vision": {
+          "correct": 2,
+          "total": 11
+        },
+        "Groups": {
+          "correct": 2,
+          "total": 24
+        },
+        "Hearing": {
+          "correct": 0,
+          "total": 13
+        },
+        "Infants": {
+          "correct": 9,
+          "total": 26
+        },
+        "Mobility": {
+          "correct": 1,
+          "total": 8
+        },
+        "Older adults": {
+          "correct": 8,
+          "total": 29
+        },
+        "Pets": {
+          "correct": 8,
+          "total": 30
+        },
+        "Visual": {
+          "correct": 5,
+          "total": 27
+        }
+      },
+      "scenarios": {
+        "Daily living and services": {
+          "correct": 4,
+          "total": 103
+        },
+        "Education and work": {
+          "correct": 3,
+          "total": 41
+        },
+        "Health and caregiving": {
+          "correct": 2,
+          "total": 69
+        },
+        "Sports and leisure": {
+          "correct": 5,
+          "total": 46
+        },
+        "Travel and mobility": {
+          "correct": 1,
+          "total": 38
+        }
+      },
+      "score_sources": {
+        "original": 391,
+        "qwen-current-manual-media-commit": 9
+      },
+      "silence_correct": 90
+    },
+    "qwen3.5-omni-plus-realtime": {
+      "deadline_hits": [
+        19,
+        19,
+        20,
+        20,
+        20
+      ],
+      "event": {
+        "extra_replies": 279,
+        "hit": 19,
+        "miss": 346,
+        "unknown": 135
+      },
+      "failures": {
+        "both": 3,
+        "extra": 3,
+        "miss": 220,
+        "other_fail": 54,
+        "pass": 107,
+        "silent_fail": 13
+      },
+      "populations": {
+        "Adults": {
+          "correct": 52,
+          "total": 172
+        },
+        "Children": {
+          "correct": 11,
+          "total": 36
+        },
+        "Chronic illness": {
+          "correct": 7,
+          "total": 13
+        },
+        "Cognitive": {
+          "correct": 3,
+          "total": 11
+        },
+        "Color vision": {
+          "correct": 2,
+          "total": 11
+        },
+        "Groups": {
+          "correct": 2,
+          "total": 24
+        },
+        "Hearing": {
+          "correct": 0,
+          "total": 13
+        },
+        "Infants": {
+          "correct": 9,
+          "total": 26
+        },
+        "Mobility": {
+          "correct": 1,
+          "total": 8
+        },
+        "Older adults": {
+          "correct": 8,
+          "total": 29
+        },
+        "Pets": {
+          "correct": 7,
+          "total": 30
+        },
+        "Visual": {
+          "correct": 5,
+          "total": 27
+        }
+      },
+      "scenarios": {
+        "Daily living and services": {
+          "correct": 6,
+          "total": 103
+        },
+        "Education and work": {
+          "correct": 4,
+          "total": 41
+        },
+        "Health and caregiving": {
+          "correct": 1,
+          "total": 69
+        },
+        "Sports and leisure": {
+          "correct": 5,
+          "total": 46
+        },
+        "Travel and mobility": {
+          "correct": 1,
+          "total": 38
+        }
+      },
+      "score_sources": {
+        "original": 391,
+        "qwen-current-manual-media-commit": 9
+      },
+      "silence_correct": 90
+    },
+    "qwen3.8-omni-flash-realtime": {
+      "deadline_hits": [
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "event": {
+        "extra_replies": 192,
+        "hit": 14,
+        "miss": 358,
+        "unknown": 128
+      },
+      "failures": {
+        "both": 2,
+        "extra": 7,
+        "miss": 224,
+        "other_fail": 47,
+        "pass": 109,
+        "silent_fail": 11
+      },
+      "populations": {
+        "Adults": {
+          "correct": 53,
+          "total": 172
+        },
+        "Children": {
+          "correct": 12,
+          "total": 36
+        },
+        "Chronic illness": {
+          "correct": 7,
+          "total": 13
+        },
+        "Cognitive": {
+          "correct": 3,
+          "total": 11
+        },
+        "Color vision": {
+          "correct": 2,
+          "total": 11
+        },
+        "Groups": {
+          "correct": 2,
+          "total": 24
+        },
+        "Hearing": {
+          "correct": 0,
+          "total": 13
+        },
+        "Infants": {
+          "correct": 8,
+          "total": 26
+        },
+        "Mobility": {
+          "correct": 1,
+          "total": 8
+        },
+        "Older adults": {
+          "correct": 9,
+          "total": 29
+        },
+        "Pets": {
+          "correct": 7,
+          "total": 30
+        },
+        "Visual": {
+          "correct": 5,
+          "total": 27
+        }
+      },
+      "scenarios": {
+        "Daily living and services": {
+          "correct": 7,
+          "total": 103
+        },
+        "Education and work": {
+          "correct": 5,
+          "total": 41
+        },
+        "Health and caregiving": {
+          "correct": 1,
+          "total": 69
+        },
+        "Sports and leisure": {
+          "correct": 3,
+          "total": 46
+        },
+        "Travel and mobility": {
+          "correct": 1,
+          "total": 38
+        }
+      },
+      "score_sources": {
+        "original": 391,
+        "qwen-current-manual-media-commit": 9
+      },
+      "silence_correct": 92
+    },
+    "realtime-venus-omni": {
+      "deadline_hits": [
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "event": {
+        "extra_replies": 133,
+        "hit": 15,
+        "miss": 267,
+        "unknown": 218
+      },
+      "failures": {
+        "both": 10,
+        "extra": 3,
+        "miss": 168,
+        "other_fail": 98,
+        "pass": 101,
+        "silent_fail": 20
+      },
+      "populations": {
+        "Adults": {
+          "correct": 39,
+          "total": 172
+        },
+        "Children": {
+          "correct": 12,
+          "total": 36
+        },
+        "Chronic illness": {
+          "correct": 7,
+          "total": 13
+        },
+        "Cognitive": {
+          "correct": 2,
+          "total": 11
+        },
+        "Color vision": {
+          "correct": 0,
+          "total": 11
+        },
+        "Groups": {
+          "correct": 4,
+          "total": 24
+        },
+        "Hearing": {
+          "correct": 2,
+          "total": 13
+        },
+        "Infants": {
+          "correct": 8,
+          "total": 26
+        },
+        "Mobility": {
+          "correct": 2,
+          "total": 8
+        },
+        "Older adults": {
+          "correct": 10,
+          "total": 29
+        },
+        "Pets": {
+          "correct": 9,
+          "total": 30
+        },
+        "Visual": {
+          "correct": 6,
+          "total": 27
+        }
+      },
+      "scenarios": {
+        "Daily living and services": {
+          "correct": 6,
+          "total": 103
+        },
+        "Education and work": {
+          "correct": 3,
+          "total": 41
+        },
+        "Health and caregiving": {
+          "correct": 4,
+          "total": 69
+        },
+        "Sports and leisure": {
+          "correct": 3,
+          "total": 46
+        },
+        "Travel and mobility": {
+          "correct": 2,
+          "total": 38
+        }
+      },
+      "score_sources": {
+        "explicit-terminal-control": 11,
+        "explicit-terminal-control-seed-replicate": 1,
+        "original": 388
+      },
+      "silence_correct": 83
+    }
+  },
+  "streaming_protocol_sha256": "f76105dd9e5d57133b995fd991ef5671efcf316ae272e37f8c8d81d009f6fc56"
+}

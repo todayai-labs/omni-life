@@ -1,0 +1,401 @@
+case_id,scenario,population
+adult_bath,Daily living and services,Adults
+adult_candle_neg,Daily living and services,Adults
+adult_candle_pos,Daily living and services,Adults
+adult_chop,Daily living and services,Adults
+adult_cut_in,Daily living and services,Adults
+adult_drowsy_neg,Education and work,Adults
+adult_drowsy_pos,Education and work,Adults
+adult_gas_neg,Daily living and services,Adults
+adult_gas_pos,Daily living and services,Adults
+adult_heater,Daily living and services,Adults
+adult_iron_neg,Daily living and services,Adults
+adult_iron_on_neg,Daily living and services,Adults
+adult_iron_on_pos,Daily living and services,Adults
+adult_iron_pos,Daily living and services,Adults
+adult_oven_neg,Daily living and services,Adults
+adult_oven_pos,Daily living and services,Adults
+adult_stove_neg,Daily living and services,Adults
+adult_stove_pos,Daily living and services,Adults
+adult_tap_neg,Daily living and services,Adults
+adult_tap_pos,Daily living and services,Adults
+agr_cow_med,Education and work,Adults
+agr_pig_fed,Education and work,Adults
+alz_coat,Daily living and services,Cognitive
+alz_door_stand,Health and caregiving,Cognitive
+alz_heater_neg,Daily living and services,Cognitive
+alz_heater_pos,Daily living and services,Cognitive
+alz_home,Health and caregiving,Cognitive
+alz_stove_neg,Daily living and services,Cognitive
+alz_stove_pos,Daily living and services,Cognitive
+ask_ball_rule,Sports and leisure,Adults
+ask_cafe_menu,Daily living and services,Adults
+ask_car_park,Travel and mobility,Adults
+ask_farm_feed,Education and work,Adults
+ask_home_coat,Daily living and services,Adults
+ask_home_mix,Daily living and services,Adults
+ask_hos_med,Daily living and services,Adults
+ask_office_tool,Education and work,Adults
+ask_park_bird,Sports and leisure,Adults
+ask_park_plant,Sports and leisure,Adults
+ask_pet_food,Health and caregiving,Pets
+ask_run_pace,Sports and leisure,Adults
+ask_school_word,Education and work,Children
+ask_shop_fresh,Daily living and services,Adults
+ask_shop_price,Daily living and services,Adults
+ask_street_dir,Travel and mobility,Adults
+ask_tour_build,Sports and leisure,Adults
+ask_tour_route,Travel and mobility,Adults
+ask_tv_f1,Sports and leisure,Adults
+ask_tv_nolan,Sports and leisure,Adults
+asm_boom_feedback_01,Education and work,Adults
+asm_chassis_feedback_01,Education and work,Adults
+asm_dumpbed_feedback_01,Education and work,Adults
+asm_dumpbed_feedback_02,Education and work,Adults
+baby_care,Health and caregiving,Infants
+baby_cleaner_neg,Health and caregiving,Infants
+baby_cleaner_pos,Health and caregiving,Infants
+baby_cord_neg,Health and caregiving,Infants
+baby_cord_pos,Health and caregiving,Infants
+baby_danger,Health and caregiving,Infants
+baby_danger_dup,Health and caregiving,Infants
+baby_fall_cry_01,Health and caregiving,Infants
+baby_fall_cry_02,Health and caregiving,Infants
+baby_formula,Daily living and services,Infants
+baby_home,Health and caregiving,Infants
+baby_hot_bowl_neg,Health and caregiving,Infants
+baby_hot_bowl_pos,Health and caregiving,Infants
+baby_outlet_0918_neg,Health and caregiving,Infants
+baby_outlet_0918_pos,Health and caregiving,Infants
+baby_outlet_0920_neg,Health and caregiving,Infants
+baby_outlet_0920_pos,Health and caregiving,Infants
+baby_slider_neg,Health and caregiving,Infants
+baby_slider_pos,Health and caregiving,Infants
+baby_stair_neg,Health and caregiving,Infants
+baby_stair_pos,Health and caregiving,Infants
+baby_tub,Daily living and services,Infants
+baggage_carousel,Travel and mobility,Adults
+ball_back_receive,Sports and leisure,Adults
+bear_surveillance,Daily living and services,Adults
+bike_ego,Travel and mobility,Adults
+bike_ego_park,Travel and mobility,Adults
+blind_cane_crowd,Travel and mobility,Visual
+blind_cane_curb,Travel and mobility,Visual
+blind_cane_demo,Travel and mobility,Visual
+blind_cane_ego,Travel and mobility,Visual
+blind_cane_hole,Travel and mobility,Visual
+blind_cook_ego,Daily living and services,Visual
+blind_cross_help,Travel and mobility,Visual
+blind_dog_ebike_neg,Travel and mobility,Visual
+blind_dog_ebike_pos,Travel and mobility,Visual
+blind_dog_glass,Travel and mobility,Visual
+blind_puddle,Travel and mobility,Visual
+blind_stair_wide,Travel and mobility,Visual
+blind_walk_ego,Travel and mobility,Visual
+cb_shop_pepper,Daily living and services,Color vision
+cb_shop_pepper.try1,Daily living and services,Color vision
+cblind_bottles,Daily living and services,Color vision
+cblind_folder,Daily living and services,Color vision
+cblind_laundry,Daily living and services,Color vision
+cblind_sunscreen_01,Daily living and services,Color vision
+cblind_sunscreen_02,Daily living and services,Color vision
+cblind_wire_01,Education and work,Color vision
+cblind_wire_02,Education and work,Color vision
+chronic_cough_neg,Health and caregiving,Chronic illness
+chronic_cough_pos,Health and caregiving,Chronic illness
+chronic_inhaler_neg,Health and caregiving,Chronic illness
+chronic_inhaler_pos,Health and caregiving,Chronic illness
+chronic_meal,Health and caregiving,Chronic illness
+chronic_onset,Health and caregiving,Chronic illness
+chronic_sugar_neg,Health and caregiving,Chronic illness
+chronic_sugar_pos,Health and caregiving,Chronic illness
+cnt_baby_step_v2,Health and caregiving,Infants
+cnt_bad_serve,Sports and leisure,Adults
+cnt_ball_layup_miss,Sports and leisure,Adults
+cnt_cafe_cup,Daily living and services,Adults
+cnt_dance_turn_v2,Sports and leisure,Adults
+cnt_gym_rep,Sports and leisure,Adults
+cnt_home_toy,Daily living and services,Adults
+cnt_office_chair,Education and work,Adults
+cnt_street_bus,Travel and mobility,Adults
+coffee_ego,Daily living and services,Adults
+coffee_p19,Daily living and services,Adults
+coffee_p23,Daily living and services,Adults
+coffee_p27,Daily living and services,Adults
+coffee_p37,Daily living and services,Adults
+coffee_p38,Daily living and services,Adults
+coffee_p42,Daily living and services,Adults
+cook_bake_end,Daily living and services,Adults
+cook_bake_feedback,Daily living and services,Adults
+cook_bread_feedback,Daily living and services,Adults
+cook_corn_feedback,Daily living and services,Adults
+cook_milk_feedback,Daily living and services,Adults
+cook_pepper_end,Daily living and services,Adults
+cook_pepper_feedback,Daily living and services,Adults
+cook_pinwheel_end,Daily living and services,Adults
+cook_pinwheel_feedback,Daily living and services,Adults
+cook_platter_end,Daily living and services,Adults
+cook_platter_feedback,Daily living and services,Adults
+cook_tomato_1min,Daily living and services,Adults
+cook_tomato_end,Daily living and services,Adults
+cook_tomato_feedback,Daily living and services,Adults
+cook_tortilla_1min,Daily living and services,Adults
+cook_tortilla_feedback,Daily living and services,Adults
+count_bench,Sports and leisure,Adults
+dance_back_line,Sports and leisure,Adults
+dance_back_pair,Sports and leisure,Adults
+deaf_alarm_early,Daily living and services,Hearing
+deaf_alarm_pos,Daily living and services,Hearing
+deaf_behind,Daily living and services,Hearing
+deaf_cafe_sign,Daily living and services,Hearing
+deaf_dog_wake,Daily living and services,Hearing
+deaf_door,Daily living and services,Hearing
+deaf_microwave,Daily living and services,Hearing
+deaf_pot_neg,Daily living and services,Hearing
+deaf_pot_pos,Daily living and services,Hearing
+deaf_sign_home,Daily living and services,Hearing
+deaf_timer,Daily living and services,Hearing
+deaf_wake,Daily living and services,Hearing
+dining_help,Health and caregiving,Groups
+dog_canal_rescue,Health and caregiving,Pets
+dog_table_heavy,Health and caregiving,Pets
+dog_table_light,Health and caregiving,Pets
+drive_ego,Travel and mobility,Adults
+drum_play,Sports and leisure,Adults
+drum_teach,Sports and leisure,Adults
+ego_coffee_machine,Daily living and services,Adults
+ego_drum_teach,Sports and leisure,Adults
+ego_gallery_pause,Sports and leisure,Adults
+ego_greet_lobby,Sports and leisure,Adults
+elder_boil,Daily living and services,Older adults
+elder_box_m_neg,Daily living and services,Older adults
+elder_box_m_pos,Daily living and services,Older adults
+elder_cam,Health and caregiving,Older adults
+elder_crossing,Travel and mobility,Older adults
+elder_fall2_cam,Health and caregiving,Older adults
+elder_glow_neg,Health and caregiving,Older adults
+elder_glow_pos,Health and caregiving,Older adults
+elder_mobility,Health and caregiving,Older adults
+elder_rug_f,Travel and mobility,Older adults
+elder_shirt_out,Health and caregiving,Older adults
+elder_stand_f_neg,Health and caregiving,Older adults
+elder_stand_f_pos,Health and caregiving,Older adults
+elder_stool_f_neg,Health and caregiving,Older adults
+elder_stool_f_pos,Health and caregiving,Older adults
+elder_washer,Daily living and services,Older adults
+elevator_arrival,Travel and mobility,Adults
+escalator_maintenance,Education and work,Adults
+fall_s1,Health and caregiving,Older adults
+fall_s3,Health and caregiving,Older adults
+fall_s5,Health and caregiving,Older adults
+fb_ball_elbow,Sports and leisure,Adults
+fb_ball_foot,Sports and leisure,Adults
+fb_bike_seat,Sports and leisure,Adults
+fb_farm_shovel,Education and work,Adults
+fb_home_plant,Daily living and services,Adults
+fb_kitchen_board,Daily living and services,Adults
+fb_latin_step,Sports and leisure,Adults
+fb_office_mouse,Education and work,Adults
+fb_office_sit,Education and work,Adults
+fb_pet_bowl,Health and caregiving,Pets
+fb_pet_leash,Health and caregiving,Pets
+fb_plank_hip,Sports and leisure,Adults
+fb_run_heel,Sports and leisure,Adults
+fb_school_pen,Education and work,Children
+fb_school_sit,Education and work,Children
+fb_shop_carry,Daily living and services,Adults
+fb_street_phone,Travel and mobility,Adults
+fb_stretch_bounce,Sports and leisure,Adults
+fb_yoga_mirror,Sports and leisure,Adults
+feed_pig,Education and work,Adults
+fire_engine_response,Education and work,Adults
+game_cards,Sports and leisure,Groups
+game_mahjong_a,Sports and leisure,Groups
+game_mahjong_b,Sports and leisure,Groups
+grade_case_neg,Sports and leisure,Children
+grade_case_pos,Sports and leisure,Children
+grade_chair_01,Health and caregiving,Children
+grade_door_width_01,Travel and mobility,Mobility
+grade_hunch_neg,Education and work,Adults
+grade_hunch_pos,Education and work,Adults
+grade_plate_01,Daily living and services,Adults
+grade_pot_neg,Daily living and services,Children
+grade_pot_pos,Daily living and services,Children
+grade_rail_neg,Sports and leisure,Adults
+grade_rail_pos,Sports and leisure,Adults
+grade_slip_bath_neg,Daily living and services,Older adults
+grade_slip_bath_pos,Daily living and services,Older adults
+grade_walk_home_neg,Travel and mobility,Visual
+grade_walk_home_pos,Travel and mobility,Visual
+grocery_milk,Daily living and services,Adults
+group_ball,Sports and leisure,Groups
+group_bank_queue,Daily living and services,Groups
+group_ceremony_close,Education and work,Groups
+group_ceremony_mic,Education and work,Groups
+group_class_question,Education and work,Groups
+group_door,Daily living and services,Groups
+group_first_rollcall,Education and work,Groups
+group_kg_circle,Education and work,Groups
+group_kg_outdoor,Education and work,Groups
+group_morning_line,Education and work,Groups
+group_multigen,Health and caregiving,Groups
+group_raise_hand,Education and work,Groups
+group_speaker,Education and work,Groups
+group_toddler_rollcall,Education and work,Groups
+hail_weather,Daily living and services,Adults
+handler_already_there,Daily living and services,Adults
+home_chaos_balcony,Health and caregiving,Infants
+hostel_check,Education and work,Groups
+house_fire_brisbane,Daily living and services,Adults
+in_alz_coat,Daily living and services,Cognitive
+in_alz_drawer,Daily living and services,Cognitive
+in_alz_shoes,Daily living and services,Cognitive
+in_cblind_bins,Daily living and services,Color vision
+in_cblind_laundry,Daily living and services,Color vision
+in_chronic_med,Health and caregiving,Chronic illness
+in_chronic_plate,Health and caregiving,Chronic illness
+in_chronic_sit,Health and caregiving,Chronic illness
+in_deaf_doorbell,Daily living and services,Hearing
+in_elder_cane,Travel and mobility,Older adults
+in_keys_table,Travel and mobility,Adults
+in_kid_game,Daily living and services,Children
+in_kid_hw,Education and work,Children
+in_pet_bowl,Health and caregiving,Pets
+in_pet_mail,Health and caregiving,Pets
+jump_rope,Sports and leisure,Adults
+kid_book,Education and work,Children
+kid_cam,Health and caregiving,Children
+kid_climb,Health and caregiving,Children
+kid_cry_cam,Health and caregiving,Children
+kid_danger,Health and caregiving,Children
+kid_game_late,Daily living and services,Children
+kid_hw_phone,Education and work,Children
+kid_knife,Health and caregiving,Children
+kid_oven_neg,Health and caregiving,Children
+kid_oven_pos,Health and caregiving,Children
+kid_phone_neg,Education and work,Children
+kid_phone_pos,Education and work,Children
+kid_railing_13,Health and caregiving,Children
+kid_stove_neg,Health and caregiving,Children
+kid_stove_pos,Health and caregiving,Children
+kid_window,Health and caregiving,Children
+life_ac_elder_shorts,Health and caregiving,Older adults
+life_ac_skirt,Daily living and services,Adults
+life_dinner_top,Daily living and services,Adults
+life_food_fried,Daily living and services,Adults
+life_food_veg_left,Daily living and services,Adults
+life_hunch_desk,Education and work,Children
+life_poker_turns,Sports and leisure,Groups
+loading_dock,Education and work,Adults
+low_vision_ego,Travel and mobility,Visual
+metro_edge_heavy,Travel and mobility,Adults
+metro_edge_light,Travel and mobility,Adults
+mind_gap,Travel and mobility,Adults
+mon_alz_find_item,Daily living and services,Cognitive
+mon_baby_fall,Health and caregiving,Infants
+mon_elder_fall_getup,Health and caregiving,Older adults
+mon_elder_fall_stay,Health and caregiving,Older adults
+mon_home_baby_fall_self,Health and caregiving,Infants
+museum_armor,Sports and leisure,Adults
+museum_dino,Sports and leisure,Children
+museum_elder_bench,Health and caregiving,Older adults
+museum_kid_armor,Sports and leisure,Children
+museum_rope_hall,Sports and leisure,Adults
+museum_vase,Sports and leisure,Adults
+museum_wheel_stair,Travel and mobility,Mobility
+orbit_ball_12,Daily living and services,Visual
+orbit_bumbag_05,Daily living and services,Visual
+orbit_cane_03,Daily living and services,Visual
+orbit_cane_07,Daily living and services,Visual
+orbit_condom_08,Daily living and services,Visual
+orbit_glasses_16,Daily living and services,Visual
+orbit_headphones_18,Daily living and services,Visual
+orbit_leash_11,Daily living and services,Visual
+orbit_mug_06,Daily living and services,Visual
+orbit_pepper_04,Daily living and services,Visual
+orbit_phone_17,Daily living and services,Visual
+out_duty_sun,Education and work,Adults
+outfit_rain,Daily living and services,Adults
+p4_cafe_wait,Daily living and services,Adults
+p4_car_fuel,Travel and mobility,Adults
+p4_hos_wait,Daily living and services,Adults
+p4_neg_phone,Sports and leisure,Adults
+p4_neg_read,Education and work,Children
+p4_neg_sing,Sports and leisure,Adults
+p4_neg_tired,Health and caregiving,Adults
+p4_office_late,Education and work,Adults
+p4_pet_scratch,Health and caregiving,Pets
+p4_run_side,Sports and leisure,Adults
+p4_run_side_graded,Sports and leisure,Adults
+p4_street_rain,Daily living and services,Adults
+p4_tour_view,Sports and leisure,Adults
+patrol_cone_jaywalk,Travel and mobility,Adults
+pet_bowl_ego,Health and caregiving,Pets
+pet_cat_bowl,Health and caregiving,Pets
+pet_cat_door,Health and caregiving,Pets
+pet_danger_neg,Health and caregiving,Pets
+pet_danger_pos,Health and caregiving,Pets
+pet_dog_bowl,Health and caregiving,Pets
+pet_dog_door,Health and caregiving,Pets
+pet_frenchie_bowl,Health and caregiving,Pets
+pet_home,Health and caregiving,Pets
+pet_plant_neg,Health and caregiving,Pets
+pet_plant_pos,Health and caregiving,Pets
+pet_puppy_leash,Health and caregiving,Pets
+pet_screen,Health and caregiving,Pets
+pet_shoe,Health and caregiving,Pets
+pet_slider_01,Health and caregiving,Pets
+pet_slider_02,Health and caregiving,Pets
+pet_stove_neg,Health and caregiving,Pets
+pet_stove_pos,Health and caregiving,Pets
+pet_toilet,Health and caregiving,Pets
+pet_trash,Health and caregiving,Pets
+pill_sort,Health and caregiving,Chronic illness
+poker_group,Sports and leisure,Groups
+posture_correct,Sports and leisure,Adults
+probe_word_boy,Education and work,Children
+queue_blood_board,Daily living and services,Groups
+queue_dental_ad,Daily living and services,Groups
+queue_ntuh_vlog,Health and caregiving,Groups
+rc_gym_set,Sports and leisure,Adults
+rc_run_lap,Sports and leisure,Adults
+rc_shop_aisle,Daily living and services,Adults
+rc_street_turn,Travel and mobility,Adults
+rc_tour_pass,Sports and leisure,Adults
+road_barrier,Education and work,Adults
+robot_feed_cats,Health and caregiving,Pets
+robot_host_metro,Travel and mobility,Adults
+robot_host_rest,Daily living and services,Adults
+roof_leak,Daily living and services,Adults
+slip_wet_neg,Travel and mobility,Older adults
+slip_wet_pos,Travel and mobility,Older adults
+sm_ball_round,Sports and leisure,Adults
+sm_farm_round,Education and work,Adults
+sm_gym_set,Sports and leisure,Adults
+sm_office_day,Education and work,Adults
+sm_run_done,Sports and leisure,Adults
+sm_school_class,Education and work,Children
+sm_yoga_flow,Sports and leisure,Adults
+sport_park_bball,Sports and leisure,Adults
+sport_run_form,Sports and leisure,Adults
+stretch_workout,Sports and leisure,Adults
+subway_wheelchair,Travel and mobility,Mobility
+tennis_ego,Sports and leisure,Adults
+test_kit,Health and caregiving,Chronic illness
+thief_bag_reach_neg,Daily living and services,Adults
+thief_bag_reach_pos,Daily living and services,Adults
+tour_cone,Travel and mobility,Adults
+tour_elder_steps,Travel and mobility,Older adults
+tour_kid_rail,Health and caregiving,Children
+tutor_hold,Education and work,Children
+tutor_homework,Education and work,Children
+videocon_washing_machine_fault,Daily living and services,Adults
+wheel_door,Travel and mobility,Mobility
+wheel_gap,Travel and mobility,Mobility
+wheel_path,Travel and mobility,Mobility
+wheel_stairs,Travel and mobility,Mobility
+wheel_stairs_paralyzed,Travel and mobility,Mobility
+wt_ball_shoot,Sports and leisure,Adults
+wt_cafe_sit,Daily living and services,Adults
+wt_office_type,Education and work,Adults
+wt_school_write,Education and work,Children
