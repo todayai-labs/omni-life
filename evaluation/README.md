@@ -1,107 +1,49 @@
-# Evaluation toolkit
+# Omni-Life evaluation
 
-For the current dataset and the November 25 results, use the [r3.2 experiment toolkit](r32/README.md). The commands on this page reproduce the historical reference.
+Run from the repository root with Python 3.10+. Use [Hugging Face](https://huggingface.co/datasets/mengze-hong/omni-life) as the data source. The [results directory](../results/README.md) contains the model runs and summary tables.
 
-Run all commands from the repository root with **Python 3.10+**. The released scores, input validation, and tests use the standard library only; no videos, weights, GPU, credentials, or dependency installation are needed for offline reproduction.
+## Verify and score
 
-## Structure and usage
+```sh
+hf download mengze-hong/omni-life --repo-type dataset \
+  --include 'scenes.csv' 'qa/*' 'protocol/*' --local-dir ./omni-life-data
+python3 -m evaluation reproduce --dataset ./omni-life-data --check
+```
 
-| Files | Responsibility |
-| --- | --- |
-| `core/` | Output parsing, normalized export, scoring, and reference reproduction |
-| `*.py` | Tools for inference, scoring, and validation, used through `python3 -m evaluation` |
-| `tests/` | Offline protocol, integrity, media-review, and credential-handling tests |
-| `configs/` | Frozen model, decoding, and content-judge settings |
-| `prompts/` | Frozen streaming, QA, judging, and dataset-construction prompts |
+`reproduce` verifies the submitted options against the answer key and rebuilds the main and ablation tables from the recorded Streaming verdicts. The scoring commands use the standard library and run offline.
+
+| Command | Input | Output |
+| --- | --- | --- |
+| `qa --dataset DIR --question ID` | Hugging Face files and a question ID | Prompt, response format and media reference |
+| `qa --dataset DIR --responses FILE` | CSV with `qa_id` and `raw_output` or `selected_choices` | Content, Timing and Joint QA scores |
+| `streaming PROTOCOL CAPTURES` | Scoring rules and adjudicated Streaming captures | Per-scene Full Correct decisions and coverage |
+| `ablation --protocol PROTOCOL --baseline B0 --arm CONDITION=FILE` | A baseline and one or more adjudicated ablation capture files | Per-condition Full Correct and paired coverage |
+
+```sh
+python3 -m evaluation qa --dataset ./omni-life-data --question qa_c_syn_adult_bath
+python3 -m evaluation streaming ./omni-life-data/protocol/streaming-scoring.json captures.json
+```
+
+For QA, pass `--lang en` for the English question bank. A single-choice response must select exactly one letter. A multiple-choice response must match the complete answer set. Mark a failed QA capture with `technical_success=false`.
+
+Streaming captures are JSON maps keyed by case ID. Each capture supplies `capture_complete`, `eof_opportunity`, `semantic_review_complete` and an ordered `replies` list. Each reply contains text, a semantic `verdict` and either `phase: video` with `video_s` or `phase: post_video` with `turn: 1`. A grounded reply supplies the ordered reference fact IDs in `facts`. Use the released [semantic criteria](https://huggingface.co/datasets/mengze-hong/omni-life/blob/main/protocol/semantic-judge.json) to adjudicate content before scoring. A missing verdict is `null`. Paired ablations use scenes with determined scores in both runs.
+
+## Run and export native captures
+
+The `native/` directory contains the model adapters and the shared Streaming worker. Use `python3 -m evaluation --help` to see the inference and export commands.
 
 | Command | Purpose |
 | --- | --- |
-| `score` | Recompute saved results; `--check` verifies reference metrics and every case-level match |
-| `validate` | Validate dataset schemas, coverage, and reference artifacts |
-| `check` | Check frozen identities, release hygiene, and local links |
-| `media` | Check media-review records; `--require-cleared` requires documented clearance |
-| `test` | Run offline tests; `--verbose` prints each result |
-| `prepare` | Verify separately obtained videos, extract source-aligned frames/audio, and prepare tasks |
-| `run` | Run streaming or QA with a local MiniCPM checkpoint |
-| `export` | Convert a new run to normalized records and content-judge inputs |
-| `judge` | Judge new text pairs through an explicitly configured HTTPS API |
+| `native-run` / `api-run` | Verify or run the baseline |
+| `native-ablation` / `api-ablation` | Verify or run a named ablation condition |
+| `export-streaming` / `export-ablation` | Export local runs with timing for adjudication |
 
-Use `python3 -m evaluation <command> --help` for options. Start with:
+These drivers require a local prepared-input handoff bound to the recordings. Set `OMNI_LIFE_HANDOFF` to its root with `dataset/manifest.json`, `stream-runtime/prepared/`, the source identity ledger and the selected case lists. Ablations also use the bound structured task, reminder or task-audio inputs. Hugging Face provides source media. The exact inference protocol uses the prepared input cache, which is supplied separately.
 
-```bash
-python3 -m evaluation validate
-python3 -m evaluation score --check
-python3 -m evaluation check
-python3 -m evaluation test --verbose
+```sh
+export OMNI_LIFE_HANDOFF=/path/to/prepared-inputs
+python3 -m evaluation native-run --model gander --all --config ./gander.json
+python3 -m evaluation native-ablation --model minicpm-o-4.5-local --condition R5 --config ./minicpm.json
 ```
 
-`media` checks records rather than granting permission. Before publishing included media, run `python3 -m evaluation media --require-cleared`; it fails while any included asset has pending review. Source-video requests are assessed per case, using `--case-id ID` and the [access process](../dataset/README.md#access-privacy-and-rights).
-
-## Run a new evaluation
-
-New inference generates a separate result and does not replace the frozen reference. Obtain source media through the [access process](../dataset/README.md#access-privacy-and-rights). Keep videos, weights, credentials, private evidence, and generated runs outside the files you commit.
-
-### 1. Prepare model and media
-
-Use [`openbmb/MiniCPM-o-4_5`](https://huggingface.co/openbmb/MiniCPM-o-4_5/blob/503e754207c94da6bb26850b4469f367c9ea3582/README.md) at revision **`503e754207c94da6bb26850b4469f367c9ea3582`**, with its official inference dependencies and a CUDA GPU. The adapter loads executable checkpoint code with `trust_remote_code=True`; inspect that code before execution. The root dependency list is a convenience list, not a tested environment lock. Install FFmpeg separately and make `ffmpeg` and `ffprobe` available on `PATH`.
-
-```bash
-python3 -m pip install -r requirements.txt
-python3 -m evaluation prepare --videos ./videos --output ./prepared
-```
-
-Place videos using the relative paths in [`dataset/metadata/cases.jsonl`](../dataset/metadata/cases.jsonl). Preparation checks hashes, samples timestamped frames, extracts original audio, and inserts each written standing task into the frozen streaming prompt. It adds no task speech or artificial track. `--case-id ID` selects a subset; `--dry-run` checks source identities without extracting media.
-
-[`configs/minicpm.json`](configs/minicpm.json) fixes seed 20261008, greedy decoding, 20 new speak tokens per chunk, `force_listen_count=0`, 1 Hz frames at width 640, and 16 kHz audio in 1-second chunks. Audio generation is disabled. Preserve these values when claiming the released protocol.
-
-### 2. Run streaming and QA
-
-```bash
-python3 -m evaluation run --track streaming \
-  --model-path ./weights/MiniCPM-o-4_5 --prepared ./prepared --output ./runs/streaming
-python3 -m evaluation run --track qa \
-  --model-path ./weights/MiniCPM-o-4_5 --prepared ./prepared --output ./runs/qa
-```
-
-Each run requires a new output directory. `--dry-run` validates prepared inputs without loading a model; `--case-id ID` selects cases. Omitted or failed cases receive no credit when exported against the full benchmark.
-
-### 3. Export and judge
-
-```bash
-python3 -m evaluation export --streaming ./runs/streaming --qa ./runs/qa \
-  --prepared ./prepared --output ./runs/portable
-python3 -m evaluation judge --jobs ./runs/portable/judge/jobs-input.jsonl \
-  --output ./runs/portable/judge/jobs.jsonl --dry-run
-```
-
-To make new judge calls, set `JUDGE_BASE_URL` to an HTTPS OpenAI-compatible base URL without embedded credentials, query parameters, or a fragment, and `JUDGE_API_KEY` in the environment. Repeat the last command without `--dry-run`; `JUDGE_MODEL` optionally chooses the requested model. Redirects are refused to prevent credential forwarding, and errors omit response bodies and configured endpoint values. Never write credentials into source or result files.
-
-The judge sends task, reference, context, and candidate text to that provider. Review the provider's processing terms and the [data license](../dataset/LICENSE) before transmission. [`configs/judge.json`](configs/judge.json) records the historical requested alias `deepseek-v4-flash` separately from returned model `deepseek-v4-flash-0731` (temperature 0, thinking disabled, 32 output tokens). New alias calls can resolve differently and produce different labels; actual returned IDs are recorded. Use a new output file.
-
-### 4. Score
-
-```bash
-python3 -m evaluation score --results ./runs/portable --output ./runs/portable/metrics.json
-```
-
-Scoring uses local references, normalized outputs, and saved judge decisions, retaining 400-video and 800-question denominators. It makes no model or judge call. See the [metric definitions](../dataset/README.md#scoring) and [frozen result layout](../results/README.md).
-
-## Changes and private reports
-
-Keep the released data, prompts, configurations, and reference results frozen. Submit a proposed correction separately with case IDs, rationale, affected fields, and evidence. Accepted semantic changes need a versioned change record, updated manifest, and regenerated affected results. Document protocol deviations and subsets in new results. New media requires actual rights/privacy review; record only opaque evidence references in `dataset/metadata/media-rights.json` and keep permission documents private.
-
-Report credentials, security vulnerabilities, personal information, and source-permission concerns privately to [mengze@today.ai](mailto:mengze@today.ai). Include the affected commit/path/case and minimal reproduction using synthetic inputs where possible; do not send live credentials or publish private evidence in an issue. Credential scanning and integrity tests do not replace source-level rights or privacy review. Revoke an exposed credential before coordinating repository/history remediation.
-
-## Licensing and external materials
-
-| Material | Terms |
-| --- | --- |
-| Original evaluation scripts and software in `core/` and `tests/`; original configuration and dependency manifests; original technical documentation | [Apache License 2.0](../LICENSE), excluding embedded benchmark content and third-party material |
-| Annotations, metadata, QA, benchmark prompts in `evaluation/prompts/`, and frozen results | [Omni-Life Research Evaluation License 1.0](../dataset/LICENSE), `LicenseRef-Omni-Life-Research-Evaluation-1.0`: noncommercial research evaluation, no model training |
-| Source video/audio, third-party frames/images, and figures/artwork in `assets/` | Excluded from both grants; establish rights for the particular source and intended use |
-| Today and other names, logos, trademarks, and brand assets | No branding, trademark, or endorsement permission is granted |
-| External model code/weights, libraries, fonts, FFmpeg, and tools installed separately | Their upstream licenses and notices apply |
-
-The root Apache-2.0 license text is unmodified. Data restrictions do not amend the software license, and the software license does not extend to data or excluded media. Permission covers only rights held by each contributor or relevant rights holder. The [pinned MiniCPM model card](https://huggingface.co/openbmb/MiniCPM-o-4_5/blob/503e754207c94da6bb26850b4469f367c9ea3582/README.md) identifies its code and weights as Apache-2.0; Omni-Life does not relicense them. Reference results imply no endorsement by model or tool developers.
-
-Synthetic/real-world source labels describe origin, not copyright ownership, participant consent, or redistribution clearance. Figures include project-supplied assets and paper excerpts; their inclusion grants no independent rights to underlying media or depicted people. The release has no completed source-by-source rights or consent register and must not be described as fully cleared or fully anonymized. Send attribution or rights concerns through the [private process](../dataset/README.md#access-privacy-and-rights).
+Verification is the default. Add `--execute` and an output root to run inference. Use the model dependencies, checkpoints and API environment variables for your deployment. The workers save each attempt's output and latency. Run Full Correct scoring after exporting and adjudicating the captures.

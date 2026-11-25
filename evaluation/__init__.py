@@ -1,1 +1,1 @@
-"""Omni-Life evaluation tools and frozen protocol resources."""
+"""Omni-Life evaluation and replay."""

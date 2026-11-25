@@ -1,37 +1,15 @@
-# Frozen reference results
+# Model results
 
-`minicpm-o-4.5/` contains the released MiniCPM reference run. These files support offline reproduction of the published scores; they are normalized records, not native transport logs or a distribution of model weights.
+[Main summary](summary.csv) · [Ablation summary](ablations.csv)
 
-| File | Records | Purpose |
-|---|---:|---|
-| `streaming.jsonl` | 400 | Session status, source duration, and normalized emitted responses |
-| `qa.jsonl` | 800 | Raw answers, parsed choices, gold choices, and exact-match decisions |
-| `judge/jobs.jsonl` | 92 | Unique content-judge inputs, frozen binary decisions, and requested/returned model IDs |
-| `judge/pairs.jsonl` | 100 | Links between case annotations, model responses, and judge jobs |
-| `matches.jsonl` | 400 | Case-level matches at 0/1/2/5/10-second end-window tolerances |
-| `metrics.json` | 1 summary | Aggregate counts and scores |
+Each of the 12 model directories has 800 QA records and 400 Streaming rows. The five models with ablations include an `ablations.jsonl` file with 400 rows per tested condition, for 22 conditions in total.
 
-## Reproduction
+| File | Contents |
+| --- | --- |
+| `qa.jsonl` | Output text, correctness and available latency for each Content or Timing question |
+| `streaming.jsonl` | Full Correct decision, capture records and evidence route for each scene |
+| `ablations.jsonl` | Per-condition Full Correct decisions and scoring evidence |
 
-Run from the repository root:
+`null` means the available evidence could not resolve the score. Gemini still has 122 unresolved main scenes and 411 unresolved ablation scenes in this snapshot. `pending` counts those scenes. `full_correct_percent` is present when all 400 scenes have determined scores. The evidence route is recorded per case, including runs that use supplemental terminal controls.
 
-```bash
-python3 -m evaluation validate
-python3 -m evaluation score --check
-python3 -m evaluation test --verbose
-```
-
-These commands use only the Python standard library and local artifacts. They make no model or judge calls and require no videos, weights, GPU, or API credentials. `--check` compares the saved metrics and every case-level match with recomputed values.
-
-The released input identities are in [`dataset/metadata/cases.jsonl`](../dataset/metadata/cases.jsonl). Keep the original annotations, questions, recorded outputs, and content judgments together. Editing labels, dropping unsuccessful cases, or filtering unwanted responses changes the benchmark.
-
-## Interpretation and limits
-
-- All 400 episodes and 800 questions remain in their fixed denominators, including failed sessions or invalid answers when present.
-- The 54 emitted responses include nine whose onsets occur after the source video ends. These observations are retained; the scoring protocol determines eligibility without moving or deleting them.
-- Response onset is receipt of the first text content on the source timeline. It is not audible playback latency.
-- Content judging, temporal eligibility, and one-to-one matching are separate stages. A positive judge decision alone does not establish a successful intervention.
-- Tolerance scoring changes only the accepted end boundary. It does not collect new replies or simulate faster inference.
-- Frozen decisions permit exact offline reproduction. A new API run may differ, including when a model alias resolves to a different version. Reproducing these files does not independently validate source-video rights, safety, or model behavior on new inputs.
-
-See [metric definitions](../dataset/README.md#scoring) and [observed data-quality notes](../dataset/metadata/quality-notes.json). Result files and embedded benchmark content are subject to the [data license](../dataset/LICENSE); code is licensed separately. For access or rights inquiries, follow the [data-access process](../dataset/README.md#access-privacy-and-rights) or contact **mengze@today.ai**.
+Rebuild the two tables with `python3 -m evaluation reproduce --dataset ./omni-life-data --check`. See the [evaluation guide](../evaluation/README.md) for setup and the [Hugging Face dataset](https://huggingface.co/datasets/mengze-hong/omni-life) for inputs and data terms.

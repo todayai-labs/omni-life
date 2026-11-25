@@ -1,75 +1,46 @@
-"""One entry point for reproduction, new inference, and release checks."""
+"""Command line entry point for Omni-Life evaluation."""
 import argparse
 from importlib import import_module
 from pathlib import Path
+import runpy
 import sys
-import unittest
 
 
-COMMANDS = {
-    "score": ("score", "Recompute saved scores offline; --check verifies the published reference"),
-    "validate": ("validate_release", "Validate dataset schemas, coverage, and reference results offline"),
-    "check": ("check_release", "Verify frozen file hashes, release hygiene, and local links offline"),
-    "media": ("check_media_rights", "Check media review records; never grants data access or usage rights"),
-    "prepare": ("prepare_media", "Prepare separately obtained source media with ffmpeg"),
-    "run": ("run_minicpm", "Run a new local MiniCPM inference job on prepared media"),
-    "export": ("export_run", "Normalize new inference outputs into the portable result schema"),
-    "judge": ("run_judge", "Judge new text pairs through an explicitly configured HTTPS API"),
-    "test": (None, "Run the offline regression suite with Python unittest"),
+SCORERS = {
+    'reproduce': ('reproduce', 'Verify the results shipped in this repository'),
+    'qa': ('qa', 'Build a QA prompt or score QA answers'),
+    'streaming': ('score_streaming', 'Score adjudicated Streaming captures'),
+    'ablation': ('ablation', 'Score ablations paired with a Streaming baseline'),
+}
+NATIVE = {
+    'native-run': ('stream-runtime/run_native.py', 'Verify or run a local Streaming worker'),
+    'native-ablation': ('ablations/runner/native/run_arm.py', 'Verify or run a local ablation'),
+    'api-run': ('stream-runtime/api/run.py', 'Verify or run an API Streaming session'),
+    'api-ablation': ('ablations/runner/api/run.py', 'Verify or run an API ablation'),
+    'export-streaming': ('stream-runtime/export_native.py', 'Export local Streaming captures for adjudication'),
+    'export-ablation': ('ablations/runner/native/export_arm.py', 'Export local ablation captures for adjudication'),
 }
 
 
-def test_main(argv):
-    parser = argparse.ArgumentParser(
-        prog="python -m evaluation test",
-        description=COMMANDS["test"][1],
-    )
-    parser.add_argument("--pattern", default="test*.py", help="Unittest discovery file pattern")
-    parser.add_argument("--verbose", action="store_true", help="Print each test result")
-    args = parser.parse_args(argv)
-    root = Path(__file__).resolve().parents[1]
-    suite = unittest.defaultTestLoader.discover(
-        str(root / "evaluation/tests"), pattern=args.pattern, top_level_dir=str(root)
-    )
-    result = unittest.TextTestRunner(verbosity=2 if args.verbose else 1).run(suite)
-    return 0 if result.wasSuccessful() else 1
-
-
-def main(argv=None):
-    argv = list(sys.argv[1:] if argv is None else argv)
-    descriptions = "\n".join(f"  {name:<10} {description}" for name, (_, description) in COMMANDS.items())
-    parser = argparse.ArgumentParser(
-        prog="python -m evaluation",
-        description="Omni-Life evaluation: reproduce reference scores or run and evaluate a new model.",
+def main():
+    commands = SCORERS | NATIVE
+    parser = argparse.ArgumentParser(prog='python -m evaluation', description=__doc__,
         formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog=(
-            "Commands:\n" + descriptions + "\n\n"
-            "Start offline: python -m evaluation score --check\n"
-            "New inference: prepare -> run -> export -> judge -> score\n"
-            "Offline checks use only Python 3.10+ standard library. New inference requires\n"
-            "separately obtained source videos, a local model, and inference dependencies.\n"
-            "Only judge makes API calls; judge --dry-run performs no network requests.\n"
-            "Use python -m evaluation <command> --help for command options."
-        ),
-    )
-    parser.add_argument("command", choices=COMMANDS, metavar="command", nargs="?")
-    if not argv:
+        epilog='Commands\n'+'\n'.join(f'  {name:<18} {entry[1]}' for name,entry in commands.items()))
+    parser.add_argument('command', choices=commands, nargs='?')
+    argv = sys.argv[1:]
+    command = parser.parse_args(argv[:1]).command
+    if not command:
         parser.print_help()
-        return 0
-    args = parser.parse_args(argv[:1])
-    if args.command is None:
-        parser.print_help()
-        return 0
-    if args.command == "test":
-        return test_main(argv[1:])
-    module = import_module("evaluation." + COMMANDS[args.command][0])
-    previous = sys.argv
-    try:
-        sys.argv = [f"python -m evaluation {args.command}", *argv[1:]]
-        return module.main()
-    finally:
-        sys.argv = previous
+        return
+    sys.argv = [f'python -m evaluation {command}', *argv[1:]]
+    if command in SCORERS:
+        import_module(f'evaluation.{SCORERS[command][0]}').main()
+    else:
+        script = Path(__file__).resolve().parent/'native'/NATIVE[command][0]
+        sys.path.insert(0, str(script.parent))
+        runpy.run_path(str(script), run_name='__main__')
 
 
-if __name__ == "__main__":
-    sys.exit(main())
+if __name__ == '__main__':
+    main()
