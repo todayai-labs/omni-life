@@ -1,0 +1,506 @@
+[
+  {
+    "model": "minicpm-o-4.5-local",
+    "condition": "N1",
+    "scene": "blind_cane_curb",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "minicpm-o-4.5-local",
+    "condition": "N1",
+    "scene": "deaf_alarm_pos",
+    "old": true,
+    "new": true
+  },
+  {
+    "model": "minicpm-o-4.5-local",
+    "condition": "N1",
+    "scene": "fb_pet_leash",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "minicpm-o-4.5-local",
+    "condition": "N1",
+    "scene": "kid_book",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "minicpm-o-4.5-local",
+    "condition": "Q-structured",
+    "scene": "blind_cane_curb",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "minicpm-o-4.5-local",
+    "condition": "Q-structured",
+    "scene": "deaf_alarm_pos",
+    "old": true,
+    "new": true
+  },
+  {
+    "model": "minicpm-o-4.5-local",
+    "condition": "Q-structured",
+    "scene": "fb_pet_leash",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "minicpm-o-4.5-local",
+    "condition": "Q-structured",
+    "scene": "kid_book",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "minicpm-o-4.5-local",
+    "condition": "R1",
+    "scene": "blind_cane_curb",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "minicpm-o-4.5-local",
+    "condition": "R1",
+    "scene": "deaf_alarm_pos",
+    "old": true,
+    "new": true
+  },
+  {
+    "model": "minicpm-o-4.5-local",
+    "condition": "R1",
+    "scene": "fb_pet_leash",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "minicpm-o-4.5-local",
+    "condition": "R1",
+    "scene": "kid_book",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "minicpm-o-4.5-local",
+    "condition": "R5",
+    "scene": "blind_cane_curb",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "minicpm-o-4.5-local",
+    "condition": "R5",
+    "scene": "deaf_alarm_pos",
+    "old": true,
+    "new": true
+  },
+  {
+    "model": "minicpm-o-4.5-local",
+    "condition": "R5",
+    "scene": "fb_pet_leash",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "minicpm-o-4.5-local",
+    "condition": "R5",
+    "scene": "kid_book",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "minicpm-o-4.5-local",
+    "condition": "TTS-audio-only-v2",
+    "scene": "blind_cane_curb",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "minicpm-o-4.5-local",
+    "condition": "TTS-audio-only-v2",
+    "scene": "deaf_alarm_pos",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "minicpm-o-4.5-local",
+    "condition": "TTS-audio-only-v2",
+    "scene": "fb_pet_leash",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "minicpm-o-4.5-local",
+    "condition": "TTS-audio-only-v2",
+    "scene": "kid_book",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "moss-vl-realtime",
+    "condition": "N1",
+    "scene": "blind_cane_curb",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "moss-vl-realtime",
+    "condition": "N1",
+    "scene": "deaf_alarm_pos",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "moss-vl-realtime",
+    "condition": "N1",
+    "scene": "fb_pet_leash",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "moss-vl-realtime",
+    "condition": "N1",
+    "scene": "kid_book",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "moss-vl-realtime",
+    "condition": "Q-structured",
+    "scene": "blind_cane_curb",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "moss-vl-realtime",
+    "condition": "Q-structured",
+    "scene": "deaf_alarm_pos",
+    "old": true,
+    "new": true
+  },
+  {
+    "model": "moss-vl-realtime",
+    "condition": "Q-structured",
+    "scene": "fb_pet_leash",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "moss-vl-realtime",
+    "condition": "Q-structured",
+    "scene": "kid_book",
+    "old": true,
+    "new": true
+  },
+  {
+    "model": "moss-vl-realtime",
+    "condition": "R1",
+    "scene": "blind_cane_curb",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "moss-vl-realtime",
+    "condition": "R1",
+    "scene": "deaf_alarm_pos",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "moss-vl-realtime",
+    "condition": "R1",
+    "scene": "fb_pet_leash",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "moss-vl-realtime",
+    "condition": "R1",
+    "scene": "kid_book",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "moss-vl-realtime",
+    "condition": "R5",
+    "scene": "blind_cane_curb",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "moss-vl-realtime",
+    "condition": "R5",
+    "scene": "deaf_alarm_pos",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "moss-vl-realtime",
+    "condition": "R5",
+    "scene": "fb_pet_leash",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "moss-vl-realtime",
+    "condition": "R5",
+    "scene": "kid_book",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "qwen3.8-omni-flash-realtime",
+    "condition": "N1",
+    "scene": "blind_cane_curb",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "qwen3.8-omni-flash-realtime",
+    "condition": "N1",
+    "scene": "deaf_alarm_pos",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "qwen3.8-omni-flash-realtime",
+    "condition": "N1",
+    "scene": "fb_pet_leash",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "qwen3.8-omni-flash-realtime",
+    "condition": "N1",
+    "scene": "kid_book",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "qwen3.8-omni-flash-realtime",
+    "condition": "Q-structured",
+    "scene": "blind_cane_curb",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "qwen3.8-omni-flash-realtime",
+    "condition": "Q-structured",
+    "scene": "deaf_alarm_pos",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "qwen3.8-omni-flash-realtime",
+    "condition": "Q-structured",
+    "scene": "fb_pet_leash",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "qwen3.8-omni-flash-realtime",
+    "condition": "Q-structured",
+    "scene": "kid_book",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "qwen3.8-omni-flash-realtime",
+    "condition": "R1",
+    "scene": "blind_cane_curb",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "qwen3.8-omni-flash-realtime",
+    "condition": "R1",
+    "scene": "deaf_alarm_pos",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "qwen3.8-omni-flash-realtime",
+    "condition": "R1",
+    "scene": "fb_pet_leash",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "qwen3.8-omni-flash-realtime",
+    "condition": "R1",
+    "scene": "kid_book",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "qwen3.8-omni-flash-realtime",
+    "condition": "R5",
+    "scene": "blind_cane_curb",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "qwen3.8-omni-flash-realtime",
+    "condition": "R5",
+    "scene": "deaf_alarm_pos",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "qwen3.8-omni-flash-realtime",
+    "condition": "R5",
+    "scene": "fb_pet_leash",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "qwen3.8-omni-flash-realtime",
+    "condition": "R5",
+    "scene": "kid_book",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "realtime-venus-omni",
+    "condition": "N1",
+    "scene": "blind_cane_curb",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "realtime-venus-omni",
+    "condition": "N1",
+    "scene": "deaf_alarm_pos",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "realtime-venus-omni",
+    "condition": "N1",
+    "scene": "fb_pet_leash",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "realtime-venus-omni",
+    "condition": "N1",
+    "scene": "kid_book",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "realtime-venus-omni",
+    "condition": "Q-structured",
+    "scene": "blind_cane_curb",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "realtime-venus-omni",
+    "condition": "Q-structured",
+    "scene": "deaf_alarm_pos",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "realtime-venus-omni",
+    "condition": "Q-structured",
+    "scene": "fb_pet_leash",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "realtime-venus-omni",
+    "condition": "Q-structured",
+    "scene": "kid_book",
+    "old": true,
+    "new": false
+  },
+  {
+    "model": "realtime-venus-omni",
+    "condition": "R1",
+    "scene": "blind_cane_curb",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "realtime-venus-omni",
+    "condition": "R1",
+    "scene": "deaf_alarm_pos",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "realtime-venus-omni",
+    "condition": "R1",
+    "scene": "fb_pet_leash",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "realtime-venus-omni",
+    "condition": "R1",
+    "scene": "kid_book",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "realtime-venus-omni",
+    "condition": "R5",
+    "scene": "blind_cane_curb",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "realtime-venus-omni",
+    "condition": "R5",
+    "scene": "deaf_alarm_pos",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "realtime-venus-omni",
+    "condition": "R5",
+    "scene": "fb_pet_leash",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "realtime-venus-omni",
+    "condition": "R5",
+    "scene": "kid_book",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "realtime-venus-omni",
+    "condition": "TTS-audio-only-v2",
+    "scene": "blind_cane_curb",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "realtime-venus-omni",
+    "condition": "TTS-audio-only-v2",
+    "scene": "deaf_alarm_pos",
+    "old": true,
+    "new": true
+  },
+  {
+    "model": "realtime-venus-omni",
+    "condition": "TTS-audio-only-v2",
+    "scene": "fb_pet_leash",
+    "old": false,
+    "new": false
+  },
+  {
+    "model": "realtime-venus-omni",
+    "condition": "TTS-audio-only-v2",
+    "scene": "kid_book",
+    "old": true,
+    "new": false
+  }
+]

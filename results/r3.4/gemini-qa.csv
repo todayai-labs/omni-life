@@ -1,0 +1,3 @@
+model,language,content_correct,timing_correct,joint_correct,per_track_total,qa_answers,dataset_revision
+gemini-3.8-live,zh,347,189,172,400,800,d309530b697922e3a1ea9d9ec3aeadec393fc154
+gemini-3.8-live,en,351,196,181,400,800,d309530b697922e3a1ea9d9ec3aeadec393fc154

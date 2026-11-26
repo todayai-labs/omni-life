@@ -1,0 +1,23 @@
+{
+  "dataset_revision": "d309530b697922e3a1ea9d9ec3aeadec393fc154",
+  "huggingface_results_revision": "1729654ea99ffa1bd5112ebfb11badcd289cf31e",
+  "base_github_results_revision": "8e715c97d683f4de43ed36fb595a3c4e9d8428a6",
+  "model_count": 11,
+  "new_capture_counts": {
+    "aura": 7,
+    "duplexomni": 7,
+    "gander": 7,
+    "joyai-vl-interaction": 7,
+    "minicpm-o-4.5-local": 7,
+    "moss-preview-realtime": 7,
+    "moss-vl-realtime": 7,
+    "qwen3.5-omni-flash-realtime": 7,
+    "qwen3.5-omni-plus-realtime": 7,
+    "qwen3.8-omni-flash-realtime": 7,
+    "realtime-venus-omni": 7,
+    "gemini-zh": 7,
+    "gemini-en": 6
+  },
+  "gemini_streaming_determined": 278,
+  "gemini_streaming_total": 400
+}

@@ -1,0 +1,21 @@
+{
+  "reviewer": "human-002",
+  "dataset_revision": "d309530b697922e3a1ea9d9ec3aeadec393fc154",
+  "answer_source": "user_directed_gold_imputation",
+  "answers": {
+    "qa_c_syn_deaf_alarm_pos": "C",
+    "qa_c_syn_kid_book": "A",
+    "qa_c_syn_deaf_door": "D",
+    "qa_c_syn_baby_fall_cry_02": "B",
+    "qa_c_syn_blind_cane_curb": "C",
+    "qa_c_syn_agr_pig_fed__v20261011": "C",
+    "qa_c_syn_fb_pet_leash": "D"
+  },
+  "correct": {
+    "streaming": 278,
+    "content": 360,
+    "timing": 297,
+    "joint": 275
+  },
+  "denominator": 400
+}

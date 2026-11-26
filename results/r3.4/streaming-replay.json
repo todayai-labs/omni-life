@@ -1,0 +1,1885 @@
+{
+  "aura": {
+    "blind_cane_curb": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "blind_cane_curb/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": [
+          {
+            "text": "<0.5 seconds>",
+            "video_s": 1.177276223897934,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "<2.5 seconds>",
+            "video_s": 3.1727528390474617,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "<4.5 seconds>",
+            "video_s": 5.213041247799993,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "<6.5 seconds>",
+            "video_s": 7.17544547887519,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "<8.5 seconds>",
+            "video_s": 9.177097348030657,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "<10.5 seconds>",
+            "video_s": 11.178704315796494,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "<12.5 seconds>",
+            "video_s": 13.178082931786776,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          }
+        ]
+      }
+    },
+    "deaf_alarm_pos": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "deaf_alarm_pos/e01",
+            "status": "hit",
+            "replies": [
+              3
+            ],
+            "latency_s": 1.975789
+          }
+        ],
+        "extra_response_indices": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6
+        ]
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": [
+          {
+            "text": "<0.5 seconds>",
+            "video_s": 1.2251500128768384,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "<2.5 seconds>",
+            "video_s": 3.1743983109481633,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "<4.5 seconds>",
+            "video_s": 5.2544556758366525,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[inform] 厨房的烟雾报警器开始发出红色闪烁的警报。",
+            "video_s": 7.175789092667401,
+            "phase": "video",
+            "verdict": "grounded",
+            "facts": [
+              "deaf_alarm_pos/e01"
+            ]
+          },
+          {
+            "text": "[inform] 厨房的烟雾报警器开始发出红色闪烁的警报。",
+            "video_s": 9.179037302732468,
+            "phase": "video",
+            "verdict": "grounded",
+            "facts": [
+              "deaf_alarm_pos/e01"
+            ]
+          },
+          {
+            "text": "[inform] 厨房上方正在冒出大量白烟。",
+            "video_s": 11.178305957000703,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[warn] 炒锅里的食物正在剧烈冒烟，情况看起来很危险。请立刻关掉燃气灶并处理。",
+            "video_s": 13.183520202059299,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          }
+        ]
+      }
+    },
+    "fb_pet_leash": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "fb_pet_leash/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": [
+          {
+            "text": "<0.5 seconds>",
+            "video_s": 1.203004410956055,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "<2.5 seconds>",
+            "video_s": 3.1987170823849738,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "<4.5 seconds>",
+            "video_s": 5.2298313793726265,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "<6.5 seconds>",
+            "video_s": 7.204958776012063,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "<8.5 seconds>",
+            "video_s": 9.2062077652663,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "<10.5 seconds>",
+            "video_s": 11.207563112024218,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "<12.5 seconds>",
+            "video_s": 13.227735126391053,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          }
+        ]
+      }
+    },
+    "kid_book": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "kid_book/e01",
+            "status": "hit",
+            "replies": [
+              2
+            ],
+            "latency_s": 1.775814
+          }
+        ],
+        "extra_response_indices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": [
+          {
+            "text": "<0.5 seconds>",
+            "video_s": 1.2030982482247055,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "<2.5 seconds>",
+            "video_s": 3.1728787012398243,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[warn] 孩子身体前倾，头趴在桌子上，写字姿势不端正，建议调整坐姿。",
+            "video_s": 5.175813760142773,
+            "phase": "video",
+            "verdict": "grounded",
+            "facts": [
+              "kid_book/e01"
+            ]
+          },
+          {
+            "text": "<6.5 seconds>",
+            "video_s": 7.177427820395678,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "<8.5 seconds>",
+            "video_s": 9.180066444445401,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "<10.5 seconds>",
+            "video_s": 11.180566095281392,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "<12.5 seconds>",
+            "video_s": 13.187104271259159,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          }
+        ]
+      }
+    }
+  },
+  "duplexomni": {
+    "blind_cane_curb": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "blind_cane_curb/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": [
+          0,
+          1
+        ]
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": [
+          {
+            "text": "你正用盲杖在马路上走，",
+            "video_s": 0.7315747388638556,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "前方有辆白色轿车正从左往右开过来。",
+            "video_s": 3.063328502699733,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          }
+        ]
+      }
+    },
+    "deaf_alarm_pos": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "deaf_alarm_pos/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": [
+          0
+        ]
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": [
+          {
+            "text": "我看到厨房灶台上放着一个黑色炒锅，火焰是蓝色的，旁边有个人在看手机。",
+            "video_s": 0.7403542888350785,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          }
+        ]
+      }
+    },
+    "fb_pet_leash": {
+      "old": true,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "fb_pet_leash/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": [
+          0
+        ]
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": [
+          {
+            "text": "画面里有只柴犬在树旁边闻草，没看到牵引绳，需要提醒吗？",
+            "phase": "video",
+            "video_s": 0.786352694965899,
+            "verdict": "extraneous",
+            "facts": []
+          }
+        ]
+      }
+    },
+    "kid_book": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "kid_book/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": [
+          0
+        ]
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": [
+          {
+            "text": "孩子坐姿挺正的，背挺直，手握笔也正确。",
+            "video_s": 0.7460943767800927,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          }
+        ]
+      }
+    }
+  },
+  "gander": {
+    "blind_cane_curb": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "blind_cane_curb/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    },
+    "deaf_alarm_pos": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "deaf_alarm_pos/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    },
+    "fb_pet_leash": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "fb_pet_leash/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    },
+    "kid_book": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "kid_book/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    }
+  },
+  "joyai-vl-interaction": {
+    "blind_cane_curb": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "blind_cane_curb/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": [
+          {
+            "text": "[answer] 前方是开阔的马路，有车辆经过，请注意安全。",
+            "video_s": 1.3909683907404542,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[warn] 前方有车辆快速驶过，先停下确认安全。",
+            "video_s": 2.1572838206775486,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[x]",
+            "video_s": 3.0682409298606217,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[x]",
+            "video_s": 4.07080505695194,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[x]",
+            "video_s": 5.071133053861558,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[x]",
+            "video_s": 6.0741877178661525,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[x]",
+            "video_s": 7.076149622909725,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[x]",
+            "video_s": 8.08029863703996,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[x]",
+            "video_s": 9.078781553078443,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[ix]",
+            "video_s": 10.08288896502927,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[ix]",
+            "video_s": 11.082434327807277,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[ix]",
+            "video_s": 12.091514988802373,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[ix]",
+            "video_s": 13.083912605885416,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[ix]",
+            "video_s": 14.08715946180746,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[x]",
+            "video_s": 15.091754328925163,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          }
+        ]
+      }
+    },
+    "deaf_alarm_pos": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "deaf_alarm_pos/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": [
+          {
+            "text": "[warn] 厨房烟雾报警器已响起，烟雾探测灯闪烁，请立即检查厨房情况。",
+            "video_s": 1.4312869128771126,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[warn] 厨房烟雾报警器已响起，烟雾探测灯闪烁，请立即检查厨房情况。",
+            "video_s": 2.194954734761268,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[feedback] 厨房内锅具仍在火焰上加热，但烟雾报警器已响起，请注意排查是否有烟雾或火情。",
+            "video_s": 3.2378008640371263,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[mute]",
+            "video_s": 4.077273108996451,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[x]",
+            "video_s": 5.073065082076937,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[x]",
+            "video_s": 6.073703066911548,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[x]",
+            "video_s": 7.07667656801641,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[x]",
+            "video_s": 8.08282166114077,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[x]",
+            "video_s": 9.07947615114972,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[x]",
+            "video_s": 10.080004069954157,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[x]",
+            "video_s": 11.080841565970331,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          }
+        ]
+      }
+    },
+    "fb_pet_leash": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "fb_pet_leash/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": [
+          {
+            "text": "[inform] 狗狗正在树干后方活动，暂时没有发现不规范遛狗行为。",
+            "video_s": 1.4550948981195688,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[warn] 狗狗在树后排泄，属于不规范的遛狗行为。",
+            "video_s": 2.188457756768912,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[warn] 狗狗在树后排泄，属于不规范的遛狗行为。",
+            "video_s": 3.1866343929432333,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[warn] 狗狗在树后排泄，属于不规范的遛狗行为。",
+            "video_s": 4.195978065021336,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[ixm] [warn] 狗狗在树后排泄，属于不规范的遛狗行为。",
+            "video_s": 5.2054682108573616,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[warn] [warn] 狗狗在树后排泄，属于不规范的遛狗行为。",
+            "video_s": 6.232301095034927,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[ixm] [warn] [warn] 狗狗在树后排泄，属于不规范的遛狗行为。",
+            "video_s": 7.227730449754745,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[ixm] [ixm] [warn] [warn] 狗狗在树后排泄，属于不规范的遛狗行为。",
+            "video_s": 8.25361038185656,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[ixm] [ixm] [ixm] [warn] [warn] [warn] 狗狗在树后排泄，属于不规范的遛狗行为。",
+            "video_s": 9.294121094979346,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[ixm] [warn] [warn] [warn] [warn] 狗狗在树后排泄，属于不规范的遛狗行为。",
+            "video_s": 10.276851012837142,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[ixm] [ixm] [ixm] [warn] [warn] [warn] [warn] 狗狗在树后排泄，属于不规范的遛狗行为。",
+            "video_s": 11.317566177807748,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[ixm] [ixm] [warn] [warn] [warn] [warn] [warn] 狗狗在树后排泄，属于不规范的遛狗行为。",
+            "video_s": 12.317489195149392,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[ixm] [ixm] [ixm] [warn] [warn] [warn] [warn] [warn] 狗狗在树后排泄，属于不规范的遛狗行为。",
+            "video_s": 13.338433351833373,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[ixm] [warn] [warn] [warn] [warn] [warn] [warn] 狗狗在树后排泄，属于不规范的遛狗行为。",
+            "video_s": 14.315095830708742,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          }
+        ]
+      }
+    },
+    "kid_book": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "kid_book/e01",
+            "status": "hit",
+            "replies": [
+              3
+            ],
+            "latency_s": 0.754071
+          }
+        ],
+        "extra_response_indices": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": [
+          {
+            "text": "[inform] 孩子正在端正地写字。",
+            "video_s": 1.3578938720747828,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[feedback] 身体稍微往前倾了，建议坐直一些。",
+            "video_s": 2.145250871311873,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[feedback] 身体往前倾了，建议坐直一些。",
+            "video_s": 3.1412115399725735,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[warn] 孩子低头写字，坐姿不端正，建议纠正。",
+            "video_s": 4.154070754069835,
+            "phase": "video",
+            "verdict": "grounded",
+            "facts": [
+              "kid_book/e01"
+            ]
+          },
+          {
+            "text": "[qianzhi]",
+            "video_s": 5.088654084131122,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[answer]",
+            "video_s": 6.0811132453382015,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[fengjing]",
+            "video_s": 7.089671245310456,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[qianzhi]",
+            "video_s": 8.09423003019765,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "мощн",
+            "video_s": 9.071770284324884,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[kouxi]",
+            "video_s": 10.091443705372512,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "<think>Okay, let's tackle this problem. The user wants me to act as a multimodal assistant watching a child writing and correct their posture if it's slouching. The task is to analyze the video frames and audio to determine if the child's posture is correct or needs correction.",
+            "video_s": 11.803975800983608,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "</think>",
+            "video_s": 12.784767310135067,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "[answer] 孩子身体前倾，坐姿不端正，需要纠正。",
+            "video_s": 13.170031283982098,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          },
+          {
+            "text": "</think>",
+            "video_s": 14.079108592122793,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          }
+        ]
+      }
+    }
+  },
+  "minicpm-o-4.5-local": {
+    "blind_cane_curb": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "blind_cane_curb/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    },
+    "deaf_alarm_pos": {
+      "old": true,
+      "new": true,
+      "replay": {
+        "status": "scored",
+        "full_correct": true,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "deaf_alarm_pos/e01",
+            "status": "hit",
+            "replies": [
+              0
+            ],
+            "latency_s": 2.708256
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": [
+          {
+            "text": "烟雾报警器响了。",
+            "phase": "video",
+            "video_s": 7.9082555416971445,
+            "verdict": "grounded",
+            "facts": [
+              "deaf_alarm_pos/e01"
+            ]
+          }
+        ]
+      }
+    },
+    "fb_pet_leash": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "fb_pet_leash/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    },
+    "kid_book": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "kid_book/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    }
+  },
+  "moss-preview-realtime": {
+    "blind_cane_curb": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "blind_cane_curb/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": [
+          0
+        ]
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": [
+          {
+            "text": "[",
+            "video_s": 0.08398688491433859,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          }
+        ]
+      }
+    },
+    "deaf_alarm_pos": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "deaf_alarm_pos/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": [
+          0
+        ]
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": [
+          {
+            "text": "[",
+            "video_s": 0.08156535495072603,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          }
+        ]
+      }
+    },
+    "fb_pet_leash": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "fb_pet_leash/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": [
+          0
+        ]
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": [
+          {
+            "text": "[",
+            "video_s": 0.10152746504172683,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          }
+        ]
+      }
+    },
+    "kid_book": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "kid_book/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": [
+          0
+        ]
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": [
+          {
+            "text": "[",
+            "video_s": 0.08173712622374296,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          }
+        ]
+      }
+    }
+  },
+  "moss-vl-realtime": {
+    "blind_cane_curb": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "blind_cane_curb/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    },
+    "deaf_alarm_pos": {
+      "old": true,
+      "new": true,
+      "replay": {
+        "status": "scored",
+        "full_correct": true,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "deaf_alarm_pos/e01",
+            "status": "hit",
+            "replies": [
+              0
+            ],
+            "latency_s": 3.102893
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": [
+          {
+            "text": "[warn] 烟雾报警器已亮起红灯，厨房有烟雾冒出，请立即检查。",
+            "phase": "video",
+            "video_s": 8.302892830688506,
+            "verdict": "grounded",
+            "facts": [
+              "deaf_alarm_pos/e01"
+            ]
+          }
+        ]
+      }
+    },
+    "fb_pet_leash": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "fb_pet_leash/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    },
+    "kid_book": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "kid_book/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    }
+  },
+  "qwen3.5-omni-flash-realtime": {
+    "blind_cane_curb": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "blind_cane_curb/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    },
+    "deaf_alarm_pos": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "deaf_alarm_pos/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    },
+    "fb_pet_leash": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "fb_pet_leash/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    },
+    "kid_book": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "kid_book/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    }
+  },
+  "qwen3.5-omni-plus-realtime": {
+    "blind_cane_curb": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "blind_cane_curb/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    },
+    "deaf_alarm_pos": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "deaf_alarm_pos/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    },
+    "fb_pet_leash": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "fb_pet_leash/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    },
+    "kid_book": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "kid_book/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    }
+  },
+  "qwen3.8-omni-flash-realtime": {
+    "blind_cane_curb": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "blind_cane_curb/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    },
+    "deaf_alarm_pos": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "deaf_alarm_pos/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    },
+    "fb_pet_leash": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "fb_pet_leash/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    },
+    "kid_book": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "kid_book/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    }
+  },
+  "realtime-venus-omni": {
+    "blind_cane_curb": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "blind_cane_curb/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    },
+    "deaf_alarm_pos": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "deaf_alarm_pos/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": [
+          0
+        ]
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": [
+          {
+            "text": "[warn]",
+            "video_s": 8.004691209178418,
+            "phase": "video",
+            "verdict": "extraneous",
+            "facts": []
+          }
+        ]
+      }
+    },
+    "fb_pet_leash": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "fb_pet_leash/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    },
+    "kid_book": {
+      "old": false,
+      "new": false,
+      "replay": {
+        "status": "scored",
+        "full_correct": false,
+        "count_accuracy": null,
+        "events": [
+          {
+            "event_id": "kid_book/e01",
+            "status": "miss",
+            "replies": [],
+            "latency_s": null
+          }
+        ],
+        "extra_response_indices": []
+      },
+      "capture": {
+        "capture_complete": true,
+        "eof_opportunity": false,
+        "semantic_review_complete": true,
+        "replies": []
+      }
+    }
+  }
+}

@@ -5,7 +5,7 @@
   </picture>
 </p>
 
-<p align="center"><a href="https://todayai-labs.github.io/omni-life/">Project page</a> &nbsp;·&nbsp; <a href="https://arxiv.org/html/2611.02835v1">Read the paper</a> &nbsp;·&nbsp; <a href="https://huggingface.co/datasets/mengze-hong/omni-life">Hugging Face dataset</a> &nbsp;·&nbsp; <a href="results/README.md">Results</a></p>
+<p align="center"><a href="https://todayai-labs.github.io/omni-life/">Project page</a> &nbsp;·&nbsp; <a href="https://arxiv.org/html/2611.02835v1">Read the paper</a> &nbsp;·&nbsp; <a href="https://huggingface.co/datasets/mengze-hong/omni-life">Hugging Face dataset</a> &nbsp;·&nbsp; <a href="results/r3.4/README.md">Results</a></p>
 
 <p align="center">
   <a href="https://todayai-labs.github.io/omni-life/media/overview.mp4">
@@ -26,7 +26,7 @@ Omni-Life tests whether real-time omnimodal assistants can **provide useful help
 - **Streaming:** 297 assistance episodes contain 500 required interventions, including 13 final counts. Another 103 episodes require silence.
 - **QA:** 400 Content questions and 400 Timing questions. Joint QA checks both answers for each episode.
 
-Download the [dataset and media](https://huggingface.co/datasets/mengze-hong/omni-life) and browse the 11-model [main results](results/summary.csv) and [ablations](results/ablations.csv). Streaming uses scene-level **Full Correct** across 400 scenes. A scene passes when every required response is correct and on time, with no extra responses.
+Download the [dataset and media](https://huggingface.co/datasets/mengze-hong/omni-life) and browse the 11-model [main results](results/r3.4/summary.csv) and [ablations](results/r3.4/ablations.csv). Streaming uses scene-level **Full Correct** across 400 scenes. A scene passes when every required response is correct and on time, with no extra responses.
 
 ## Examples
 
@@ -52,7 +52,7 @@ hf download mengze-hong/omni-life --repo-type dataset \
 python3 -m evaluation reproduce --dataset ./omni-life-data --check
 ```
 
-[Evaluation guide](evaluation/README.md) · [Per-model records](results/README.md) · [Dataset and media verification](evaluation/README.md#verify-the-dataset)
+[Evaluation guide](evaluation/README.md) · [Per-model records](results/r3.4/README.md) · [Dataset and media verification](evaluation/README.md#verify-the-dataset)
 
 ## Citation
 

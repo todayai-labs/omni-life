@@ -1,0 +1,12 @@
+model,streaming_correct,content_correct,timing_correct,joint_correct,per_track_total,dataset_revision
+minicpm-o-4.5-local,111,293,123,99,400,d309530b697922e3a1ea9d9ec3aeadec393fc154
+qwen3.8-omni-flash-realtime,109,340,226,200,400,d309530b697922e3a1ea9d9ec3aeadec393fc154
+gander,108,194,111,65,400,d309530b697922e3a1ea9d9ec3aeadec393fc154
+moss-vl-realtime,107,77,19,2,400,d309530b697922e3a1ea9d9ec3aeadec393fc154
+qwen3.5-omni-plus-realtime,107,331,179,158,400,d309530b697922e3a1ea9d9ec3aeadec393fc154
+qwen3.5-omni-flash-realtime,105,294,120,93,400,d309530b697922e3a1ea9d9ec3aeadec393fc154
+realtime-venus-omni,101,315,140,123,400,d309530b697922e3a1ea9d9ec3aeadec393fc154
+aura,13,331,115,104,400,d309530b697922e3a1ea9d9ec3aeadec393fc154
+duplexomni,13,112,20,4,400,d309530b697922e3a1ea9d9ec3aeadec393fc154
+moss-preview-realtime,4,295,61,49,400,d309530b697922e3a1ea9d9ec3aeadec393fc154
+joyai-vl-interaction,0,313,79,64,400,d309530b697922e3a1ea9d9ec3aeadec393fc154
