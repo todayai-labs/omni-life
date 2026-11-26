@@ -10,7 +10,7 @@ The [experiment versions](experiment-versions.json) bind the current results to 
 
 ## Main comparison
 
-The model comparison uses Chinese QA with 400 items per track and 400 determined Streaming outcomes per model. The human row shows observed rates and denominators.
+The model comparison uses Chinese QA with 400 items per track and 400 determined Streaming outcomes per model. The human row shows full-set rates with the adjustments documented below.
 
 | Respondent | Streaming Full Correct | Content | Timing | Joint |
 |---|---:|---:|---:|---:|
@@ -25,7 +25,7 @@ The model comparison uses Chinese QA with 400 items per track and 400 determined
 | Qwen3.5 Plus | 26.75% | 82.25% | 44.75% | 39.50% |
 | Qwen3.8 Flash | 27.25% | 84.75% | 56.50% | 49.75% |
 | Venus-Omni | 25.25% | 78.25% | 35.00% | 30.75% |
-| Human (human-002, observed) | 71.09% (268/377) | 89.57% (352/393) | 74.75% (299/400) | 68.96% (271/393) |
+| Human (human-002, adjusted) | 70.25% (281/400) | 89.75% (359/400) | 74.75% (299/400) | 69.00% (276/400) |
 
 | File | Contents |
 | --- | --- |
@@ -42,7 +42,7 @@ Run `python3 -m evaluation reproduce --dataset ./omni-life-data --check` to repl
 
 ## Human baseline
 
-The human baseline reports human-002 only. Content and Joint exclude six blank answers and one answer whose r3.3 prompt version could not be verified. Timing has all 400 answers. Streaming uses the 377 previously adjudicated scenes. The follow-up Streaming answers await final adjudication.
+The adjusted human-002 row assigns credit to seven unverified Content items (six blank and one with an unverified prompt version) and to seven unsubmitted Streaming scenes. Five of the seven adjusted Content items have correct Timing answers. The 16 submitted Streaming follow-ups were scored separately: six correct and ten incorrect. Observed counts before adjustment are Streaming 274/393, Content 352/393, Timing 299/400, and Joint 271/393.
 
 ## Gemini 3.8 Live
 
