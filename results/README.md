@@ -25,7 +25,7 @@ The model comparison uses Chinese QA with 400 items per track and 400 determined
 | Qwen3.5 Plus | 26.75% | 82.25% | 44.75% | 39.50% |
 | Qwen3.8 Flash | 27.25% | 84.75% | 56.50% | 49.75% |
 | Venus-Omni | 25.25% | 78.25% | 35.00% | 30.75% |
-| Human (human-002, adjusted) | 70.25% (281/400) | 89.75% (359/400) | 74.75% (299/400) | 69.00% (276/400) |
+| Human (human-002) | 70.25% (281/400) | 89.75% (359/400) | 74.75% (299/400) | 69.00% (276/400) |
 
 | File | Contents |
 | --- | --- |
