@@ -2,6 +2,14 @@
 
 [Main summary](summary.csv) · [Input ablations](ablations.csv) · [Paper analysis values](paper.json)
 
+## Dataset versions
+
+The published model scores and archived answers use **20261125-r3.2**. See [experiment versions](experiment-versions.json) for the frozen dataset revision, input checksums and r3.3 rerun roster.
+
+**20261126-r3.3** changes two Content prompts with identical media and answer keys. To update the published Chinese comparison, obtain two new answers for each of the 11 models and recompute Content and Joint QA using the new answers. Timing QA, Streaming and input ablations use the same inputs and scoring rules in both revisions.
+
+## Published comparison
+
 The released comparison covers 11 models. Each has 400 Content QA answers, 400 Timing QA answers and 400 determined Streaming outcomes. The four models with input ablations have 400 determined outcomes for each of the 18 model and condition combinations. Gemini's Streaming coverage is incomplete.
 
 | File | Contents |

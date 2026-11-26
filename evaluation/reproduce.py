@@ -84,6 +84,13 @@ def main():
     parser.add_argument('--results', type=Path, default=Path(__file__).resolve().parents[1]/'results')
     parser.add_argument('--check', action='store_true', help='Check the committed summary tables')
     args = parser.parse_args()
+    versions = args.results/'experiment-versions.json'
+    if versions.is_file():
+        published = json.loads(versions.read_text(encoding='utf-8'))['published_results']
+        for name, digest in published['dataset_sha256'].items():
+            if sha256((args.dataset/name).read_bytes()).hexdigest() != digest:
+                parser.error(f'{name} differs from the archived inputs. Use {published["version"]} '
+                             f'(Hugging Face revision {published["revision"]}) to reproduce these results.')
     main_rows, ablation_rows, paper = recompute(args.dataset, args.results)
     if args.check:
         for filename, computed in [('summary.csv',main_rows), ('ablations.csv',ablation_rows)]:

@@ -13,6 +13,8 @@ python3 -m evaluation reproduce --dataset ./omni-life-data --check
 
 `reproduce` verifies the submitted options against the answer key and replays the available adjudicated captures and rebuilds the main, input-ablation, and paper-analysis tables from the released evidence. The scoring commands use the standard library and run offline. Re-running model inference requires the corresponding checkpoints or provider endpoints, prepared inputs, and deployment settings. See [Quick start](../README.md#quick-start) to install the download CLI.
 
+For new evaluations use the current dataset revision. For the published tables use the pinned r3.2 snapshot above. The [experiment version manifest](../results/experiment-versions.json) lists the two r3.3 Content prompts requiring fresh predictions.
+
 ## Score new submissions
 
 | Command | Input | Output |
