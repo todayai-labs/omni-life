@@ -30,54 +30,38 @@
     "content": {
       "counts": [
         [
-          236,
-          265
-        ],
-        [
-          236,
-          265
+          352,
+          393
         ]
       ],
-      "observed_mean_percent": 89.06
+      "observed_mean_percent": 89.57
     },
     "joint": {
       "counts": [
         [
-          158,
-          219
-        ],
-        [
-          167,
-          219
+          271,
+          393
         ]
       ],
-      "observed_mean_percent": 74.2
+      "observed_mean_percent": 68.96
     },
     "streaming": {
       "counts": [
-        [
-          261,
-          377
-        ],
         [
           268,
           377
         ]
       ],
-      "observed_mean_percent": 70.16
+      "observed_mean_percent": 71.09
     },
     "timing": {
       "counts": [
         [
-          233,
-          309
-        ],
-        [
-          243,
-          309
+          299,
+          400
         ]
       ],
-      "observed_mean_percent": 77.02
+      "observed_mean_percent": 74.75
     }
   },
   "input_ablations": {

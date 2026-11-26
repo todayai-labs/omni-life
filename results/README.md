@@ -4,13 +4,28 @@
 
 ## Dataset versions
 
-The published model scores and archived answers use **20261125-r3.2**. See [experiment versions](experiment-versions.json) for the frozen dataset revision, input checksums and r3.3 rerun roster.
+These results use **20261126-r3.3**. The two revised Content prompts were rerun for all 11 models. The other 798 QA answers per model were preserved and regraded under the current answer keys. Streaming and input-ablation evidence is carried over because the inputs and rubric are unchanged.
 
-**20261126-r3.3** changes two Content prompts with identical media and answer keys. To update the published Chinese comparison, obtain two new answers for each of the 11 models and recompute Content and Joint QA using the new answers. Timing QA, Streaming and input ablations use the same inputs and scoring rules in both revisions.
+The [experiment versions](experiment-versions.json) bind the current results to Hugging Face revision `5f776e25cb1f1eb51b42bc2ddf82eab795544755`. The [r3.2 archive](https://github.com/todayai-labs/omni-life/tree/6a2eb02/results) uses the [previous dataset revision](https://huggingface.co/datasets/mengze-hong/omni-life/tree/1df079eadff3c0db96062c119183605d66821954).
 
-## Published comparison
+## Main comparison
 
-The released comparison covers 11 models. Each has 400 Content QA answers, 400 Timing QA answers and 400 determined Streaming outcomes. The four models with input ablations have 400 determined outcomes for each of the 18 model and condition combinations. Gemini's Streaming coverage is incomplete.
+The model comparison uses Chinese QA with 400 items per track and 400 determined Streaming outcomes per model. The human row shows observed rates and denominators.
+
+| Respondent | Streaming Full Correct | Content | Timing | Joint |
+|---|---:|---:|---:|---:|
+| AURA | 3.25% | 82.25% | 28.75% | 26.00% |
+| DuplexOmni (S1) | 3.50% | 28.25% | 5.00% | 1.00% |
+| Gander | 27.00% | 48.25% | 27.25% | 15.75% |
+| JoyAI | 0.00% | 77.50% | 19.75% | 15.75% |
+| MiniCPM-o 4.5 | 27.75% | 73.25% | 30.50% | 24.50% |
+| MOSS Preview | 1.00% | 74.00% | 15.25% | 12.50% |
+| MOSS-VL | 26.75% | 19.25% | 4.75% | 0.50% |
+| Qwen3.5 Flash | 26.25% | 73.50% | 30.00% | 23.50% |
+| Qwen3.5 Plus | 26.75% | 82.25% | 44.75% | 39.50% |
+| Qwen3.8 Flash | 27.25% | 84.75% | 56.50% | 49.75% |
+| Venus-Omni | 25.25% | 78.25% | 35.00% | 30.75% |
+| Human (human-002, observed) | 71.09% (268/377) | 89.57% (352/393) | 74.75% (299/400) | 68.96% (271/393) |
 
 | File | Contents |
 | --- | --- |
@@ -27,13 +42,15 @@ Run `python3 -m evaluation reproduce --dataset ./omni-life-data --check` to repl
 
 ## Human baseline
 
-Two reviewers answered independently. Observed counts use original answers compatible with the released benchmark. Full-set estimates average the observed rates and assume comparable difficulty for items without compatible answers.
+The human baseline reports human-002 only. Content and Joint exclude six blank answers and one answer whose r3.3 prompt version could not be verified. Timing has all 400 answers. Streaming uses the 377 previously adjudicated scenes. The follow-up Streaming answers await final adjudication.
 
-| Track | Reviewer 1 observed | Reviewer 2 observed | Estimated on all 400 |
-| --- | ---: | ---: | ---: |
-| Content QA | 236/265 | 236/265 | 89.06% |
-| Timing QA | 233/309 | 243/309 | 77.02% |
-| Streaming Full Correct | 261/377 | 268/377 | 70.16% |
-| Joint QA | 158/219 | 167/219 | |
+## Gemini 3.8 Live
 
-The observed mean for Joint QA is 74.20% across 219 paired scenes per reviewer.
+Gemini 3.8 Live has complete Chinese and English QA. Its Streaming has **278/400 determined scenes** and 122 unresolved, so no full-set Streaming score is reported.
+
+| Language | Content | Timing | Joint | QA answers |
+|---|---:|---:|---:|---:|
+| Chinese | 86.50% | 47.25% | 42.75% | 800 |
+| English | 87.75% | 49.00% | 45.25% | 800 |
+
+See [Gemini coverage](gemini-coverage.csv) for the exact counts.

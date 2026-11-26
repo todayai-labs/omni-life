@@ -6,14 +6,14 @@ Run from the repository root with Python 3.10+. Use [Hugging Face](https://huggi
 
 ```sh
 hf download mengze-hong/omni-life --repo-type dataset \
-  --revision 1df079eadff3c0db96062c119183605d66821954 \
+  --revision 5f776e25cb1f1eb51b42bc2ddf82eab795544755 \
   --include 'scenes.csv' --include 'qa/*' --include 'protocol/*' --local-dir ./omni-life-data
 python3 -m evaluation reproduce --dataset ./omni-life-data --check
 ```
 
 `reproduce` verifies the submitted options against the answer key and replays the available adjudicated captures and rebuilds the main, input-ablation, and paper-analysis tables from the released evidence. The scoring commands use the standard library and run offline. Re-running model inference requires the corresponding checkpoints or provider endpoints, prepared inputs, and deployment settings. See [Quick start](../README.md#quick-start) to install the download CLI.
 
-For new evaluations use the current dataset revision. For the published tables use the pinned r3.2 snapshot above. The [experiment version manifest](../results/experiment-versions.json) lists the two r3.3 Content prompts requiring fresh predictions.
+For new evaluations use the current dataset revision. For the published tables use the pinned r3.3 snapshot above. The [experiment version manifest](../results/experiment-versions.json) records the two r3.3 Content prompts rerun for the table.
 
 ## Score new submissions
 

@@ -1,6 +1,18 @@
 {
   "dataset_repo": "mengze-hong/omni-life",
   "published_results": {
+    "version": "20261126-r3.3",
+    "revision": "5f776e25cb1f1eb51b42bc2ddf82eab795544755",
+    "qa_language": "zh",
+    "dataset_sha256": {
+      "scenes.csv": "d35f3d229d4048c2810ba7a05f5fda13e51e1c61a4a0e57cb9a765b61a92e64f",
+      "qa/media-index.csv": "9985e0ca4f69844ab24c8ac93a8d7cabc263a8a6675b63ca180b2aafd66734a3",
+      "qa/qa_content_zh.csv": "a24c5c750559ee486dba473a4d62d2a3f4d70556d131aedf25f58da1c972fde6",
+      "qa/qa_timing_zh.csv": "9a309c538f763c1246d74fe2323fb0f4b2bb50510711beb0cccc0a4ab32bf5ac",
+      "protocol/streaming-scoring.json": "f76105dd9e5d57133b995fd991ef5671efcf316ae272e37f8c8d81d009f6fc56"
+    }
+  },
+  "prior_results": {
     "version": "20261125-r3.2",
     "revision": "1df079eadff3c0db96062c119183605d66821954",
     "qa_language": "zh",
@@ -10,37 +22,18 @@
       "qa/qa_content_zh.csv": "d1f99bb4cfc6f92b94ff84f90e2eae1441b734a049aff82286a3e8ca955ea939",
       "qa/qa_timing_zh.csv": "9a309c538f763c1246d74fe2323fb0f4b2bb50510711beb0cccc0a4ab32bf5ac",
       "protocol/streaming-scoring.json": "f76105dd9e5d57133b995fd991ef5671efcf316ae272e37f8c8d81d009f6fc56"
-    }
+    },
+    "github_revision": "6a2eb02"
   },
-  "pending_content_revision": {
-    "version": "20261126-r3.3",
-    "revision": "5f776e25cb1f1eb51b42bc2ddf82eab795544755",
+  "targeted_content_rerun": {
     "qa_ids": [
       "qa_c_syn_museum_wheel_stair__v20261011",
       "qa_c_real_orbit_pepper_04__v20261011"
     ],
-    "languages": [
-      "zh",
-      "en"
-    ],
-    "published_comparison_language": "zh",
-    "affected_metrics": [
-      "content",
-      "joint"
-    ],
-    "models": [
-      "aura",
-      "duplexomni",
-      "gander",
-      "joyai-vl-interaction",
-      "minicpm-o-4.5-local",
-      "moss-preview-realtime",
-      "moss-vl-realtime",
-      "qwen3.5-omni-flash-realtime",
-      "qwen3.5-omni-plus-realtime",
-      "qwen3.8-omni-flash-realtime",
-      "realtime-venus-omni"
-    ],
-    "published_comparison_pending_answers": 22
+    "published_model_answers": 22,
+    "gemini_answers": {
+      "zh": 2,
+      "en": 2
+    }
   }
 }

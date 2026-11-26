@@ -175,7 +175,10 @@ def analyze(protocol, metadata, main, ablations, judge_rows, human_rows):
         track = row['track']
         if track in results['human']:
             raise ValueError(f'Duplicate human baseline track: {track}')
-        counts = [[int(row[f'reviewer_{i}_correct']), int(row[f'reviewer_{i}_observed'])] for i in (1, 2)]
+        if 'reviewer' in row:
+            counts = [[int(row['correct']), int(row['observed'])]]
+        else:
+            counts = [[int(row[f'reviewer_{i}_correct']), int(row[f'reviewer_{i}_observed'])] for i in (1, 2)]
         if any(not 0 <= correct <= observed <= 400 or observed == 0 for correct, observed in counts):
             raise ValueError(f'Invalid human baseline counts for {track}')
         results['human'][track] = {'counts': counts,
