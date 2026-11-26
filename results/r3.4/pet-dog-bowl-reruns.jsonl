@@ -1,0 +1,26 @@
+{"model": "qwen3.5-omni-flash-realtime", "lang": "zh", "qa_id": "qa_c_real_pet_dog_bowl__v20261010", "raw": "B", "picks": ["B"], "expected": "B", "correct": true}
+{"model": "qwen3.5-omni-flash-realtime", "lang": "zh", "qa_id": "qa_t_real_pet_dog_bowl__v20261010", "raw": "C;D", "picks": ["C", "D"], "expected": "A;C;D", "correct": false}
+{"model": "qwen3.5-omni-plus-realtime", "lang": "zh", "qa_id": "qa_c_real_pet_dog_bowl__v20261010", "raw": "B", "picks": ["B"], "expected": "B", "correct": true}
+{"model": "qwen3.5-omni-plus-realtime", "lang": "zh", "qa_id": "qa_t_real_pet_dog_bowl__v20261010", "raw": "B;C", "picks": ["B", "C"], "expected": "A;C;D", "correct": false}
+{"model": "qwen3.8-omni-flash-realtime", "lang": "zh", "qa_id": "qa_c_real_pet_dog_bowl__v20261010", "raw": "B", "picks": ["B"], "expected": "B", "correct": true}
+{"model": "qwen3.8-omni-flash-realtime", "lang": "zh", "qa_id": "qa_t_real_pet_dog_bowl__v20261010", "raw": "B;C", "picks": ["B", "C"], "expected": "A;C;D", "correct": false}
+{"model": "gemini-3.8-live", "lang": "zh", "qa_id": "qa_c_real_pet_dog_bowl__v20261010", "raw": "选项 B 正确。", "picks": [], "expected": "B", "correct": false}
+{"model": "gemini-3.8-live", "lang": "zh", "qa_id": "qa_t_real_pet_dog_bowl__v20261010", "raw": "E", "picks": ["E"], "expected": "A;C;D", "correct": false}
+{"model": "gemini-3.8-live", "lang": "en", "qa_id": "qa_c_real_pet_dog_bowl__v20261010", "raw": "B", "picks": ["B"], "expected": "B", "correct": true}
+{"model": "gemini-3.8-live", "lang": "en", "qa_id": "qa_t_real_pet_dog_bowl__v20261010", "raw": "A", "picks": ["A"], "expected": "A;C;D", "correct": false}
+{"model": "gander", "lang": "zh", "qa_id": "qa_c_real_pet_dog_bowl__v20261010", "raw": "B", "picks": ["B"], "expected": "B", "correct": true}
+{"model": "gander", "lang": "zh", "qa_id": "qa_t_real_pet_dog_bowl__v20261010", "raw": "A;D", "picks": ["A", "D"], "expected": "A;C;D", "correct": false}
+{"model": "aura", "lang": "zh", "qa_id": "qa_c_real_pet_dog_bowl__v20261010", "raw": "B", "picks": ["B"], "expected": "B", "correct": true}
+{"model": "aura", "lang": "zh", "qa_id": "qa_t_real_pet_dog_bowl__v20261010", "raw": "A;B;C;D", "picks": ["A", "B", "C", "D"], "expected": "A;C;D", "correct": false}
+{"model": "moss-vl-realtime", "lang": "zh", "qa_id": "qa_c_real_pet_dog_bowl__v20261010", "raw": "B.", "picks": ["B"], "expected": "B", "correct": true}
+{"model": "moss-vl-realtime", "lang": "zh", "qa_id": "qa_t_real_pet_dog_bowl__v20261010", "raw": "E.", "picks": ["E"], "expected": "A;C;D", "correct": false}
+{"model": "minicpm-o-4.5-local", "lang": "zh", "qa_id": "qa_c_real_pet_dog_bowl__v20261010", "raw": "B", "picks": ["B"], "expected": "B", "correct": true}
+{"model": "minicpm-o-4.5-local", "lang": "zh", "qa_id": "qa_t_real_pet_dog_bowl__v20261010", "raw": "D", "picks": ["D"], "expected": "A;C;D", "correct": false}
+{"model": "duplexomni", "lang": "zh", "qa_id": "qa_c_real_pet_dog_bowl__v20261010", "raw": "B;D", "picks": [], "expected": "B", "correct": false}
+{"model": "duplexomni", "lang": "zh", "qa_id": "qa_t_real_pet_dog_bowl__v20261010", "raw": "E", "picks": ["E"], "expected": "A;C;D", "correct": false}
+{"model": "realtime-venus-omni", "lang": "zh", "qa_id": "qa_c_real_pet_dog_bowl__v20261010", "raw": "B", "picks": ["B"], "expected": "B", "correct": true}
+{"model": "realtime-venus-omni", "lang": "zh", "qa_id": "qa_t_real_pet_dog_bowl__v20261010", "raw": "D. 64.1 秒至片尾", "picks": ["D"], "expected": "A;C;D", "correct": false}
+{"model": "moss-preview-realtime", "lang": "zh", "qa_id": "qa_c_real_pet_dog_bowl__v20261010", "raw": "B<|eot_id|>", "picks": ["B"], "expected": "B", "correct": true}
+{"model": "moss-preview-realtime", "lang": "zh", "qa_id": "qa_t_real_pet_dog_bowl__v20261010", "raw": "E<|eot_id|>", "picks": ["E"], "expected": "A;C;D", "correct": false}
+{"model": "joyai-vl-interaction", "lang": "zh", "qa_id": "qa_c_real_pet_dog_bowl__v20261010", "raw": "B", "picks": ["B"], "expected": "B", "correct": true}
+{"model": "joyai-vl-interaction", "lang": "zh", "qa_id": "qa_t_real_pet_dog_bowl__v20261010", "raw": "A", "picks": ["A"], "expected": "A;C;D", "correct": false}

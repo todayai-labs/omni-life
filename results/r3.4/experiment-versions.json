@@ -1,6 +1,5 @@
 {
-  "dataset_revision": "d309530b697922e3a1ea9d9ec3aeadec393fc154",
-  "huggingface_results_revision": "1729654ea99ffa1bd5112ebfb11badcd289cf31e",
+  "dataset_revision": "31aa5b31efd75f552c2fa48a5b8741d4815e3a98",
   "base_github_results_revision": "8e715c97d683f4de43ed36fb595a3c4e9d8428a6",
   "model_count": 11,
   "new_capture_counts": {
@@ -19,5 +18,16 @@
     "gemini-en": 6
   },
   "gemini_streaming_determined": 278,
-  "gemini_streaming_total": 400
+  "gemini_streaming_total": 400,
+  "prior_evaluation_revision": "d309530b697922e3a1ea9d9ec3aeadec393fc154",
+  "prior_huggingface_results_revision": "1729654ea99ffa1bd5112ebfb11badcd289cf31e",
+  "ablation_dataset_revision": "d309530b697922e3a1ea9d9ec3aeadec393fc154",
+  "human_qa_dataset_revision": "d309530b697922e3a1ea9d9ec3aeadec393fc154",
+  "targeted_model_qa_reruns": {
+    "total": 26,
+    "scene": "pet_dog_bowl",
+    "ranked_chinese": 22,
+    "gemini_zh": 2,
+    "gemini_en": 2
+  }
 }

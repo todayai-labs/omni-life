@@ -1,0 +1,40 @@
+{
+  "base_revision": "1729654ea99ffa1bd5112ebfb11badcd289cf31e",
+  "qa_inputs_changed": [
+    {
+      "track": "content",
+      "language": "zh",
+      "qa_id": "qa_c_real_pet_dog_bowl__v20261010",
+      "field": "option_B",
+      "answer": "B"
+    },
+    {
+      "track": "content",
+      "language": "en",
+      "qa_id": "qa_c_real_pet_dog_bowl__v20261010",
+      "field": "option_B",
+      "answer": "B"
+    },
+    {
+      "track": "timing",
+      "language": "zh",
+      "qa_id": "qa_t_real_pet_dog_bowl__v20261010",
+      "field": "question",
+      "answer": "A;C;D"
+    },
+    {
+      "track": "timing",
+      "language": "en",
+      "qa_id": "qa_t_real_pet_dog_bowl__v20261010",
+      "field": "question",
+      "answer": "A;C;D"
+    }
+  ],
+  "streaming_reference_changed": [
+    "pet_dog_bowl"
+  ],
+  "media_direct_link": {
+    "path": "data/real/orbit_leash_11.mp4",
+    "sha256": "35436c5f8d57dd18d2026268bbabc9e74e1afa5716cc955296f15407255eb805"
+  }
+}

@@ -39,7 +39,7 @@ Download the [dataset and media](https://huggingface.co/datasets/mengze-hong/omn
 
 ## Quick start
 
-Verify the published results with Python 3.10+ and the Hugging Face CLI. The command downloads only the files needed for scoring.
+Browse the [final r3.4 results and model outputs](results/r3.4/README.md). The command below reproduces the archived r3.3 results with Python 3.10+ and the Hugging Face CLI.
 
 ```sh
 git clone https://github.com/todayai-labs/omni-life.git

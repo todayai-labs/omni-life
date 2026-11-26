@@ -1,0 +1,141 @@
+{
+  "case": "pet_dog_bowl",
+  "basis": "None of the archived responses in either of the two modified event windows describes the dog touching the bowl. At least one required event is missed for every respondent.",
+  "respondents": {
+    "aura": {
+      "full_correct": false,
+      "replies_in_changed_windows": [
+        {
+          "text": "<51.5 seconds>",
+          "start_s": 52.2110471338965
+        },
+        {
+          "text": "<52.0 seconds>",
+          "start_s": 52.518608428072184
+        },
+        {
+          "text": "<53.5 seconds>",
+          "start_s": 54.217602552846074
+        },
+        {
+          "text": "<54.0 seconds>",
+          "start_s": 54.46826175414026
+        },
+        {
+          "text": "<77.5 seconds>",
+          "start_s": 78.23409555107355
+        },
+        {
+          "text": "<78.0 seconds>",
+          "start_s": 78.61821399023756
+        },
+        {
+          "text": "<79.5 seconds>",
+          "start_s": 80.23927898798138
+        },
+        {
+          "text": "<80.0 seconds>",
+          "start_s": 80.76204023882747
+        }
+      ]
+    },
+    "duplexomni": {
+      "full_correct": false,
+      "replies_in_changed_windows": []
+    },
+    "gander": {
+      "full_correct": false,
+      "replies_in_changed_windows": []
+    },
+    "joyai-vl-interaction": {
+      "full_correct": false,
+      "replies_in_changed_windows": [
+        {
+          "text": "[chill]",
+          "start_s": 51.20262300083414
+        },
+        {
+          "text": "[ix]",
+          "start_s": 52.2558158300817
+        },
+        {
+          "text": "[wait]",
+          "start_s": 52.55401045177132
+        },
+        {
+          "text": "[chill]",
+          "start_s": 53.21401373902336
+        },
+        {
+          "text": "[chill]",
+          "start_s": 54.21190827898681
+        },
+        {
+          "text": "[ix]",
+          "start_s": 54.435791263822466
+        },
+        {
+          "text": "[ix]",
+          "start_s": 78.30146685708314
+        },
+        {
+          "text": "[ix]",
+          "start_s": 78.58444294612855
+        },
+        {
+          "text": "[chill]",
+          "start_s": 79.2916529639624
+        },
+        {
+          "text": "[ix]",
+          "start_s": 80.29480516212061
+        },
+        {
+          "text": "[ix]",
+          "start_s": 80.5755947609432
+        },
+        {
+          "text": "[ix]",
+          "start_s": 81.30289867706597
+        }
+      ]
+    },
+    "minicpm-o-4.5-local": {
+      "full_correct": false,
+      "replies_in_changed_windows": []
+    },
+    "moss-preview-realtime": {
+      "full_correct": false,
+      "replies_in_changed_windows": []
+    },
+    "moss-vl-realtime": {
+      "full_correct": false,
+      "replies_in_changed_windows": [
+        {
+          "text": "I cannot see",
+          "start_s": 81.94279412180185
+        }
+      ]
+    },
+    "qwen3.5-omni-flash-realtime": {
+      "full_correct": false,
+      "replies_in_changed_windows": []
+    },
+    "qwen3.5-omni-plus-realtime": {
+      "full_correct": false,
+      "replies_in_changed_windows": []
+    },
+    "qwen3.8-omni-flash-realtime": {
+      "full_correct": false,
+      "replies_in_changed_windows": []
+    },
+    "realtime-venus-omni": {
+      "full_correct": false,
+      "replies_in_changed_windows": []
+    },
+    "human-002": {
+      "full_correct": false,
+      "replies_in_changed_windows": []
+    }
+  }
+}
