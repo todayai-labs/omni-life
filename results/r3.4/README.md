@@ -1,5 +1,7 @@
 # Omni-Life r3.4 results
 
+The latest dataset is [20261127-r3.4.1](https://huggingface.co/datasets/mengze-hong/omni-life/tree/5deda5205700b978f2c00fcc0475988379cb8cdc). It extends the baby_formula Content clip to 14 seconds, updates its Streaming onset to 13 seconds, and adds direct links for two existing Timing videos. The table below reports scores from r3.4 while the targeted Content evaluation for r3.4.1 is pending.
+
 The model comparison uses the [final r3.4 dataset](https://huggingface.co/datasets/mengze-hong/omni-life/tree/31aa5b31efd75f552c2fa48a5b8741d4815e3a98). All ranked models have 400 Streaming and 800 Chinese QA outcomes. The revised Content and Timing questions for pet_dog_bowl were rerun. The Streaming reference change was reviewed against existing outputs and did not change any Full Correct result. [Targeted outputs](pet-dog-bowl-reruns.jsonl). [Streaming replay](pet-dog-bowl-streaming-replay.json).
 
 | Respondent | Intervention Full Correct (297) | Silence Success (103) | Overall Full Correct (400) | Content | Timing | Joint |

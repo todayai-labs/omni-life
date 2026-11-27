@@ -22,6 +22,8 @@ Omni-Life tests whether real-time omnimodal assistants can **provide useful help
 
 ## Dataset and evaluation
 
+[Latest dataset release: 20261127-r3.4.1](https://huggingface.co/datasets/mengze-hong/omni-life/tree/5deda5205700b978f2c00fcc0475988379cb8cdc) · [Evaluated results](results/r3.4/README.md)
+
 - **Sources:** 277 synthetic and 123 real-world videos.
 - **Streaming:** 297 assistance episodes contain 500 required interventions, including 13 final counts. Another 103 episodes require silence.
 - **QA:** 400 Content questions and 400 Timing questions. Joint QA checks both answers for each episode.
